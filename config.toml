@@ -1,7 +1,7 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
 baseURL = 'https://example.com/'
-title = '12th Physics'
+title = '12th Maths'
 theme = 'gurukulams-book'
 
 # Book configuration
