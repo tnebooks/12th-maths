@@ -53,7 +53,7 @@ statement is **false** and it is denoted by F or 0.
 
 An **open sentence** is a sentence whose truth can vary according to some conditions, which are
 not stated in the sentence. For instance, (i) x× = 7 35 is an open sentence whose truth value
-depends on value of x . That is, if x = 5, it is true and if x  5, it is false. (ii) ***He is a bad person.***
+depends on value of x . That is, if x = 5, it is true and if x  5, it is false. (ii) ***He is a bad person.***
 This is an open sentence. Opinion varies from individual to individual.
 
 **Example 12.11**
@@ -70,7 +70,7 @@ Solution:
 9. This is the beginning of the end.
 
 The truth value of the sentences (1) and (3) are T, while that of (2) is F. Hence they are statements.
-The sentence (5) is true for x = 3 and false for x  3 and hence it may be true or false but not
+The sentence (5) is true for x = 3 and false for x  3 and hence it may be true or false but not
 both. So it is also a statement.
   The sentences (4), (6), (7), (8) are not statements, because (4) is a command, (6) is an exclamatory,
 (7) is a question while (8) is a sentence expressing one’s wishes and (9) is a paradox.
@@ -119,7 +119,7 @@ of compound statements formed by using these simple statements is called truth t
 **Definition12.12**
 
 (i) Let p be a simple statement. Then the negation of p is a statement whose truth value is
-opposite to that of p . It is denoted by ¬p, read as not p .The truth value of ¬p is T , if p
+opposite to that of p . It is denoted by \\(¬\\)p, read as not p .The truth value of \\(¬\\)p is T , if p
 is F , otherwise it is F .
 
 (ii) Let p and q be any two simple statements. The conjunction of p and q is obtained by
@@ -134,9 +134,9 @@ otherwise.
 
 **Logical Connectives and their Truth Tables**
 
-**(1) Truth Table for NOT [¬] (Negation)**
+**(1) Truth Table for NOT [\\(¬\\)] (Negation)**
 
-|p|¬p|
+|p|\\(¬\\)p|
 |---|---|
 |T|F|
 |F|T|
@@ -167,15 +167,15 @@ Table 12.6
 
 **Example 12.12**
 
-Write the statements in words corresponding to ¬p, p q ∧ , p q ∨ and q ∨ ¬p, where p is ‘It is
+Write the statements in words corresponding to \\(¬\\)p, p q ∧ , p q ∨ and q ∨ \\(¬\\)p, where p is ‘It is
 cold’ and q is ‘It is raining.’
 
 **Solution**
 
-1. ¬p :  It is not cold.
+1. \\(¬\\)p :  It is not cold.
 2. p ∧ q   :  It is cold and raining.
 3.  p ∨ q   :  It is cold or raining.
-4. q ∨ ¬p  :  It is raining or it is not cold
+4. q ∨ \\(¬\\)p  :  It is raining or it is not cold
 Observe that the statement formula  p has only 1 variable p and its truth table has 2 2 = ( ) 1
 rows. Each of the statement formulae p q ∧ and p q ∨ has two variables p and q . The truth table
 corresponding to each of them has 4= ( ) 22 rows. In general, it follows that if a statement formula
@@ -184,14 +184,14 @@ involves n variables, then its truth table will contain 2n rows.
 **Example 12.13**
 
 How many rows are needed for following statement formulae?
-(i) p ∨ ¬t  ∧ (p ∨ ¬s)   (ii)((p ∧ q ) ∨ (¬r ∨ ¬s)) ∧ (¬t ∧ v)
+(i) p ∨ \\(¬\\)t  ∧ (p ∨ \\(¬\\)s)   (ii)((p ∧ q ) ∨ (\\(¬\\)r ∨ \\(¬\\)s)) ∧ \\(¬\\)t ∧ v)
 
 **Solution**
 
-(i) (p ∨ ¬t)  ∧ (p ∨ ¬s) contains 3 variables p,s,and t . Hence the corresponding truth table will
+(i) (p ∨ \\(¬\\)t)  ∧ (p ∨ \\(¬\\)s) contains 3 variables p,s,and t . Hence the corresponding truth table will
 contain {{< katex>}} 2^{3} {{</ katex>}}= 8 rows.
 
-(ii) ((p ∧ q ) ∨ (¬r ∨ ¬s)) ∧ (¬t ∧ v) contains 6 variables p, q, r, s, t , and v . Hence the
+(ii) ((p ∧ q ) ∨ (\\(¬\\)r ∨ \\(¬\\)s)) ∧ (\\(¬\\)t ∧ v) contains 6 variables p, q, r, s, t , and v . Hence the
 corresponding truth table will contain {{< katex>}} 2^{6} {{</ katex>}} = 64 rows.
 
 **Conditional Statement**
@@ -199,10 +199,10 @@ corresponding truth table will contain {{< katex>}} 2^{6} {{</ katex>}} = 64 row
 **Definition 12.13**
 
 The conditional statement of any two statements p and q is the statement, “If p , then q ” and
-it is denoted by p→q. Here p is called the **hypothesis** or **antecedent** and q is called the
-**conclusion** or **consequence**. p→q is false only if p is true and q is false. Otherwise it is true.
+it is denoted by p\\(→\\)q. Here p is called the **hypothesis** or **antecedent** and q is called the
+**conclusion** or **consequence**. p\\(→\\)q is false only if p is true and q is false. Otherwise it is true.
 
-|p|q|p→q|
+|p|q|p\\(→\\)q|
 |---|---|---|
 |T|T|T|
 |T|F|F|
@@ -213,24 +213,24 @@ Table 12.7
 
 **Example 12.14**
 
-Consider p→q : If today is Monday, then 4 + 4 = 8.
+Consider p\\(→\\)q : If today is Monday, then 4 + 4 = 8.
 
 Here the component statements p and q are given by,
 p: Today is Monday; q: 4 + 4 = 8.
 
-The truth value of p→q is T because the conclusion q is T.
-An important point is that p→q should not be treated by actually considering the meanings of
+The truth value of p\\(→\\)q is T because the conclusion q is T.
+An important point is that p\\(→\\)q should not be treated by actually considering the meanings of
 p and q in English. Also it is not necessary that p should be related to q at all.
 
 **Consequences**
 
-From the conditional statement p → q, three more conditional statements are derived. They are listed below.
+From the conditional statement p \\(→\\) q, three more conditional statements are derived. They are listed below.
 
-**(i) Converse statement** q → p
+**(i) Converse statement** q \\(→\\) p
 
-**(ii) Inverse statement** ¬p → ¬q.
+**(ii) Inverse statement** \\(¬\\)p \\(→\\) \\(¬\\)q.
 
-**(iii) Contrapositive statement** ¬q →¬p .
+**(iii) Contrapositive statement** \\(¬\\)q \\(→\\)\\(¬\\)p .
 
 **Example 12.15**
 
@@ -244,14 +244,14 @@ p : The number of primes is infinite. q: Ooty is in Kerala.
 Then the four types of conditional statements corresponding to p and q are respectively listed
 below.
 
-(i) p→q : (conditional statement) “If the number of primes is infinite then Ooty is in Kerala”.
+(i) p\\(→\\)q : (conditional statement) “If the number of primes is infinite then Ooty is in Kerala”.
 
-(ii) q → p : (converse statement) “If Ooty is in Kerala then the number of primes is infinite”
+(ii) q \\(→\\) p : (converse statement) “If Ooty is in Kerala then the number of primes is infinite”
 
-(iii) ¬p → ¬q (inverse statement) “If the number of primes is not infinite then Ooty is not in
+(iii) \\(¬\\)p \\(→\\) \\(¬\\)q (inverse statement) “If the number of primes is not infinite then Ooty is not in
 Kerala”.
 
-  (iv)  ¬q → ¬p (contrapositive statement) “If Ooty is not in Kerala then the number of primes is
+  (iv)  \\(¬\\)q \\(→\\) \\(¬\\)p (contrapositive statement) “If Ooty is not in Kerala then the number of primes is
 not infinite”.
 
 **Bi-conditional Statement**
@@ -259,10 +259,10 @@ not infinite”.
 **Definition 12.14**
 
 The **bi-conditional statement** of any two statements p and q is the statement “ p if and only
-if q ” and is denoted by p ↔ q . Its truth value is T , whenever both p and q have the same truth
+if q ” and is denoted by p \\(↔\\) q . Its truth value is T , whenever both p and q have the same truth
 values, otherwise it is false.
 
-|p|q|p ↔ q|
+|p|q|p \\(↔\\) q|
 |---|---|---|
 |T|T|T|
 |T|F|F|
@@ -290,9 +290,9 @@ Table 12.9
 
 **Example 12.16**
 
-Construct the truth table for (p ⊽ q) ∧ (p ⊽ ¬q).
+Construct the truth table for (p ⊽ q) ∧ (p ⊽ \\(¬\\)q).
 
-|p|q|¬q|r:(p ⊽ q)|s:(p ⊽ ¬q)|r∧s|
+|p|q|\\(¬\\)q|r:(p ⊽ q)|s:(p ⊽ \\(¬\\)q)|r∧s|
 |---|---|---|---|---|---|
 |T|T|F|F|T|F|
 |T|F|T|T|F|F|
@@ -327,40 +327,40 @@ contain T.
 contain F.
 3. The negation of a tautology is a contradiction and the negation of a contradiction is a tautology.
 4. The disjunction of a statement with its negation is a tautology and the conjunction of a
-statement with its negation is a contradiction. That is p ∨ ¬p is a **tautology** and p ∧ ¬p is a
+statement with its negation is a contradiction. That is p ∨ \\(¬\\)p is a **tautology** and p ∧ \\(¬\\)p is a
 **contradiction**. This can be easily seen by constructing their truth tables as given below. 
 
 **Example for tautology**
 
-|p|¬p|p ∨ ¬p|
+|p|\\(¬\\)p|p ∨ \\(¬\\)p|
 |---|---|---|
 |T|F|T|
 |F|T|T|
 
 Table 12.11
 
-Since the last column of p ∨ ¬p  contains only T, p ∨ ¬p  is a tautology.
+Since the last column of p ∨ \\(¬\\)p  contains only T, p ∨ \\(¬\\)p  is a tautology.
 
 **Example for contradiction**
 
-|p|¬p|p ∧ ¬p|
+|p|\\(¬\\)p|p ∧ \\(¬\\)p|
 |---|---|---|
 |T|F|F|
 |F|T|F|
 
 Table 12.12
 
-Since the last column contains only F, p ∧ ¬p is a contradiction.
+Since the last column contains only F, p ∧ \\(¬\\)p is a contradiction.
 
 **Note**
 
-All the entries in the last column of Table 12.10 are F and hence (p ⊽ q) ∧ (p ⊽ ¬q) is a
+All the entries in the last column of Table 12.10 are F and hence (p ⊽ q) ∧ (p ⊽ \\(¬\\)q) is a
 contradiction.
 
 **Example for contingency**
 
 
-|p|q|p ↔ q|¬q|p→¬q|¬( p → ¬q )|(p ↔ q) ∧ ¬( p → ¬q )|
+|p|q|p \\(↔\\) q|\\(¬\\)q|p\\(→\\)\\(¬\\)q|\\(¬\\)( p \\(→\\) \\(¬\\)q )|(p \\(↔\\) q) ∧ \\(¬\\)( p \\(→\\) \\(¬\\)q )|
 |---|---|---|---|---|---|---|
 |T|T|T|F|F|T|T|
 |T|F|F|T|T|F|F|
@@ -380,20 +380,20 @@ The **dual** of a statement formula is obtained by replacing ∨ by ∧, ∧ by 
 F by T . A dual is obtained by replacing 𝕋 (**tautology**) by 𝔽 (**contradiction**), and, 𝔽 by 𝕋.
 
 **Remarks**
-1)  The symbol ¬ is not changed while finding the dual.
+1)  The symbol \\(¬\\) is not changed while finding the dual.
 2)  Dual of a dual is the statement itself.
 3)  The special statements 𝕋 (tautology) and 𝔽 (contradiction) are duals of each other.
 4) T is changed to F and vice-versa.
 
 **Principle of Duality**
-If a compound statement S1 contains only ¬, ∧ , and ∨ and statement S2 arises from S1 by
+If a compound statement S1 contains only \\(¬\\), ∧ , and ∨ and statement S2 arises from S1 by
 replacing ∧ by ∨ , and, ∨ by ∧ then S1 is a tautology if and only if S2 is a contradiction.
 
 **For example**
 
 (i) The dual of ( p ∨ q ) ∧ ( r ∧ s ) ∨ 𝔽 is (p ∧ q) ∨ ( r ∨ s ) ∧ 𝕋.
 
-(ii) The dual of p ∧ [¬ q ∨ (p ∧ q) ∨ ¬r ] is p ∨ [¬ q ∧ (p ∨ q) ∧ ¬ r ].
+(ii) The dual of p ∧ [\\(¬\\) q ∨ (p ∧ q) ∨ \\(¬\\)r ] is p ∨ [\\(¬\\) q ∧ (p ∨ q) ∧ \\(¬\\) r ].
 
 ### Logical Equivalence
 
@@ -510,46 +510,46 @@ Dually
 (ii) p ∧ 𝕋 ≡ p and p ∧ 𝔽 ≡ 𝔽 can be proved.
 
 6.**Complement Laws**
-(i) p ∨ ¬p ≡ 𝕋 and p ∧ ¬p ≡ 𝔽 (ii) ¬𝕋 ≡ 𝔽 and ¬𝔽 ≡ 𝕋
+(i) p ∨ \\(¬\\)p ≡ 𝕋 and p ∧ \\(¬\\)p ≡ 𝔽 (ii) \\(¬\\)𝕋 ≡ 𝔽 and \\(¬\\)𝔽 ≡ 𝕋
 
 **Proof**
 
-|p|¬p|𝕋|¬𝕋|𝔽|¬𝔽|p ∨ ¬p|p ∧ ¬p|
+|p|\\(¬\\)p|𝕋|\\(¬\\)𝕋|𝔽|\\(¬\\)𝔽|p ∨ \\(¬\\)p|p ∧ \\(¬\\)p|
 |---|---|---|---|---|---|---|---|
 |T|F|T|F|F|T|T|F|
 |F|T|T|F|F|T|T|F|
 
 **Table 12.19**
 
-(i)  The entries in the columns corresponding to p ∨ ¬p and 𝕋 are identical and hence they are
-equivalent. The entries in the columns corresponding to p ∧ ¬p and 𝔽 are identical and
+(i)  The entries in the columns corresponding to p ∨ \\(¬\\)p and 𝕋 are identical and hence they are
+equivalent. The entries in the columns corresponding to p ∧ \\(¬\\)p and 𝔽 are identical and
 hence they are equivalent.
 
-(ii)  The entries in the columns corresponding to ¬𝕋 and 𝔽 are identical and hence they are
-equivalent. The entries in the columns corresponding to ¬𝔽 and 𝕋 are identical and hence
+(ii)  The entries in the columns corresponding to \\(¬\\)𝕋 and 𝔽 are identical and hence they are
+equivalent. The entries in the columns corresponding to \\(¬\\)𝔽 and 𝕋 are identical and hence
 they are equivalent.
 
 7. **Involution Law or Double Negation Law**
 
-¬(¬ p) ≡ p
+\\(¬\\)(\\(¬\\) p) ≡ p
 
 **Proof**
 
-|p|¬ p|¬(¬ p)|
+|p|\\(¬\\) p|\\(¬\\)(\\(¬\\) p)|
 |---|---|---|
 |T|F|T|
 |F|T|F|
 
-The entries in the columns corresponding to ¬ ¬ ( ) p and p are identical and hence they are
+The entries in the columns corresponding to \\(¬\\) \\(¬\\) ( ) p and p are identical and hence they are
 equivalent.
 
 8. **de Morgan’s Laws**
 
-(i) ¬( p ∧ q ) ≡ ¬p ∨ ¬q (ii) ¬(p ∨ q) ≡ ¬p ∧ ¬q
+(i) \\(¬\\)( p ∧ q ) ≡ \\(¬\\)p ∨ \\(¬\\)q (ii) \\(¬\\)(p ∨ q) ≡ \\(¬\\)p ∧ \\(¬\\)q
 
 **Proof of (i)**
 
-|p|q|¬p|¬q| p ∧ q|¬( p ∧ q )|¬p∧¬q|
+|p|q|\\(¬\\)p|\\(¬\\)q| p ∧ q|\\(¬\\)( p ∧ q )|\\(¬\\)p∧\\(¬\\)q|
 |---|---|---|---|---|---|---|
 |T|T|F|F|T|F|F|
 |T|F|F|T|F|T|T|
@@ -558,8 +558,8 @@ equivalent.
 
 **Table 12.21**
 
-The entries in the columns corresponding to ¬( p ∧ q )  and ¬p ∨ ¬q are identical and hence they
-are equivalent. Therefore ¬( p ∧ q ) ≡ ¬p ∨ ¬q . Dually (ii)¬(p ∨ q) ≡ ¬p ∧ ¬q can be proved.
+The entries in the columns corresponding to \\(¬\\)( p ∧ q )  and \\(¬\\)p ∨ \\(¬\\)q are identical and hence they
+are equivalent. Therefore \\(¬\\)( p ∧ q ) ≡ \\(¬\\)p ∨ \\(¬\\)q . Dually (ii)\\(¬\\)(p ∨ q) ≡ \\(¬\\)p ∧ \\(¬\\)q can be proved.
 
 **9.Absorption Laws**
 
@@ -582,9 +582,9 @@ are equivalent.
 
 **Example 12.17**
 
-Establish the equivalence property: p → q ≡ ¬p ∨ q
+Establish the equivalence property: p \\(→\\) q ≡ \\(¬\\)p ∨ q
 
-|p|q|¬p|p → q|¬p ∨ q|
+|p|q|\\(¬\\)p|p \\(→\\) q|\\(¬\\)p ∨ q|
 |---|---|---|---|---|
 |T|T|F|T|T|
 |T|F|F|F|F|
@@ -593,16 +593,16 @@ Establish the equivalence property: p → q ≡ ¬p ∨ q
 
 **Table 12.23**
 
-The entries in the columns corresponding to p → q and ¬p ∨ q are identical and hence they are
+The entries in the columns corresponding to p \\(→\\) q and \\(¬\\)p ∨ q are identical and hence they are
 equivalent.
 
 **Example 12.18**
 Establish the equivalence property connecting the bi-conditional with conditional:
-p ↔ q≡(p → q) ∧ (q → p)
+p \\(↔\\) q≡(p \\(→\\) q) ∧ (q \\(→\\) p)
 
 **Solution**
 
-|p|q|p → q|q → p|p ↔ q|(p → q) ∧ (q → p)|
+|p|q|p \\(→\\) q|q \\(→\\) p|p \\(↔\\) q|(p \\(→\\) q) ∧ (q \\(→\\) p)|
 |---|---|---|---|---|---|
 |T|T|T|T|T|T|
 |T|F|F|T|F|F|
@@ -611,34 +611,34 @@ p ↔ q≡(p → q) ∧ (q → p)
 
 **Table 12.24**
 
-The entries in the columns corresponding to p ↔ q and (p → q) ∧ (q → p) are identical and
+The entries in the columns corresponding to p \\(↔\\) q and (p \\(→\\) q) ∧ (q \\(→\\) p) are identical and
 hence they are equivalent.
 
 **Example 12.19**
-Using the equivalence property, show that  p ↔ q ≡(p ∧ q) ∨ (¬p ∧ ¬q ) .
+Using the equivalence property, show that  p \\(↔\\) q ≡(p ∧ q) ∨ (\\(¬\\)p ∧ \\(¬\\)q ) .
 
 **Solution**
 
 It can be obtained by using examples 12.15 and 12.16 that
 
-p ↔ q ≡ (¬p ∨ q) ∧ (¬q ∨ p) ... (1)
+p \\(↔\\) q ≡ (\\(¬\\)p ∨ q) ∧ (\\(¬\\)q ∨ p) ... (1)
 
-≡ (¬p ∨ q) ∧ (p ∨ ¬q)   (by Commutative Law)  ... (2)
+≡ (\\(¬\\)p ∨ q) ∧ (p ∨ \\(¬\\)q)   (by Commutative Law)  ... (2)
 
-≡ (¬p ∧ (p ∨ ¬q)) ∧ (q ∧ (p ∨ ¬q)) (by Distributive Law)
+≡ (\\(¬\\)p ∧ (p ∨ \\(¬\\)q)) ∧ (q ∧ (p ∨ \\(¬\\)q)) (by Distributive Law)
 
-≡ (¬p∧p) ∨(¬p∧¬q)∨(q∧p)∨(q∧¬q) (by Distributive Law)
-≡ 𝔽∨(¬p∧¬q)∨(q∧p)∨𝔽; (by Complement Law)
-≡ (¬p∧¬q)∨(q∧p); (by Identity Law)
-≡ (q∧p)∨(¬p∧¬q); (by Commutative Law)
-Finally (1) becomes p ↔ q ≡(p ∧ q) ∨ (¬p ∧ ¬q ).
+≡ (\\(¬\\)p∧p) ∨(\\(¬\\)p∧\\(¬\\)q)∨(q∧p)∨(q∧\\(¬\\)q) (by Distributive Law)
+≡ 𝔽∨(\\(¬\\)p∧\\(¬\\)q)∨(q∧p)∨𝔽; (by Complement Law)
+≡ (\\(¬\\)p∧\\(¬\\)q)∨(q∧p); (by Identity Law)
+≡ (q∧p)∨(\\(¬\\)p∧\\(¬\\)q); (by Commutative Law)
+Finally (1) becomes p \\(↔\\) q ≡(p ∧ q) ∨ (\\(¬\\)p ∧ \\(¬\\)q ).
 
 **EXERCISE 12.2**
 
 1.Let p : Jupiter is a planet and q  : India is an island be any two simple statements. Give
 verbal sentence describing each of the following statements.
 
-(i) ¬p (ii) p∧¬q (iii) ¬p ∨q   (iv) p→¬q   (v) p↔q
+(i) \\(¬\\)p (ii) p∧\\(¬\\)q (iii) \\(¬\\)p ∨q   (iv) p\\(→\\)\\(¬\\)q   (v) p\\(↔\\)q
 
 2.Write each of the following sentences in symbolic form using statement variables p and q .
 
@@ -671,37 +671,37 @@ verbal sentence describing each of the following statements.
 rectangle
 
 6.Construct the truth table for the following statements.
-(i) ¬p ∧ ¬q (ii) ¬(p ∧ ¬q) (iii) (p ∨ q)∨¬q   (iv)  (¬p → r) ∧ (p↔q)
+(i) \\(¬\\)p ∧ \\(¬\\)q (ii) \\(¬\\)(p ∧ \\(¬\\)q) (iii) (p ∨ q)∨\\(¬\\)q   (iv)  (\\(¬\\)p \\(→\\) r) ∧ (p\\(↔\\)q)
 
 7.Verify whether the following compound propositions are tautologies or contradictions or
 contingency
 
-(i) (p ∧ q) ∧ ¬(p ∨ q) (ii) ((p ∨ q) ∧¬p) →q
-(iii) (p → q) ↔ (¬p →q)   (iv)((p → q) ∧ (q → r))→ (p→r)
+(i) (p ∧ q) ∧ \\(¬\\)(p ∨ q) (ii) ((p ∨ q) ∧\\(¬\\)p) \\(→\\)q
+(iii) (p \\(→\\) q) \\(↔\\) (\\(¬\\)p \\(→\\)q)   (iv)((p \\(→\\) q) ∧ (q \\(→\\) r))\\(→\\) (p\\(→\\)r)
 
-8.Show that (i) ¬(p∧q) ≡ ¬p∨¬q (ii) ¬(p→q) ≡ p∧¬q.
+8.Show that (i) \\(¬\\)(p∧q) ≡ \\(¬\\)p∨\\(¬\\)q (ii) \\(¬\\)(p\\(→\\)q) ≡ p∧\\(¬\\)q.
 
-9.Prove that q → p ≡ ¬p → ¬q
+9.Prove that q \\(→\\) p ≡ \\(¬\\)p \\(→\\) \\(¬\\)q
 
-10.Show that p→q and q→p are not equivalent
+10.Show that p\\(→\\)q and q\\(→\\)p are not equivalent
 
-11.Show that ¬(p↔q) ≡ p↔¬q
+11.Show that \\(¬\\)(p\\(↔\\)q) ≡ p\\(↔\\)\\(¬\\)q
 
-12.Check whether the statement p→(q→p) is a tautology or a contradiction without using
+12.Check whether the statement p\\(→\\)(q\\(→\\)p) is a tautology or a contradiction without using
 the truth table.
 
-13.Using truth table check whether the statements¬(p∨q)∨(¬p∧q) and ¬p are logically equivalent.
+13.Using truth table check whether the statements\\(¬\\)(p∨q)∨(\\(¬\\)p∧q) and \\(¬\\)p are logically equivalent.
 
-14.Prove p→(q→r)≡ (p∧q)→r without using truth table.
+14.Prove p\\(→\\)(q\\(→\\)r)≡ (p∧q)\\(→\\)r without using truth table.
 
-15.Prove that p→(¬q ∨ r) ≡¬p ∨(¬q∨r) ∨ using truth table.
+15.Prove that p\\(→\\)(\\(¬\\)q ∨ r) ≡\\(¬\\)p ∨(\\(¬\\)q∨r) ∨ using truth table.
 
 **EXERCISE 12.3**
 
 **Choose the correct or the most suitable answer from the given four alternatives.**
 
 1.A binary operation on a set S is a function from
-(1) S→S (2) (S×S)→S (3) S→(S×S) (4)( ) (S×S)→(S×S)
+(1) S\\(→\\)S (2) (S×S)\\(→\\)S (3) S\\(→\\)(S×S) (4)( ) (S×S)\\(→\\)(S×S)
 
 2.Subtraction is not a binary operation in
 (1) \\(\R\\) (2) \\(\Z\\) (3) \\(\N\\) (4) \\(\Q\\)
