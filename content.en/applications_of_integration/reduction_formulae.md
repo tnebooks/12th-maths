@@ -1,9 +1,9 @@
 ---
 title: 'Reduction Formulae'
-weight: 6
+weight: 5
 ---
 
-# 9.6 Reduction Formulae
+# Reduction Formulae
 
 Certain definite integrals can be evaluated by an index-reduction method. In this section,
 we obtain the values of the following definite integrals:

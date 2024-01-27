@@ -1,9 +1,9 @@
 ---
 title: 'Improper Integrals'
-weight: 5
+weight: 4
 ---
 
-# 9.5 Improper Integrals
+# Improper Integrals
 
 In defining the Riemann integral {{<katex>}}\int_{a}^{b}{{</katex>}}f(x)dx
  the interval [a,b] of integration is finite and f (x)

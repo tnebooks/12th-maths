@@ -1,10 +1,10 @@
 ---
 title: 'Definite Integral as the Limit of a Sum'
-weight: 2
+weight: 1
 ---
 
-# 9.2 Definite Integral as the Limit of a Sum
-# 9.2.1 Riemann Integral
+# Definite Integral as the Limit of a Sum
+# Riemann Integral
 
 Consider a real-valued, bounded function f (x) defined on the closed and bounded interval[a,b], a < b.The function f (x) need not have the same sign on [a,b] ; that is, f (x)
 may have positive as well as negative values on [a,b] . See Fig 9.2. Partition the interval [a,b] into n subintervals 

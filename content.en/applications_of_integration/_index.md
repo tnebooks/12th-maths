@@ -5,7 +5,7 @@ weight: 9
 
 # Applications of Integration
 
-# 9.1 Introduction
+# Introduction
 
 One of the earliest mathematicians who made wonderful discoveries to compute the areas and volumes of geometrical objects was Archimedes. Archimedes proved that the area enclosed by a parabola and a straight line is 43 times the area of an inscribed triangle (see Fig. 9.1).
 He obtained the area by segmenting it into infinitely many elementary areas and then finding their sum. This limiting concept is inbuilt in the definition of definite integral which we are going to develop here and apply the same in finding areas and volumes of certain geometrical shapes.

@@ -1,9 +1,9 @@
 ---
 title: 'Volume of a Solid obtained by Revolving Area about an Axis'
-weight: 9
+weight: 8
 ---
 
-# 9.9 Volume of a solid obtained by revolving area about an axis
+# Volume of a solid obtained by revolving area about an axis
 Definite integrals have applications in finding volumes of solids of revolution about a fixed axis. By a solid of revolution about a fixed axis,we mean that a solid is generated when a plane region in a given plane undergoes one full revolution about a fixed axis in the plane. For instance,consider the semi circular plane region inside the circle x2 + y2 = a2 andabove the x-axis. See Fig.9.34.
 
 If this region is given one complete rotation (revolution for 360° = 2radians) about x-axis, then a solid called a sphere is generated.In the same manner, if you want to generate a right-circular cylinder with radius a and height h, you can consider rectangularplane region bounded between the straight lines y = 0, y = a , x = 0 and x = h in the xy-plane. SeeFig.9.35. If this region is given one complete rotation (revolution for 360° = 2radians) about x-axis, then a solid called a cylinder is generated.

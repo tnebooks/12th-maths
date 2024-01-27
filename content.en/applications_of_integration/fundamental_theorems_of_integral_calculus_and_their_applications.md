@@ -1,9 +1,9 @@
 ---
 title: 'Fundamental Theorems of Integral Calculus and their Applications'
-weight: 3
+weight: 2
 ---
 
-# 9.3 Fundamental Theorems of Integral Calculus and their Applications
+# Fundamental Theorems of Integral Calculus and their Applications
 We observe in the above examples that evaluation of {{<katex>}}\int_{a}^{b}{{</katex>}}f(x)dx
 as a limit of the sum is quitetedious, even if f (x) is a very simple function. Both Newton and Leibnitz, more or less at the same time, devised an easy method for evaluating definite integrals. Their method is based upon two celebrated theorems known as First Fundamental Theorem and Second Fundamental Theorem of Integral Calculus. These theorems establish the connection between a function and its anti-derivative (if it exists). In fact, the two theorems provide a link between differential calculus and integral calculus. We state below the above important theorems without proofs.
 
