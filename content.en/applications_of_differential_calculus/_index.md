@@ -1083,241 +1083,105 @@ If we take {{<katex>}}\beta=0{{</katex>}} in the above problem, we get {{<katex>
 
 Example 7.29
 
-A thermometer was taken from a freezer and placed in a boiling water. It took 22 seconds for the
-thermometer to raise from −°10C to 100 °C. Show that the rate of change of temperature at some
-time t is 5 °C per second.
+\section*{Example 7.29}
 
-**Solution**
-Let _ft_ () be the temperature at time t. By the mean value theorem, we have
+A thermometer was taken from a freezer and placed in a boiling water. It took 22 seconds for the thermometer to raise from {{<katex>}}-10^{\circ} \mathrm{C}{{</katex>}} to {{<katex>}}100^{\circ} \mathrm{C}{{</katex>}}. Show that the rate of change of temperature at some time {{<katex>}}t{{</katex>}} is {{<katex>}}5^{\circ} \mathrm{C}{{</katex>}} per second.
 
-_fc_ ¢() =
+\section*{Solution}
 
-```
-fb fa
-ba
-```
-```
-()− ()
-−
-```
-= 10010
-22
+Let {{<katex>}}f(t){{</katex>}} be the temperature at time {{<katex>}}t{{</katex>}}. By the mean value theorem, we have
 
-```
-−−()
-```
-=
+{{<katex>}}
+\begin{aligned}
+f^{\prime}(c) & =\frac{f(b)-f(a)}{b-a} \\
+& =\frac{100-(-10)}{22} \\
+& =\frac{110}{22} \\
+& =5^{\circ} \mathrm{C} \text { per second. }
+\end{aligned}
+{{</katex>}}
 
-110
-22
-= 5 °C per second.
-Hence the instantaneous rate of change of temperature at some time t is 5 °C per second.
+Hence the instantaneous rate of change of temperature at some time {{<katex>}}t{{</katex>}} is {{<katex>}}5^{\circ} \mathrm{C}{{</katex>}} per second.
 
-EXERCISE 7.3
+\section*{EXERCISE 7.3}
 
-1. Explain why Rolle’s theorem is not applicable to the following functions in the respective
-    intervals.
+1. Explain why Rolle's theorem is not applicable to the following functions in the respective intervals.
+(i) {{<katex>}}f(x)=\left|\frac{1}{x}\right|, x \in[-1,1]{{</katex>}}
+(ii) {{<katex>}}f(x)=\tan x, x \in[0, \pi]{{</katex>}}
 
-(i) _fx
-x_
+(iii) {{<katex>}}f(x)=x-2 \log x, x \in[2,7]{{</katex>}}
 
-```
-()=∈^1 ,[ x − 11 ,] (ii) fx ()=∈tan, xx [, 0 π]
-```
-(iii) _fx_ ()=− _xx_ 22 log, _x_ ∈[, 7 ]
+2. Using the Rolle's theorem, determine the values of {{<katex>}}x{{</katex>}} at which the tangent is parallel to the {{<katex>}}x{{</katex>}}-axis for the following functions :
+(i) {{<katex>}}f(x)=x^{2}-x, x \in[0,1]{{</katex>}}
+(ii) {{<katex>}}f(x)=\frac{x^{2}-2 x}{x+2}, x \in[-1,6]{{</katex>}}
+(iii) {{<katex>}}f(x)=\sqrt{x}-\frac{x}{3}, x \in[0,9]{{</katex>}}
 
-2. Using the Rolle’s theorem, determine the values of x at which the tangent is parallel to the
+3. Explain why Lagrange's mean value theorem is not applicable to the following functions in the respective intervals :
+(i) {{<katex>}}f(x)=\frac{x+1}{x}, x \in[-1,2]{{</katex>}}
+(ii) {{<katex>}}f(x)=|3 x+1|, x \in[-1,3]{{</katex>}}
 
-```
-x-axis for the following functions :
-```
-(i) _fx_ ()=− _xx_^2 ,[ _x_ ∈ 01 ,] (ii) _fx xx
-x_
+4. Using the Lagrange's mean value theorem determine the values of {{<katex>}}x{{</katex>}} at which the tangent is parallel to the secant line at the end points of the given interval:
+(i) {{<katex>}}f(x)=x^{3}-3 x+2, x \in[-2,2]{{</katex>}}
+(ii) {{<katex>}}f(x)=(x-2)(x-7), x \in[3,11]{{</katex>}}
 
-```
-()= − ,[ x ,]
-+
-```
-```
-∈−
-```
-(^22)
-2
-16
-(iii) _fx_ ()=− _x x_ ,[ _x_ ∈ ,]
-3
-09
-
-3. Explain why Lagrange’s mean value theorem is not applicable to the following functions in the
-    respective intervals :
-
-(i) _fx x
-x_
-
-```
-()= +^1 ,[ x ∈− 12 ,] (ii) fx ()=+|| 31 xx ,[∈− 13 ,]
-```
-4. Using the Lagrange’s mean value theorem determine the values of x at which the tangent is
-    parallel to the secant line at the end points of the given interval:
-(i) _fx_ ()=− _xx_^332 +∈,[ _x_ − 22 ,] (ii) _fx_ ()=−()() _xx_ 27 −∈,[ _x_ 31 ,] 1
 5. Show that the value in the conclusion of the mean value theorem for
 
-(i) _fx
-x_
+(i) {{<katex>}}f(x)=\frac{1}{x}{{</katex>}} on a closed interval of positive numbers {{<katex>}}[a, b]{{</katex>}} is {{<katex>}}\sqrt{a b}{{</katex>}}
 
-```
-()=^1 on a closed interval of positive numbers [, ab ] is ab
-```
-(ii) _fx_ ()=+ _AxBx_^2 + _C_ on any interval [, _ab_ ] is _ab_ +
-2
+(ii) {{<katex>}}f(x)=A x^{2}+B x+C{{</katex>}} on any interval {{<katex>}}[a, b]{{</katex>}} is {{<katex>}}\frac{a+b}{2}{{</katex>}}.
 
-```
-.
-```
-6. A race car driver is kilometer stone 20. If his speed never exceeds 150 km/hr, what is the
-    maximum kilometer he can reach in the next two hours.
-7. Suppose that for a function _fx_ (),( _fx_ ′ )≤ 1 for all^14 ££x. Show that ff() 41 −≤() 3.
+6. A race car driver is kilometer stone 20. If his speed never exceeds {{<katex>}}150 \mathrm{~km} / \mathrm{hr}{{</katex>}}, what is the maximum kilometer he can reach in the next two hours.
 
+7. Suppose that for a function {{<katex>}}f(x), f^{\prime}(x) \leq 1{{</katex>}} for all {{<katex>}}1 \leq x \leq 4{{</katex>}}. Show that {{<katex>}}f(4)-f(1) \leq 3{{</katex>}}.
 
-XII - Mathematics 22
+8. Does there exist a differentiable function {{<katex>}}f(x){{</katex>}} such that {{<katex>}}f(0)=-1, f(2)=4{{</katex>}} and {{<katex>}}f^{\prime}(x) \leq 2{{</katex>}} for all {{<katex>}}x{{</katex>}}. Justify your answer.
 
-8. Does there exist a differentiable function _fx_ () such that ff() 0 =− 124 ,()= and _fx_ ′()≤ 2 for
+9. Show that there lies a point on the curve {{<katex>}}f(x)=x(x+3) e^{-\frac{\pi}{2}},-3 \leq x \leq 0{{</katex>}} where tangent drawn is parallel to the {{<katex>}}x{{</katex>}}-axis.
 
-```
-all x. Justify your answer.
-```
-9. Show that there lies a point on the curve _fx_ ()=+ _xx_ () _ex_ ,−≤≤
+10. Using mean value theorem prove that for, {{<katex>}}a>0, b>0,\left|e^{-a}-e^{-b}\right|<|a-b|{{</katex>}}.
 
-```
-−
-332 0
-```
-```
-π
-where tangent drawn is
-parallel to the x-axis.
-```
-10. Using mean value theorem prove that for, _ab_ >> 00 ,,|| _ee_ −− _ab_ −<|| _ab_ −.
+\subsection*{7.4 Series Expansions}
 
-7.4 Series Expansions
+Taylor's series and Maclaurin's series expansion of a function which are infinitely differentiable.
 
-Taylor’s series and Maclaurin's series expansion of a function which are infinitely differentiable.
+\section*{Theorem 7.5}
 
-```
-Theorem 7.5
-(a) Taylor’s Series
-Let fx () be a function infinitely differentiable at xa =. Then fx () can be expanded as a
-series, in an interval (, xa −+ xa ), of the form
-```
-_fx_ () = _fa
-n_
+(a) Taylor's Series
 
-```
-xa fa faxa fa
-n
-```
-```
-xa
-```
-```
-n
-n
-```
-```
-()() n () n n
-!
-```
-```
-()() ()
-!
-```
-```
-() ()
-!
-```
-```
-()
-=
-```
-```
-∞
-∑ −= +
-```
-```
-′ −++−+
-0 1
-```
-```
-.
-```
-**(b) Maclaurin’s series**
-If a= 0 , the expansion takes the form
+Let {{<katex>}}f(x){{</katex>}} be a function infinitely differentiable at {{<katex>}}x=a{{</katex>}}. Then {{<katex>}}f(x){{</katex>}} can be expanded as a series, in an interval {{<katex>}}(x-a, x+a){{</katex>}}, of the form
 
-_fx_ () = _f
-n_
+{{<katex>}}
+f(x)=\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n !}(x-a)^{n}=f(a)+\frac{f^{\prime}(a)}{1 !}(x-a)+\cdots+\frac{f^{(n)}(a)}{n !}(x-a)^{n}+\cdots .
+{{</katex>}}
 
-```
-xf f x f
-n
-```
-```
-x
-```
-```
-n
-n
-```
-```
-()() n () n n
-!
-```
-```
-() ()
-!
-```
-```
-()
-!
-```
-(^000).
-1
-0
-= 0
-∞
-∑ =+
-′ +++
-**Proof**
-The series expansion of _fx_ (), in powers of () _xa_ − , be given by
-_fx_ () = _AAn xan_
-(^0) _n_ 1
-+−
-=
-∞
-∑ ()^ ... (7)
-Substituting _xa_ = gives _Af_ 0 = () _a_. Differentiation of (7) gives
-_fx_ ′() = 1 1 1
-2
-!( _AnAxn a_ ) _n
-n_
-+−−
-=
-∞
-∑^ ... (8)
-Substituting _xa_ = gives _Af_ 1 = ′() _a_. Differentiation of (8) gives
-_fx_ ′′() = 212 2
-3
-!( _AnnA_ )( _n xa_ ) _n
-n_
-+−− −
-=
-∞
-∑^ ... (9)
-Substituting _xa_ = gives _A_ 2 _fa_
-2
-= ′′()
-!
+(b) Maclaurin's series
 
-. Differentiation of (9) gives
+If {{<katex>}}a=0{{</katex>}}, the expansion takes the form
+
+{{<katex>}}
+f(x)=\sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n !} x^{n}=f(0)+\frac{f^{\prime}(0)}{1 !} x+\cdots+\frac{f^{(n)}(0)}{n !} x^{n}+\cdots .
+{{</katex>}}
+
+Proof
+
+The series expansion of {{<katex>}}f(x){{</katex>}}, in powers of {{<katex>}}(x-a){{</katex>}}, be given by
+
+{{<katex>}}
+f(x)=A_{0}+\sum_{n=1}^{\infty} A_{n}(x-a)^{n}
+{{</katex>}}
+
+Substituting {{<katex>}}x=a{{</katex>}} gives {{<katex>}}A_{0}=f(a){{</katex>}}. Differentiation of (7) gives
+
+{{<katex>}}
+f^{\prime}(x)=1 ! A_{1}+\sum_{n=2}^{\infty} n A_{n}(x-a)^{n-1}
+{{</katex>}}
+
+Substituting {{<katex>}}x=a{{</katex>}} gives {{<katex>}}A_{1}=f^{\prime}(a){{</katex>}}. Differentiation of (8) gives
+
+{{<katex>}}
+f^{\prime \prime}(x)=2 ! A_{2}+\sum_{n=3}^{\infty} n(n-1) A_{n}(x-a)^{n-2}
+{{</katex>}}
+
+Substituting {{<katex>}}x=a{{</katex>}} gives {{<katex>}}A_{2}=\frac{f^{\prime \prime}(a)}{2 !}{{</katex>}}. Differentiation of (9) gives
 
 _fx_ ′′′() = 313 2 3
 4
