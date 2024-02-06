@@ -4,208 +4,77 @@ weight: 5
 ---
 
 # Solution of Ordinary Differential Equations
-Definition 10.9 : (Solution of DE) 
-A solution of a differential equation is an expression for the dependent variable in terms of
-the independent variable(s) which satisfies the differential equation.
+
+**Definition 10.9 : (Solution of DE)**
+
+A solution of a differential equation is an expression for the dependent variable in terms of the independent variable(s) which satisfies the differential equation.
 Caution
-	 (i)	There is no guarantee that a differential equation has a solution.
-	 	For instance, ( ) y x '( ) + + y = 2 2 1 0 has no solution, since ( ) y x '( ) = −( ) y +
-2 2 1 and so y x '( )
-cannot be real.
-	 (ii)	Also, a solution of a differential equation, if exists, is not unique.
-	 		For instance, the functions y e y e x x = = 2 2 2, , y e x = 8 2
-are solutions of same equation
-dy
-dx − = 2 0 y . In fact, y ce c x = ∈ 2 , ,  are allsolutions ofthe differential equation dy
-dx − = 2 0 y .
-Thus, to represent all possible solutions of a differential equation, we introduce the notion
-of the general solution of a differential equation.
-Definition 10.10 : (General solution)
-The solution which contains as many arbitrary constants as the order of the differential
-equation is called the general solution
+
+(i)	There is no guarantee that a differential equation has a solution.
+cannot be real. For any x ∈ R, we have |x| = | − x| and thus, |x| = |y| if and only if x = y or
+x = −y.
+
+(ii)Also, a solution of a differential equation, if exists, is not unique.
+For instance, the functions For any a ∈ R, |x − a| ≥ r is equivalent to x − a ≤ −r or x − a ≥ r if and only if
+x ∈ (−∞, a − r] ∪ [a + r, ∞) are solutions of same equation
+
+Thus, to represent all possible solutions of a differential equation, we introduce the notion of the general solution of a differential equation.
+
+**Definition 10.10 : (General solution)**
+The solution which contains as many arbitrary constants as the order of the differential equation is called the general solution
+
 Remark
-	 The general solution includes all possible solutions and typically includes arbitrary constants (in
-the case of an ODE) or arbitrary functions (in the case of a PDE.)
-Definition 10.11 : (Particular solution)
+The general solution includes all possible solutions and typically includes arbitrary constants (in the case of an ODE) or arbitrary functions (in the case of a PDE.)
+
+**Definition 10.11 : (Particular solution)**
+
 If we give particular values to the arbitrary constants in the general solution of differential
 equation, the resulting solution is called a Particular Solution.
+
 Remark
-	 (i)	Often we find a particular solution to a differential equation by giving extra conditions.
-	 (ii)	The general solution of a first order differential equation y f ' , = ( ) x y represents a oneparameter family of curves in xy -plane.
-	 	For instance, y ce c x = ∈ 2 , ,  isthe generalsolution of the differential equation dy
-dx − = 2 0 y .
- For instance, we have already seen that y a = + cos s x b in x satisfies the second order
-differential equation d y
-dx y
-2
-2 + = 0 . Since it contains two arbitrary constants, it is the general
-solution of d y
-dx y
-2
-2 + = 0 . If we put a b = = 1 0 , in the general solution, then we get y x = cos
-is a particular solution of the differential equation d y
-dx y
-2
-2 + = 0 .
-In application, differential equations do not arise by eliminating the arbitrary constants. They
-frequently arise while investigating many physical problems in all fields of engineering, science and
-even in socialsciences. Mostly these differential equations are also accompanied by certain conditions
-on the variables to obtain unique solution satisfying the given conditions.
-Example 10.7
-	 Show that x y r
-2 2 2 + = , where r is a constant, is a solution of the differential equation dy
-dx
-x
-y = − .
-Solution
-Given that x y r
-2 2 2 + = ,r ∈  	 		 	 ... (1)
-	 The given equation contains exactly one arbitrary constant.
-	 So, we have to differentiate the given equation once. Differentiate (1) with respect to x , we get
-2 2 x y 0 dy
-dx
-+ = , which implies dy
-dx
-x
-y = − .
-	 Thus, x y r
-2 2 2 + = satisfies the differential equation dy
-dx
-x
-y = − .
-	 Hence, x y r
-2 2 2 + = is a solution of the differential equation dy
-dx
-x
-y = − .
-Example 10.8
-Show that y mx
-m
-= + m ≠
-7 0, is a solution of the differential equation xy
-y ' y ' + − 7 = 1 0 .
-Solution
-The given function is y mx
-m
-= +
-7 , where m is an arbitrary constant.	 ... (1)
-	 Differentiating both sides of equation (1) with respect to x , we get y m ' = .
-	 Substituting the values of y ' and y in the given differential equation,
-	 we get xy
-y
-y xm
-m
-mx
-m ′ + ′
-− = + − − = 7 7 7 0 .
-	 Therefore, the given function is a solution of the differential equation xy
-y ' y ' + − 7 = 1 0 .
-Example 10.9
-	 Show that y x Ce x = − ( ) + − 2 1 2 2
-is a solution of the differential equation dy
-dx
-+ − 2 4 xy x = 0 3 .
-Solution
-The given function is y x Ce x = − ( ) + − 2 1 2 2
-, where C is an arbitrary constant.	 ...(1)
-	 Differentiating both sides of equation (1) with respect to x , we get dy
-dx
-x xCe x = − − 4 2 2
-.
-	 Substituting the values of dy
-dx
-and y in the given differential equation, we get
-dy
-dx
-+ − 2 4 xy x
-3
- = 4 2 2
-x xCe x − − + 2 2 1 2 2
-x x Ce x  ( ) − +  
- − −4 3
-x = 0
-	 Therefore, the given function is a solution of the differential equation dy
-dx
-+ − 2 4 xy x = 0 3 .
-Example 10.10
-Show that y a = + cos(log ) x bsin l( ) og x x, 0 > is a solution of the differential equation
-x y xy y
-2 ′′ + ′ + = 0 .
-Solution
-The given function is y a = + cos(log ) x bsin l( ) og x ...(1)
-where a b, are two arbitrary constants. In order to eliminate the two arbitrary constants, we have to
-differentiate the given function two times successively.
-	 Differentiating equation (1) with respect to x , we get
-y a ′ = − ( ) x ⋅ + ( )⋅ x
-b x
-x
-sin log cos log
-1 1
-⇒ xy′ = −a x sin l( ) og + b x cos l( ) og .
-	 Again differentiating this with respect to x, we get
-xy y a x
-x
-b x
-x ′′ + ′ = − cos l( ) og ⋅ − sin l( ) og ⋅ 1 1
-⇒ x y′′ + xy′ + = y
-2 0 .
-	 Therefore, y a = + cos(log ) x bsin l( ) og x is a solution of the given differential equation.
-EXERCISE 10.4
-1.	Show that each of the following expressionsis a solution of the corresponding given differential
-equation.
-	 	 (i)	 y x = 2 2 	 ;	xy ' = 2y
-	 	 (ii)	 y ae be x x = + − 	 ;	y y ′′ − = 0
-2.	Find value of m so that the function y emx = is a solution of the given differential equation.
-	 	 (i)	 y y '+ = 2 0 	 (ii)	y y ''− + 560 ' y =
-3.	The slope of the tangent to the curve at any point is the reciprocal of four times the ordinate at
-that point. The curve passes through (2,5). Find the equation of the curve.
-4.	Show that y e mx n x = + + − is a solution of the differential equation e d y
-dx
-x
-2
-2 1 0 
-
- 
-
- − = .
-5.	Show that y ax
-b
-x
-= + , 0 x ≠ is a solution of the differential equation x y xy y
-2 ′′ + ′ − = 0 .
-6.	Show that y ae b x = + −3 , where a and b are arbitrary constants, is a solution of the differential
-equation d y
-dx
-dy
-dx
-2
-2 + = 3 0 .
-7.	Show that the differential equation representing the family of curves y a x a
-2
-2
-3 = + 2 
-
- 
-
-, where
-a is a positive parameter, is y xy dy
-dx y dy
-dx
-2
-3 5
-− 2 8 
-
- 
-
- = 
-
- 
-
- .
-.	Show that y a = cosbx is a solution of the differential equation d y
-dx b y
-2
-2
-2 + = 0 .
-	 Now, we discuss some standard methods of solving certain type of differential equations of the
-first order and first degree.
+
+A general linear ordinary differential equation of order n is any differential equation that can be written in the following form.
+
+(1)	 The important thing to note about linear differential equations is that there are no products of the function, y x( ), and its derivatives and neither the function nor its derivatives occur to any power other than the first power.
+
+(2)	 No transcendental functions – (trigonometric or logarithmic etc) of y or any of its derivatives occur in differential equation.
+
+(3)	 Also note that neither the function nor its derivatives are “inside” another function, for instance, y′ or ey′.
+
+Here we shall learn to solve inequalities involving absolute values. First we analyze very simple
+inequalities such as (i) |x| < r and (ii) |x| > r.
+ 
+(i) Let us prove that |x| < r if and only if −r < x < r. Note that r > 0 as |x| ≥ 0.
+There are two possibilities to consider depending on the sign of x.
+ 
+Case (1). If x ≥ 0, then |x| = x, so |x| < r implies x < r.
+ 
+Case (2). If x < 0, then |x| = −x, so |x| < r implies −x < r that is, x > −r.
+ 
+Therefore we have, |x| < r if and only if −r < x < r, that is x ∈ (−r, r).
+Any other solution is nontrivial. In fact this is true for a general linear homogeneous differential equation as well.
+
+
+(i) For any a ∈ R, |x − a| ≤ r if and only if −r ≤ x − a ≤ r if and only if x ∈ [a − r, a + r].
+ 
+(ii) For any a ∈ R, |x − a| ≥ r is equivalent to x − a ≤ −r or x − a ≥ r if and only if
+x ∈ (−∞, a − r] ∪ [a + r, ∞).
+
+The population will increase whenever the offspring increase Forinstance, let ustake rabbits as our population. More number of rabbits yield more number of baby rabbits. As time increases the population of rabbits increases.
+
+If a differential equation is expressible in a polynomial form, then the integral power of the highest order derivative appears is called the degree of the differential equation
+
+In other words, the degree of a differential equation is the power of the highest order derivative involved in the differential equation when the differential equation (after expressing in polynomial form) satisfies the following conditions :
+
+(i)	All of the derivatives in the equation are free from fractional powers, if any.
+
+(ii)	Highest order derivative should not be an argument of a transcendentalfunction, trigonometric or exponential, etc. The coefficient of any term containing the highest order derivative
+should just be a function of x, y, or some lower order derivative but not as transcendental,trigonometric, exponential, logarithmic function of derivatives.
+
+If one or more of the aforementioned conditions are not satisfied by the differential equation, it should be first reduced to the polynomial form in which it satisfies all of the above conditions.
+
+If a differential equation is not expressible to polynomial equation form having the highest order derivative as the leading term then that the degree of the differential equation is not defined.
+
+The determination of the degree of a given differential equation can be tricky if you are not well versed with the conditions under which the degree of the differential equation is defined. So go through the given solved examples carefully and master the technique of calculating the degree of the given differential equation just by sheer inspection
+
+Now, we discuss some standard methods of solving certain type of differential equations of the first order and first degree.
