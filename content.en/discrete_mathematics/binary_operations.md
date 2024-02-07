@@ -3,19 +3,21 @@ title: 'Binary Operations'
 weight: 1
 ---
 [comment]: <> (katex Header)
+
 {{< katex display >}}{{< /katex >}}
 
 [Markdown]: <> (Markdown Refering Website https://www.markdownguide.org/cheat-sheet/)
 [Katex]: <> (add the katex entension and header for including maths expression and refer https://katex.org/docs/supported.html)
 [Table Creating Webiste]: <> (website for table creating https://www.tablesgenerator.com/markdown_tables)
 [Ascii Flow Diagram]: <> (goat diagram website https://asciiflow.com/#/)
+{{<katex display>}}{{</katex >}}
 
 
 # Binary Operations
 
 
 ## Definitions
-  The basic arithmetic operations on  are addition (+ ), subtraction (-), multiplication (×), and
+  The basic arithmetic operations on are addition (+), subtraction (-), multiplication (×), and
 division (÷). Eminent mathematicians of the latter part of 19thcentury and in 20thcentury like Abel, Cayley,
 Cauchy, and others, tried to generalize the properties satisfied by these usual arithmetic operations. To this
 end they developed new abstract algebraic structures through the axiomatic approach. This new branch
@@ -23,7 +25,7 @@ of algebra dealing with these abstract algebraic structures is known as abstract
   To begin with, consider a simple example involving the basic usual arithmetic operations addition
 and multiplication of any two natural numbers.
 
-    m + n ∈ \\(\N\\) ; m x n  ∈ \\(\N\\) , ∀ m,n ∈ \\(\N\\) = {1,2,3,...}
+m + n ∈ \\(\N\\) ; m x n  ∈ \\(\N\\) , ∀ m,n ∈ \\(\N\\) = {1,2,3,...}
 
 Each of the above two operations yields the following observations:
   1. At a time exactly two elements of \\(\N\\) are processed.
@@ -44,8 +46,9 @@ conditions are satisfied:
 elements of S a unique element of S . Also * can be regarded as a function (mapping) with input in
 the Cartesian product S S × and the output in S .
 
-    ∗ × : S S → S ; ∗ = ( , a b) a b ∗ ∈ S , where a b * is an unique element.
-  A binary operation defined by ∗ × : S S → S ; ∗ = ( , a b) a b ∗ ∈ S demands that the output a b ∗
+∗ × : S S → S ; ∗ = ( , a b) a b ∗ ∈ S , where a b * is an unique element.
+
+A binary operation defined by ∗ × : S S → S ; ∗ = ( , a b) a b ∗ ∈ S demands that the output a b ∗
 must always lie the given set S and not in the complement of it. Then we say that ‘∗ is closed on S ’ or
 ‘ S is closed with respect to ∗ ’. This property is known as the closure property.
 
@@ -60,12 +63,12 @@ called an algebraic structure.
 It follows that every binary operation satisfies the closure property.
 
 **Note**
-The operation∗ is just a symbol which may be + × , ,−, ÷ matrix addition, matrix multiplication,
+The operation∗ is just a symbol which may be +,×,−, ÷ matrix addition, matrix multiplication,
 etc. depending on the set on which it is defined.
   For instance, though + and × are binary on \\(\N\\) , - is not binary operation on \\(\N\\) .
 
   To verify this, consider(3,4)∈ \\(\N\\) x \\(\N\\) .
-    ∗(a,b)= -( 3 4)= 3 - 4 = − 1 ∉ \\(\N\\) .
+    ∗(a,b)= -( 3 4)= 3 - 4 = − 1 ∉ \\(\N\\).
 
 Hence - is not binary operation on \\(\N\\) . So \\(\N\\) is to be extended to \\(\Z\\) in order that - becomes
 binary operation on \\(\Z\\). Thus \\(\Z\\) is closed with respect to +,×, and − . Thus (\\(\Z\\),+,x,-) is an
@@ -123,7 +126,7 @@ b a ∗ = e then b S ∈ is said to be the Inverse Element of a . In such instan
 
 **Note**
 
-a<sup>–1</sup> is an element of S. It should be read as the inverse of a and not as 1/a.
+\\(a_–1\\) is an element of S. It should be read as the inverse of a and not as 1/a.
 
 **Note**
 
@@ -154,12 +157,13 @@ Let(S,∗) be an algebraic structure. Assume that the identity element of S exis
   It is to be proved that the identity element is unique. Suppose that e1 and e2 be any two identity
 elements of S .
 
-  First treate
-1as the identity and e2 as an arbitrary element of S .
+First treate
 
-  Then by the existence of identity property, e<sub>2</sub>*e<sub>1</sub> = e<sub>1</sub>∗e<sub>2</sub> = e2 .  ... (1)
+1as the identity and e\\(_2\\) as an arbitrary element of S .
 
-  Interchanging the role of e1and e2 , e<sub>1</sub> * e<sub>2</sub> = e<sub>2</sub>*e<sub>1</sub> = e1 . …(2)
+Then by the existence of identity property, e\\(_2\\)*e\\(_1\\) = e\\(_1\\)∗e\\(_2\\) = e2 .  ... (1)
+
+  Interchanging the role of e1and e2 , e\\(_1\\) * e\\(_2\\) = e\\(_2\\)*e\\(_1\\) = e1 . …(2)
 
   From (1) and (2), e e 1 2 = . Hence the identity element is unique which completes the proof.
 
@@ -174,15 +178,15 @@ be proved that the inverse of a is unique. The existence of inverse in S ensures
 identity element e in S .
 
 Let a S ∈ . It is to be proved that the inverse a (if exists) is unique.
-  Suppose that a has two inverses, say, a<sub>1</sub> , a<sub>2</sub> .
+  Suppose that a has two inverses, say, a\\(_1\\) , a\\(_2\\) .
 
-  Treating a<sub>1</sub> as an inverse of a gives a*a<sub>1</sub> = a<sub>1</sub>*a = e …(1)
+  Treating a\\(_1\\) as an inverse of a gives a* a\\(_1\\) = a\\(_1\\)* a = e …(1)
 
-  Next treating a<sub>2</sub> as the inverse of a gives a* a<sub>2</sub>= a<sub>2</sub>*a = e …(2)
+  Next treating a\\(_2\\) as the inverse of a gives a* a\\(_2\\)= a\\(_2\\)*a = e …(2)
 
-a<sub>1</sub>=a<sub>1</sub>*e=a<sub>1</sub>*(a*a<sub>2</sub>)=(a<sub>1</sub>*a)*a<sub>2</sub>=e*a<sub>2</sub>=a<sub>2</sub> (by (1) and (2)).
+a\\(_1\\)=a\\(_1\\)* e=a\\(_1\\)* (a* a\\(_2\\))=(a\\(_1\\)* a)* a\\(_2\\)=e*a\\(_2\\)=a\\(_2\\) (by (1) and (2)).
 
-  So, a<sub>1</sub>=a<sub>2</sub>. Hence the inverse of a is unique which completes the proof.
+  So, a\\(_1\\)=a\\(_2\\). Hence the inverse of a is unique which completes the proof.
 
 ![Example12.2](Example12-2.png)
 
@@ -194,7 +198,7 @@ a<sub>1</sub>=a<sub>1</sub>*e=a<sub>1</sub>*(a*a<sub>2</sub>)=(a<sub>1</sub>*a)*
 Example 12.5
   Verify the (i) closure property, (ii) commutative property, (iii) associative property
 (iv) existence of identity and (v) existence of inverse for the arithmetic operation + on
-\\(\Z\\)<sub>
+\\(\Z\\)
 o</sub> = the set of all odd integers.
 
 **Solution**
@@ -413,22 +417,22 @@ modulo 10 is the thirteenth digit.
 The total of last row is 155. The nearest (higher) integer in multiples of 10 is 160. The difference
 160-155=5. The additive inverse modulo 10 is 5 which is 13-th digit in the ISBN number.
 
-Two new operations namely addition modulo n({{< katex>}} +_{n} {{< /katex >}} ) and multiplication modulo n({{< katex>}} ×_{n} {{< /katex >}})  are
+Two new operations namely addition modulo n\\( +_{n} \\) and multiplication modulo n\\( ×_{n} \\)  are
 defined on the set \\(\Z_{n}\\)
 n of all non-negative integers less than n under modulo arithmetic.
 
 **Definition 12.6**
 (i) The addition modulo n is defined as follows.
 Let a,b ∈ \\(\Z_{n}\\) . Then
-a({{< katex>}} +_{n} {{< /katex >}} )b= the remainder of a+b on division by n .
+a\\( +_{n} \\)b= the remainder of a+b on division by n .
 (ii)  The multiplication modulo n is defined as follows.
 Let a,b ∈\\(\Z_{n}\\) . Then
-a({{< katex>}} ×_{n} {{< /katex >}}) b =the remainder of a x b on division by n
+a\\( ×_{n} \\) b =the remainder of a x b on division by n
 
 **Example 12.9**
 
 Verify (i) closure property, (ii) commutative property, (iii) associative property,
-(iv) existence of identity, and (v) existence of inverse for the operation ({{< katex>}} +_{5} {{< /katex >}} )
+(iv) existence of identity, and (v) existence of inverse for the operation \\( +_{5} \\)
 on \\(\Z_{5}\\) using table
 corresponding to addition modulo 5.
 
@@ -437,7 +441,7 @@ It is known that \\(\Z_{5}\\)={[0],[1],[2],[3],[4]} . The table corresponding to
 follows: We take reminders {0, 1, 2, 3, 4 } to represent the classes {[0],[1],[2],[3],[4]}.
 |||||||
 |---|---|---|---|---|---|
-|({{< katex>}} +_{5} {{< /katex >}} ) |0 |1| 2| 3| 4|
+|\\( +_{5} \\) |0 |1| 2| 3| 4|
 |0 |0 |1 |2 |3 |4|
 |1 |1 |2 |3 |4 |0|
 |2 |2 |3 |4 |0 |1|
@@ -446,23 +450,23 @@ follows: We take reminders {0, 1, 2, 3, 4 } to represent the classes {[0],[1],[2
 
 **Table12.2**
 
-  (i)  Since each box in the table is filled by **exactly one element** of \\(\Z_{5}\\) , the output a({{< katex>}} +_{5} {{< /katex >}} )b is
-unique and hence ({{< katex>}} +_{5} {{< /katex >}} ) is a **binary operation**.
+  (i)  Since each box in the table is filled by **exactly one element** of \\(\Z_{5}\\) , the output a\\( +_{5} \\)b is
+unique and hence \\( +_{5} \\) is a **binary operation**.
 
-(ii) The entries are **symmetrically** placed with respect to the **main diagonal**. So ({{< katex>}} +_{5} {{< /katex >}} ) has
+(ii) The entries are **symmetrically** placed with respect to the **main diagonal**. So \\( +_{5} \\) has
 **commutative property**.
 
 (iii)  The table cannot be used directly for the verification of the associative property. So it is to
 be verified as usual.
 
-For instance, (2({{< katex>}} +_{5} {{< /katex >}} )3 )({{< katex>}} +_{5} {{< /katex >}} )4 =0 ({{< katex>}} +_{5} {{< /katex >}} )4 = (mod 5)
+For instance, (2 \\(+ _{5} \\) 3 ) \\( + _{5}\\) 4 = 0 \\(+ _{5} \\) 4 = (mod 5)
 
-and 2({{< katex>}} +_{5} {{< /katex >}} )(3({{< katex>}} +_{5} {{< /katex >}} )4)=2({{< katex>}} +_{5} {{< /katex >}} )2=4(mod5).
+and 2\\( + _{5} \\)(3\\( + _{5} \\)4)=2\\( + _{5} \\)2 = 4(mod5).
 
-Hence (2({{< katex>}} +_{5} {{< /katex >}} )3 )({{< katex>}} +_{5} {{< /katex >}} )4=2({{< katex>}} +_{5} {{< /katex >}} )(3({{< katex>}} +_{5} {{< /katex >}} )4).
+Hence (2\\( + _{5} \\)  3 ) \\( + _{5} \\) 4 = 2 \\( + _{5} \\) (3 \\( + _{5} \\) 4).
 
 Proceeding like this one can verify this for all possible triples and ultimately it can be shown
-that ({{< katex>}} +_{5} {{< /katex >}} ) is associative.
+that \\( +_{5} \\) is associative.
 
 (iv)  The row headed by 0 and the column headed by 0 are identical. Hence the identity element
 is 0.
@@ -474,7 +478,7 @@ finding the inverse of any one of the elements of \\(\Z_{5}\\) , say 2 is outlin
 First find the position of the identity element 0 in the III row headed by 2. Move horizontally
 along the III row and after reaching 0, move vertically above 0 in the IV column, because 0
 is in the III row and IV column. The element reached at the topmost position of IV column
-is 3. This element 3 is nothing but the inverse of 2, because, 2({{< katex>}} +_{5} {{< /katex >}} ) 3 =0(mod5 ) . In this way,
+is 3. This element 3 is nothing but the inverse of 2, because, 2\\( +_{5} \\) 3 =0(mod5 ) . In this way,
 the inverse of each and every element of \\(\Z_{5}\\) can be obtained. Note that the inverse of 0 is
 0,that of 1 is 4, that of 2 is 3, that of 3 is 2 , and, that of 4 is 1.
 
@@ -484,10 +488,10 @@ Verify (i) closure property, (ii) commutative property, (iii) associative proper
 of the set of remainders {0, 1,2, 3, 4, 5, 6, 7, 8,9, 10 }.
 
 **Solution**
-The table for the operation ({{< katex>}} ×_{11} {{< /katex >}} ) is as follows.
+The table for the operation \\( ×_{11} \\) is as follows.
 |||||||
 |---|---|---|---|---|---|
-|({{< katex>}} ×_{11} {{< /katex >}} )| 1| 3| 4| 5| 9|
+|\\( ×_{11} \\)| 1| 3| 4| 5| 9|
 |1| 1| 3| 4| 5| 9|
 |3 |3 |9 |1 |4 |5|
 |4 |4 |1 |5 |9 |3|
@@ -497,9 +501,9 @@ The table for the operation ({{< katex>}} ×_{11} {{< /katex >}} ) is as follows
 ***Table12.3***
 
 Following the same kind of procedure as explained in the previous example, a brief outline of the
-process of verification of the properties of ({{< katex>}} ×_{11} {{< /katex >}} ) on A is given below.
+process of verification of the properties of \\( ×_{11} \\) on A is given below.
 
-(i)  Since each box has an unique element of A, ({{< katex>}} ×_{11} {{< /katex >}} ) is a binary operation on A.
+(i)  Since each box has an unique element of A, \\( ×_{11} \\) is a binary operation on A.
 
 (ii)  The entries are symmetrical about the main diagonal. Hence ×11 has commutative property.
 
@@ -509,7 +513,7 @@ process of verification of the properties of ({{< katex>}} ×_{11} {{< /katex >}
 identity element.
 
 (v)  Since the identity 1 exists in each row and each column, the existence of inverse property
-is assured for ({{< katex>}} ×_{11} {{< /katex >}} ) . The inverse of 1 is 1, that of 3 is 4, that of 4 is 3, 5 is 9 , and, that of 9 is 5.
+is assured for \\( ×_{11} \\) . The inverse of 1 is 1, that of 3 is 4, that of 4 is 3, 5 is 9 , and, that of 9 is 5.
 
 ***EXERCISE 12.1***
 1.  Determine whether ∗ is a binary operation on the sets given below.
@@ -520,7 +524,7 @@ is assured for ({{< katex>}} ×_{11} {{< /katex >}} ) . The inverse of 1 is 1, t
 
 (iii) (a * b)  = a {{< katex>}} \sqrt{\smash[b]{b}} {{</ katex>}} is binary on \\(\R\\) .
 
-2. On \\(\Z\\) , define ∗ by (m *n) =({{< katex>}} m^{n}+n^{m} {{< /katex >}} ): ∀ m,n ∈ \\(\Z\\) . Is ∗ binary on \\(\Z\\) ?
+2. On \\(\Z\\) , define ∗ by (m *n) =\\( m^{n}+n^{m} \\): ∀ m,n ∈ \\(\Z\\) . Is ∗ binary on \\(\Z\\) ?
 
 3. Let ∗ be defined on \\(\R\\) by (a *b) = a+b+ab − 7 . 
 
