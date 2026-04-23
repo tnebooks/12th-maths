@@ -16,7 +16,7 @@ We are familiar with the concept of vectors, (vectors in Latin means "to carry")
 
 ![](https://placehold.co/600x400)
 
-We also have studied addition of two vectors, scalar multiplication of vectors, dot product, and cross product by denoting an arbitrary vector by the notation {{< katex >}}\vec{a}{{< /katex >}} or {{< katex >}}a_{i}\hat{i} +a_{j}\hat{j} +a_{k}\hat{k}{{< /katex >}}. To understand the direction and magnitude of a given vector and all other concepts with a little more rigor, we shall recall the geometric introduction of vectors, which will be useful to discuss the equations of straight lines and planes. Great mathematicians Grassmann, Hamilton, Clifford and Gibbs were pioneers to introduce the dot and cross products of vectors.
+We also have studied addition of two vectors, scalar multiplication of vectors, dot product, and cross product by denoting an arbitrary vector by the notation  \vec{a} or  a_{i}\hat{i} +a_{j}\hat{j} +a_{k}\hat{k}. To understand the direction and magnitude of a given vector and all other concepts with a little more rigor, we shall recall the geometric introduction of vectors, which will be useful to discuss the equations of straight lines and planes. Great mathematicians Grassmann, Hamilton, Clifford and Gibbs were pioneers to introduce the dot and cross products of vectors.
 
 The vector algebra has a few direct applications in physics and it has a lot of applications along with vector calculus in physics, engineering, and medicine. Some of them are mentioned below.
 
@@ -24,41 +24,41 @@ To calculate the volume of a parallelepiped, the scalar triple product is used. 
 
 ### 6.2 Geometric introduction to vectors
 
-A vector {{< katex >}}\bar{\nu}{{< /katex >}} is represented as a directed straight line segment in a 3- dimensional space {{< katex >}}\mathbb{R}^3{{< /katex >}}, with an initial point {{< katex >}}A = (a_{1},a_{2},a_{3})\in \mathbb{R}^{3}{{< /katex >}} and an end point {{< katex >}}B = (b_{1},b_{2},b_{3})\in \mathbb{R}^{3}{{< /katex >}}, and it is denoted by {{< katex >}}\overline{AB}{{< /katex >}}. The length of the line segment {{< katex >}}AB{{< /katex >}} is the magnitude of the vector {{< katex >}}\bar{\nu}{{< /katex >}} and the direction from {{< katex >}}A{{< /katex >}} to {{< katex >}}B{{< /katex >}} is the direction of the vector {{< katex >}}\bar{\nu}{{< /katex >}}. Hereafter, a vector will be interchangeably denoted by {{< katex >}}\bar{\nu}{{< /katex >}} or {{< katex >}}\overline{AB}{{< /katex >}}. Two vectors {{< katex >}}\overline{AB}{{< /katex >}} and {{< katex >}}\overline{CD}{{< /katex >}} in {{< katex >}}\mathbb{R}^3{{< /katex >}} are said to be equal if and only if the length {{< katex >}}AB{{< /katex >}} is equal to the length {{< katex >}}CD{{< /katex >}} and the direction from {{< katex >}}A{{< /katex >}} to {{< katex >}}B{{< /katex >}} is parallel to the direction from {{< katex >}}C{{< /katex >}} to {{< katex >}}D{{< /katex >}}. If {{< katex >}}\overline{AB}{{< /katex >}} and {{< katex >}}\overline{CD}{{< /katex >}} are equal, we write {{< katex >}}\overline{AB} = \overline{CD}{{< /katex >}}, and {{< katex >}}\overline{CD}{{< /katex >}} is called a translate of {{< katex >}}\overline{AB}{{< /katex >}}.
+A vector  \bar{\nu} is represented as a directed straight line segment in a 3- dimensional space  \mathbb{R}^3, with an initial point  A = (a_{1},a_{2},a_{3})\in \mathbb{R}^{3} and an end point  B = (b_{1},b_{2},b_{3})\in \mathbb{R}^{3}, and it is denoted by  \overline{AB}. The length of the line segment  AB is the magnitude of the vector  \bar{\nu} and the direction from  A to  B is the direction of the vector  \bar{\nu}. Hereafter, a vector will be interchangeably denoted by  \bar{\nu} or  \overline{AB}. Two vectors  \overline{AB} and  \overline{CD} in  \mathbb{R}^3 are said to be equal if and only if the length  AB is equal to the length  CD and the direction from  A to  B is parallel to the direction from  C to  D. If  \overline{AB} and  \overline{CD} are equal, we write  \overline{AB} = \overline{CD}, and  \overline{CD} is called a translate of  \overline{AB}.
 
 <center>Fig. 6.1 </center>
 
-It is easy to observe that every vector {{< katex >}}\overline{AB}{{< /katex >}} can be translated to anywhere in {{< katex >}}\mathbb{R}^3{{< /katex >}}, equal to a vector with initial point {{< katex >}}U\in \mathbb{R}^3{{< /katex >}} and end point {{< katex >}}V\in \mathbb{R}^3{{< /katex >}} such that {{< katex >}}\overline{AB} = \overline{UV}{{< /katex >}}. In particular, if {{< katex >}}O{{< /katex >}} is the origin of {{< katex >}}\mathbb{R}^3{{< /katex >}}, then a point {{< katex >}}P\in \mathbb{R}^3{{< /katex >}} can be found such that {{< katex >}}\overline{AB} = \overline{OP}{{< /katex >}}. The vector {{< katex >}}\overline{OP}{{< /katex >}} is called the position vector of the point {{< katex >}}P{{< /katex >}}. Moreover, we observe that given any vector {{< katex >}}\bar{\nu}{{< /katex >}}, there exists a unique point {{< katex >}}P\in \mathbb{R}^3{{< /katex >}} such that the position vector {{< katex >}}\overline{OP}{{< /katex >}} of {{< katex >}}P{{< /katex >}} is equal to {{< katex >}}\bar{\nu}{{< /katex >}}. A vector {{< katex >}}\overline{AB}{{< /katex >}} is said to be the zero vector if the initial point {{< katex >}}A{{< /katex >}} is the same as the end point {{< katex >}}B{{< /katex >}}. We use the standard notations {{< katex >}}\hat{i},\hat{j},\hat{k}{{< /katex >}} and {{< katex >}}\bar{0}{{< /katex >}} to denote the position vectors of the points {{< katex >}}(1,0,0),(0,1,0),(0,0,1){{< /katex >}}, and {{< katex >}}(0,0,0){{< /katex >}}, respectively. For a given point {{< katex >}}(a_{1},a_{2},a_{3})\in \mathbb{R}^{3}{{< /katex >}}, {{< katex >}}a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k}{{< /katex >}} is called the position vector of the point {{< katex >}}(a_{1},a_{2},a_{3}){{< /katex >}}, which is the directed straight line segment with initial point {{< katex >}}(0,0,0){{< /katex >}} and end point {{< katex >}}(a_{1},a_{2},a_{3}){{< /katex >}}. All real numbers are called scalars.
+It is easy to observe that every vector  \overline{AB} can be translated to anywhere in  \mathbb{R}^3, equal to a vector with initial point  U\in \mathbb{R}^3 and end point  V\in \mathbb{R}^3 such that  \overline{AB} = \overline{UV}. In particular, if  O is the origin of  \mathbb{R}^3, then a point  P\in \mathbb{R}^3 can be found such that  \overline{AB} = \overline{OP}. The vector  \overline{OP} is called the position vector of the point  P. Moreover, we observe that given any vector  \bar{\nu}, there exists a unique point  P\in \mathbb{R}^3 such that the position vector  \overline{OP} of  P is equal to  \bar{\nu}. A vector  \overline{AB} is said to be the zero vector if the initial point  A is the same as the end point  B. We use the standard notations  \hat{i},\hat{j},\hat{k} and  \bar{0} to denote the position vectors of the points  (1,0,0),(0,1,0),(0,0,1), and  (0,0,0), respectively. For a given point  (a_{1},a_{2},a_{3})\in \mathbb{R}^{3},  a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k} is called the position vector of the point  (a_{1},a_{2},a_{3}), which is the directed straight line segment with initial point  (0,0,0) and end point  (a_{1},a_{2},a_{3}). All real numbers are called scalars.
 
 XII - Mathematics
 
-Given a vector {{< katex >}}\overline{AB}{{< /katex >}}, the length of the vector is calculated by
+Given a vector  \overline{AB}, the length of the vector is calculated by
 
-{{< katex display=true >}}
+
 \sqrt{(b_{1} - a_{1})^{2} + (b_{2} - a_{2})^{2} + (b_{3} - a_{3})^{2}},
-{{< /katex >}}
 
-where {{< katex >}}A{{< /katex >}} is {{< katex >}}(a_{1},a_{2},a_{3}){{< /katex >}} and {{< katex >}}B{{< /katex >}} is {{< katex >}}(b_{1},b_{2},b_{3}){{< /katex >}}. In particular, if a vector is the position vector {{< katex >}}\vec{b}{{< /katex >}} of {{< katex >}}(b_{1},b_{2},b_{3}){{< /katex >}}, then its length is {{< katex >}}\sqrt{b_{1}^{2} + b_{2}^{2} + b_{3}^{2}}{{< /katex >}}. A vector having length 1 is called a unit vector. We use the notation {{< katex >}}\hat{a}{{< /katex >}}, for a unit vector. Note that {{< katex >}}\hat{i},\hat{j}{{< /katex >}}, and {{< katex >}}\hat{k}{{< /katex >}} are unit vectors and {{< katex >}}\vec{0}{{< /katex >}} is the unique vector with length 0. The direction of {{< katex >}}\vec{0}{{< /katex >}} is specified according to the context.
+
+where  A is  (a_{1},a_{2},a_{3}) and  B is  (b_{1},b_{2},b_{3}). In particular, if a vector is the position vector  \vec{b} of  (b_{1},b_{2},b_{3}), then its length is  \sqrt{b_{1}^{2} + b_{2}^{2} + b_{3}^{2}}. A vector having length 1 is called a unit vector. We use the notation  \hat{a}, for a unit vector. Note that  \hat{i},\hat{j}, and  \hat{k} are unit vectors and  \vec{0} is the unique vector with length 0. The direction of  \vec{0} is specified according to the context.
 
 The addition and scalar multiplication on vectors in 3- dimensional space are defined by
 
-{{< katex display=true >}}
-\vec{a} +\vec{b} = (a_{1} + b_{1})\hat{i} +(a_{2} + b_{2})\hat{j} +(a_{3} + b_{3})\hat{k}.
-{{< /katex >}}
 
-{{< katex display=true >}}
+\vec{a} +\vec{b} = (a_{1} + b_{1})\hat{i} +(a_{2} + b_{2})\hat{j} +(a_{3} + b_{3})\hat{k}.
+
+
+
 \alpha \vec{a} = (\alpha a_{1})\hat{i} +(\alpha a_{2})\hat{j} +(\alpha a_{3})\hat{k};
-{{< /katex >}}
+
 
 where
 
-{{< katex display=true >}}
+
 \vec{a} = a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k},\vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k}\in \mathbb{R}^{3}\mathrm{~and~}\alpha \in \mathbb{R}.
-{{< /katex >}}
 
-To see the geometric interpretation of {{< katex >}}\vec{a} +\vec{b}{{< /katex >}}, let {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}}, denote the position vectors of {{< katex >}}A = (a_{1},a_{2},a_{3}){{< /katex >}} and {{< katex >}}B = (b_{1},b_{2},b_{3}){{< /katex >}}, respectively. Translate the position vector {{< katex >}}\vec{b}{{< /katex >}} to the vector with initial point as {{< katex >}}A{{< /katex >}} and end point as {{< katex >}}C = (c_{1},c_{2},c_{3}){{< /katex >}}, for a suitable {{< katex >}}(c_{1},c_{2},c_{3})\in \mathbb{R}^{3}{{< /katex >}}. See the Fig (6.2). Then, the position vector {{< katex >}}\vec{c}{{< /katex >}} of the point {{< katex >}}(c_{1},c_{2},c_{3}){{< /katex >}} is equal to {{< katex >}}\vec{a} +\vec{b}{{< /katex >}}.
 
-The vector {{< katex >}}\alpha \vec{a}{{< /katex >}} is another vector parallel to {{< katex >}}\vec{a}{{< /katex >}} and its length is magnified (if {{< katex >}}\alpha >1{{< /katex >}} ) or contracted (if {{< katex >}}0< \alpha < 1{{< /katex >}}). If {{< katex >}}\alpha < 0{{< /katex >}}, then {{< katex >}}\alpha \vec{a}{{< /katex >}} is a vector whose magnitude is {{< katex >}}|\alpha |{{< /katex >}} times that of {{< katex >}}\vec{a}{{< /katex >}} and direction opposite to that of {{< katex >}}\vec{a}{{< /katex >}}. In particular, if {{< katex >}}\alpha = - 1{{< /katex >}}, then {{< katex >}}\alpha \vec{a} = -\vec{a}{{< /katex >}} is the vector with same length and direction opposite to that of {{< katex >}}\vec{a}{{< /katex >}}. See Fig. 6.3
+To see the geometric interpretation of  \vec{a} +\vec{b}, let  \vec{a} and  \vec{b}, denote the position vectors of  A = (a_{1},a_{2},a_{3}) and  B = (b_{1},b_{2},b_{3}), respectively. Translate the position vector  \vec{b} to the vector with initial point as  A and end point as  C = (c_{1},c_{2},c_{3}), for a suitable  (c_{1},c_{2},c_{3})\in \mathbb{R}^{3}. See the Fig (6.2). Then, the position vector  \vec{c} of the point  (c_{1},c_{2},c_{3}) is equal to  \vec{a} +\vec{b}.
+
+The vector  \alpha \vec{a} is another vector parallel to  \vec{a} and its length is magnified (if  \alpha >1 ) or contracted (if  0< \alpha < 1). If  \alpha < 0, then  \alpha \vec{a} is a vector whose magnitude is  |\alpha | times that of  \vec{a} and direction opposite to that of  \vec{a}. In particular, if  \alpha = - 1, then  \alpha \vec{a} = -\vec{a} is the vector with same length and direction opposite to that of  \vec{a}. See Fig. 6.3
 
 <center>Fig. 6.2 </center>
 
@@ -70,66 +70,66 @@ Next we recall the scalar product and vector product of two vectors as follows.
 
 ## Definition 6.1
 
-Given two vectors {{< katex >}}\vec{a} = a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k}{{< /katex >}} and {{< katex >}}\vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k}{{< /katex >}} the scalar product (or dot product) is denoted by {{< katex >}}\vec{a}\cdot \vec{b}{{< /katex >}} and is calculated by
+Given two vectors  \vec{a} = a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k} and  \vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k} the scalar product (or dot product) is denoted by  \vec{a}\cdot \vec{b} and is calculated by
 
-{{< katex display=true >}}
+
 \vec{a}\cdot \vec{b} = a_{1}b_{1} + a_{2}b_{2} + a_{3}b_{3},
-{{< /katex >}}
 
-and the vector product (or cross product) is denoted by {{< katex >}}\vec{a}\times \vec{b}{{< /katex >}}, and is calculated by
 
-{{< katex display=true >}}
+and the vector product (or cross product) is denoted by  \vec{a}\times \vec{b}, and is calculated by
+
+
 \vec{a}\times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}
-{{< /katex >}}
+
 
 **Note**
 
-{{< katex >}}\vec{a}\cdot \vec{b}{{< /katex >}} is a scalar, and {{< katex >}}\vec{a}\times \vec{b}{{< /katex >}} is a vector.
+ \vec{a}\cdot \vec{b} is a scalar, and  \vec{a}\times \vec{b} is a vector.
 
 #### 6.3.1 Geometrical interpretation
 
-Geometrically, if {{< katex >}}\vec{a}{{< /katex >}} is an arbitrary vector and {{< katex >}}\hat{n}{{< /katex >}} is a unit vector, then {{< katex >}}\vec{a}\cdot \hat{n}{{< /katex >}} is the projection of the vector {{< katex >}}\vec{a}{{< /katex >}} on the straight line on which {{< katex >}}\hat{n}{{< /katex >}} lies. The quantity {{< katex >}}\vec{a}\cdot \hat{n}{{< /katex >}} is positive if the angle between {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\hat{n}{{< /katex >}} is acute, see Fig. 6.4 and negative if the angle between {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\hat{n}{{< /katex >}} is obtuse see Fig. 6.5.
+Geometrically, if  \vec{a} is an arbitrary vector and  \hat{n} is a unit vector, then  \vec{a}\cdot \hat{n} is the projection of the vector  \vec{a} on the straight line on which  \hat{n} lies. The quantity  \vec{a}\cdot \hat{n} is positive if the angle between  \vec{a} and  \hat{n} is acute, see Fig. 6.4 and negative if the angle between  \vec{a} and  \hat{n} is obtuse see Fig. 6.5.
 
 <center>Positive dot product Fig. 6.4 </center>
 
 <center>Negative dot product Fig. 6.5 </center>
 
-If {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} are arbitrary non- zero vectors, then {{< katex >}}|\vec{a}\cdot \vec{b}| = \left|\vec{b}\mid \vec{a}\cdot \left(\frac{\vec{b}}{|\vec{b}|}\right)\right| = \left|\vec{a}\mid \vec{b}\cdot \left(\frac{\vec{a}}{|\vec{a}|}\right)\right|{{< /katex >}} and so {{< katex >}}|\vec{a}\cdot \vec{b}|{{< /katex >}} means either the length of the straight line segment obtained by projecting the vector {{< katex >}}|\vec{b}\mid \vec{a}{{< /katex >}} along the direction of {{< katex >}}\vec{b}{{< /katex >}} or the length of the line segment obtained by projecting the vector {{< katex >}}|\vec{a}\mid \vec{b}{{< /katex >}} along the direction of {{< katex >}}\vec{a}{{< /katex >}}. We recall that {{< katex >}}\vec{a}\cdot \vec{b} = |\vec{a} |\mid \vec{b} |\cos \theta{{< /katex >}}, where {{< katex >}}\theta{{< /katex >}} is the angle between the two vectors {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}}. We recall that the angle between {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} is defined as the measure from {{< katex >}}\vec{a}{{< /katex >}} to {{< katex >}}\vec{b}{{< /katex >}} in the counter clockwise direction.
+If  \vec{a} and  \vec{b} are arbitrary non- zero vectors, then  |\vec{a}\cdot \vec{b}| = \left|\vec{b}\mid \vec{a}\cdot \left(\frac{\vec{b}}{|\vec{b}|}\right)\right| = \left|\vec{a}\mid \vec{b}\cdot \left(\frac{\vec{a}}{|\vec{a}|}\right)\right| and so  |\vec{a}\cdot \vec{b}| means either the length of the straight line segment obtained by projecting the vector  |\vec{b}\mid \vec{a} along the direction of  \vec{b} or the length of the line segment obtained by projecting the vector  |\vec{a}\mid \vec{b} along the direction of  \vec{a}. We recall that  \vec{a}\cdot \vec{b} = |\vec{a} |\mid \vec{b} |\cos \theta, where  \theta is the angle between the two vectors  \vec{a} and  \vec{b}. We recall that the angle between  \vec{a} and  \vec{b} is defined as the measure from  \vec{a} to  \vec{b} in the counter clockwise direction.
 
-The vector {{< katex >}}\vec{a}\times \vec{b}{{< /katex >}} is either {{< katex >}}\vec{0}{{< /katex >}} or a vector perpendicular to the plane parallel to both {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} having magnitude as the area of the parallelogram formed by coterminus vectors parallel to {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}}. If {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} are non- zero vectors, then the magnitude of {{< katex >}}\vec{a}\times \vec{b}{{< /katex >}} can be calculated by the formula
+The vector  \vec{a}\times \vec{b} is either  \vec{0} or a vector perpendicular to the plane parallel to both  \vec{a} and  \vec{b} having magnitude as the area of the parallelogram formed by coterminus vectors parallel to  \vec{a} and  \vec{b}. If  \vec{a} and  \vec{b} are non- zero vectors, then the magnitude of  \vec{a}\times \vec{b} can be calculated by the formula
 
-{{< katex display=true >}}
+
 |\vec{a}\times \vec{b}| = |\vec{a} |\mid \vec{b} |\mid \sin \theta |, \text{where} \theta \text{is the angle between} \vec{a} \text{and} \vec{b}.
-{{< /katex >}}
+
 
 Two vectors are said to be coterminus if they have same initial point.
 
-(1) An angle between two non-zero vectors {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} is found by the following formula
+(1) An angle between two non-zero vectors  \vec{a} and  \vec{b} is found by the following formula
 
-{{< katex display=true >}}
+
 \theta = \cos^{-1} \left( \frac{\vec{a}\cdot\vec{b}}{|\vec{a}||\vec{b}|} \right)
-{{< /katex >}}
 
-(2) {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} are said to be parallel if the angle between them is 0 or {{< katex >}}\pi{{< /katex >}}.
 
-(3) {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} are said to be perpendicular if the angle between them is {{< katex >}}\frac{\pi}{2}{{< /katex >}} or {{< katex >}}\frac{3\pi}{2}{{< /katex >}}.
+(2)  \vec{a} and  \vec{b} are said to be parallel if the angle between them is 0 or  \pi.
+
+(3)  \vec{a} and  \vec{b} are said to be perpendicular if the angle between them is  \frac{\pi}{2} or  \frac{3\pi}{2}.
 
 ## Property
 
-(1) Let {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} be any two nonzero vectors. Then
+(1) Let  \vec{a} and  \vec{b} be any two nonzero vectors. Then
 
-{{< katex >}}\vec{a}\cdot \vec{b} = 0{{< /katex >}} if and only if {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} are perpendicular to each other.
+ \vec{a}\cdot \vec{b} = 0 if and only if  \vec{a} and  \vec{b} are perpendicular to each other.
 
-{{< katex >}}\vec{a}\times \vec{b} = \vec{0}{{< /katex >}} if and only if {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} are parallel to each other.
+ \vec{a}\times \vec{b} = \vec{0} if and only if  \vec{a} and  \vec{b} are parallel to each other.
 
-(2) If {{< katex >}}\vec{a},\vec{b}{{< /katex >}}, and {{< katex >}}\vec{c}{{< /katex >}} are any three vectors and {{< katex >}}\alpha{{< /katex >}} is a scalar, then
+(2) If  \vec{a},\vec{b}, and  \vec{c} are any three vectors and  \alpha is a scalar, then
 
-{{< katex display=true >}}
+
 \vec{a}\cdot \vec{b} = \vec{b}\cdot \vec{a},(\vec{a} +\vec{b})\cdot \vec{c} = \vec{a}\cdot \vec{c} +\vec{b}\cdot \vec{c},(\alpha \vec{a})\cdot \vec{b} = \alpha (\vec{a}\cdot \vec{b}) = \vec{a}\cdot (\alpha \vec{b});
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \vec{a}\times \vec{b} = -(\vec{b}\times \vec{a}),(\vec{a} +\vec{b})\times \vec{c} = \vec{a}\times \vec{c} +\vec{b}\times \vec{c},(\alpha \vec{a})\times \vec{b} = \alpha (\vec{a}\times \vec{b}) = \vec{a}\times (\alpha \vec{b}).
-{{< /katex >}}
+
 
 #### 6.3.2 Application of dot and cross products in plane Trigonometry
 
@@ -137,37 +137,37 @@ We apply the concepts of dot and cross products of two vectors to derive a few f
 
 **Example 6.1 (Cosine formulae)**
 
-With usual notations, in any triangle {{< katex >}}ABC{{< /katex >}}, prove the following by vector method.
+With usual notations, in any triangle  ABC, prove the following by vector method.
 
-{{< katex display=true >}}
+
 a^{2} = b^{2} + c^{2} - 2bc\cos A
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 c^{2} = a^{2} + b^{2} - 2ab\cos C
-{{< /katex >}}
+
 
 ## Solution
 
-With usual notations in triangle {{< katex >}}ABC{{< /katex >}}, we have {{< katex >}}\overline{BC} = \vec{a},\overline{CA} = \vec{b}{{< /katex >}} and {{< katex >}}\overline{AB} = \vec{c}{{< /katex >}}. Then {{< katex >}}|\overline{BC} | = a,|\overline{CA} | = b{{< /katex >}}, {{< katex >}}|\overline{AB} | = c{{< /katex >}} and {{< katex >}}\overline{BC} +\overline{CA} +\overline{AB} = \vec{0}{{< /katex >}}.
+With usual notations in triangle  ABC, we have  \overline{BC} = \vec{a},\overline{CA} = \vec{b} and  \overline{AB} = \vec{c}. Then  |\overline{BC} | = a,|\overline{CA} | = b,  |\overline{AB} | = c and  \overline{BC} +\overline{CA} +\overline{AB} = \vec{0}.
 
-{{< katex display=true >}}
+
 \mathrm{So},\overline{BC} = -\overline{CA} -\overline{AB}.
-{{< /katex >}}
+
 
 Then applying dot product, we get
 
-{{< katex display=true >}}
+
 \overline{BC}\cdot \overline{BC} = (-\overline{CA} -\overline{AB})\cdot (-\overline{CA} -\overline{AB})
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \Rightarrow |\overline{BC}|^{2} = |\overline{CA}|^{2} + |\overline{AB}|^{2} + 2\overline{CA}\cdot \overline{AB}
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \Rightarrow a^{2} = b^{2} + c^{2} + 2bc\cos (\pi -A)
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \Rightarrow a^{2} = b^{2} + c^{2} - 2bc\cos A.
-{{< /katex >}}
+
 
 <center>Fig. 6.6 </center>
 
@@ -175,68 +175,68 @@ The results in (ii) and (iii) are proved in a similar way.
 
 ## Example 6.2
 
-With usual notations, in any triangle {{< katex >}}ABC{{< /katex >}}, prove the following by vector method.
+With usual notations, in any triangle  ABC, prove the following by vector method.
 
-{{< katex display=true >}}
+
 a = b\cos C + c\cos B
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 c = a\cos B + b\cos A
-{{< /katex >}}
+
 
 ## Solution
 
-With usual notations in triangle {{< katex >}}A B C{{< /katex >}}, we have {{< katex >}}\overrightarrow{B C} = \vec{a}{{< /katex >}} {{< katex >}}\overrightarrow{C A} = \vec{b}{{< /katex >}}, and {{< katex >}}\overrightarrow{A B} = \vec{c}{{< /katex >}}. Then
+With usual notations in triangle  A B C, we have  \overrightarrow{B C} = \vec{a}  \overrightarrow{C A} = \vec{b}, and  \overrightarrow{A B} = \vec{c}. Then
 
-{{< katex display=true >}}
+
 |\overrightarrow{B C}| = a, |\overrightarrow{C A}| = b, |\overrightarrow{A B}| = c \text{ and } \overrightarrow{B C} +\overrightarrow{C A} +\overrightarrow{A B} = \vec{0}
-{{< /katex >}}
 
-So, {{< katex >}}\overrightarrow{B C} = -\overrightarrow{C A} -\overrightarrow{A B}{{< /katex >}}
+
+So,  \overrightarrow{B C} = -\overrightarrow{C A} -\overrightarrow{A B}
 
 Applying dot product, we get
 
-{{< katex display=true >}}
-\overrightarrow{B C}\cdot \overrightarrow{B C} = -\overrightarrow{B C}\cdot \overrightarrow{C A} -\overrightarrow{B C}\cdot \overrightarrow{A B}
-{{< /katex >}}
-{{< katex display=true >}}
-\Rightarrow |\overrightarrow{B C}|^{2} = -|\overrightarrow{B C} |\overrightarrow{C A} |\cos (\pi -C) - |\overrightarrow{B C} |\overrightarrow{A B} |\cos (\pi -B)
-{{< /katex >}}
-{{< katex display=true >}}
-\Rightarrow a^{2} = a b\cos C + a c\cos B
-{{< /katex >}}
 
-Therefore {{< katex >}}a = b\cos C + c\cos B{{< /katex >}}. The results in (ii) and (iii) are proved in a similar way.
+\overrightarrow{B C}\cdot \overrightarrow{B C} = -\overrightarrow{B C}\cdot \overrightarrow{C A} -\overrightarrow{B C}\cdot \overrightarrow{A B}
+
+
+\Rightarrow |\overrightarrow{B C}|^{2} = -|\overrightarrow{B C} |\overrightarrow{C A} |\cos (\pi -C) - |\overrightarrow{B C} |\overrightarrow{A B} |\cos (\pi -B)
+
+
+\Rightarrow a^{2} = a b\cos C + a c\cos B
+
+
+Therefore  a = b\cos C + c\cos B. The results in (ii) and (iii) are proved in a similar way.
 
 **Example 6.3**
 
-By vector method, prove that {{< katex >}}\cos (\alpha +\beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta{{< /katex >}}.
+By vector method, prove that  \cos (\alpha +\beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta.
 
 ## Solution
 
-Let {{< katex >}}\hat{a} = \overrightarrow{O A}{{< /katex >}} and {{< katex >}}\hat{b} = \overrightarrow{O B}{{< /katex >}} be the unit vectors and which make angles {{< katex >}}\alpha{{< /katex >}} and {{< katex >}}\beta{{< /katex >}}, respectively, with positive {{< katex >}}x{{< /katex >}} - axis, where {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} are as in the Fig. 6.8. Draw {{< katex >}}A L{{< /katex >}} and {{< katex >}}B M{{< /katex >}} perpendicular to the {{< katex >}}x{{< /katex >}} - axis. Then {{< katex >}}|\overrightarrow{O L}| = |\overrightarrow{O A} |\cos \alpha = \cos \alpha{{< /katex >}}, {{< katex >}}|\overrightarrow{L A}| = |\overrightarrow{O A} |\sin \alpha = \sin \alpha{{< /katex >}}.
+Let  \hat{a} = \overrightarrow{O A} and  \hat{b} = \overrightarrow{O B} be the unit vectors and which make angles  \alpha and  \beta, respectively, with positive  x - axis, where  A and  B are as in the Fig. 6.8. Draw  A L and  B M perpendicular to the  x - axis. Then  |\overrightarrow{O L}| = |\overrightarrow{O A} |\cos \alpha = \cos \alpha,  |\overrightarrow{L A}| = |\overrightarrow{O A} |\sin \alpha = \sin \alpha.
 
-{{< katex display=true >}}
+
 \overrightarrow{O L} = |\overrightarrow{O L} |\hat{i} = \cos \alpha \hat{i},\overrightarrow{L A} = \sin \alpha (-\hat{j}).
-{{< /katex >}}
 
-Therefore, {{< katex >}}\hat{a} = \overrightarrow{O A} = \overrightarrow{O L} +\overrightarrow{L A} = \cos \alpha \hat{i} - \sin \alpha \hat{j}{{< /katex >}} ... (1)
 
-Similarly, {{< katex >}}\hat{b} = \cos \beta \hat{i} +\sin \beta \hat{j}{{< /katex >}} ... (2)
+Therefore,  \hat{a} = \overrightarrow{O A} = \overrightarrow{O L} +\overrightarrow{L A} = \cos \alpha \hat{i} - \sin \alpha \hat{j} ... (1)
 
-The angle between {{< katex >}}\hat{a}{{< /katex >}} and {{< katex >}}\hat{b}{{< /katex >}} is {{< katex >}}\alpha +\beta{{< /katex >}} and so,
+Similarly,  \hat{b} = \cos \beta \hat{i} +\sin \beta \hat{j} ... (2)
 
-{{< katex display=true >}}
+The angle between  \hat{a} and  \hat{b} is  \alpha +\beta and so,
+
+
 \hat{a}\cdot \hat{b} = |\hat{a} |\mid \hat{b} |\cos (\alpha +\beta) = \cos (\alpha +\beta) \dots (3)
-{{< /katex >}}
+
 
 On the other hand, from (1) and (2)
 
-{{< katex display=true >}}
-\hat{a}\cdot \hat{b} = (\cos \alpha \hat{i} -\sin \alpha \hat{j})\cdot (\cos \beta \hat{i} +\sin \beta \hat{j}) = \cos \alpha \cos \beta -\sin \alpha \sin \beta \dots (4)
-{{< /katex >}}
 
-From (3) and (4), we get {{< katex >}}\cos (\alpha +\beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta{{< /katex >}}.
+\hat{a}\cdot \hat{b} = (\cos \alpha \hat{i} -\sin \alpha \hat{j})\cdot (\cos \beta \hat{i} +\sin \beta \hat{j}) = \cos \alpha \cos \beta -\sin \alpha \sin \beta \dots (4)
+
+
+From (3) and (4), we get  \cos (\alpha +\beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta.
 
 <center>Fig. 6.7 </center>
 
@@ -246,99 +246,99 @@ From (3) and (4), we get {{< katex >}}\cos (\alpha +\beta) = \cos \alpha \cos \b
 
 **Example 6.4**
 
-With usual notations, in any triangle {{< katex >}}A B C{{< /katex >}}, prove by vector method that {{< katex >}}\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}{{< /katex >}}.
+With usual notations, in any triangle  A B C, prove by vector method that  \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}.
 
 ## Solution
 
-With usual notations in triangle {{< katex >}}A B C{{< /katex >}}, we have {{< katex >}}\overrightarrow{B C} = \vec{a},\overrightarrow{C A} = \vec{b}{{< /katex >}}, and {{< katex >}}\overrightarrow{A B} = \vec{c}{{< /katex >}}. Then {{< katex >}}|\overrightarrow{B C}| = a{{< /katex >}}, {{< katex >}}|\overrightarrow{C A}| = b{{< /katex >}} and {{< katex >}}|\overrightarrow{A B}| = c{{< /katex >}}.
+With usual notations in triangle  A B C, we have  \overrightarrow{B C} = \vec{a},\overrightarrow{C A} = \vec{b}, and  \overrightarrow{A B} = \vec{c}. Then  |\overrightarrow{B C}| = a,  |\overrightarrow{C A}| = b and  |\overrightarrow{A B}| = c.
 
-Since in {{< katex >}}\Delta A B C{{< /katex >}}, {{< katex >}}\overrightarrow{B C} +\overrightarrow{C A} +\overrightarrow{A B} = 0{{< /katex >}}, we have {{< katex >}}\overrightarrow{B C}\times (\overrightarrow{B C} +\overrightarrow{C A} +\overrightarrow{A B}) = \vec{0}{{< /katex >}}.
+Since in  \Delta A B C,  \overrightarrow{B C} +\overrightarrow{C A} +\overrightarrow{A B} = 0, we have  \overrightarrow{B C}\times (\overrightarrow{B C} +\overrightarrow{C A} +\overrightarrow{A B}) = \vec{0}.
 
 Simplification gives,
 
-{{< katex display=true >}}
+
 \overrightarrow{B C}\times \overrightarrow{C A} = \overrightarrow{A B}\times \overrightarrow{B C}.
-{{< /katex >}}
 
-Similarly, since {{< katex >}}\overrightarrow{B C} +\overrightarrow{C A} +\overrightarrow{A B} = \vec{0}{{< /katex >}}, we have
 
-{{< katex display=true >}}
+Similarly, since  \overrightarrow{B C} +\overrightarrow{C A} +\overrightarrow{A B} = \vec{0}, we have
+
+
 \overrightarrow{C A}\times (\overrightarrow{B C} +\overrightarrow{C A} +\overrightarrow{A B}) = \vec{0}.
-{{< /katex >}}
+
 
 <center>Fig. 6.9 </center>
 
-On Simplification, we obtain {{< katex >}}\overline{BC}\times \overline{CA} = \overline{CA}\times \overline{AB}{{< /katex >}} (2) Equations (1) and (2), we get
+On Simplification, we obtain  \overline{BC}\times \overline{CA} = \overline{CA}\times \overline{AB} (2) Equations (1) and (2), we get
 
-{{< katex display=true >}}
+
 \overline{AB}\times \overline{BC} = \overline{CA}\times \overline{AB} = \overline{BC}\times \overline{CA}.
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 \mathrm{So}, |\overline{AB}\times \overline{BC}| = |\overline{CA}\times \overline{AB}| = |\overline{BC}\times \overline{CA}|.
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 c a\sin (\pi -B) = b c\sin (\pi -A) = a b\sin (\pi -C).
-{{< /katex >}}
 
-That is, {{< katex >}}c a\sin B = b c\sin A = a b\sin C{{< /katex >}}. Dividing by {{< katex >}}a b c{{< /katex >}}, leads to
 
-{{< katex display=true >}}
+That is,  c a\sin B = b c\sin A = a b\sin C. Dividing by  a b c, leads to
+
+
 \frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}\quad \mathrm{or}\quad \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}
-{{< /katex >}}
+
 
 ## Example 6.5
 
-Prove by vector method that {{< katex >}}\sin (\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta{{< /katex >}}.
+Prove by vector method that  \sin (\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta.
 
 ## Solution
 
-Let {{< katex >}}\hat{a} = \overline{OA}{{< /katex >}} and {{< katex >}}\vec{b} = \overline{OB}{{< /katex >}} be the unit vectors making angles {{< katex >}}\alpha{{< /katex >}} and {{< katex >}}\beta{{< /katex >}} respectively, with positive {{< katex >}}x{{< /katex >}} - axis, where {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} are as shown in the Fig. 6.10. Then, we get {{< katex >}}\hat{a} = \cos \alpha \hat{i} +\sin \alpha \hat{j}{{< /katex >}} and {{< katex >}}\hat{b} = \cos \beta \hat{i} +\sin \beta \hat{j}{{< /katex >}}
+Let  \hat{a} = \overline{OA} and  \vec{b} = \overline{OB} be the unit vectors making angles  \alpha and  \beta respectively, with positive  x - axis, where  A and  B are as shown in the Fig. 6.10. Then, we get  \hat{a} = \cos \alpha \hat{i} +\sin \alpha \hat{j} and  \hat{b} = \cos \beta \hat{i} +\sin \beta \hat{j}
 
-The angle between {{< katex >}}\hat{a}{{< /katex >}} and {{< katex >}}\hat{b}{{< /katex >}} is {{< katex >}}\alpha - \beta{{< /katex >}} and, the vectors {{< katex >}}\hat{b},\hat{a},\hat{k}{{< /katex >}} form a right- handed system.
+The angle between  \hat{a} and  \hat{b} is  \alpha - \beta and, the vectors  \hat{b},\hat{a},\hat{k} form a right- handed system.
 
 <center>Fig. 6.10 </center>
 
 Hence, we get
 
-{{< katex display=true >}}
+
 \hat{b}\times \hat{a} = |\hat{b} |\mid \hat{a} |\sin (\alpha -\beta)\hat{k} = \sin (\alpha -\beta)\hat{k}.
-{{< /katex >}}
+
 
 On the other hand,
 
-{{< katex display=true >}}
+
 \hat{b}\times \hat{a} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k}\\ \cos \beta & \sin \beta & 0\\ \cos \alpha & \sin \alpha & 0 \end{vmatrix} = (\sin \alpha \cos \beta - \cos \alpha \sin \beta)\hat{k} \quad (2)
-{{< /katex >}}
+
 
 Hence, equations (1) and (2), leads to
 
-{{< katex display=true >}}
+
 \sin (\alpha -\beta) = \sin \alpha \cos \beta -\cos \alpha \sin \beta .
-{{< /katex >}}
+
 
 #### 6.3.3 Application of dot and cross products in Geometry
 
 **Example 6.6 (Apollonius's theorem)**
 
-If {{< katex >}}D{{< /katex >}} is the midpoint of the side {{< katex >}}B C{{< /katex >}} of a triangle {{< katex >}}A B C{{< /katex >}}, show by vector method that {{< katex >}}\mid \overline{{A B}}\mid^{2} + \mid \overline{{A C}}\mid^{2} = 2(\mid \overline{{A D}}\mid^{2} + \mid \overline{{B D}}\mid^{2}){{< /katex >}}
+If  D is the midpoint of the side  B C of a triangle  A B C, show by vector method that  \mid \overline{{A B}}\mid^{2} + \mid \overline{{A C}}\mid^{2} = 2(\mid \overline{{A D}}\mid^{2} + \mid \overline{{B D}}\mid^{2})
 
 ## Solution
 
-Let {{< katex >}}A{{< /katex >}} be the origin, {{< katex >}}\vec{b}{{< /katex >}} be the position vector of {{< katex >}}B{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}} be the position vector of {{< katex >}}C{{< /katex >}}. Now {{< katex >}}D{{< /katex >}} is the midpoint of {{< katex >}}B C{{< /katex >}}, and so the, position vector of {{< katex >}}D{{< /katex >}} is {{< katex >}}\frac{\vec{b} + \vec{c}}{2}{{< /katex >}}. Therefore, we have
+Let  A be the origin,  \vec{b} be the position vector of  B and  \vec{c} be the position vector of  C. Now  D is the midpoint of  B C, and so the, position vector of  D is  \frac{\vec{b} + \vec{c}}{2}. Therefore, we have
 
 <center>Fig. 6.11 </center>
 
-{{< katex display=true >}}
+
 \begin{array}{r}{\overline{{A D}}\big|^{2} = \overline{{A D}}\cdot \overline{{A D}} = \left(\frac{\bar{b} + \bar{c}}{2}\right)\left(\frac{\bar{b} + \bar{c}}{2}\right) = \frac{1}{4}\big(\bar{b}\big|^{2} + \big|\bar{c}\big|^{2} + 2\bar{b}\cdot \bar{c}\big).} \end{array} (1)
-{{< /katex >}}
-Now, {{< katex >}}\overline{{B D}} = \overline{{A D}} - \overline{{A B}} = \frac{\bar{b} + \bar{c}}{2} - \bar{b} = \frac{\bar{c} - \bar{b}}{2}.{{< /katex >}} Then, this gives, {{< katex >}}\mid \overline{{B D}}\mid^{2} = \overline{{B D}}\cdot \overline{{B D}} = \left(\frac{\bar{c} - \bar{b}}{2}\right)\left(\frac{\bar{c} - \bar{b}}{2}\right) = \frac{1}{4}\big(\bar{b}\big|^{2} + \big|\bar{c}\big|^{2} - 2\bar{b}\cdot \bar{c}\big){{< /katex >}} (2)
-Now, adding (1) and (2), we get Therefore, {{< katex >}}\mid \overline{{A D}}\mid^{2} + \mid \overline{{B D}}\mid^{2} = \frac{1}{4}\big(\bar{b}\big|^{2} + \big|\bar{c}\big|^{2} + 2\bar{b}\cdot \bar{c}\big) + \frac{1}{4}\big(\bar{b}\big|^{2} + \big|\bar{c}\big|^{2} - 2\bar{b}\cdot \bar{c}\big) = \frac{1}{2}\big(\bar{b}\big|^{2} + \big|\bar{c}\big|^{2}\big){{< /katex >}}
-{{< katex display=true >}}
+
+Now,  \overline{{B D}} = \overline{{A D}} - \overline{{A B}} = \frac{\bar{b} + \bar{c}}{2} - \bar{b} = \frac{\bar{c} - \bar{b}}{2}. Then, this gives,  \mid \overline{{B D}}\mid^{2} = \overline{{B D}}\cdot \overline{{B D}} = \left(\frac{\bar{c} - \bar{b}}{2}\right)\left(\frac{\bar{c} - \bar{b}}{2}\right) = \frac{1}{4}\big(\bar{b}\big|^{2} + \big|\bar{c}\big|^{2} - 2\bar{b}\cdot \bar{c}\big) (2)
+Now, adding (1) and (2), we get Therefore,  \mid \overline{{A D}}\mid^{2} + \mid \overline{{B D}}\mid^{2} = \frac{1}{4}\big(\bar{b}\big|^{2} + \big|\bar{c}\big|^{2} + 2\bar{b}\cdot \bar{c}\big) + \frac{1}{4}\big(\bar{b}\big|^{2} + \big|\bar{c}\big|^{2} - 2\bar{b}\cdot \bar{c}\big) = \frac{1}{2}\big(\bar{b}\big|^{2} + \big|\bar{c}\big|^{2}\big)
+
 \Rightarrow \mid \overline{{A D}}\mid^{2} + \mid \overline{{B D}}\mid^{2} = \frac{1}{2}\big(\mid \overline{{A B}}\mid^{2} + \mid \overline{{A C}}\mid^{2}\big).
-{{< /katex >}}
-Hence, {{< katex >}}\mid \overline{{A B}}\mid^{2} + \mid \overline{{A C}} \mid^{2} = 2\big(\mid \overline{{A D}}\mid^{2} + \mid \overline{{B D}}\mid^{2}\big){{< /katex >}}
+
+Hence,  \mid \overline{{A B}}\mid^{2} + \mid \overline{{A C}} \mid^{2} = 2\big(\mid \overline{{A D}}\mid^{2} + \mid \overline{{B D}}\mid^{2}\big)
 
 **Example 6.7**
 
@@ -346,63 +346,63 @@ Prove by vector method that the perpendiculars (altitudes) from the vertices to 
 
 <center>Fig. 6.12 </center>
 
-Consider a triangle ABC in which the two altitudes AD and BE intersect at O. Let CO be produced to meet AB at F. We take O as the origin and let {{< katex >}}\overline{{O A}} = \bar{a},\overline{{O B}} = \bar{b}{{< /katex >}} and {{< katex >}}\overline{{O C}} = \bar{c}{{< /katex >}}.
+Consider a triangle ABC in which the two altitudes AD and BE intersect at O. Let CO be produced to meet AB at F. We take O as the origin and let  \overline{{O A}} = \bar{a},\overline{{O B}} = \bar{b} and  \overline{{O C}} = \bar{c}.
 
-Since {{< katex >}}\overline{{A D}}{{< /katex >}} is perpendicular to {{< katex >}}\overline{{B C}}{{< /katex >}}, we have {{< katex >}}\overline{{O A}}{{< /katex >}} is perpendicular to {{< katex >}}\overline{{B C}}{{< /katex >}}, and hence we get {{< katex >}}\overline{{O A}}\cdot \overline{{B C}} = 0{{< /katex >}}. That is, {{< katex >}}\bar{a}\cdot (\bar{c} - \bar{b}) = 0{{< /katex >}}, which means
+Since  \overline{{A D}} is perpendicular to  \overline{{B C}}, we have  \overline{{O A}} is perpendicular to  \overline{{B C}}, and hence we get  \overline{{O A}}\cdot \overline{{B C}} = 0. That is,  \bar{a}\cdot (\bar{c} - \bar{b}) = 0, which means
 
-{{< katex display=true >}}
+
 \bar{a}\cdot \bar{c} -\bar{a}\cdot \bar{b} = 0. \quad (1)
-{{< /katex >}}
 
-Similarly, since {{< katex >}}\overline{{B E}}{{< /katex >}} is perpendicular to {{< katex >}}\overline{{C A}}{{< /katex >}}, we have {{< katex >}}\overline{{O B}}{{< /katex >}} is perpendicular to {{< katex >}}\overline{{C A}}{{< /katex >}}, and hence we get {{< katex >}}\overline{{O B}}\cdot \overline{{C A}} = 0{{< /katex >}}. That is, {{< katex >}}\bar{b}\cdot (\bar{a} - \bar{c}) = 0{{< /katex >}}, which means,
 
-{{< katex display=true >}}
+Similarly, since  \overline{{B E}} is perpendicular to  \overline{{C A}}, we have  \overline{{O B}} is perpendicular to  \overline{{C A}}, and hence we get  \overline{{O B}}\cdot \overline{{C A}} = 0. That is,  \bar{b}\cdot (\bar{a} - \bar{c}) = 0, which means,
+
+
 \bar{a}\cdot \bar{b} -\bar{b}\cdot \bar{c} = 0. \quad (2)
-{{< /katex >}}
 
-Adding equations (1) and (2), gives {{< katex >}}\bar{a}\cdot \bar{c} - \bar{b}\cdot \bar{c} = 0{{< /katex >}}. That is, {{< katex >}}\bar{c}\cdot (\bar{a} - \bar{b}) = 0{{< /katex >}}.
 
-That is, {{< katex >}}\overline{{O C}}\cdot \overline{{B A}} = 0{{< /katex >}}. Therefore, {{< katex >}}\overline{{B A}}{{< /katex >}} is perpendicular to {{< katex >}}\overline{{O C}}{{< /katex >}} which implies that {{< katex >}}\overline{{C F}}{{< /katex >}} is perpendicular to {{< katex >}}\overline{{A B}}{{< /katex >}}. Hence, the perpendicular drawn from C to the side AB passes through O. Thus, the altitudes are concurrent.
+Adding equations (1) and (2), gives  \bar{a}\cdot \bar{c} - \bar{b}\cdot \bar{c} = 0. That is,  \bar{c}\cdot (\bar{a} - \bar{b}) = 0.
+
+That is,  \overline{{O C}}\cdot \overline{{B A}} = 0. Therefore,  \overline{{B A}} is perpendicular to  \overline{{O C}} which implies that  \overline{{C F}} is perpendicular to  \overline{{A B}}. Hence, the perpendicular drawn from C to the side AB passes through O. Thus, the altitudes are concurrent.
 
 ## Example 6.8
 
-In triangle ABC, the points D, E, F are the midpoints of the sides BC, CA, and AB respectively. Using vector method, show that the area of {{< katex >}}\Delta DEF{{< /katex >}} is equal to {{< katex >}}\frac{1}{4}{{< /katex >}} (area of {{< katex >}}\Delta ABC{{< /katex >}}).
+In triangle ABC, the points D, E, F are the midpoints of the sides BC, CA, and AB respectively. Using vector method, show that the area of  \Delta DEF is equal to  \frac{1}{4} (area of  \Delta ABC).
 
 <center>Fig. 6.13 </center>
 
 ## Solution
 
-In triangle {{< katex >}}A B C{{< /katex >}}, consider {{< katex >}}A{{< /katex >}} as the origin. Then the position vectors of {{< katex >}}D,E,F{{< /katex >}} are given by {{< katex >}}\frac{\overline{{A B}} + \overline{{A C}}}{2},\frac{\overline{{A C}}}{2},\frac{\overline{{A B}}}{2}{{< /katex >}} respectively. Since {{< katex >}}|\overline{{A B}}\times \overline{{A C}} |{{< /katex >}} is the area of the parallelogram formed by the two vectors {{< katex >}}\overline{{A B}}{{< /katex >}} {{< katex >}}\overline{{A C}}{{< /katex >}} as adjacent sides, the area of {{< katex >}}\Delta A B C{{< /katex >}} is {{< katex >}}\frac{1}{2} |\overline{{A B}}\times \overline{{A C}} |{{< /katex >}}. Similarly, considering {{< katex >}}\Delta D E F{{< /katex >}}, we have the area of {{< katex >}}\Delta D E F = \frac{1}{2} |\overline{{D E}}\times \overline{{D F}} |{{< /katex >}}
+In triangle  A B C, consider  A as the origin. Then the position vectors of  D,E,F are given by  \frac{\overline{{A B}} + \overline{{A C}}}{2},\frac{\overline{{A C}}}{2},\frac{\overline{{A B}}}{2} respectively. Since  |\overline{{A B}}\times \overline{{A C}} | is the area of the parallelogram formed by the two vectors  \overline{{A B}}  \overline{{A C}} as adjacent sides, the area of  \Delta A B C is  \frac{1}{2} |\overline{{A B}}\times \overline{{A C}} |. Similarly, considering  \Delta D E F, we have the area of  \Delta D E F = \frac{1}{2} |\overline{{D E}}\times \overline{{D F}} |
 
-{{< katex display=true >}}
+
 = \frac{1}{2} \left| \left( \frac{\overline{AC}}{2} - \frac{\overline{AB}}{2} \right) \times \left( \frac{\overline{AB}}{2} - \frac{\overline{AB}+\overline{AC}}{2} \right) \right|
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 =\frac{1}{2}\left| \left( \frac{\overline{AC} - \overline{AB}}{2} \right) \times \left( \frac{-\overline{AC}}{2} \right) \right|
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 =\frac{1}{2}\left| \frac{1}{4} (\overline{AB} - \overline{AC}) \times \overline{AC} \right|
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 =\frac{1}{8} |\overline{AB} \times \overline{AC}|
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 =\frac{1}{4}\left(\frac{1}{2}|\overline{{A B}}\times\overline{{A C}}|\right)
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 =\frac{1}{4}\left(\mathrm{the~area~of~}\Delta A B C\right).
-{{< /katex >}}
+
 
 #### 6.3.4 Application of dot and cross product in Physics
 
 ## Definition 6.2
 
-If {{< katex >}}\vec{d}{{< /katex >}} is the displacement vector of a particle moved from a point to another point after applying a constant force {{< katex >}}\vec{F}{{< /katex >}} on the particle, then the work done by the force on the particle is {{< katex >}}w = \vec{F}\cdot \vec{d}{{< /katex >}}.
+If  \vec{d} is the displacement vector of a particle moved from a point to another point after applying a constant force  \vec{F} on the particle, then the work done by the force on the particle is  w = \vec{F}\cdot \vec{d}.
 
 <center>Fig. 6.14 </center>
 
@@ -410,63 +410,63 @@ If the force has an acute angle, perpendicular angle, and an obtuse angle, the w
 
 ## Example 6.9
 
-A particle acted upon by constant forces {{< katex >}}2\hat{i} +5\hat{j} +6\hat{k}{{< /katex >}} and {{< katex >}}- \hat{i} - 2\hat{j} - \hat{k}{{< /katex >}} is displaced from the point {{< katex >}}(4, - 3, - 2){{< /katex >}} to the point {{< katex >}}(6,1, - 3){{< /katex >}}. Find the total work done by the forces.
+A particle acted upon by constant forces  2\hat{i} +5\hat{j} +6\hat{k} and  - \hat{i} - 2\hat{j} - \hat{k} is displaced from the point  (4, - 3, - 2) to the point  (6,1, - 3). Find the total work done by the forces.
 
 ## Solution
 
-Resultant of the given forces is {{< katex >}}\vec{F} = (2\hat{i} +5\hat{j} +6\hat{k}) + (- \hat{i} - 2\hat{j} - \hat{k}) = \hat{i} +3\hat{j} +5\hat{k}{{< /katex >}}.
+Resultant of the given forces is  \vec{F} = (2\hat{i} +5\hat{j} +6\hat{k}) + (- \hat{i} - 2\hat{j} - \hat{k}) = \hat{i} +3\hat{j} +5\hat{k}.
 
-Let {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} be the points {{< katex >}}(4, - 3, - 2){{< /katex >}} and {{< katex >}}(6,1, - 3){{< /katex >}} respectively. Then the displacement vector of the particle is {{< katex >}}\vec{d} = \overline{{A B}} = \overline{{O B}} -\overline{{O A}} = (6\hat{i} +\hat{j} - 3\hat{k}) - (4\hat{i} - 3\hat{j} - 2\hat{k}) = 2\hat{i} +4\hat{j} - \hat{k}{{< /katex >}}.
+Let  A and  B be the points  (4, - 3, - 2) and  (6,1, - 3) respectively. Then the displacement vector of the particle is  \vec{d} = \overline{{A B}} = \overline{{O B}} -\overline{{O A}} = (6\hat{i} +\hat{j} - 3\hat{k}) - (4\hat{i} - 3\hat{j} - 2\hat{k}) = 2\hat{i} +4\hat{j} - \hat{k}.
 
-Therefore the work done {{< katex >}}w = \vec{F}\cdot \vec{d} = (\hat{i} +3\hat{j} +5\hat{k})\cdot (2\hat{i} +4\hat{j} - \hat{k}) = 9{{< /katex >}} units.
+Therefore the work done  w = \vec{F}\cdot \vec{d} = (\hat{i} +3\hat{j} +5\hat{k})\cdot (2\hat{i} +4\hat{j} - \hat{k}) = 9 units.
 
 **Example 6.10**
 
-A particle is acted upon by the forces {{< katex >}}3\hat{i} - 2\hat{j} +2\hat{k}{{< /katex >}} and {{< katex >}}2\hat{i} +\hat{j} -\hat{k}{{< /katex >}} is displaced from the point {{< katex >}}(1,3, - 1){{< /katex >}} to the point {{< katex >}}(4, - 1,\lambda){{< /katex >}}. If the work done by the forces is 16 units, find the value of {{< katex >}}\lambda{{< /katex >}}.
+A particle is acted upon by the forces  3\hat{i} - 2\hat{j} +2\hat{k} and  2\hat{i} +\hat{j} -\hat{k} is displaced from the point  (1,3, - 1) to the point  (4, - 1,\lambda). If the work done by the forces is 16 units, find the value of  \lambda.
 
 ## Solution
 
-The resultant force is {{< katex >}}\vec{F} = (3\hat{i} -2\hat{j} +2\hat{k}) + (2\hat{i} +\hat{j} -\hat{k}) = 5\hat{i} -\hat{j} +\hat{k}{{< /katex >}}.
+The resultant force is  \vec{F} = (3\hat{i} -2\hat{j} +2\hat{k}) + (2\hat{i} +\hat{j} -\hat{k}) = 5\hat{i} -\hat{j} +\hat{k}.
 
 The displacement of the particle is given by
 
-{{< katex display=true >}}
+
 \vec{d} = (4\hat{i} -\hat{j} +\lambda \hat{k}) - (\hat{i} +3\hat{j} -\hat{k}) = (3\hat{i} -4\hat{j} +(\lambda +1)\hat{k}).
-{{< /katex >}}
+
 
 As the work done by the forces is 16 units, we have
 
-{{< katex display=true >}}
+
 \vec{F}\cdot \vec{d} = 16.
-{{< /katex >}}
 
-That is, {{< katex >}}(5\hat{i} -\hat{j} +\hat{k})\cdot (3\hat{i} -4\hat{j} +(\lambda +1)\hat{k}) = 16 \Rightarrow \lambda +20 = 16{{< /katex >}}.
 
-So, {{< katex >}}\lambda = - 4{{< /katex >}}
+That is,  (5\hat{i} -\hat{j} +\hat{k})\cdot (3\hat{i} -4\hat{j} +(\lambda +1)\hat{k}) = 16 \Rightarrow \lambda +20 = 16.
+
+So,  \lambda = - 4
 
 ## Definition 6.3
 
-If a force {{< katex >}}\vec{F}{{< /katex >}} is applied on a particle at a point with position vector {{< katex >}}\vec{r}{{< /katex >}}, then the torque or moment on the particle is given by {{< katex >}}\vec{t} = \vec{r}\times \vec{F}{{< /katex >}}. The torque is also called the rotational force.
+If a force  \vec{F} is applied on a particle at a point with position vector  \vec{r}, then the torque or moment on the particle is given by  \vec{t} = \vec{r}\times \vec{F}. The torque is also called the rotational force.
 
 <center>Fig.6.15 </center>
 
 ## Example 6.11
 
-Find the magnitude and the direction cosines of the torque about the point {{< katex >}}(2,0, - 1){{< /katex >}} of a force {{< katex >}}2\hat{i} +\hat{j} -\hat{k}{{< /katex >}}, whose line of action passes through the origin.
+Find the magnitude and the direction cosines of the torque about the point  (2,0, - 1) of a force  2\hat{i} +\hat{j} -\hat{k}, whose line of action passes through the origin.
 
 ## Solution
 
-Let {{< katex >}}\mathcal{A}{{< /katex >}} be the point {{< katex >}}(2,0, - 1){{< /katex >}}. Then the position vector of {{< katex >}}\mathcal{A}{{< /katex >}} is {{< katex >}}\overrightarrow{OA} = 2\hat{i} -\hat{k}{{< /katex >}} and therefore {{< katex >}}\vec{r} = \overrightarrow{AO} = - 2\hat{i} +\hat{k}{{< /katex >}}
+Let  \mathcal{A} be the point  (2,0, - 1). Then the position vector of  \mathcal{A} is  \overrightarrow{OA} = 2\hat{i} -\hat{k} and therefore  \vec{r} = \overrightarrow{AO} = - 2\hat{i} +\hat{k}
 
-Then the given force is {{< katex >}}\vec{F} = 2\hat{i} +\hat{j} -\hat{k}{{< /katex >}}. So, the torque is
+Then the given force is  \vec{F} = 2\hat{i} +\hat{j} -\hat{k}. So, the torque is
 
-{{< katex display=true >}}
+
 \vec{t} = \vec{r} \times \vec{F} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ -2 & 0 & 1 \\ 2 & 1 & -1 \end{vmatrix} = (0 \cdot (-1) - 1 \cdot 1)\hat{i} - ((-2)(-1) - 1 \cdot 2)\hat{j} + ((-2)\cdot 1 - 0 \cdot 2)\hat{k} = -\hat{i} - 0\hat{j} - 2\hat{k}.
-{{< /katex >}}
+
 
 <center>Fig.6.16 </center>
 
-The magnitude of the torque {{< katex >}}= | - \hat{i} - 2\hat{k} | = \sqrt{5}{{< /katex >}} and the direction cosines of the torque are {{< katex >}}-\frac{1}{\sqrt{5}},0, - \frac{2}{\sqrt{5}}{{< /katex >}}.
+The magnitude of the torque  = | - \hat{i} - 2\hat{k} | = \sqrt{5} and the direction cosines of the torque are  -\frac{1}{\sqrt{5}},0, - \frac{2}{\sqrt{5}}.
 
 **EXERCISE 6.1**
 
@@ -475,47 +475,47 @@ The magnitude of the torque {{< katex >}}= | - \hat{i} - 2\hat{k} | = \sqrt{5}{{
 3. Prove by vector method that an angle in a semi-circle is a right angle.
 4. Prove by vector method that the diagonals of a rhombus bisect each other at right angles.
 5. Using vector method, prove that if the diagonals of a parallelogram are equal, then it is a rectangle.
-6. Prove by vector method that the area of the quadrilateral ABCD having diagonals AC and BD is {{< katex >}}\frac{1}{2} |\overrightarrow{AC} \times \overrightarrow{BD}|{{< /katex >}}.
+6. Prove by vector method that the area of the quadrilateral ABCD having diagonals AC and BD is  \frac{1}{2} |\overrightarrow{AC} \times \overrightarrow{BD}|.
 7. Prove by vector method that the parallelograms on the same base and between the same parallels are equal in area.
-8. If {{< katex >}}G{{< /katex >}} is the centroid of a {{< katex >}}\Delta ABC{{< /katex >}}, prove that (area of {{< katex >}}\Delta GAB) ={{< /katex >}} (area of {{< katex >}}\Delta GBC) ={{< /katex >}} (area of {{< katex >}}\Delta GCA) = \frac{1}{3}{{< /katex >}} (area of {{< katex >}}\Delta ABC{{< /katex >}}).
-9. Using vector method, prove that {{< katex >}}\cos (\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta{{< /katex >}}.
-10. Prove by vector method that {{< katex >}}\sin (\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta{{< /katex >}},
-11. A particle acted on by constant forces {{< katex >}}8\hat{i} + 2\hat{j} - 6\hat{k}{{< /katex >}} and {{< katex >}}6\hat{i} + 2\hat{j} - 2\hat{k}{{< /katex >}} is displaced from the point {{< katex >}}(1,2,3){{< /katex >}} to the point {{< katex >}}(5,4,1){{< /katex >}}. Find the total work done by the forces.
-12. Forces of magnitudes {{< katex >}}5\sqrt{2}{{< /katex >}} and {{< katex >}}10\sqrt{2}{{< /katex >}} units acting in the directions {{< katex >}}3\hat{i} + 4\hat{j} + 5\hat{k}{{< /katex >}} and {{< katex >}}10\hat{i} + 6\hat{j} - 8\hat{k}{{< /katex >}}, respectively, act on a particle which is displaced from the point with position vector {{< katex >}}4\hat{i} - 3\hat{j} - 2\hat{k}{{< /katex >}} to the point with position vector {{< katex >}}6\hat{i} + \hat{j} - 3\hat{k}{{< /katex >}}. Find the work done by the forces.
-13. Find the magnitude and direction cosines of the torque of a force represented by {{< katex >}}3\hat{i} + 4\hat{j} - 5\hat{k}{{< /katex >}} about the point with position vector {{< katex >}}2\hat{i} - 3\hat{j} + 4\hat{k}{{< /katex >}} acting through a point whose position vector is {{< katex >}}4\hat{i} + 2\hat{j} - 3\hat{k}{{< /katex >}}.
-14. Find the torque of the resultant of the three forces represented by {{< katex >}}-3\hat{i} + 6\hat{j} - 3\hat{k}{{< /katex >}}, {{< katex >}}4\hat{i} - 10\hat{j} + 12\hat{k}{{< /katex >}} and {{< katex >}}4\hat{i} + 7\hat{j}{{< /katex >}} acting at the point with position vector {{< katex >}}8\hat{i} - 6\hat{j} - 4\hat{k}{{< /katex >}}, about the point with position vector {{< katex >}}18\hat{i} + 3\hat{j} - 9\hat{k}{{< /katex >}}.
+8. If  G is the centroid of a  \Delta ABC, prove that (area of  \Delta GAB) = (area of  \Delta GBC) = (area of  \Delta GCA) = \frac{1}{3} (area of  \Delta ABC).
+9. Using vector method, prove that  \cos (\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta.
+10. Prove by vector method that  \sin (\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta,
+11. A particle acted on by constant forces  8\hat{i} + 2\hat{j} - 6\hat{k} and  6\hat{i} + 2\hat{j} - 2\hat{k} is displaced from the point  (1,2,3) to the point  (5,4,1). Find the total work done by the forces.
+12. Forces of magnitudes  5\sqrt{2} and  10\sqrt{2} units acting in the directions  3\hat{i} + 4\hat{j} + 5\hat{k} and  10\hat{i} + 6\hat{j} - 8\hat{k}, respectively, act on a particle which is displaced from the point with position vector  4\hat{i} - 3\hat{j} - 2\hat{k} to the point with position vector  6\hat{i} + \hat{j} - 3\hat{k}. Find the work done by the forces.
+13. Find the magnitude and direction cosines of the torque of a force represented by  3\hat{i} + 4\hat{j} - 5\hat{k} about the point with position vector  2\hat{i} - 3\hat{j} + 4\hat{k} acting through a point whose position vector is  4\hat{i} + 2\hat{j} - 3\hat{k}.
+14. Find the torque of the resultant of the three forces represented by  -3\hat{i} + 6\hat{j} - 3\hat{k},  4\hat{i} - 10\hat{j} + 12\hat{k} and  4\hat{i} + 7\hat{j} acting at the point with position vector  8\hat{i} - 6\hat{j} - 4\hat{k}, about the point with position vector  18\hat{i} + 3\hat{j} - 9\hat{k}.
 
 ### 6.4 Scalar triple product
 
 ## Definition 6.4
 
-For a given set of three vectors {{< katex >}}\vec{a}, \vec{b}{{< /katex >}}, and {{< katex >}}\vec{c}{{< /katex >}}, the scalar {{< katex >}}(\vec{a} \times \vec{b}) \cdot \vec{c}{{< /katex >}} is called a **scalar triple product** of {{< katex >}}\vec{a}, \vec{b}, \vec{c}{{< /katex >}}.
+For a given set of three vectors  \vec{a}, \vec{b}, and  \vec{c}, the scalar  (\vec{a} \times \vec{b}) \cdot \vec{c} is called a **scalar triple product** of  \vec{a}, \vec{b}, \vec{c}.
 
 ## Remark
 
-{{< katex >}}\vec{a} \cdot \vec{b}{{< /katex >}} is a scalar and so {{< katex >}}(\vec{a} \cdot \vec{b}) \times \vec{c}{{< /katex >}} has no meaning.
+ \vec{a} \cdot \vec{b} is a scalar and so  (\vec{a} \cdot \vec{b}) \times \vec{c} has no meaning.
 
 **Theorem 6.2**
 
-For any three vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}},
+For any three vectors  \vec{a},\vec{b},\vec{c},
 
-{{< katex display=true >}}
+
 (\vec{a}\times\vec{b})\cdot\vec{c} = \vec{a}\cdot(\vec{b}\times\vec{c})
-{{< /katex >}}
+
 
 **Proof**
 
-Let {{< katex >}}\vec{a} = a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k}, \vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k}{{< /katex >}} and {{< katex >}}\vec{c} = c_{1}\hat{i} +c_{2}\hat{j} +c_{3}\hat{k}{{< /katex >}}.
+Let  \vec{a} = a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k}, \vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k} and  \vec{c} = c_{1}\hat{i} +c_{2}\hat{j} +c_{3}\hat{k}.
 
-Then, {{< katex display=true >}}\vec{a}\times\vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}{{< /katex >}} and so {{< katex display=true >}}(\vec{a}\times\vec{b})\cdot\vec{c} = \begin{vmatrix} c_1 & c_2 & c_3 \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}{{< /katex >}}.
+Then, \vec{a}\times\vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix} and so (\vec{a}\times\vec{b})\cdot\vec{c} = \begin{vmatrix} c_1 & c_2 & c_3 \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}.
 
-Similarly, {{< katex display=true >}}\vec{b}\times\vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}{{< /katex >}} and so {{< katex display=true >}}\vec{a}\cdot(\vec{b}\times\vec{c}) = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}{{< /katex >}}.
+Similarly, \vec{b}\times\vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix} and so \vec{a}\cdot(\vec{b}\times\vec{c}) = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}.
 
 Since the determinant changes sign when two rows are interchanged, we have
 
-{{< katex display=true >}}
+
 \begin{vmatrix} c_1 & c_2 & c_3 \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix} = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}.
-{{< /katex >}}
+
 
 Hence the theorem is proved.
 
@@ -523,284 +523,284 @@ Hence the theorem is proved.
 
 By Theorem 6.2, it follows that, in a scalar triple product, dot and cross can be interchanged without altering the order of occurrences of the vectors, by placing the parentheses in such a way that dot lies outside the parentheses, and cross lies between the vectors inside the parentheses. For instance, we have
 
-{{< katex display=true >}}
+
 (\vec{a}\times \vec{b})\cdot \vec{c} = \vec{a}\cdot (\vec{b}\times \vec{c}),\mathrm{~since~dot~and~cross~can~be~interchanged.}
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \qquad = (\vec{b}\times \vec{c})\cdot \vec{a},\mathrm{~since~dot~product~is~commutative.}
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \qquad = \vec{b}\cdot (\vec{c}\times \vec{a}),\mathrm{~since~dot~and~cross~can~be~interchanged}
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \qquad = (\vec{c}\times \vec{a})\cdot \vec{b},\mathrm{~since~dot~product~is~commutative}
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \qquad = \vec{c}\cdot (\vec{a}\times \vec{b}),\mathrm{~since~dot~and~cross~can~be~interchanged}
-{{< /katex >}}
+
 
 ## Notation
 
-For any three vectors {{< katex >}}\vec{a},\vec{b}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}}, the scalar triple product {{< katex >}}(\vec{a}\times \vec{b})\cdot \vec{c}{{< /katex >}} is denoted by {{< katex >}}[\vec{a},\vec{b},\vec{c} ]{{< /katex >}}.
+For any three vectors  \vec{a},\vec{b} and  \vec{c}, the scalar triple product  (\vec{a}\times \vec{b})\cdot \vec{c} is denoted by  [\vec{a},\vec{b},\vec{c} ].
 
-{{< katex >}}[\vec{a},\vec{b},\vec{c} ]{{< /katex >}} is read as box {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}}. For this reason and also because the absolute value of a scalar triple product represents the volume of a box (rectangular parallelepiped),a scalar triple product is also called a box product.
+ [\vec{a},\vec{b},\vec{c} ] is read as box  \vec{a},\vec{b},\vec{c}. For this reason and also because the absolute value of a scalar triple product represents the volume of a box (rectangular parallelepiped),a scalar triple product is also called a box product.
 
 ## Note
 
-{{< katex display=true >}}
+
 [\vec{a},\vec{b},\vec{c}] = (\vec{a}\times \vec{b})\cdot \vec{c} = \vec{a}\cdot (\vec{b}\times \vec{c}) = (\vec{b}\times \vec{c})\cdot \vec{a} = \vec{b}\cdot (\vec{c}\times \vec{a}) = [\vec{b},\vec{c},\vec{a}]
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 [\vec{b},\vec{c},\vec{a}] = (\vec{b}\times \vec{c})\cdot \vec{a} = \vec{b}\cdot (\vec{c}\times \vec{a}) = (\vec{c}\times \vec{a})\cdot \vec{b} = \vec{c}\cdot (\vec{a}\times \vec{b}) = [\vec{c},\vec{a},\vec{b} ].
-{{< /katex >}}
 
-In other words, {{< katex >}}[\vec{a},\vec{b},\vec{c} ] = [\vec{b},\vec{c},\vec{a} ] = [\vec{c},\vec{a},\vec{b} ]{{< /katex >}}; that is, if the three vectors are permuted in the same cyclic order, the value of the scalar triple product remains the same.
 
-(2) If any two vectors are interchanged in their position in a scalar triple product, then the value of the scalar triple product is {{< katex >}}(-1){{< /katex >}} times the original value. More explicitly,
+In other words,  [\vec{a},\vec{b},\vec{c} ] = [\vec{b},\vec{c},\vec{a} ] = [\vec{c},\vec{a},\vec{b} ]; that is, if the three vectors are permuted in the same cyclic order, the value of the scalar triple product remains the same.
 
-{{< katex display=true >}}
+(2) If any two vectors are interchanged in their position in a scalar triple product, then the value of the scalar triple product is  (-1) times the original value. More explicitly,
+
+
 [\vec{a},\vec{b},\vec{c}] = [\vec{b},\vec{c},\vec{a}] = [\vec{c},\vec{a},\vec{b}] = -[\vec{a},\vec{c},\vec{b}] = -[\vec{c},\vec{b},\vec{a}] = -[\vec{b},\vec{a},\vec{c} ]
-{{< /katex >}}
+
 
 **Theorem 6.5**
 
-The scalar triple product {{< katex >}}[\vec{a},\vec{b},\vec{c}] = 0{{< /katex >}} if and only if {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} are coplanar.
+The scalar triple product  [\vec{a},\vec{b},\vec{c}] = 0 if and only if  \vec{a},\vec{b},\vec{c} are coplanar.
 
 **Proof**
 
-Let {{< katex >}}\vec{a} = a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k}{{< /katex >}} {{< katex >}}\vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k}{{< /katex >}} {{< katex >}}\vec{c} = c_{1}\hat{i} +c_{2}\hat{j} +c_{3}\hat{k}{{< /katex >}}. Then, we have
+Let  \vec{a} = a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k}  \vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k}  \vec{c} = c_{1}\hat{i} +c_{2}\hat{j} +c_{3}\hat{k}. Then, we have
 
-{{< katex display=true >}}
+
 [\vec{a},\vec{b},\vec{c}] = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix} = 0
-{{< /katex >}}
 
-{{< katex >}}\Leftrightarrow{{< /katex >}} there exist scalars {{< katex >}}r,s,t\in \mathbb{R}{{< /katex >}} atleast one of them non- zero such that
 
-{{< katex display=true >}}
+ \Leftrightarrow there exist scalars  r,s,t\in \mathbb{R} atleast one of them non- zero such that
+
+
 a_{1}r + a_{2}s + a_{3}t = 0,\quad b_{1}r + b_{2}s + b_{3}t = 0,\quad c_{1}r + c_{2}s + c_{3}t = 0
-{{< /katex >}}
 
-{{< katex >}}\Leftrightarrow{{< /katex >}} there exist scalars {{< katex >}}r,s,t\in \mathbb{R}{{< /katex >}} atleast one of them non- zero such that {{< katex >}}r\vec{a} +s\vec{b} +t\vec{c} = \vec{0}{{< /katex >}}
+
+ \Leftrightarrow there exist scalars  r,s,t\in \mathbb{R} atleast one of them non- zero such that  r\vec{a} +s\vec{b} +t\vec{c} = \vec{0}
 
 **Theorem 6.6**
 
-If {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} and {{< katex >}}\overrightarrow{p},\overrightarrow{q},\overrightarrow{r}{{< /katex >}} are any two systems of three vectors, and if {{< katex >}}\overrightarrow{p} = x_{1}\overrightarrow{a} +y_{1}\overrightarrow{b} +z_{1}\overrightarrow{c}{{< /katex >}} {{< katex >}}\vec{q} = x_{2}\vec{a} +y_{2}\vec{b} +z_{2}\vec{c}{{< /katex >}}, and, {{< katex >}}\vec{r} = x_{3}\vec{a} +y_{3}\vec{b} +z_{3}\vec{c}{{< /katex >}}, then
+If  \vec{a},\vec{b},\vec{c} and  \overrightarrow{p},\overrightarrow{q},\overrightarrow{r} are any two systems of three vectors, and if  \overrightarrow{p} = x_{1}\overrightarrow{a} +y_{1}\overrightarrow{b} +z_{1}\overrightarrow{c}  \vec{q} = x_{2}\vec{a} +y_{2}\vec{b} +z_{2}\vec{c}, and,  \vec{r} = x_{3}\vec{a} +y_{3}\vec{b} +z_{3}\vec{c}, then
 
-{{< katex display=true >}}
+
 [\vec{p},\vec{q},\vec{r}] = \begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{vmatrix} [\vec{a},\vec{b},\vec{c}]
-{{< /katex >}}
+
 
 **Note**
 
-By theorem 6.6, if {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} are non- coplanar and
+By theorem 6.6, if  \vec{a},\vec{b},\vec{c} are non- coplanar and
 
-{{< katex display=true >}}
+
 \begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{vmatrix} \neq 0
-{{< /katex >}}
 
-then the three vectors {{< katex >}}\overrightarrow{p} = x_{1}\overrightarrow{a} +y_{1}\overrightarrow{b} +z_{1}\overrightarrow{c}{{< /katex >}} {{< katex >}}\vec{q} = x_{2}\vec{a} +y_{2}\vec{b} +z_{2}\vec{c}{{< /katex >}}, and, {{< katex >}}\vec{r} = x_{3}\vec{a} +y_{3}\vec{b} +z_{3}\vec{c}{{< /katex >}} are also non- coplanar.
+
+then the three vectors  \overrightarrow{p} = x_{1}\overrightarrow{a} +y_{1}\overrightarrow{b} +z_{1}\overrightarrow{c}  \vec{q} = x_{2}\vec{a} +y_{2}\vec{b} +z_{2}\vec{c}, and,  \vec{r} = x_{3}\vec{a} +y_{3}\vec{b} +z_{3}\vec{c} are also non- coplanar.
 
 **Example 6.12**
 
-{{< katex >}}\vec{a} = -3\hat{i} -\hat{j} +5\hat{k},\vec{b} = \hat{i} -2\hat{j} +\hat{k},\vec{c} = 4\hat{j} -5\hat{k},\mathrm{~find~}\vec{a}\cdot (\vec{b}\times \vec{c}).{{< /katex >}}
+ \vec{a} = -3\hat{i} -\hat{j} +5\hat{k},\vec{b} = \hat{i} -2\hat{j} +\hat{k},\vec{c} = 4\hat{j} -5\hat{k},\mathrm{~find~}\vec{a}\cdot (\vec{b}\times \vec{c}).
 
 **Solution:** By the definition of scalar triple product of three vectors,
 
-{{< katex display=true >}}
+
 \vec{a}\cdot(\vec{b}\times\vec{c}) = \begin{vmatrix} -3 & -1 & 5 \\ 1 & -2 & 1 \\ 0 & 4 & -5 \end{vmatrix} = -3(10-4) + 1(-5-0) + 5(4-0) = -18 -5 +20 = -3.
-{{< /katex >}}
+
 
 **Example 6.13**
 
-Find the volume of the parallelepiped whose coterminus edges are given by the vectors {{< katex >}}2\hat{i} - 3\hat{j} +4\hat{k},\hat{i} +2\hat{j} - \hat{k}{{< /katex >}} and {{< katex >}}3\hat{i} - \hat{j} +2\hat{k}{{< /katex >}}.
+Find the volume of the parallelepiped whose coterminus edges are given by the vectors  2\hat{i} - 3\hat{j} +4\hat{k},\hat{i} +2\hat{j} - \hat{k} and  3\hat{i} - \hat{j} +2\hat{k}.
 
 ## Solution
 
-We know that the volume of the parallelepiped whose coterminus edges are {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} is given by {{< katex >}}\left|\left[\vec{a},\vec{b},\vec{c}\right]\right|{{< /katex >}}. Here, {{< katex >}}\vec{a} = 2\hat{i} - 3\hat{j} +4\hat{k}{{< /katex >}} {{< katex >}}\vec{b} = \hat{i} +2\hat{j} - \hat{k}{{< /katex >}} {{< katex >}}\vec{c} = 3\hat{i} - \hat{j} +2\hat{k}{{< /katex >}}.
+We know that the volume of the parallelepiped whose coterminus edges are  \vec{a},\vec{b},\vec{c} is given by  \left|\left[\vec{a},\vec{b},\vec{c}\right]\right|. Here,  \vec{a} = 2\hat{i} - 3\hat{j} +4\hat{k}  \vec{b} = \hat{i} +2\hat{j} - \hat{k}  \vec{c} = 3\hat{i} - \hat{j} +2\hat{k}.
 
-{{< katex display=true >}}
+
 [\vec{a},\vec{b},\vec{c}] = \begin{vmatrix} 2 & -3 & 4 \\ 1 & 2 & -1 \\ 3 & -1 & 2 \end{vmatrix} = 2(4-1) + 3(2+3) + 4(-1-6) = 6 + 15 - 28 = -7.
-{{< /katex >}}
 
-Hence the volume is {{< katex >}}|\;[\vec{a},\vec{b},\vec{c}]\;| = 7{{< /katex >}} cubic units.
+
+Hence the volume is  |\;[\vec{a},\vec{b},\vec{c}]\;| = 7 cubic units.
 
 ## Example 6.14
 
-Show that the vectors {{< katex >}}\hat{i} +2\hat{j} - 3\hat{k}{{< /katex >}} {{< katex >}}2\hat{i} - \hat{j} +2\hat{k}{{< /katex >}} and {{< katex >}}3\hat{i} +\hat{j} - \hat{k}{{< /katex >}} are coplanar.
+Show that the vectors  \hat{i} +2\hat{j} - 3\hat{k}  2\hat{i} - \hat{j} +2\hat{k} and  3\hat{i} +\hat{j} - \hat{k} are coplanar.
 
 ## Solution
 
-{{< katex display=true >}}
+
 \begin{vmatrix} 1 & 2 & -3 \\ 2 & -1 & 2 \\ 3 & 1 & -1 \end{vmatrix} = 1(1-2) - 2(-2-6) - 3(2+3) = -1 + 16 - 15 = 0.
-{{< /katex >}}
+
 
 Therefore, the three given vectors are coplanar.
 
 ## Example 6.15
 
-If {{< katex >}}2\hat{i} - \hat{j} +3\hat{k}{{< /katex >}} {{< katex >}}3\hat{i} +2\hat{j} +\hat{k}{{< /katex >}} {{< katex >}}\hat{i} +m\hat{j} +4\hat{k}{{< /katex >}} are coplanar, find the value of {{< katex >}}m{{< /katex >}}
+If  2\hat{i} - \hat{j} +3\hat{k}  3\hat{i} +2\hat{j} +\hat{k}  \hat{i} +m\hat{j} +4\hat{k} are coplanar, find the value of  m
 
 ## Solution
 
-Since the given three vectors are coplanar, we have {{< katex >}}\left| \begin{array}{lll}2 & - 1 & 3\\ 3 & 2 & 1\\ 1 & m & 4 \end{array} \right| = 0\Rightarrow m = - 3.{{< /katex >}}
+Since the given three vectors are coplanar, we have  \left| \begin{array}{lll}2 & - 1 & 3\\ 3 & 2 & 1\\ 1 & m & 4 \end{array} \right| = 0\Rightarrow m = - 3.
 
 ## Example 6.16
 
-Show that the four points {{< katex >}}(6, - 7,0){{< /katex >}} {{< katex >}}(16, - 19, - 4){{< /katex >}} {{< katex >}}(0,3, - 6){{< /katex >}} {{< katex >}}(2, - 5,10){{< /katex >}} lie on a same plane.
+Show that the four points  (6, - 7,0)  (16, - 19, - 4)  (0,3, - 6)  (2, - 5,10) lie on a same plane.
 
 ## Solution
 
-Let {{< katex >}}A = (6, - 7,0){{< /katex >}} {{< katex >}}B = (16, - 19, - 4){{< /katex >}} {{< katex >}}C = (0,3, - 6){{< /katex >}} {{< katex >}}D = (2, - 5,10){{< /katex >}}. To show that the four points {{< katex >}}A,B,C,D{{< /katex >}} lie on a plane, we have to prove that the three vectors {{< katex >}}\overrightarrow{AB},\overrightarrow{AC},\overrightarrow{AD}{{< /katex >}} are coplanar.
+Let  A = (6, - 7,0)  B = (16, - 19, - 4)  C = (0,3, - 6)  D = (2, - 5,10). To show that the four points  A,B,C,D lie on a plane, we have to prove that the three vectors  \overrightarrow{AB},\overrightarrow{AC},\overrightarrow{AD} are coplanar.
 
-{{< katex display=true >}}
+
 \overline{{A B}} = \overline{{O B}} -\overline{{O A}} = (16\hat{i} -19\hat{j} -4\hat{k}) - (6\hat{i} -7\hat{j}) = 10\hat{i} -12\hat{j} -4\hat{k}
-{{< /katex >}}
-{{< katex display=true >}}
-\overline{{A C}} = \overline{{O C}} -\overline{{O A}} = -6\hat{i} +10\hat{j} -6\hat{k}\mathrm{~and~}\overline{{A D}} = \overline{{O D}} -\overline{{O A}} = -4\hat{i} +2\hat{j} +10\hat{k}.
-{{< /katex >}}
-{{< katex display=true >}}
-[\overline{{A B}},\overline{{A C}},\overline{{A D}}] = \begin{vmatrix} 10 & -12 & -4 \\ -6 & 10 & -6 \\ -4 & 2 & 10 \end{vmatrix} = 0.
-{{< /katex >}}
 
-Therefore, the three vectors {{< katex >}}\overrightarrow{AB},\overrightarrow{AC},\overrightarrow{AD}{{< /katex >}} are coplanar and hence the four points {{< katex >}}A,B,C{{< /katex >}}, and {{< katex >}}D{{< /katex >}} lie on a plane.
+
+\overline{{A C}} = \overline{{O C}} -\overline{{O A}} = -6\hat{i} +10\hat{j} -6\hat{k}\mathrm{~and~}\overline{{A D}} = \overline{{O D}} -\overline{{O A}} = -4\hat{i} +2\hat{j} +10\hat{k}.
+
+
+[\overline{{A B}},\overline{{A C}},\overline{{A D}}] = \begin{vmatrix} 10 & -12 & -4 \\ -6 & 10 & -6 \\ -4 & 2 & 10 \end{vmatrix} = 0.
+
+
+Therefore, the three vectors  \overrightarrow{AB},\overrightarrow{AC},\overrightarrow{AD} are coplanar and hence the four points  A,B,C, and  D lie on a plane.
 
 **EXERCISE 6.2**
 
-1. If {{< katex >}}\vec{a} = 2\hat{i} + 3\hat{j} - \hat{k}, \vec{b} = 3\hat{i} + 5\hat{j} + 2\hat{k}, \vec{c} = -\hat{i} - 2\hat{j} + 3\hat{k}{{< /katex >}}, verify that {{< katex >}}(\vec{a}\times\vec{b})\times\vec{c} = (\vec{a}\cdot\vec{c})\vec{b} - (\vec{b}\cdot\vec{c})\vec{a}{{< /katex >}} and {{< katex >}}\vec{a}\times(\vec{b}\times\vec{c}) = (\vec{a}\cdot\vec{c})\vec{b} - (\vec{a}\cdot\vec{b})\vec{c}{{< /katex >}}.
+1. If  \vec{a} = 2\hat{i} + 3\hat{j} - \hat{k}, \vec{b} = 3\hat{i} + 5\hat{j} + 2\hat{k}, \vec{c} = -\hat{i} - 2\hat{j} + 3\hat{k}, verify that  (\vec{a}\times\vec{b})\times\vec{c} = (\vec{a}\cdot\vec{c})\vec{b} - (\vec{b}\cdot\vec{c})\vec{a} and  \vec{a}\times(\vec{b}\times\vec{c}) = (\vec{a}\cdot\vec{c})\vec{b} - (\vec{a}\cdot\vec{b})\vec{c}.
 
-2. If {{< katex >}}\vec{a} = \hat{i} + 2\hat{j} + 3\hat{k}, \vec{b} = 2\hat{i} - \hat{j} + \hat{k}, \vec{c} = 3\hat{i} + 2\hat{j} + \hat{k}{{< /katex >}} and {{< katex >}}\vec{a}\times(\vec{b}\times\vec{c}) = l\vec{a} + m\vec{b} + n\vec{c}{{< /katex >}}, find the values of {{< katex >}}l, m, n{{< /katex >}}.
+2. If  \vec{a} = \hat{i} + 2\hat{j} + 3\hat{k}, \vec{b} = 2\hat{i} - \hat{j} + \hat{k}, \vec{c} = 3\hat{i} + 2\hat{j} + \hat{k} and  \vec{a}\times(\vec{b}\times\vec{c}) = l\vec{a} + m\vec{b} + n\vec{c}, find the values of  l, m, n.
 
-3. For any vector {{< katex >}}\vec{a}{{< /katex >}}, prove that {{< katex >}}\hat{i}\times(\vec{a}\times\hat{i}) + \hat{j}\times(\vec{a}\times\hat{j}) + \hat{k}\times(\vec{a}\times\hat{k}) = 2\vec{a}{{< /katex >}}.
+3. For any vector  \vec{a}, prove that  \hat{i}\times(\vec{a}\times\hat{i}) + \hat{j}\times(\vec{a}\times\hat{j}) + \hat{k}\times(\vec{a}\times\hat{k}) = 2\vec{a}.
 
-4. Prove that {{< katex >}}[\vec{a} - \vec{b}, \vec{b} - \vec{c}, \vec{c} - \vec{a}] = 0{{< /katex >}}.
+4. Prove that  [\vec{a} - \vec{b}, \vec{b} - \vec{c}, \vec{c} - \vec{a}] = 0.
 
-5. If {{< katex >}}\vec{a} = 2\hat{i} + 3\hat{j} - \hat{k}, \vec{b} = -\hat{i} + 2\hat{j} - 4\hat{k}, \vec{c} = \hat{i} + \hat{j} + \hat{k}{{< /katex >}}, then find the value of {{< katex >}}(\vec{a}\times\vec{b})\cdot(\vec{a}\times\vec{c}){{< /katex >}}.
+5. If  \vec{a} = 2\hat{i} + 3\hat{j} - \hat{k}, \vec{b} = -\hat{i} + 2\hat{j} - 4\hat{k}, \vec{c} = \hat{i} + \hat{j} + \hat{k}, then find the value of  (\vec{a}\times\vec{b})\cdot(\vec{a}\times\vec{c}).
 
-6. If {{< katex >}}\vec{a}, \vec{b}, \vec{c}, \vec{d}{{< /katex >}} are coplanar vectors, show that {{< katex >}}(\vec{a}\times\vec{b})\times(\vec{c}\times\vec{d}) = \vec{0}{{< /katex >}}.
+6. If  \vec{a}, \vec{b}, \vec{c}, \vec{d} are coplanar vectors, show that  (\vec{a}\times\vec{b})\times(\vec{c}\times\vec{d}) = \vec{0}.
 
-7. If {{< katex >}}\hat{a}, \hat{b}, \hat{c}{{< /katex >}} are three unit vectors such that {{< katex >}}\hat{b}{{< /katex >}} and {{< katex >}}\hat{c}{{< /katex >}} are non-parallel and {{< katex >}}\hat{a}\times(\hat{b}\times\hat{c}) = \frac{1}{2}\hat{b}{{< /katex >}}, find the angle between {{< katex >}}\hat{a}{{< /katex >}} and {{< katex >}}\hat{c}{{< /katex >}}.
+7. If  \hat{a}, \hat{b}, \hat{c} are three unit vectors such that  \hat{b} and  \hat{c} are non-parallel and  \hat{a}\times(\hat{b}\times\hat{c}) = \frac{1}{2}\hat{b}, find the angle between  \hat{a} and  \hat{c}.
 
 ### 6.5 Vector triple product
 
 ## Definition 6.5
 
-For a given set of three vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}}, the vector {{< katex >}}\vec{a}\times(\vec{b}\times\vec{c}){{< /katex >}} is called a **vector triple product**.
+For a given set of three vectors  \vec{a},\vec{b},\vec{c}, the vector  \vec{a}\times(\vec{b}\times\vec{c}) is called a **vector triple product**.
 
 **Theorem 6.8**
 
-For any three vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}},
+For any three vectors  \vec{a},\vec{b},\vec{c},
 
-{{< katex display=true >}}
+
 \vec{a}\times(\vec{b}\times\vec{c}) = (\vec{a}\cdot\vec{c})\vec{b} - (\vec{a}\cdot\vec{b})\vec{c}
-{{< /katex >}}
+
 
 **Proof (for a special case)**
 
-Let {{< katex >}}\vec{a} = a_1\hat{i}, \vec{b} = b_1\hat{i} + b_2\hat{j}, \vec{c} = c_1\hat{i} + c_2\hat{j} + c_3\hat{k}{{< /katex >}}.
+Let  \vec{a} = a_1\hat{i}, \vec{b} = b_1\hat{i} + b_2\hat{j}, \vec{c} = c_1\hat{i} + c_2\hat{j} + c_3\hat{k}.
 
-Then, {{< katex display=true >}}\vec{b}\times\vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ b_1 & b_2 & 0 \\ c_1 & c_2 & c_3 \end{vmatrix} = b_2 c_3 \hat{i} - b_1 c_3 \hat{j} + (b_1 c_2 - b_2 c_1)\hat{k}{{< /katex >}}.
+Then, \vec{b}\times\vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ b_1 & b_2 & 0 \\ c_1 & c_2 & c_3 \end{vmatrix} = b_2 c_3 \hat{i} - b_1 c_3 \hat{j} + (b_1 c_2 - b_2 c_1)\hat{k}.
 
-Now, {{< katex display=true >}}\vec{a}\times(\vec{b}\times\vec{c}) = a_1\hat{i} \times [b_2 c_3 \hat{i} - b_1 c_3 \hat{j} + (b_1 c_2 - b_2 c_1)\hat{k}] = -a_1 b_1 c_3 \hat{k} + a_1(b_1 c_2 - b_2 c_1)\hat{j}{{< /katex >}} ...(1)
+Now, \vec{a}\times(\vec{b}\times\vec{c}) = a_1\hat{i} \times [b_2 c_3 \hat{i} - b_1 c_3 \hat{j} + (b_1 c_2 - b_2 c_1)\hat{k}] = -a_1 b_1 c_3 \hat{k} + a_1(b_1 c_2 - b_2 c_1)\hat{j} ...(1)
 
-And, {{< katex display=true >}}(\vec{a}\cdot\vec{c})\vec{b} - (\vec{a}\cdot\vec{b})\vec{c} = a_1 c_1 (b_1\hat{i} + b_2\hat{j}) - a_1 b_1 (c_1\hat{i} + c_2\hat{j} + c_3\hat{k}) = a_1(b_1 c_2 - b_2 c_1)\hat{j} - a_1 b_1 c_1 \hat{k}{{< /katex >}} ...(2)
+And, (\vec{a}\cdot\vec{c})\vec{b} - (\vec{a}\cdot\vec{b})\vec{c} = a_1 c_1 (b_1\hat{i} + b_2\hat{j}) - a_1 b_1 (c_1\hat{i} + c_2\hat{j} + c_3\hat{k}) = a_1(b_1 c_2 - b_2 c_1)\hat{j} - a_1 b_1 c_1 \hat{k} ...(2)
 
 From equations (1) and (2), we get
 
-{{< katex display=true >}}
+
 \vec{a}\times (\vec{b}\times \vec{c}) = (\vec{a}\cdot \vec{c})\vec{b} -(\vec{a}\cdot \vec{b})\vec{c}
-{{< /katex >}}
+
 
 **Note**
 
-(1) {{< katex >}}\vec{a}\times (\vec{b}\times \vec{c}) = \alpha \vec{b} +\beta \vec{c}{{< /katex >}}, where {{< katex >}}\alpha = \vec{a}\cdot \vec{c}{{< /katex >}} and {{< katex >}}\beta = -(\vec{a}\cdot \vec{b}){{< /katex >}}, and so it lies in the plane parallel to {{< katex >}}\vec{b}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}}.
+(1)  \vec{a}\times (\vec{b}\times \vec{c}) = \alpha \vec{b} +\beta \vec{c}, where  \alpha = \vec{a}\cdot \vec{c} and  \beta = -(\vec{a}\cdot \vec{b}), and so it lies in the plane parallel to  \vec{b} and  \vec{c}.
 
 (2) We also note that
 
-{{< katex display=true >}}
+
 (\vec{a}\times \vec{b})\times \vec{c} = -\vec{c}\times (\vec{a}\times \vec{b}) = -\{(\vec{c}\cdot \vec{b})\vec{a} -(\vec{c}\cdot \vec{a})\vec{b}\} = (\vec{a}\cdot \vec{c})\vec{b} -(\vec{b}\cdot \vec{c})\vec{a}
-{{< /katex >}}
 
-Therefore, {{< katex >}}(\vec{a}\times \vec{b})\times \vec{c}{{< /katex >}} lies in the plane parallel to {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}}.
 
-(3) In {{< katex >}}(\vec{a}\times \vec{b})\times \vec{c}{{< /katex >}}, consider the vectors inside the brackets, call {{< katex >}}\vec{b}{{< /katex >}} as the middle vector and {{< katex >}}\vec{a}{{< /katex >}} as the non-middle vector. Similarly, in {{< katex >}}\vec{a}\times (\vec{b}\times \vec{c}){{< /katex >}}, {{< katex >}}\vec{b}{{< /katex >}} is the middle vector and {{< katex >}}\vec{c}{{< /katex >}} is the non-middle vector. Then we observe that a vector triple product of these vectors is equal to {{< katex >}}\lambda{{< /katex >}} (middle vector) {{< katex >}}-\mu{{< /katex >}} (non-middle vector) where {{< katex >}}\lambda{{< /katex >}} is the dot product of the vectors other than the middle vector and {{< katex >}}\mu{{< /katex >}} is the dot product of the vectors other than the non- middle vector.
+Therefore,  (\vec{a}\times \vec{b})\times \vec{c} lies in the plane parallel to  \vec{a} and  \vec{b}.
+
+(3) In  (\vec{a}\times \vec{b})\times \vec{c}, consider the vectors inside the brackets, call  \vec{b} as the middle vector and  \vec{a} as the non-middle vector. Similarly, in  \vec{a}\times (\vec{b}\times \vec{c}),  \vec{b} is the middle vector and  \vec{c} is the non-middle vector. Then we observe that a vector triple product of these vectors is equal to  \lambda (middle vector)  -\mu (non-middle vector) where  \lambda is the dot product of the vectors other than the middle vector and  \mu is the dot product of the vectors other than the non- middle vector.
 
 ### 6.6 Jacobi's Identity and Lagrange's Identity
 
 **Theorem 6.9 (Jacobi's identity)**
 
-For any three vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}}, we have {{< katex >}}\vec{a}\times (\vec{b}\times \vec{c}) + \vec{b}\times (\vec{c}\times \vec{a}) + \vec{c}\times (\vec{a}\times \vec{b}) = \vec{0}{{< /katex >}}.
+For any three vectors  \vec{a},\vec{b},\vec{c}, we have  \vec{a}\times (\vec{b}\times \vec{c}) + \vec{b}\times (\vec{c}\times \vec{a}) + \vec{c}\times (\vec{a}\times \vec{b}) = \vec{0}.
 
 ## Proof
 
 Using vector triple product expansion, we have
 
-{{< katex display=true >}}
+
 \vec{a}\times (\vec{b}\times \vec{c}) = (\vec{a}\cdot \vec{c})\vec{b} -(\vec{a}\cdot \vec{b})\vec{c}
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \vec{b}\times (\vec{c}\times \vec{a}) = (\vec{b}\cdot \vec{a})\vec{c} -(\vec{b}\cdot \vec{c})\vec{a}
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \vec{c}\times (\vec{a}\times \vec{b}) = (\vec{c}\cdot \vec{b})\vec{a} -(\vec{c}\cdot \vec{a})\vec{b}
-{{< /katex >}}
+
 
 Adding these three equations, we get the required identity.
 
 **Theorem 6.10 (Lagrange's identity)**
 
-For any three vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}},
+For any three vectors  \vec{a},\vec{b},\vec{c},
 
-{{< katex display=true >}}
+
 (\vec{a}\times\vec{b})\cdot(\vec{c}\times\vec{d}) = (\vec{a}\cdot\vec{c})(\vec{b}\cdot\vec{d}) - (\vec{a}\cdot\vec{d})(\vec{b}\cdot\vec{c})
-{{< /katex >}}
+
 
 **Proof** is left as an exercise.
 
 **Example 6.17**
 
-If {{< katex >}}\vec{a} = 2\hat{i} + \hat{j} - \hat{k}, \vec{b} = 4\hat{i} + 4\hat{j}, \vec{c} = 2\hat{i} + 5\hat{j} + \hat{k}{{< /katex >}} and {{< katex >}}\vec{d} = 3\hat{j} - \hat{k}{{< /katex >}}, verify that {{< katex >}}(\vec{a}\times\vec{b})\times(\vec{c}\times\vec{d}) = [\vec{a},\vec{b},\vec{d}]\vec{c} - [\vec{a},\vec{b},\vec{c}]\vec{d}{{< /katex >}}.
+If  \vec{a} = 2\hat{i} + \hat{j} - \hat{k}, \vec{b} = 4\hat{i} + 4\hat{j}, \vec{c} = 2\hat{i} + 5\hat{j} + \hat{k} and  \vec{d} = 3\hat{j} - \hat{k}, verify that  (\vec{a}\times\vec{b})\times(\vec{c}\times\vec{d}) = [\vec{a},\vec{b},\vec{d}]\vec{c} - [\vec{a},\vec{b},\vec{c}]\vec{d}.
 
 ## Solution
 
-{{< katex display=true >}}
+
 \vec{a}\times\vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 2 & 1 & -1 \\ 4 & 4 & 0 \end{vmatrix} = 4\hat{i} - 4\hat{j} + 4\hat{k}
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \vec{c}\times\vec{d} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 2 & 5 & 1 \\ 0 & 3 & -1 \end{vmatrix} = -8\hat{i} + 2\hat{j} + 6\hat{k}
-{{< /katex >}}
+
 
 Then,
-{{< katex display=true >}}
+
 (\vec{a}\times\vec{b})\times(\vec{c}\times\vec{d}) = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 4 & -4 & 4 \\ -8 & 2 & 6 \end{vmatrix} = -24\hat{i} - 24\hat{j} - 40\hat{k} \quad (1)
-{{< /katex >}}
+
 
 On the other hand, we have
-{{< katex display=true >}}
+
 [\vec{a},\vec{b},\vec{d}] = \begin{vmatrix} 2 & 1 & -1 \\ 4 & 4 & 0 \\ 0 & 3 & -1 \end{vmatrix} = 28, \quad [\vec{a},\vec{b},\vec{c}] = \begin{vmatrix} 2 & 1 & -1 \\ 4 & 4 & 0 \\ 2 & 5 & 1 \end{vmatrix} = 12
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 [\vec{a},\vec{b},\vec{d}]\vec{c} - [\vec{a},\vec{b},\vec{c}]\vec{d} = 28(2\hat{i} + 5\hat{j} + \hat{k}) - 12(3\hat{j} - \hat{k}) = -24\hat{i} + 24\hat{j} - 40\hat{k} \quad (2)
-{{< /katex >}}
+
 
 Therefore, from equations (1) and (2), the identity is verified.
 
 **EXERCISE 6.3**
 
-1. If {{< katex >}}\vec{a} = \hat{i} -2\hat{j} +3\hat{k}{{< /katex >}} {{< katex >}}\vec{b} = 2\hat{i} +\hat{j} -2\hat{k}{{< /katex >}} {{< katex >}}\vec{c} = 3\hat{i} +2\hat{j} +\hat{k}{{< /katex >}} find (i) {{< katex >}}(\vec{a}\times \vec{b})\times \vec{c}{{< /katex >}} (ii) {{< katex >}}\vec{a}\times (\vec{b}\times \vec{c}){{< /katex >}}
-2. For any vector {{< katex >}}\vec{a}{{< /katex >}}, prove that {{< katex >}}\hat{i}\times (\vec{a}\times \hat{i}) + \hat{j}\times (\vec{a}\times \hat{j}) + \hat{k}\times (\vec{a}\times \hat{k}) = 2\vec{a}{{< /katex >}}
-3. Prove that {{< katex >}}[\vec{a} -\vec{b},\vec{b} -\vec{c},\vec{c} -\vec{a}] = 0{{< /katex >}}
-4. If {{< katex >}}\vec{a} = 2\hat{i} +3\hat{j} -\hat{k}{{< /katex >}} {{< katex >}}\vec{b} = 3\hat{i} +5\hat{j} +2\hat{k}{{< /katex >}} {{< katex >}}\vec{c} = -\hat{i} -2\hat{j} +3\hat{k}{{< /katex >}}, verify that
-{{< katex display=true >}}
+1. If  \vec{a} = \hat{i} -2\hat{j} +3\hat{k}  \vec{b} = 2\hat{i} +\hat{j} -2\hat{k}  \vec{c} = 3\hat{i} +2\hat{j} +\hat{k} find (i)  (\vec{a}\times \vec{b})\times \vec{c} (ii)  \vec{a}\times (\vec{b}\times \vec{c})
+2. For any vector  \vec{a}, prove that  \hat{i}\times (\vec{a}\times \hat{i}) + \hat{j}\times (\vec{a}\times \hat{j}) + \hat{k}\times (\vec{a}\times \hat{k}) = 2\vec{a}
+3. Prove that  [\vec{a} -\vec{b},\vec{b} -\vec{c},\vec{c} -\vec{a}] = 0
+4. If  \vec{a} = 2\hat{i} +3\hat{j} -\hat{k}  \vec{b} = 3\hat{i} +5\hat{j} +2\hat{k}  \vec{c} = -\hat{i} -2\hat{j} +3\hat{k}, verify that
+
 (\vec{a}\times \vec{b})\times \vec{c} = (\vec{a}\cdot \vec{c})\vec{b} -(\vec{b}\cdot \vec{c})\vec{a} \qquad (\vec{a}\times (\vec{b}\times \vec{c}) = (\vec{a}\cdot \vec{c})\vec{b} -(\vec{a}\cdot \vec{b})\vec{c}
-{{< /katex >}}
-5. {{< katex >}}\vec{a} = 2\hat{i} +3\hat{j} -\hat{k}{{< /katex >}} {{< katex >}}\vec{b} = -\hat{i} +2\hat{j} -4\hat{k}{{< /katex >}} {{< katex >}}\vec{c} = \hat{i} +\hat{j} +\hat{k}{{< /katex >}} then find the value of {{< katex >}}(\vec{a}\times \vec{b})\cdot (\vec{a}\times \vec{c}){{< /katex >}}
-6. If {{< katex >}}\vec{a},\vec{b},\vec{c},\vec{d}{{< /katex >}} are coplanar vectors, show that {{< katex >}}(\vec{a}\times \vec{b})\times (\vec{c}\times \vec{d}) = \vec{0}{{< /katex >}}
-7. If {{< katex >}}\vec{a} = \hat{i} +2\hat{j} +3\hat{k}{{< /katex >}} {{< katex >}}\vec{b} = 2\hat{i} -\hat{j} +\hat{k}{{< /katex >}} {{< katex >}}\vec{c} = 3\hat{i} +2\hat{j} +\hat{k}{{< /katex >}} and {{< katex >}}\vec{a}\times (\vec{b}\times \vec{c}) = l\vec{a} +m\vec{b} +n\vec{c}{{< /katex >}}, find the values of {{< katex >}}l,m,n{{< /katex >}}
-8. If {{< katex >}}\hat{a},\hat{b},\hat{c}{{< /katex >}} are three unit vectors such that {{< katex >}}\hat{b}{{< /katex >}} and {{< katex >}}\hat{c}{{< /katex >}} are non- parallel and {{< katex >}}\hat{a}\times (\hat{b}\times \hat{c}) = \frac{1}{2}\hat{b}{{< /katex >}}, find the angle between {{< katex >}}\hat{a}{{< /katex >}} and {{< katex >}}\hat{c}{{< /katex >}}.
+
+5.  \vec{a} = 2\hat{i} +3\hat{j} -\hat{k}  \vec{b} = -\hat{i} +2\hat{j} -4\hat{k}  \vec{c} = \hat{i} +\hat{j} +\hat{k} then find the value of  (\vec{a}\times \vec{b})\cdot (\vec{a}\times \vec{c})
+6. If  \vec{a},\vec{b},\vec{c},\vec{d} are coplanar vectors, show that  (\vec{a}\times \vec{b})\times (\vec{c}\times \vec{d}) = \vec{0}
+7. If  \vec{a} = \hat{i} +2\hat{j} +3\hat{k}  \vec{b} = 2\hat{i} -\hat{j} +\hat{k}  \vec{c} = 3\hat{i} +2\hat{j} +\hat{k} and  \vec{a}\times (\vec{b}\times \vec{c}) = l\vec{a} +m\vec{b} +n\vec{c}, find the values of  l,m,n
+8. If  \hat{a},\hat{b},\hat{c} are three unit vectors such that  \hat{b} and  \hat{c} are non- parallel and  \hat{a}\times (\hat{b}\times \hat{c}) = \frac{1}{2}\hat{b}, find the angle between  \hat{a} and  \hat{c}.
 
 ### 6.7 Application of Vectors to 3-Dimensional Geometry
 
-Vectors provide an elegant approach to study straight lines and planes in three dimension. All straight lines and planes are subsets of {{< katex >}}\mathbb{R}^{3}{{< /katex >}}. For brevity, we shall call a straight line simply as line. A plane is a surface which is understood as a set {{< katex >}}P{{< /katex >}} of points in {{< katex >}}\mathbb{R}^{3}{{< /katex >}} such that, if {{< katex >}}A,B{{< /katex >}}, and {{< katex >}}C{{< /katex >}} are any three non- collinear points of {{< katex >}}P{{< /katex >}}, then the line passing through any two of them is a subset of {{< katex >}}P{{< /katex >}}. Two planes are said to be intersecting if they have at least one point in common and at least one point which lies on one plane but not on the other. Two planes are said to be coincident if they have exactly the same points. Two planes are said to be parallel but not coincident if they have no point in common. Similarly, a straight line can be understood as the set of points common to two intersecting planes. In this section, we obtain vector and Cartesian equations of straight line and plane by applying vector methods. By a vector form of equation of a geometrical object, we mean an equation which is satisfied by the position vector of every point of the object. The equation may be a vector equation or a scalar equation.
+Vectors provide an elegant approach to study straight lines and planes in three dimension. All straight lines and planes are subsets of  \mathbb{R}^{3}. For brevity, we shall call a straight line simply as line. A plane is a surface which is understood as a set  P of points in  \mathbb{R}^{3} such that, if  A,B, and  C are any three non- collinear points of  P, then the line passing through any two of them is a subset of  P. Two planes are said to be intersecting if they have at least one point in common and at least one point which lies on one plane but not on the other. Two planes are said to be coincident if they have exactly the same points. Two planes are said to be parallel but not coincident if they have no point in common. Similarly, a straight line can be understood as the set of points common to two intersecting planes. In this section, we obtain vector and Cartesian equations of straight line and plane by applying vector methods. By a vector form of equation of a geometrical object, we mean an equation which is satisfied by the position vector of every point of the object. The equation may be a vector equation or a scalar equation.
 
 XII - Mathematics
 
@@ -811,7 +811,7 @@ A straight line can be uniquely fixed if
 - a point on the straight line and the direction of the straight line are given
 - two points on the straight line are given
 
-We find equations of a straight line in vector and Cartesian form. To find the equation of a straight line in vector form, an arbitrary point {{< katex >}}P{{< /katex >}} with position vector {{< katex >}}\vec{r}{{< /katex >}} on the straight line is taken and a relation satisfied by {{< katex >}}\vec{r}{{< /katex >}} is obtained by using the given conditions. This relation is called the vector equation of the straight line. A vector equation of a straight line may or may not involve parameters. If a vector equation involves parameters, then it is called a vector equation in parametric form. If no parameter is involved, then the equation is called a vector equation in non- parametric form.
+We find equations of a straight line in vector and Cartesian form. To find the equation of a straight line in vector form, an arbitrary point  P with position vector  \vec{r} on the straight line is taken and a relation satisfied by  \vec{r} is obtained by using the given conditions. This relation is called the vector equation of the straight line. A vector equation of a straight line may or may not involve parameters. If a vector equation involves parameters, then it is called a vector equation in parametric form. If no parameter is involved, then the equation is called a vector equation in non- parametric form.
 
 #### 6.7.2 A point on the straight line and the direction of the straight line are given
 
@@ -819,24 +819,24 @@ We find equations of a straight line in vector and Cartesian form. To find the e
 
 **Theorem 6.11**
 
-The vector equation of a straight line passing through a fixed point with position vector {{< katex >}}\vec{a}{{< /katex >}} and parallel to a given vector {{< katex >}}\vec{b}{{< /katex >}} is {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}}, where {{< katex >}}t\in \mathbb{R}{{< /katex >}}.
+The vector equation of a straight line passing through a fixed point with position vector  \vec{a} and parallel to a given vector  \vec{b} is  \vec{r} = \vec{a} +t\vec{b}, where  t\in \mathbb{R}.
 
 ## Proof
 
-If {{< katex >}}\vec{a}{{< /katex >}} is the position vector of a given point {{< katex >}}A{{< /katex >}} and {{< katex >}}\vec{r}{{< /katex >}} is the position vector of an arbitrary point {{< katex >}}P{{< /katex >}} on the straight line, then
+If  \vec{a} is the position vector of a given point  A and  \vec{r} is the position vector of an arbitrary point  P on the straight line, then
 
-{{< katex display=true >}}
+
 \overrightarrow{AP} = \vec{r} -\vec{a}.
-{{< /katex >}}
 
-Since {{< katex >}}\overrightarrow{AP}{{< /katex >}} is parallel to {{< katex >}}\vec{b}{{< /katex >}}, we have
 
-{{< katex display=true >}}
+Since  \overrightarrow{AP} is parallel to  \vec{b}, we have
+
+
 \vec{r} -\vec{a} = t\vec{b},t\in \mathbb{R}
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \vec{r} = \vec{a} +t\vec{b},t\in \mathbb{R}
-{{< /katex >}}
+
 
 <center>Fig. 6.18 </center>
 
@@ -844,55 +844,55 @@ This is the vector equation of the straight line in parametric form.
 
 ## Remark
 
-The position vector of any point on the line is taken as {{< katex >}}\vec{a} +t\vec{b}{{< /katex >}}.
+The position vector of any point on the line is taken as  \vec{a} +t\vec{b}.
 
 ### (b) Non-parametric form of vector equation
 
-Since {{< katex >}}\overrightarrow{AP}{{< /katex >}} is parallel to {{< katex >}}\vec{b}{{< /katex >}}, we have {{< katex >}}\overrightarrow{AP}\times \vec{b} = \vec{0}{{< /katex >}}
+Since  \overrightarrow{AP} is parallel to  \vec{b}, we have  \overrightarrow{AP}\times \vec{b} = \vec{0}
 
-That is, {{< katex >}}(\vec{r} -\vec{a})\times \vec{b} = \vec{0}{{< /katex >}}.
+That is,  (\vec{r} -\vec{a})\times \vec{b} = \vec{0}.
 
 This is known as the vector equation of the straight line in non- parametric form.
 
 ### (c) Cartesian equation
 
-Suppose {{< katex >}}P{{< /katex >}} is {{< katex >}}(x,y,z){{< /katex >}} {{< katex >}}A{{< /katex >}} is {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}} and {{< katex >}}\vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k}{{< /katex >}}. Then, substituting {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}} {{< katex >}}\vec{a} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k}{{< /katex >}} in (1) and comparing the coefficients of {{< katex >}}\hat{i},\hat{j},\hat{k}{{< /katex >}}, we get
+Suppose  P is  (x,y,z)  A is  (x_{1},y_{1},z_{1}) and  \vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k}. Then, substituting  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k}  \vec{a} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k} in (1) and comparing the coefficients of  \hat{i},\hat{j},\hat{k}, we get
 
-{{< katex display=true >}}
+
 x - x_{1} = tb_{1},y - y_{1} = tb_{2},z - z_{1} = tb_{3} \quad (4)
-{{< /katex >}}
+
 
 Conventionally (4) can be written as
 
-{{< katex display=true >}}
-\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} \quad (5)
-{{< /katex >}}
 
-which are called the Cartesian equations or symmetric equations of a straight line passing through the point {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}} and parallel to a vector with direction ratios {{< katex >}}b_{1},b_{2},b_{3}{{< /katex >}}.
+\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} \quad (5)
+
+
+which are called the Cartesian equations or symmetric equations of a straight line passing through the point  (x_{1},y_{1},z_{1}) and parallel to a vector with direction ratios  b_{1},b_{2},b_{3}.
 
 ## Remark
 
-(i) Every point on the line (5) is of the form {{< katex >}}(x_{1} + t b_{1},y_{1} + t b_{2},z_{1} + t b_{3}){{< /katex >}}, where {{< katex >}}t\in \mathbb{R}{{< /katex >}}.
+(i) Every point on the line (5) is of the form  (x_{1} + t b_{1},y_{1} + t b_{2},z_{1} + t b_{3}), where  t\in \mathbb{R}.
 
-(ii) Since the direction cosines of a line are proportional to direction ratios of the line, if {{< katex >}}l,m,n{{< /katex >}} are the direction cosines of the line, then the Cartesian equations of the line are
+(ii) Since the direction cosines of a line are proportional to direction ratios of the line, if  l,m,n are the direction cosines of the line, then the Cartesian equations of the line are
 
-{{< katex display=true >}}
+
 \frac{x - x_{1}}{l} = \frac{y - y_{1}}{m} = \frac{z - z_{1}}{n}.
-{{< /katex >}}
 
-(iii) In (5), if any one or two of {{< katex >}}b_{1},b_{2},b_{3}{{< /katex >}} are zero, it does not mean that we are dividing by zero. But it means that the corresponding numerator is zero. For instance, If {{< katex >}}b_{1}\neq 0,b_{2}\neq 0{{< /katex >}} and {{< katex >}}b_{3} = 0{{< /katex >}}, then
 
-{{< katex display=true >}}
+(iii) In (5), if any one or two of  b_{1},b_{2},b_{3} are zero, it does not mean that we are dividing by zero. But it means that the corresponding numerator is zero. For instance, If  b_{1}\neq 0,b_{2}\neq 0 and  b_{3} = 0, then
+
+
 \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{0}
-{{< /katex >}}
 
-(iv) We know that the direction cosines of {{< katex >}}x{{< /katex >}} - axis are {{< katex >}}1,0,0{{< /katex >}}. Therefore, the equations of {{< katex >}}x{{< /katex >}} - axis are
 
-{{< katex display=true >}}
+(iv) We know that the direction cosines of  x - axis are  1,0,0. Therefore, the equations of  x - axis are
+
+
 \frac{x - 0}{1} = \frac{y - 0}{0} = \frac{z - 0}{0} \text{or} x = t,y = 0,z = 0, \text{where} t\in \mathbb{R}.
-{{< /katex >}}
 
-Similarly the equations of {{< katex >}}y{{< /katex >}} - axis and {{< katex >}}z{{< /katex >}} - axis are given by {{< katex >}}\frac{x - 0}{0} = \frac{y - 0}{1} = \frac{z - 0}{0}{{< /katex >}} and {{< katex >}}\frac{x - 0}{0} = \frac{y - 0}{0} = \frac{z - 0}{1}{{< /katex >}} respectively.
+
+Similarly the equations of  y - axis and  z - axis are given by  \frac{x - 0}{0} = \frac{y - 0}{1} = \frac{z - 0}{0} and  \frac{x - 0}{0} = \frac{y - 0}{0} = \frac{z - 0}{1} respectively.
 
 #### 6.7.3 Straight Line passing through two given points
 
@@ -900,230 +900,230 @@ Similarly the equations of {{< katex >}}y{{< /katex >}} - axis and {{< katex >}}
 
 **Theorem 6.12**
 
-The parametric form of vector equation of a line passing through two given points whose position vectors are {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} respectively is {{< katex >}}\vec{r} = \vec{a} +t(\vec{b} -\vec{a}),t\in \mathbb{R}{{< /katex >}}.
+The parametric form of vector equation of a line passing through two given points whose position vectors are  \vec{a} and  \vec{b} respectively is  \vec{r} = \vec{a} +t(\vec{b} -\vec{a}),t\in \mathbb{R}.
 
 **(b) Non-parametric form of vector equation**
 
 The above equation can be written equivalently in non- parametric form of vector equation as
 
-{{< katex display=true >}}
+
 (\vec{r} -\vec{a})\times (\vec{b} -\vec{a}) = \vec{0}
-{{< /katex >}}
+
 
 **(c) Cartesian form of equation**
 
-Suppose {{< katex >}}P{{< /katex >}} is {{< katex >}}(x,y,z){{< /katex >}}, {{< katex >}}A{{< /katex >}} is {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}} and {{< katex >}}B{{< /katex >}} is {{< katex >}}(x_{2},y_{2},z_{2}){{< /katex >}}. Then substituting {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}}, {{< katex >}}\vec{a} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k}{{< /katex >}} and {{< katex >}}\vec{b} = x_{2}\hat{i} +y_{2}\hat{j} +z_{2}\hat{k}{{< /katex >}} in theorem 6.12 and comparing the coefficients of {{< katex >}}\hat{i},\hat{j},\hat{k}{{< /katex >}}, we get {{< katex >}}x - x_{1} = t(x_{2} - x_{1}),y - y_{1} = t(y_{2} - y_{1}),z - z_{1} = t(z_{2} - z_{1}){{< /katex >}} and so the Cartesian equations of a line passing through two given points {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}} and {{< katex >}}(x_{2},y_{2},z_{2}){{< /katex >}} are given by
+Suppose  P is  (x,y,z),  A is  (x_{1},y_{1},z_{1}) and  B is  (x_{2},y_{2},z_{2}). Then substituting  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k},  \vec{a} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k} and  \vec{b} = x_{2}\hat{i} +y_{2}\hat{j} +z_{2}\hat{k} in theorem 6.12 and comparing the coefficients of  \hat{i},\hat{j},\hat{k}, we get  x - x_{1} = t(x_{2} - x_{1}),y - y_{1} = t(y_{2} - y_{1}),z - z_{1} = t(z_{2} - z_{1}) and so the Cartesian equations of a line passing through two given points  (x_{1},y_{1},z_{1}) and  (x_{2},y_{2},z_{2}) are given by
 
 <center>Fig. 6.19 </center>
 
-{{< katex display=true >}}
+
 \frac{x - x_{1}}{x_{2} - x_{1}} = \frac{y - y_{1}}{y_{2} - y_{1}} = \frac{z - z_{1}}{z_{2} - z_{1}}
-{{< /katex >}}
+
 
 **Example 6.26**
 
-Find the vector equation in parametric form and Cartesian equations of the line passing through {{< katex >}}(- 4,2, - 3){{< /katex >}} and is parallel to the line {{< katex >}}\frac{- x - 2}{4} = \frac{y + 3}{- 2} = \frac{2z - 6}{3}{{< /katex >}}.
+Find the vector equation in parametric form and Cartesian equations of the line passing through  (- 4,2, - 3) and is parallel to the line  \frac{- x - 2}{4} = \frac{y + 3}{- 2} = \frac{2z - 6}{3}.
 
 ## Solution
 
-Rewriting the given equations as {{< katex >}}\frac{x + 2}{- 4} = \frac{y + 3}{- 2} = \frac{z - 3}{3 / 2}{{< /katex >}} and comparing with {{< katex >}}\frac{x - x_1}{b_1} = \frac{y - y_1}{b_2} = \frac{z - z_1}{b_3}{{< /katex >}}, we have {{< katex >}}\vec{b} = b_1\vec{i} +b_2\vec{j} +b_3\vec{k} = - 4\vec{i} - 2\vec{j} +\frac{3}{2}\vec{k} = -\frac{1}{2} (8\vec{i} +4\vec{j} -3\vec{k}){{< /katex >}}. Clearly, {{< katex >}}\vec{b}{{< /katex >}} is parallel to the vector {{< katex >}}8\vec{i} +4\vec{j} -3\vec{k}{{< /katex >}}. Therefore, a vector equation of the required straight line passing through the given point {{< katex >}}(- 4,2, - 3){{< /katex >}} and parallel to the vector {{< katex >}}8\vec{i} +4\vec{j} -3\vec{k}{{< /katex >}} in parametric form is
+Rewriting the given equations as  \frac{x + 2}{- 4} = \frac{y + 3}{- 2} = \frac{z - 3}{3 / 2} and comparing with  \frac{x - x_1}{b_1} = \frac{y - y_1}{b_2} = \frac{z - z_1}{b_3}, we have  \vec{b} = b_1\vec{i} +b_2\vec{j} +b_3\vec{k} = - 4\vec{i} - 2\vec{j} +\frac{3}{2}\vec{k} = -\frac{1}{2} (8\vec{i} +4\vec{j} -3\vec{k}). Clearly,  \vec{b} is parallel to the vector  8\vec{i} +4\vec{j} -3\vec{k}. Therefore, a vector equation of the required straight line passing through the given point  (- 4,2, - 3) and parallel to the vector  8\vec{i} +4\vec{j} -3\vec{k} in parametric form is
 
-{{< katex display=true >}}
+
 \vec{r} = (-4\vec{i} +2\vec{j} -3\vec{k}) + t(8\vec{i} +4\vec{j} -3\vec{k}),t\in \mathbb{R}.
-{{< /katex >}}
+
 
 Therefore, Cartesian equations of the required straight line are given by
 
-{{< katex display=true >}}
+
 \frac{x + 4}{8} = \frac{y - 2}{4} = \frac{z + 3}{-3}.
-{{< /katex >}}
+
 
 ## Example 6.27
 
-Find the vector equation in parametric form and Cartesian equations of a straight passing through the points {{< katex >}}(- 5,7, - 4){{< /katex >}} and {{< katex >}}(13, - 5,2){{< /katex >}}. Find the point where the straight line crosses the {{< katex >}}xy{{< /katex >}} - plane.
+Find the vector equation in parametric form and Cartesian equations of a straight passing through the points  (- 5,7, - 4) and  (13, - 5,2). Find the point where the straight line crosses the  xy - plane.
 
 ## Solution
 
-The straight line passes through the points {{< katex >}}(- 5,7, - 4){{< /katex >}} and {{< katex >}}(13, - 5,2){{< /katex >}}, and therefore, direction ratios of the straight line joining these two points are 18, - 12, 6. That is, 3, - 2, 1.
+The straight line passes through the points  (- 5,7, - 4) and  (13, - 5,2), and therefore, direction ratios of the straight line joining these two points are 18, - 12, 6. That is, 3, - 2, 1.
 
-So, the straight line is parallel to {{< katex >}}3\vec{i} - 2\vec{j} +\vec{k}{{< /katex >}}. Therefore,
+So, the straight line is parallel to  3\vec{i} - 2\vec{j} +\vec{k}. Therefore,
 
-Required vector equation of the straight line in parametric form is {{< katex >}}\vec{r} = (- 5\vec{i} +7\vec{j} -4\vec{k}) + t(3\vec{i} -2\vec{j} +\vec{k}){{< /katex >}} or {{< katex >}}\vec{r} = (13\vec{i} -5\vec{j} +2\vec{k}) + s(3\vec{i} -2\vec{j} +\vec{k}){{< /katex >}} where {{< katex >}}s,t\in \mathbb{R}{{< /katex >}}
+Required vector equation of the straight line in parametric form is  \vec{r} = (- 5\vec{i} +7\vec{j} -4\vec{k}) + t(3\vec{i} -2\vec{j} +\vec{k}) or  \vec{r} = (13\vec{i} -5\vec{j} +2\vec{k}) + s(3\vec{i} -2\vec{j} +\vec{k}) where  s,t\in \mathbb{R}
 
-Required cartesian equations of the straight line are {{< katex >}}\frac{x + 5}{3} = \frac{y - 7}{- 2} = \frac{z + 4}{1}{{< /katex >}} or {{< katex >}}\frac{x - 13}{3} = \frac{y + 5}{- 2} = \frac{z - 2}{1}{{< /katex >}}.
+Required cartesian equations of the straight line are  \frac{x + 5}{3} = \frac{y - 7}{- 2} = \frac{z + 4}{1} or  \frac{x - 13}{3} = \frac{y + 5}{- 2} = \frac{z - 2}{1}.
 
 An arbitrary point on the straight line is of the form
 
-{{< katex display=true >}}
-(3t - 5, - 2t + 7,t - 4)\mathrm{or}(3s + 13, - 2s - 5,s + 2)
-{{< /katex >}}
 
-Since the straight line crosses the {{< katex >}}xy{{< /katex >}} - plane, the {{< katex >}}z{{< /katex >}} - coordinate of the point of intersection is zero. Therefore, we have {{< katex >}}t - 4 = 0{{< /katex >}}, that is, {{< katex >}}t = 4{{< /katex >}}, and hence the straight line crosses the {{< katex >}}xy{{< /katex >}} - plane at {{< katex >}}(7, - 1,0){{< /katex >}}.
+(3t - 5, - 2t + 7,t - 4)\mathrm{or}(3s + 13, - 2s - 5,s + 2)
+
+
+Since the straight line crosses the  xy - plane, the  z - coordinate of the point of intersection is zero. Therefore, we have  t - 4 = 0, that is,  t = 4, and hence the straight line crosses the  xy - plane at  (7, - 1,0).
 
 ## Example 6.28
 
-Find the angle made by the straight line {{< katex >}}\frac{x + 3}{2} = \frac{y - 1}{2} = - z{{< /katex >}} with coordinate axes.
+Find the angle made by the straight line  \frac{x + 3}{2} = \frac{y - 1}{2} = - z with coordinate axes.
 
 ## Solution
 
-If {{< katex >}}\hat{b}{{< /katex >}} is a unit vector parallel to the given line, then {{< katex >}}\hat{b} = \frac{2\vec{i} + 2\vec{j} - \vec{k}}{|\vec{2}\vec{i} + 2\vec{j} - \vec{k}|} = \frac{1}{3} (2\vec{i} +2\vec{j} - \vec{k}){{< /katex >}}. Therefore, from the definition of direction cosines of {{< katex >}}\hat{b}{{< /katex >}}, we have the direction cosines as {{< katex >}}\frac{2}{3}, \frac{2}{3}, -\frac{1}{3}{{< /katex >}}.
+If  \hat{b} is a unit vector parallel to the given line, then  \hat{b} = \frac{2\vec{i} + 2\vec{j} - \vec{k}}{|\vec{2}\vec{i} + 2\vec{j} - \vec{k}|} = \frac{1}{3} (2\vec{i} +2\vec{j} - \vec{k}). Therefore, from the definition of direction cosines of  \hat{b}, we have the direction cosines as  \frac{2}{3}, \frac{2}{3}, -\frac{1}{3}.
 
-Hence, the angles made by the line with the coordinate axes are {{< katex >}}\cos^{-1}(\frac{2}{3}), \cos^{-1}(\frac{2}{3}), \cos^{-1}(-\frac{1}{3}){{< /katex >}}.
+Hence, the angles made by the line with the coordinate axes are  \cos^{-1}(\frac{2}{3}), \cos^{-1}(\frac{2}{3}), \cos^{-1}(-\frac{1}{3}).
 
 #### 6.7.4 Angle between two straight lines
 
 **(a) Vector form**
 
-The acute angle between two given straight lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} is same as that of the angle between {{< katex >}}\vec{b}{{< /katex >}} and {{< katex >}}\vec{d}{{< /katex >}}. So, {{< katex >}}\cos \theta = \frac{|\vec{b}\cdot\vec{d}|}{|\vec{b}||\vec{d}|}{{< /katex >}} or {{< katex >}}\theta = \cos^{- 1}\left(\frac{|\vec{b}\cdot\vec{d}|}{|\vec{b}||\vec{d}|}\right){{< /katex >}}.
+The acute angle between two given straight lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} is same as that of the angle between  \vec{b} and  \vec{d}. So,  \cos \theta = \frac{|\vec{b}\cdot\vec{d}|}{|\vec{b}||\vec{d}|} or  \theta = \cos^{- 1}\left(\frac{|\vec{b}\cdot\vec{d}|}{|\vec{b}||\vec{d}|}\right).
 
 ## Remark
 
-(i) The two given lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} are parallel
+(i) The two given lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} are parallel
 
-{{< katex >}}\Leftrightarrow \theta = 0\Leftrightarrow \cos \theta = 1\Leftrightarrow |\vec{b}\cdot \vec{d}| = |\vec{b} | |\vec{d} |.{{< /katex >}}
+ \Leftrightarrow \theta = 0\Leftrightarrow \cos \theta = 1\Leftrightarrow |\vec{b}\cdot \vec{d}| = |\vec{b} | |\vec{d} |.
 
-(ii) The two given lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} are parallel if, and only if {{< katex >}}\vec{b} = \lambda \vec{d}{{< /katex >}}, for some scalar {{< katex >}}\lambda{{< /katex >}}.
+(ii) The two given lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} are parallel if, and only if  \vec{b} = \lambda \vec{d}, for some scalar  \lambda.
 
-(iii) The two given lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} are perpendicular if, and only if {{< katex >}}\vec{b}\cdot \vec{d} = 0{{< /katex >}}.
+(iii) The two given lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} are perpendicular if, and only if  \vec{b}\cdot \vec{d} = 0.
 
 ### (b) Cartesian form
 
-If two lines are given in Cartesian form as {{< katex >}}\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}{{< /katex >}} and {{< katex >}}\frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}}{{< /katex >}}, then the acute angle {{< katex >}}\theta{{< /katex >}} between the two given lines is given by
+If two lines are given in Cartesian form as  \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} and  \frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}}, then the acute angle  \theta between the two given lines is given by
 
-{{< katex display=true >}}
+
 \theta = \cos^{-1}\left(\frac{|b_{1}d_{1} + b_{2}d_{2} + b_{3}d_{3}|}{\sqrt{b_{1}^{2} + b_{2}^{2} + b_{3}^{2}}\sqrt{d_{1}^{2} + d_{2}^{2} + d_{3}^{2}}}\right)
-{{< /katex >}}
+
 
 ## Remark
 
-(i) The two given lines with direction ratios {{< katex >}}b_{1},b_{2},b_{3}{{< /katex >}} and {{< katex >}}d_{1},d_{2},d_{3}{{< /katex >}} are parallel if, and only if
+(i) The two given lines with direction ratios  b_{1},b_{2},b_{3} and  d_{1},d_{2},d_{3} are parallel if, and only if
 
-{{< katex display=true >}}
+
 \frac{b_{1}}{d_{1}} = \frac{b_{2}}{d_{2}} = \frac{b_{3}}{d_{3}}.
-{{< /katex >}}
 
-(ii) The two given lines with direction ratios {{< katex >}}b_{1},b_{2},b_{3}{{< /katex >}} and {{< katex >}}d_{1},d_{2},d_{3}{{< /katex >}} are perpendicular if and only if {{< katex >}}b_{1}d_{1} + b_{2}d_{2} + b_{3}d_{3} = 0{{< /katex >}}.
 
-(iii) If the direction cosines of two given straight lines are {{< katex >}}l_{1},m_{1},n_{1}{{< /katex >}} and {{< katex >}}l_{2},m_{2},n_{2}{{< /katex >}}, then the angle between the two given straight lines is {{< katex >}}\cos \theta = |l_{1}l_{2} + m_{1}m_{2} + n_{1}n_{2}|{{< /katex >}}.
+(ii) The two given lines with direction ratios  b_{1},b_{2},b_{3} and  d_{1},d_{2},d_{3} are perpendicular if and only if  b_{1}d_{1} + b_{2}d_{2} + b_{3}d_{3} = 0.
+
+(iii) If the direction cosines of two given straight lines are  l_{1},m_{1},n_{1} and  l_{2},m_{2},n_{2}, then the angle between the two given straight lines is  \cos \theta = |l_{1}l_{2} + m_{1}m_{2} + n_{1}n_{2}|.
 
 **Example 6.29**
 
-Find the acute angle between the lines {{< katex >}}\vec{r} = (\hat{i} +2\hat{j} +4\hat{k}) + t(2\hat{i} +2\hat{j} +\hat{k}){{< /katex >}} and the straight line passing through the points (5,1,4) and (9,2,12).
+Find the acute angle between the lines  \vec{r} = (\hat{i} +2\hat{j} +4\hat{k}) + t(2\hat{i} +2\hat{j} +\hat{k}) and the straight line passing through the points (5,1,4) and (9,2,12).
 
 ## Solution
 
-We know that the line {{< katex >}}\vec{r} = (\hat{i} +2\hat{j} +4\hat{k}) + t(2\hat{i} +2\hat{j} +\hat{k}){{< /katex >}} is parallel to the vector {{< katex >}}2\hat{i} +2\hat{j} +\hat{k}{{< /katex >}}.
+We know that the line  \vec{r} = (\hat{i} +2\hat{j} +4\hat{k}) + t(2\hat{i} +2\hat{j} +\hat{k}) is parallel to the vector  2\hat{i} +2\hat{j} +\hat{k}.
 
-Direction ratios of the straight line joining the two given points (5,1,4) and (9,2,12) are 4,1,8 and hence this line is parallel to the vector {{< katex >}}4\hat{i} +\hat{j} +8\hat{k}{{< /katex >}}.
+Direction ratios of the straight line joining the two given points (5,1,4) and (9,2,12) are 4,1,8 and hence this line is parallel to the vector  4\hat{i} +\hat{j} +8\hat{k}.
 
 Therefore, the acute angle between the given two straight lines is
 
-{{< katex display=true >}}
-\theta = \cos^{-1}\left(\frac{|\vec{b}\cdot\vec{d}|}{|\vec{b}||\vec{d}|}\right),\mathrm{where~}\vec{b} = 2\hat{i} +2\hat{j} +\hat{k}\mathrm{~and~}\vec{d} = 4\hat{i} +\hat{j} +8\hat{k}.
-{{< /katex >}}
 
-{{< katex display=true >}}
+\theta = \cos^{-1}\left(\frac{|\vec{b}\cdot\vec{d}|}{|\vec{b}||\vec{d}|}\right),\mathrm{where~}\vec{b} = 2\hat{i} +2\hat{j} +\hat{k}\mathrm{~and~}\vec{d} = 4\hat{i} +\hat{j} +8\hat{k}.
+
+
+
 \theta = \cos^{-1}\left(\frac{|(2\hat{i} +2\hat{j} +\hat{k})\cdot(4\hat{i} +\hat{j} +8\hat{k})|}{|2\hat{i} +2\hat{j} +\hat{k}||4\hat{i} +\hat{j} +8\hat{k}|}\right) = \cos^{-1}\left(\frac{2}{3}\right).
-{{< /katex >}}
+
 
 ## Example 6.30
 
-Find the acute angle between the straight lines {{< katex >}}\frac{x - 4}{2} = \frac{y}{1} = \frac{z + 1}{- 2}{{< /katex >}} and {{< katex >}}\frac{x - 1}{4} = \frac{y + 1}{- 4} = \frac{z - 2}{2}{{< /katex >}} and state whether they are parallel or perpendicular.
+Find the acute angle between the straight lines  \frac{x - 4}{2} = \frac{y}{1} = \frac{z + 1}{- 2} and  \frac{x - 1}{4} = \frac{y + 1}{- 4} = \frac{z - 2}{2} and state whether they are parallel or perpendicular.
 
 ## Solution
 
 Comparing the given lines with the general Cartesian equations of straight lines,
 
-{{< katex display=true >}}
+
 \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}\mathrm{~and~}\frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}}
-{{< /katex >}}
 
-we find {{< katex >}}(b_{1},b_{2},b_{3}) = (2,1, - 2){{< /katex >}} and {{< katex >}}(d_{1},d_{2},d_{3}) = (4, - 4,2){{< /katex >}}. Therefore, the acute angle between the two straight lines is
 
-{{< katex display=true >}}
+we find  (b_{1},b_{2},b_{3}) = (2,1, - 2) and  (d_{1},d_{2},d_{3}) = (4, - 4,2). Therefore, the acute angle between the two straight lines is
+
+
 \theta = \cos^{-1}\left(\frac{|(2)(4) + (1)(-4) + (-2)(2)|}{\sqrt{2^{2} + 1^{2} + (-2)^{2}}\sqrt{4^{2} + (-4)^{2} + 2^{2}}}\right) = \cos^{-1}(0) = \frac{\pi}{2}
-{{< /katex >}}
+
 
 Thus the two straight lines are perpendicular.
 
 ## Example 6.31
 
-Show that the straight line passing through the points {{< katex >}}A(6,7,5){{< /katex >}} and {{< katex >}}B(8,10,6){{< /katex >}} is perpendicular to the straight line passing through the points {{< katex >}}C(10,2, - 5){{< /katex >}} and {{< katex >}}D(8,3, - 4){{< /katex >}}.
+Show that the straight line passing through the points  A(6,7,5) and  B(8,10,6) is perpendicular to the straight line passing through the points  C(10,2, - 5) and  D(8,3, - 4).
 
 ## Solution
 
-The straight line passing through the points {{< katex >}}A(6,7,5){{< /katex >}} and {{< katex >}}B(8,10,6){{< /katex >}} is parallel to the vector {{< katex >}}\vec{b} = \overrightarrow{A B} = \overrightarrow{O B} - \overrightarrow{O A} = 2\hat{i} +3\hat{j} +\hat{k}{{< /katex >}} and the straight line passing through the points {{< katex >}}C(10,2, - 5){{< /katex >}} and {{< katex >}}D(8,3, - 4){{< /katex >}} is parallel to the vector {{< katex >}}\vec{d} = \overrightarrow{C D} = - 2\hat{i} +\hat{j} +\hat{k}{{< /katex >}}. Therefore, the angle between the two straight lines is the angle between the two vectors {{< katex >}}\vec{b}{{< /katex >}} and {{< katex >}}\vec{d}{{< /katex >}}. Since
+The straight line passing through the points  A(6,7,5) and  B(8,10,6) is parallel to the vector  \vec{b} = \overrightarrow{A B} = \overrightarrow{O B} - \overrightarrow{O A} = 2\hat{i} +3\hat{j} +\hat{k} and the straight line passing through the points  C(10,2, - 5) and  D(8,3, - 4) is parallel to the vector  \vec{d} = \overrightarrow{C D} = - 2\hat{i} +\hat{j} +\hat{k}. Therefore, the angle between the two straight lines is the angle between the two vectors  \vec{b} and  \vec{d}. Since
 
-{{< katex display=true >}}
+
 \vec{b}\cdot \vec{d} = (2\hat{i} +3\hat{j} +\hat{k})\cdot (-2\hat{i} +\hat{j} +\hat{k}) = 0.
-{{< /katex >}}
+
 
 the two vectors are perpendicular, and hence the two straight lines are perpendicular.
 
 **Aliter**
 
-We find that direction ratios of the straight line joining the points {{< katex >}}A(6,7,5){{< /katex >}} and {{< katex >}}B(8,10,6){{< /katex >}} are {{< katex >}}(b_{1},b_{2},b_{3}) = (2,3,1){{< /katex >}} and direction ratios of the line joining the points {{< katex >}}C(10,2, - 5){{< /katex >}} and {{< katex >}}D(8,3, - 4){{< /katex >}} are {{< katex >}}(d_{1},d_{2},d_{3}) = (- 2,1,1){{< /katex >}}. Since {{< katex >}}b_{1}d_{1} + b_{2}d_{2} + b_{3}d_{3} = (2)(- 2) + (3)(1) + (1)(1) = 0{{< /katex >}}, the two straight lines are perpendicular.
+We find that direction ratios of the straight line joining the points  A(6,7,5) and  B(8,10,6) are  (b_{1},b_{2},b_{3}) = (2,3,1) and direction ratios of the line joining the points  C(10,2, - 5) and  D(8,3, - 4) are  (d_{1},d_{2},d_{3}) = (- 2,1,1). Since  b_{1}d_{1} + b_{2}d_{2} + b_{3}d_{3} = (2)(- 2) + (3)(1) + (1)(1) = 0, the two straight lines are perpendicular.
 
 **Example 6.32**
 
-Show that the lines {{< katex >}}\frac{x - 1}{4} = \frac{2 - y}{6} = \frac{z - 4}{12}{{< /katex >}} and {{< katex >}}\frac{x - 3}{- 2} = \frac{y - 3}{3} = \frac{5 - z}{6}{{< /katex >}} are parallel.
+Show that the lines  \frac{x - 1}{4} = \frac{2 - y}{6} = \frac{z - 4}{12} and  \frac{x - 3}{- 2} = \frac{y - 3}{3} = \frac{5 - z}{6} are parallel.
 
 ## Solution
 
-We observe that the straight line {{< katex >}}\frac{x - 1}{4} = \frac{2 - y}{6} = \frac{z - 4}{12}{{< /katex >}} is parallel to the vector {{< katex >}}4\hat{i} - 6\hat{j} +12\hat{k}{{< /katex >}} and the straight line {{< katex >}}\frac{x - 3}{- 2} = \frac{y - 3}{3} = \frac{5 - z}{6}{{< /katex >}} is parallel to the vector {{< katex >}}- 2\hat{i} +3\hat{j} - 6\hat{k}{{< /katex >}}.
+We observe that the straight line  \frac{x - 1}{4} = \frac{2 - y}{6} = \frac{z - 4}{12} is parallel to the vector  4\hat{i} - 6\hat{j} +12\hat{k} and the straight line  \frac{x - 3}{- 2} = \frac{y - 3}{3} = \frac{5 - z}{6} is parallel to the vector  - 2\hat{i} +3\hat{j} - 6\hat{k}.
 
-Since {{< katex >}}4\hat{i} - 6\hat{j} +12\hat{k} = - 2(- 2\hat{i} +3\hat{j} - 6\hat{k}){{< /katex >}}, the two vectors are parallel, and hence the two straight lines are parallel.
+Since  4\hat{i} - 6\hat{j} +12\hat{k} = - 2(- 2\hat{i} +3\hat{j} - 6\hat{k}), the two vectors are parallel, and hence the two straight lines are parallel.
 
 **EXERCISE 6.4**
 
-1. Find the non-parametric form of vector equation and Cartesian equations of the straight line passing through the point with position vector {{< katex >}}4\hat{i} +3\hat{j} -7\hat{k}{{< /katex >}} and parallel to the vector {{< katex >}}2\hat{i} -6\hat{j} +7\hat{k}{{< /katex >}}.
+1. Find the non-parametric form of vector equation and Cartesian equations of the straight line passing through the point with position vector  4\hat{i} +3\hat{j} -7\hat{k} and parallel to the vector  2\hat{i} -6\hat{j} +7\hat{k}.
 
-2. Find the parametric form of vector equation and Cartesian equations of the straight line passing through the point {{< katex >}}(-2,3,4){{< /katex >}} and parallel to the straight line {{< katex >}}\frac{x - 1}{-4} = \frac{y + 3}{5} = \frac{8 - z}{6}{{< /katex >}}.
+2. Find the parametric form of vector equation and Cartesian equations of the straight line passing through the point  (-2,3,4) and parallel to the straight line  \frac{x - 1}{-4} = \frac{y + 3}{5} = \frac{8 - z}{6}.
 
-3. Find the points where the straight line passes through {{< katex >}}(6,7,4){{< /katex >}} and {{< katex >}}(8,4,9){{< /katex >}} cuts the {{< katex >}}xz{{< /katex >}} and {{< katex >}}yz{{< /katex >}} planes.
+3. Find the points where the straight line passes through  (6,7,4) and  (8,4,9) cuts the  xz and  yz planes.
 
-4. Find the direction cosines of the straight line passing through the points {{< katex >}}(5,6,7){{< /katex >}} and {{< katex >}}(7,9,13){{< /katex >}}. Also, find the parametric form of vector equation and Cartesian equations of the straight line passing through two given points.
+4. Find the direction cosines of the straight line passing through the points  (5,6,7) and  (7,9,13). Also, find the parametric form of vector equation and Cartesian equations of the straight line passing through two given points.
 
 5. Find the acute angle between the following lines.
-   (i) {{< katex >}}\vec{r}=(4\hat{i}-\hat{j})+t(\hat{i}+2\hat{j}-2\hat{k}),\vec{r}=(\hat{i}-2\hat{j}+4\hat{k})+s(-\hat{i}-2\hat{j}+2\hat{k}){{< /katex >}}
-   (ii) {{< katex >}}\frac{x+4}{3}=\frac{y-7}{4}=\frac{z+5}{5},\vec{r}=4\hat{k}+t(2\hat{i}+\hat{j}+\hat{k}){{< /katex >}}.
+   (i)  \vec{r}=(4\hat{i}-\hat{j})+t(\hat{i}+2\hat{j}-2\hat{k}),\vec{r}=(\hat{i}-2\hat{j}+4\hat{k})+s(-\hat{i}-2\hat{j}+2\hat{k})
+   (ii)  \frac{x+4}{3}=\frac{y-7}{4}=\frac{z+5}{5},\vec{r}=4\hat{k}+t(2\hat{i}+\hat{j}+\hat{k}).
 
-6. The vertices of {{< katex >}}\Delta ABC{{< /katex >}} are {{< katex >}}A(7,2,1),B(6,0,3){{< /katex >}}, and {{< katex >}}C(4,2,4){{< /katex >}}. Find {{< katex >}}\angle ABC{{< /katex >}}.
+6. The vertices of  \Delta ABC are  A(7,2,1),B(6,0,3), and  C(4,2,4). Find  \angle ABC.
 
-7. If the straight line joining the points {{< katex >}}(2,1,4){{< /katex >}} and {{< katex >}}(a - 1,4, - 1){{< /katex >}} is parallel to the line joining the points {{< katex >}}(0,2,b - 1){{< /katex >}} and {{< katex >}}(5,3, - 2){{< /katex >}}, find the values of {{< katex >}}a{{< /katex >}} and {{< katex >}}b{{< /katex >}}.
+7. If the straight line joining the points  (2,1,4) and  (a - 1,4, - 1) is parallel to the line joining the points  (0,2,b - 1) and  (5,3, - 2), find the values of  a and  b.
 
-8. If the straight lines {{< katex >}}\frac{x - 5}{5m + 2} = \frac{2 - y}{5} = \frac{1 - z}{-1}{{< /katex >}} and {{< katex >}}x = \frac{2y + 1}{4m} = \frac{1 - z}{-3}{{< /katex >}} are perpendicular to each other, find the value of {{< katex >}}m{{< /katex >}}.
+8. If the straight lines  \frac{x - 5}{5m + 2} = \frac{2 - y}{5} = \frac{1 - z}{-1} and  x = \frac{2y + 1}{4m} = \frac{1 - z}{-3} are perpendicular to each other, find the value of  m.
 
-9. Show that the points {{< katex >}}(2,3,4),(-1,4,5){{< /katex >}} and {{< katex >}}(8,1,2){{< /katex >}} are collinear.
+9. Show that the points  (2,3,4),(-1,4,5) and  (8,1,2) are collinear.
 
 #### 6.7.5 Point of intersection of two straight lines
 
-If {{< katex >}}\frac{x - x_{1}}{a_{1}} = \frac{y - y_{1}}{a_{2}} = \frac{z - z_{1}}{a_{3}}{{< /katex >}} and {{< katex >}}\frac{x - x_{2}}{b_{1}} = \frac{y - y_{2}}{b_{2}} = \frac{z - z_{2}}{b_{3}}{{< /katex >}} are two lines, then every point on the line is of the form {{< katex >}}(x_{1} + sa_{1},y_{1} + sa_{2},z_{1} + sa_{3}){{< /katex >}} and {{< katex >}}(x_{2} + tb_{1},y_{2} + tb_{2},z_{2} + tb_{3}){{< /katex >}} respectively. If the lines are intersecting, then there must be a common point. So, at the point of intersection, for some values of {{< katex >}}s{{< /katex >}} and {{< katex >}}t{{< /katex >}}, we have
+If  \frac{x - x_{1}}{a_{1}} = \frac{y - y_{1}}{a_{2}} = \frac{z - z_{1}}{a_{3}} and  \frac{x - x_{2}}{b_{1}} = \frac{y - y_{2}}{b_{2}} = \frac{z - z_{2}}{b_{3}} are two lines, then every point on the line is of the form  (x_{1} + sa_{1},y_{1} + sa_{2},z_{1} + sa_{3}) and  (x_{2} + tb_{1},y_{2} + tb_{2},z_{2} + tb_{3}) respectively. If the lines are intersecting, then there must be a common point. So, at the point of intersection, for some values of  s and  t, we have
 
-{{< katex display=true >}}
+
 (x_{1} + sa_{1},y_{1} + sa_{2},z_{1} + sa_{3}) = (x_{2} + tb_{1},y_{2} + tb_{2},z_{2} + tb_{3})
-{{< /katex >}}
-{{< katex display=true >}}
-\qquad \mathrm{Therefore,}x_{1} + sa_{1} = x_{2} + tb_{1},y_{1} + sa_{2} = y_{2} + tb_{2},z_{1} + sa_{3} = z_{2} + tb_{3}
-{{< /katex >}}
 
-By solving any two of the above three equations, we obtain the values of {{< katex >}}s{{< /katex >}} and {{< katex >}}t{{< /katex >}}. If {{< katex >}}s{{< /katex >}} and {{< katex >}}t{{< /katex >}} satisfy the remaining equation, the lines are intersecting lines. Otherwise the lines are non- intersecting. Substituting the value of {{< katex >}}s{{< /katex >}}, (or by substituting the value of {{< katex >}}t{{< /katex >}}), we get the point of intersection of two lines.
+
+\qquad \mathrm{Therefore,}x_{1} + sa_{1} = x_{2} + tb_{1},y_{1} + sa_{2} = y_{2} + tb_{2},z_{1} + sa_{3} = z_{2} + tb_{3}
+
+
+By solving any two of the above three equations, we obtain the values of  s and  t. If  s and  t satisfy the remaining equation, the lines are intersecting lines. Otherwise the lines are non- intersecting. Substituting the value of  s, (or by substituting the value of  t), we get the point of intersection of two lines.
 
 If the equations of straight lines are given in vector form, write them in cartesian form and proceed as above to find the point of intersection.
 
 ## Example 6.33
 
-Find the point of intersection of the lines {{< katex >}}\frac{x - 1}{2} = \frac{y - 2}{3} = \frac{z - 3}{4}{{< /katex >}} and {{< katex >}}\frac{x - 4}{5} = \frac{y - 1}{2} = z{{< /katex >}}.
+Find the point of intersection of the lines  \frac{x - 1}{2} = \frac{y - 2}{3} = \frac{z - 3}{4} and  \frac{x - 4}{5} = \frac{y - 1}{2} = z.
 
 ## Solution
 
-Every point on the line {{< katex >}}\frac{x - 1}{2} = \frac{y - 2}{3} = \frac{z - 3}{4} = s{{< /katex >}} (say) is of the form {{< katex >}}(2s + 1,3s + 2,4s + 3){{< /katex >}} and every point on the line {{< katex >}}\frac{x - 4}{5} = \frac{y - 1}{2} = z = t{{< /katex >}} (say) is of the form {{< katex >}}(5t + 4,2t + 1,t){{< /katex >}}. So, at the point of intersection, for some values of {{< katex >}}s{{< /katex >}} and {{< katex >}}t{{< /katex >}}, we have
+Every point on the line  \frac{x - 1}{2} = \frac{y - 2}{3} = \frac{z - 3}{4} = s (say) is of the form  (2s + 1,3s + 2,4s + 3) and every point on the line  \frac{x - 4}{5} = \frac{y - 1}{2} = z = t (say) is of the form  (5t + 4,2t + 1,t). So, at the point of intersection, for some values of  s and  t, we have
 
-{{< katex display=true >}}
+
 (2s + 1,3s + 2,4s + 3) = (5t + 4,2t + 1,t)
-{{< /katex >}}
 
-Therefore, {{< katex >}}2s - 5t = 3{{< /katex >}}, {{< katex >}}3s - 2t = - 1{{< /katex >}} and {{< katex >}}4s - t = - 3{{< /katex >}}. Solving the first two equations we get {{< katex >}}t = - 1{{< /katex >}}, {{< katex >}}s = - 1{{< /katex >}}. These values of {{< katex >}}s{{< /katex >}} and {{< katex >}}t{{< /katex >}} satisfy the third equation. Therefore, the given lines intersect. Substituting, these values of {{< katex >}}t{{< /katex >}} or {{< katex >}}s{{< /katex >}} in the respective points, the point of intersection is {{< katex >}}(- 1, - 1, - 1){{< /katex >}}.
+
+Therefore,  2s - 5t = 3,  3s - 2t = - 1 and  4s - t = - 3. Solving the first two equations we get  t = - 1,  s = - 1. These values of  s and  t satisfy the third equation. Therefore, the given lines intersect. Substituting, these values of  t or  s in the respective points, the point of intersection is  (- 1, - 1, - 1).
 
 #### 6.7.6 Shortest distance between two straight lines
 
@@ -1151,201 +1151,201 @@ If the lines are not parallel and intersect, the distance between them is zero. 
 
 ## Theorem 6.13
 
-The shortest distance between the two parallel lines {{< katex >}}\vec{r} = \vec{a} + s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} + t\vec{b}{{< /katex >}} is given by {{< katex >}}d = \frac{|(\vec{c} - \vec{a})\times\vec{b}|}{|\vec{b}|}{{< /katex >}}, where {{< katex >}}|\vec{b}|\neq 0{{< /katex >}}.
+The shortest distance between the two parallel lines  \vec{r} = \vec{a} + s\vec{b} and  \vec{r} = \vec{c} + t\vec{b} is given by  d = \frac{|(\vec{c} - \vec{a})\times\vec{b}|}{|\vec{b}|}, where  |\vec{b}|\neq 0.
 
 ## Proof
 
-The given two parallel lines {{< katex >}}\vec{r} = \vec{a} + s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} + t\vec{b}{{< /katex >}} are denoted by {{< katex >}}L_{1}{{< /katex >}} and {{< katex >}}L_{2}{{< /katex >}} respectively. Let {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} be the points on {{< katex >}}L_{1}{{< /katex >}} and {{< katex >}}L_{2}{{< /katex >}} whose position vectors are {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}} respectively. The two given lines are parallel to {{< katex >}}\vec{b}{{< /katex >}}.
+The given two parallel lines  \vec{r} = \vec{a} + s\vec{b} and  \vec{r} = \vec{c} + t\vec{b} are denoted by  L_{1} and  L_{2} respectively. Let  A and  B be the points on  L_{1} and  L_{2} whose position vectors are  \vec{a} and  \vec{c} respectively. The two given lines are parallel to  \vec{b}.
 
-Let {{< katex >}}AD{{< /katex >}} be a perpendicular to the two given lines. If {{< katex >}}\theta{{< /katex >}} is the acute angle between {{< katex >}}\overline{AB}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}}, then
+Let  AD be a perpendicular to the two given lines. If  \theta is the acute angle between  \overline{AB} and  \vec{b}, then
 
-{{< katex display=true >}}
+
 \sin \theta = \frac{|\overline{AB}\times\vec{b}|}{|\overline{AB}||\vec{b}|} = \frac{|(\vec{c} - \vec{a})\times\vec{b}|}{|\vec{c} - \vec{a}||\vec{b}|}
-{{< /katex >}}
+
 
 <center>Fig. 6.21 </center>
 
-But, from the right angle triangle {{< katex >}}ABD{{< /katex >}}
+But, from the right angle triangle  ABD
 
-{{< katex display=true >}}
+
 \sin \theta = \frac{d}{AB} = \frac{d}{|\overline{AB}||\vec{b}|} = \frac{d}{|\vec{c} - \vec{a}|}
-{{< /katex >}}
 
-From (1) and (2), we have {{< katex >}}d = \frac{|(\vec{c} - \vec{a})\times\vec{b}|}{|\vec{b}|}{{< /katex >}}, where {{< katex >}}|\vec{b}|\neq 0{{< /katex >}}.
+
+From (1) and (2), we have  d = \frac{|(\vec{c} - \vec{a})\times\vec{b}|}{|\vec{b}|}, where  |\vec{b}|\neq 0.
 
 ## Theorem 6.14
 
-The shortest distance between the two skew lines {{< katex >}}\vec{r} = \vec{a} + s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} + t\vec{d}{{< /katex >}} is given by
+The shortest distance between the two skew lines  \vec{r} = \vec{a} + s\vec{b} and  \vec{r} = \vec{c} + t\vec{d} is given by
 
-{{< katex display=true >}}
+
 \delta = \frac{|(\vec{c} - \vec{a})\cdot(\vec{b}\times\vec{d})|}{|\vec{b}\times\vec{d}|},\mathrm{where}|\vec{b}\times\vec{d}|\neq 0
-{{< /katex >}}
+
 
 ## Proof
 
-The two skew lines {{< katex >}}\vec{r} = \vec{a} + s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} + t\vec{d}{{< /katex >}} are denoted by {{< katex >}}L_{1}{{< /katex >}} and {{< katex >}}L_{2}{{< /katex >}} respectively.
+The two skew lines  \vec{r} = \vec{a} + s\vec{b} and  \vec{r} = \vec{c} + t\vec{d} are denoted by  L_{1} and  L_{2} respectively.
 
-Let {{< katex >}}A{{< /katex >}} and {{< katex >}}C{{< /katex >}} be the points on {{< katex >}}L_{1}{{< /katex >}} and {{< katex >}}L_{2}{{< /katex >}} with position vectors {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}} respectively.
+Let  A and  C be the points on  L_{1} and  L_{2} with position vectors  \vec{a} and  \vec{c} respectively.
 
-From the given equations of skew lines, we observe that {{< katex >}}L_{1}{{< /katex >}} is parallel to the vector {{< katex >}}\vec{b}{{< /katex >}} and {{< katex >}}L_{2}{{< /katex >}} is parallel to the vector {{< katex >}}\vec{d}{{< /katex >}}. So, {{< katex >}}\vec{b} \times \vec{d}{{< /katex >}} is perpendicular to the lines {{< katex >}}L_{1}{{< /katex >}} and {{< katex >}}L_{2}{{< /katex >}}.
+From the given equations of skew lines, we observe that  L_{1} is parallel to the vector  \vec{b} and  L_{2} is parallel to the vector  \vec{d}. So,  \vec{b} \times \vec{d} is perpendicular to the lines  L_{1} and  L_{2}.
 
-Let {{< katex >}}SD{{< /katex >}} be the line segment perpendicular to both the lines {{< katex >}}L_{1}{{< /katex >}} and {{< katex >}}L_{2}{{< /katex >}}. Then the vector {{< katex >}}\overline{SD}{{< /katex >}} is perpendicular to the vectors {{< katex >}}\vec{b}{{< /katex >}} and {{< katex >}}\vec{d}{{< /katex >}} and therefore it is parallel to the vector {{< katex >}}\vec{b} \times \vec{d}{{< /katex >}}.
+Let  SD be the line segment perpendicular to both the lines  L_{1} and  L_{2}. Then the vector  \overline{SD} is perpendicular to the vectors  \vec{b} and  \vec{d} and therefore it is parallel to the vector  \vec{b} \times \vec{d}.
 
-So, {{< katex >}}\frac{\vec{b} \times \vec{d}}{|\vec{b} \times \vec{d}|}{{< /katex >}} is a unit vector in the direction of {{< katex >}}\overline{SD}{{< /katex >}}. Then, the shortest distance {{< katex >}}|\overline{SD}|{{< /katex >}} is the absolute value of the projection of {{< katex >}}\overline{AC}{{< /katex >}} on {{< katex >}}\overline{SD}{{< /katex >}}. That is,
+So,  \frac{\vec{b} \times \vec{d}}{|\vec{b} \times \vec{d}|} is a unit vector in the direction of  \overline{SD}. Then, the shortest distance  |\overline{SD}| is the absolute value of the projection of  \overline{AC} on  \overline{SD}. That is,
 
 <center>Fig. 6.22 </center>
 
-{{< katex display=true >}}
+
 \begin{array}{l}{\delta = |\overline{{S D}} | = |\overline{{A C}} .(\mathrm{Unit~vector~in~the~direction~of~}\overline{{S D}} )| = \left|(\vec{c} -\vec{a})\cdot \frac{\vec{b}\times\vec{d}}{|\vec{b}\times\vec{d}|}\right|}\\ {\delta = \frac{|(\vec{c} -\vec{a})\cdot(\vec{b}\times\vec{d})|}{|\vec{b}\times\vec{d}|},\mathrm{where~}|\vec{b}\times\vec{d}|\neq 0.} \end{array} \quad (1)
-{{< /katex >}}
+
 
 ## Remark
 
-(i) It follows from theorem (6.14) that two straight lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} intersect each other (that is, coplanar) if {{< katex >}}(\vec{c} -\vec{a})\cdot (\vec{b}\times \vec{d}) = 0{{< /katex >}}.
+(i) It follows from theorem (6.14) that two straight lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} intersect each other (that is, coplanar) if  (\vec{c} -\vec{a})\cdot (\vec{b}\times \vec{d}) = 0.
 
-(2) If two lines {{< katex >}}\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}{{< /katex >}} and {{< katex >}}\frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}}{{< /katex >}} intersect each other (that is, coplanar), then we have
+(2) If two lines  \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} and  \frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}} intersect each other (that is, coplanar), then we have
 
-{{< katex display=true >}}
+
 \begin{vmatrix} x_2 - x_1 & y_2 - y_1 & z_2 - z_1 \\ b_1 & b_2 & b_3 \\ d_1 & d_2 & d_3 \end{vmatrix} = 0
-{{< /katex >}}
+
 
 ## Example 6.34
 
-Find the parametric form of vector equation of a straight line passing through the point of intersection of the straight lines {{< katex >}}\vec{r} = (\hat{i} +3\hat{j} -\hat{k}) + t(2\hat{i} +3\hat{j} +2\hat{k}){{< /katex >}} and {{< katex >}}\frac{x - 2}{1} = \frac{y - 4}{2} = \frac{z + 3}{4}{{< /katex >}}, and perpendicular to both straight lines.
+Find the parametric form of vector equation of a straight line passing through the point of intersection of the straight lines  \vec{r} = (\hat{i} +3\hat{j} -\hat{k}) + t(2\hat{i} +3\hat{j} +2\hat{k}) and  \frac{x - 2}{1} = \frac{y - 4}{2} = \frac{z + 3}{4}, and perpendicular to both straight lines.
 
 ## Solution
 
-The Cartesian equations of the straight line {{< katex >}}\vec{r} = (\hat{i} +3\hat{j} -\hat{k}) + t(2\hat{i} +3\hat{j} +2\hat{k}){{< /katex >}} is
+The Cartesian equations of the straight line  \vec{r} = (\hat{i} +3\hat{j} -\hat{k}) + t(2\hat{i} +3\hat{j} +2\hat{k}) is
 
-{{< katex display=true >}}
+
 \frac{x - 1}{2} = \frac{y - 3}{3} = \frac{z + 1}{2} = s \mathrm{(say)}
-{{< /katex >}}
 
-Then any point on this line is of the form {{< katex >}}(2s + 1, 3s + 3, 2s - 1){{< /katex >}} ... (1)
 
-The Cartesian equation of the second line is {{< katex >}}\frac{x - 2}{1} = \frac{y - 4}{2} = \frac{z + 3}{4} = t{{< /katex >}} (say)
+Then any point on this line is of the form  (2s + 1, 3s + 3, 2s - 1) ... (1)
 
-Then any point on this line is of the form {{< katex >}}(t + 2, 2t + 4, 4t - 3){{< /katex >}} ... (2)
+The Cartesian equation of the second line is  \frac{x - 2}{1} = \frac{y - 4}{2} = \frac{z + 3}{4} = t (say)
 
-If the given lines intersect, then there must be a common point. Therefore, for some {{< katex >}}s,t\in \mathbb{R}{{< /katex >}} we have {{< katex >}}(2s + 1,3s + 3,2s - 1) = (t + 2,2t + 4,4t - 3){{< /katex >}}.
+Then any point on this line is of the form  (t + 2, 2t + 4, 4t - 3) ... (2)
 
-Equating the coordinates of {{< katex >}}x,y{{< /katex >}} and {{< katex >}}z{{< /katex >}} we get
+If the given lines intersect, then there must be a common point. Therefore, for some  s,t\in \mathbb{R} we have  (2s + 1,3s + 3,2s - 1) = (t + 2,2t + 4,4t - 3).
 
-{{< katex display=true >}}
+Equating the coordinates of  x,y and  z we get
+
+
 2s - t = 1,3s - 2t = 1\mathrm{~and~}s - 2t = -1.
-{{< /katex >}}
 
-Solving the first two of the above three equations, we get {{< katex >}}s = 1{{< /katex >}} and {{< katex >}}t = 1{{< /katex >}}. These values of {{< katex >}}s{{< /katex >}} and {{< katex >}}t{{< /katex >}} satisfy the third equation. So, the lines are intersecting.
 
-Now, using the value of {{< katex >}}s{{< /katex >}} in (1) or the value of {{< katex >}}t{{< /katex >}} in (2), the point of intersection {{< katex >}}(3,6,1){{< /katex >}} of these two straight lines is obtained.
+Solving the first two of the above three equations, we get  s = 1 and  t = 1. These values of  s and  t satisfy the third equation. So, the lines are intersecting.
 
-If we take {{< katex >}}\vec{b} = 2\hat{i} +3\hat{j} +2\hat{k}{{< /katex >}} and {{< katex >}}\vec{d} = \hat{i} +2\hat{j} +4\hat{k}{{< /katex >}}, then {{< katex >}}\vec{b}\times \vec{d} = \left| \begin{array}{lll}\hat{i} & \hat{j} & \hat{k}\\ 2 & 3 & 2\\ 1 & 2 & 4 \end{array} \right| = 8\hat{i} - 6\hat{j} +\hat{k}{{< /katex >}} is a vector perpendicular to both the given straight lines. Therefore, the required straight line passing through {{< katex >}}(3,6,1){{< /katex >}} and perpendicular to both the given straight lines is the same as the straight line passing through {{< katex >}}(3,6,1){{< /katex >}} and parallel to {{< katex >}}8\hat{i} - 6\hat{j} +\hat{k}{{< /katex >}}. Thus, the equation of the required straight line is
+Now, using the value of  s in (1) or the value of  t in (2), the point of intersection  (3,6,1) of these two straight lines is obtained.
 
-{{< katex display=true >}}
+If we take  \vec{b} = 2\hat{i} +3\hat{j} +2\hat{k} and  \vec{d} = \hat{i} +2\hat{j} +4\hat{k}, then  \vec{b}\times \vec{d} = \left| \begin{array}{lll}\hat{i} & \hat{j} & \hat{k}\\ 2 & 3 & 2\\ 1 & 2 & 4 \end{array} \right| = 8\hat{i} - 6\hat{j} +\hat{k} is a vector perpendicular to both the given straight lines. Therefore, the required straight line passing through  (3,6,1) and perpendicular to both the given straight lines is the same as the straight line passing through  (3,6,1) and parallel to  8\hat{i} - 6\hat{j} +\hat{k}. Thus, the equation of the required straight line is
+
+
 \vec{r} = (3\hat{i} +6\hat{j} +\hat{k}) + m(8\hat{i} -6\hat{j} +\hat{k}),m\in \mathbb{R}.
-{{< /katex >}}
+
 
 ## Example 6.35
 
-Determine whether the pair of straight lines {{< katex >}}\vec{r} = (2\hat{i} +6\hat{j} +3\hat{k}) + t(2\hat{i} +3\hat{j} +4\hat{k}){{< /katex >}} {{< katex >}}\vec{r} = (2\hat{j} - 3\hat{k}) + s(\hat{i} +2\hat{j} +3\hat{k}){{< /katex >}} are parallel. Find the shortest distance between them.
+Determine whether the pair of straight lines  \vec{r} = (2\hat{i} +6\hat{j} +3\hat{k}) + t(2\hat{i} +3\hat{j} +4\hat{k})  \vec{r} = (2\hat{j} - 3\hat{k}) + s(\hat{i} +2\hat{j} +3\hat{k}) are parallel. Find the shortest distance between them.
 
 ## Solution
 
 Comparing the given two equations with
 
-{{< katex display=true >}}
+
 \vec{r} = \vec{a} +s\vec{b}\mathrm{~and~}\vec{r} = \vec{c} +s\vec{d},
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 \vec{a} = 2\hat{i} +6\hat{j} +3\hat{k},\vec{b} = 2\hat{i} +3\hat{j} +4\hat{k},\vec{c} = 2\hat{j} -3\hat{k},\vec{d} = \hat{i} +2\hat{j} +3\hat{k}
-{{< /katex >}}
 
-Clearly, {{< katex >}}\vec{b}{{< /katex >}} is not a scalar multiple of {{< katex >}}\vec{d}{{< /katex >}}. So, the two vectors are not parallel and hence the two lines are not parallel.
+
+Clearly,  \vec{b} is not a scalar multiple of  \vec{d}. So, the two vectors are not parallel and hence the two lines are not parallel.
 
 The shortest distance between the two straight lines is given by
 
-{{< katex display=true >}}
+
 \delta = \frac{|(\vec{c} - \vec{a})\cdot(\vec{b}\times \vec{d})|}{|\vec{b}\times \vec{d}|}
-{{< /katex >}}
 
-Now, {{< katex >}}\vec{c} - \vec{a} = -2\hat{i} -4\hat{j} -6\hat{k}{{< /katex >}} and {{< katex >}}\vec{b}\times \vec{d} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 2 & 3 & 4 \\ 1 & 2 & 3 \end{vmatrix} = \hat{i} - 2\hat{j} + \hat{k}{{< /katex >}}.
 
-{{< katex display=true >}}
+Now,  \vec{c} - \vec{a} = -2\hat{i} -4\hat{j} -6\hat{k} and  \vec{b}\times \vec{d} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 2 & 3 & 4 \\ 1 & 2 & 3 \end{vmatrix} = \hat{i} - 2\hat{j} + \hat{k}.
+
+
 \mathrm{So},\quad (\vec{c} -\vec{a})\cdot (\vec{b}\times \vec{d}) = (-2\hat{i} -4\hat{j} -6\hat{k})\cdot (\hat{i} -2\hat{j} +\hat{k}) = 0.
-{{< /katex >}}
+
 
 Therefore, the distance between the two given straight lines is zero. Thus, the given lines intersect each other.
 
 **Example 6.36**
 
-Find the shortest distance between the two given straight lines {{< katex >}}\vec{r} = (2\vec{i} +3\vec{j} +4\vec{k}) + t(- 2\vec{i} +\vec{j} - 2\vec{k}){{< /katex >}} and {{< katex >}}\frac{x - 3}{2} = \frac{y}{- 1} = \frac{z + 2}{2}{{< /katex >}}.
+Find the shortest distance between the two given straight lines  \vec{r} = (2\vec{i} +3\vec{j} +4\vec{k}) + t(- 2\vec{i} +\vec{j} - 2\vec{k}) and  \frac{x - 3}{2} = \frac{y}{- 1} = \frac{z + 2}{2}.
 
 ## Solution
 
 The parametric form of vector equations of the given straight lines are
 
-{{< katex display=true >}}
+
 \vec{r} = (2\vec{i} +3\vec{j} +4\vec{k}) + t(-2\vec{i} +\vec{j} -2\vec{k})
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 \mathrm{and}\quad \vec{r} = (3\vec{i} -2\vec{k}) + t(2\vec{i} -\vec{j} +2\vec{k})
-{{< /katex >}}
 
-Comparing the given two equations with {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}} {{< katex >}}\vec{r} = \vec{c} +s\vec{d}{{< /katex >}}
 
-we have {{< katex >}}\vec{a} = 2\vec{i} +3\vec{j} +4\vec{k}{{< /katex >}} {{< katex >}}\vec{b} = - 2\vec{i} +\vec{j} - 2\vec{k}{{< /katex >}} {{< katex >}}\vec{c} = 3\vec{i} - 2\vec{k}{{< /katex >}} {{< katex >}}\vec{d} = 2\vec{i} -\vec{j} +2\vec{k}{{< /katex >}}
+Comparing the given two equations with  \vec{r} = \vec{a} +t\vec{b}  \vec{r} = \vec{c} +s\vec{d}
 
-Clearly, {{< katex >}}\vec{b}{{< /katex >}} is a scalar multiple of {{< katex >}}\vec{d}{{< /katex >}}, and hence the two straight lines are parallel. We know that the shortest distance between two parallel straight lines is given by {{< katex >}}d = \frac{|(\vec{c} - \vec{a})\times\vec{b}|}{|\vec{b}|}{{< /katex >}}.
+we have  \vec{a} = 2\vec{i} +3\vec{j} +4\vec{k}  \vec{b} = - 2\vec{i} +\vec{j} - 2\vec{k}  \vec{c} = 3\vec{i} - 2\vec{k}  \vec{d} = 2\vec{i} -\vec{j} +2\vec{k}
 
-{{< katex display=true >}}
+Clearly,  \vec{b} is a scalar multiple of  \vec{d}, and hence the two straight lines are parallel. We know that the shortest distance between two parallel straight lines is given by  d = \frac{|(\vec{c} - \vec{a})\times\vec{b}|}{|\vec{b}|}.
+
+
 (\vec{c} - \vec{a})\times\vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & -3 & -6 \\ -2 & 1 & -2 \end{vmatrix} = 12\hat{i} + 14\hat{j} - 5\hat{k}
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 \mathrm{Therefore}, d = \frac{|12\hat{i} + 14\hat{j} - 5\hat{k}|}{|-2\hat{i} + \hat{j} - 2\hat{k}|} = \frac{\sqrt{365}}{3}.
-{{< /katex >}}
+
 
 ## Example 6.37
 
-Find the coordinate of the foot of the perpendicular drawn from the point {{< katex >}}(- 1,2,3){{< /katex >}} to the straight line {{< katex >}}\vec{r} = (\vec{i} - 4\vec{j} +3\vec{k}) + t(2\vec{i} +3\vec{j} +\vec{k}){{< /katex >}}. Also, find the shortest distance from the given point to the straight line.
+Find the coordinate of the foot of the perpendicular drawn from the point  (- 1,2,3) to the straight line  \vec{r} = (\vec{i} - 4\vec{j} +3\vec{k}) + t(2\vec{i} +3\vec{j} +\vec{k}). Also, find the shortest distance from the given point to the straight line.
 
 ## Solution
 
-Comparing the given equation {{< katex >}}\vec{r} = (\vec{i} - 4\vec{j} +3\vec{k}) + t(2\vec{i} +3\vec{j} +\vec{k}){{< /katex >}} with {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}}, we get {{< katex >}}\vec{a} = \vec{i} - 4\vec{j} +3\vec{k}{{< /katex >}}, and {{< katex >}}\vec{b} = 2\vec{i} +3\vec{j} +\vec{k}{{< /katex >}}. We denote the given point {{< katex >}}(- 1,2,3){{< /katex >}} by {{< katex >}}D{{< /katex >}}, and the point {{< katex >}}(1, - 4,3){{< /katex >}} on the straight line by {{< katex >}}F{{< /katex >}}. If {{< katex >}}F{{< /katex >}} is the foot of the perpendicular from {{< katex >}}D{{< /katex >}} to the straight line, then {{< katex >}}F{{< /katex >}} is of the form {{< katex >}}(2t + 1,3t - 4,t + 3){{< /katex >}} and {{< katex >}}\overline{DF} = \overline{OF} - \overline{OD} = (2t + 2)\hat{i} +(3t - 6)\hat{j} +t\hat{k}{{< /katex >}}.
+Comparing the given equation  \vec{r} = (\vec{i} - 4\vec{j} +3\vec{k}) + t(2\vec{i} +3\vec{j} +\vec{k}) with  \vec{r} = \vec{a} +t\vec{b}, we get  \vec{a} = \vec{i} - 4\vec{j} +3\vec{k}, and  \vec{b} = 2\vec{i} +3\vec{j} +\vec{k}. We denote the given point  (- 1,2,3) by  D, and the point  (1, - 4,3) on the straight line by  F. If  F is the foot of the perpendicular from  D to the straight line, then  F is of the form  (2t + 1,3t - 4,t + 3) and  \overline{DF} = \overline{OF} - \overline{OD} = (2t + 2)\hat{i} +(3t - 6)\hat{j} +t\hat{k}.
 
 <center>Fig. 6.23 </center>
 
-Since {{< katex >}}\vec{b}{{< /katex >}} is perpendicular to {{< katex >}}\overline{DF}{{< /katex >}}, we have
+Since  \vec{b} is perpendicular to  \overline{DF}, we have
 
-{{< katex display=true >}}
+
 \vec{b}\cdot \overline{DF} = 0\Rightarrow 2(2t + 2) + 3(3t - 6) + 1(t) = 0\Rightarrow t = 1
-{{< /katex >}}
 
-Therefore, the coordinate of {{< katex >}}F{{< /katex >}} is {{< katex >}}(3, - 1,4){{< /katex >}}
+
+Therefore, the coordinate of  F is  (3, - 1,4)
 
 Now, the perpendicular distance from the given point to the given line is
 
-{{< katex display=true >}}
+
 DF = |\overline{DF}| = \sqrt{4^{2} + (-3)^{2} + 1^{2}} = \sqrt{26}\mathrm{~units}.
-{{< /katex >}}
+
 
 **EXERCISE 6.5**
 
-1. Find the parametric form of vector equation and Cartesian equations of a straight line passing through {{< katex >}}(5,2,8){{< /katex >}} and is perpendicular to the straight lines {{< katex >}}\vec{r} = (\hat{i} +\hat{j} -\hat{k}) + s(2\hat{i} -2\hat{j} +\hat{k}){{< /katex >}} and {{< katex >}}\vec{r} = (2\hat{i} -\hat{j} -3\hat{k}) + t(\hat{i} +2\hat{j} +2\hat{k}){{< /katex >}}.
+1. Find the parametric form of vector equation and Cartesian equations of a straight line passing through  (5,2,8) and is perpendicular to the straight lines  \vec{r} = (\hat{i} +\hat{j} -\hat{k}) + s(2\hat{i} -2\hat{j} +\hat{k}) and  \vec{r} = (2\hat{i} -\hat{j} -3\hat{k}) + t(\hat{i} +2\hat{j} +2\hat{k}).
 
-2. Show that the lines {{< katex >}}\vec{r} = (6\hat{i} +\hat{j} +2\hat{k}) + s(\hat{i} +2\hat{j} -3\hat{k}){{< /katex >}} and {{< katex >}}\vec{r} = (3\hat{i} +2\hat{j} -2\hat{k}) + t(2\hat{i} +4\hat{j} -5\hat{k}){{< /katex >}} are skew lines and hence find the shortest distance between them.
+2. Show that the lines  \vec{r} = (6\hat{i} +\hat{j} +2\hat{k}) + s(\hat{i} +2\hat{j} -3\hat{k}) and  \vec{r} = (3\hat{i} +2\hat{j} -2\hat{k}) + t(2\hat{i} +4\hat{j} -5\hat{k}) are skew lines and hence find the shortest distance between them.
 
-3. If the two lines {{< katex >}}\frac{x - 1}{2} = \frac{y + 1}{3} = \frac{z - 1}{4}{{< /katex >}} and {{< katex >}}\frac{x - 3}{1} = \frac{y - m}{2} = z{{< /katex >}} intersect at a point, find the value of {{< katex >}}m{{< /katex >}}.
+3. If the two lines  \frac{x - 1}{2} = \frac{y + 1}{3} = \frac{z - 1}{4} and  \frac{x - 3}{1} = \frac{y - m}{2} = z intersect at a point, find the value of  m.
 
-4. Show that the lines {{< katex >}}\frac{x - 3}{3} = \frac{y - 3}{-1},z - 1 = 0{{< /katex >}} and {{< katex >}}\frac{x - 6}{2} = \frac{z - 1}{3},y - 2 = 0{{< /katex >}} intersect. Also find the point of intersection.
+4. Show that the lines  \frac{x - 3}{3} = \frac{y - 3}{-1},z - 1 = 0 and  \frac{x - 6}{2} = \frac{z - 1}{3},y - 2 = 0 intersect. Also find the point of intersection.
 
-5. Show that the straight lines {{< katex >}}x + 1 = 2y = -12z{{< /katex >}} and {{< katex >}}x = y + 2 = 6z - 6{{< /katex >}} are skew and hence find the shortest distance between them.
+5. Show that the straight lines  x + 1 = 2y = -12z and  x = y + 2 = 6z - 6 are skew and hence find the shortest distance between them.
 
-6. Find the parametric form of vector equation of the straight line passing through {{< katex >}}(-1,2,1){{< /katex >}} and parallel to the straight line {{< katex >}}\vec{r} = (2\hat{i} +3\hat{j} -\hat{k}) + t(\hat{i} -2\hat{j} +\hat{k}){{< /katex >}} and hence find the shortest distance between the lines.
+6. Find the parametric form of vector equation of the straight line passing through  (-1,2,1) and parallel to the straight line  \vec{r} = (2\hat{i} +3\hat{j} -\hat{k}) + t(\hat{i} -2\hat{j} +\hat{k}) and hence find the shortest distance between the lines.
 
-7. Find the foot of the perpendicular drawn from the point {{< katex >}}(5,4,2){{< /katex >}} to the line {{< katex >}}\frac{x + 1}{2} = \frac{y - 3}{3} = \frac{z - 1}{- 1}{{< /katex >}}. Also, find the equation of the perpendicular.
+7. Find the foot of the perpendicular drawn from the point  (5,4,2) to the line  \frac{x + 1}{2} = \frac{y - 3}{3} = \frac{z - 1}{- 1}. Also, find the equation of the perpendicular.
 
 ### 6.8 Different forms of Equation of a plane
 
@@ -1375,185 +1375,185 @@ Let us find the vector and Cartesian equations of planes using the above situati
 
 **Theorem 6.15**
 
-The equation of the plane at a distance {{< katex >}}p{{< /katex >}} from the origin and perpendicular to the unit normal vector {{< katex >}}\hat{d}{{< /katex >}} is {{< katex >}}\vec{r}\cdot \hat{d} = p{{< /katex >}}
+The equation of the plane at a distance  p from the origin and perpendicular to the unit normal vector  \hat{d} is  \vec{r}\cdot \hat{d} = p
 
-Consider a plane whose perpendicular distance from the origin is {{< katex >}}p{{< /katex >}}.
+Consider a plane whose perpendicular distance from the origin is  p.
 
-Let {{< katex >}}A{{< /katex >}} be the foot of the perpendicular from {{< katex >}}O{{< /katex >}} to the plane.
+Let  A be the foot of the perpendicular from  O to the plane.
 
-Let {{< katex >}}\hat{d}{{< /katex >}} be the unit normal vector in the direction of {{< katex >}}\overline{OA}{{< /katex >}}.
+Let  \hat{d} be the unit normal vector in the direction of  \overline{OA}.
 
-Then {{< katex >}}\overline{OA} = p\hat{d}{{< /katex >}}.
+Then  \overline{OA} = p\hat{d}.
 
-If {{< katex >}}\vec{r}{{< /katex >}} is the position vector of an arbitrary point {{< katex >}}P{{< /katex >}} on the plane,
+If  \vec{r} is the position vector of an arbitrary point  P on the plane,
 
-then {{< katex >}}\overline{AP}{{< /katex >}} is perpendicular to {{< katex >}}\overline{OA}{{< /katex >}}.
+then  \overline{AP} is perpendicular to  \overline{OA}.
 
 <center>Fig. 6.24 </center>
 
-{{< katex display=true >}}
+
 \overline{AP}\cdot \overline{OA} = 0\Rightarrow (\vec{r} -p\hat{d})\cdot p\hat{d} = 0
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \Rightarrow (\vec{r} -p\hat{d})\cdot \hat{d} = 0
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 \vec{r}\cdot \hat{d} = p.
-{{< /katex >}}
+
 
 The above equation is called the vector equation of the plane in normal form.
 
 ### (b) Cartesian equation of a plane in normal form
 
-Let {{< katex >}}l,m,n{{< /katex >}} be the direction cosines of {{< katex >}}\hat{d}{{< /katex >}}. Then we have {{< katex >}}\hat{d} = l\hat{i} +m\hat{j} +n\hat{k}{{< /katex >}}.
+Let  l,m,n be the direction cosines of  \hat{d}. Then we have  \hat{d} = l\hat{i} +m\hat{j} +n\hat{k}.
 
 Thus, equation (1) becomes
 
-{{< katex display=true >}}
+
 \vec{r}\cdot (l\hat{i} +m\hat{j} +n\hat{k}) = p
-{{< /katex >}}
 
-If {{< katex >}}P{{< /katex >}} is {{< katex >}}(x,y,z){{< /katex >}}, then {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}}
 
-Therefore, {{< katex >}}(x\hat{i} +y\hat{j} +z\hat{k})\cdot (l\hat{i} +m\hat{j} +n\hat{k}) = p{{< /katex >}} or {{< katex >}}lx + my + nz = p{{< /katex >}}
+If  P is  (x,y,z), then  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k}
+
+Therefore,  (x\hat{i} +y\hat{j} +z\hat{k})\cdot (l\hat{i} +m\hat{j} +n\hat{k}) = p or  lx + my + nz = p
 
 Equation (2) is called the Cartesian equation of the plane in normal form.
 
 ## Remark
 
-(i) If the plane passes through the origin, then {{< katex >}}p = 0{{< /katex >}}. So, the equation of the plane is
+(i) If the plane passes through the origin, then  p = 0. So, the equation of the plane is
 
-{{< katex display=true >}}
+
 lx + my + nz = 0.
-{{< /katex >}}
 
-(ii) If {{< katex >}}\vec{d}{{< /katex >}} is normal vector to the plane, then {{< katex >}}\hat{d} = \frac{\vec{d}}{|\vec{d}|}{{< /katex >}} is a unit normal to the plane. So, the vector equation of the plane is {{< katex >}}\vec{r}\cdot \frac{\vec{d}}{|\vec{d}|} = p{{< /katex >}} or {{< katex >}}\vec{r}\cdot \vec{d} = q{{< /katex >}}, where {{< katex >}}q = p|\vec{d} |{{< /katex >}}. The equation {{< katex >}}\vec{r}\cdot \vec{d} = q{{< /katex >}} is the vector equation of a plane in standard form.
+
+(ii) If  \vec{d} is normal vector to the plane, then  \hat{d} = \frac{\vec{d}}{|\vec{d}|} is a unit normal to the plane. So, the vector equation of the plane is  \vec{r}\cdot \frac{\vec{d}}{|\vec{d}|} = p or  \vec{r}\cdot \vec{d} = q, where  q = p|\vec{d} |. The equation  \vec{r}\cdot \vec{d} = q is the vector equation of a plane in standard form.
 
 **Note**
 
-In the standard form {{< katex >}}\vec{r}\cdot \vec{d} = q{{< /katex >}}, {{< katex >}}\vec{d}{{< /katex >}} need not be a unit normal and {{< katex >}}q{{< /katex >}} need not be the perpendicular distance.
+In the standard form  \vec{r}\cdot \vec{d} = q,  \vec{d} need not be a unit normal and  q need not be the perpendicular distance.
 
 #### 6.8.2 Equation of a plane perpendicular to a vector and passing through a given point
 
 ### (a) Vector form of equation
 
-Consider a plane passing through a point {{< katex >}}A{{< /katex >}} with position vector {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{n}{{< /katex >}} is a normal vector to the given plane.
+Consider a plane passing through a point  A with position vector  \vec{a} and  \vec{n} is a normal vector to the given plane.
 
-Let {{< katex >}}\vec{r}{{< /katex >}} be the position vector of an arbitrary point {{< katex >}}P{{< /katex >}} on the plane.
+Let  \vec{r} be the position vector of an arbitrary point  P on the plane.
 
 <center>Fig. 6.25 </center>
 
-Then {{< katex >}}\overline{AP}{{< /katex >}} is perpendicular to {{< katex >}}\vec{n}{{< /katex >}}.
+Then  \overline{AP} is perpendicular to  \vec{n}.
 
-{{< katex display=true >}}
+
 \overline{AP}\cdot \vec{n} = 0 \quad (1)
-{{< /katex >}}
 
-which is the vector form of the equation of a plane passing through a point with position vector {{< katex >}}\vec{a}{{< /katex >}} and perpendicular to {{< katex >}}\vec{n}{{< /katex >}}.
+
+which is the vector form of the equation of a plane passing through a point with position vector  \vec{a} and perpendicular to  \vec{n}.
 
 ## Note
 
-{{< katex display=true >}}
+
 (\vec{r} -\vec{a})\cdot \vec{n} = 0\Rightarrow \vec{r}\cdot \vec{n} = \vec{a}\cdot \vec{n}\Rightarrow \vec{r}\cdot \vec{n} = q,\mathrm{~where~}q = \vec{a}\cdot \vec{n}.
-{{< /katex >}}
+
 
 ### (b) Cartesian form of equation
 
-If {{< katex >}}a,b,c{{< /katex >}} are the direction ratios of {{< katex >}}\vec{n}{{< /katex >}}, then we have {{< katex >}}\vec{n} = a\vec{i} +b\vec{j} +c\vec{k}{{< /katex >}}. Suppose, {{< katex >}}A{{< /katex >}} is {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}} then equation (1) becomes {{< katex >}}\left((x - x_{1})\hat{i} +(y - y_{1})\hat{j} +(z - z_{1})\hat{k}\right)\cdot (a\vec{i} +b\vec{j} +c\vec{k}) = 0{{< /katex >}}. That is,
+If  a,b,c are the direction ratios of  \vec{n}, then we have  \vec{n} = a\vec{i} +b\vec{j} +c\vec{k}. Suppose,  A is  (x_{1},y_{1},z_{1}) then equation (1) becomes  \left((x - x_{1})\hat{i} +(y - y_{1})\hat{j} +(z - z_{1})\hat{k}\right)\cdot (a\vec{i} +b\vec{j} +c\vec{k}) = 0. That is,
 
-{{< katex display=true >}}
+
 a(x - x_{1}) + b(y - y_{1}) + c(z - z_{1}) = 0
-{{< /katex >}}
 
-which is the Cartesian equation of a plane, normal to a vector with direction ratios {{< katex >}}a,b,c{{< /katex >}} and passing through a given point {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}}.
+
+which is the Cartesian equation of a plane, normal to a vector with direction ratios  a,b,c and passing through a given point  (x_{1},y_{1},z_{1}).
 
 #### 6.8.3 Intercept form of the equation of a plane
 
-Let the plane {{< katex >}}\vec{r}\cdot \vec{n} = q{{< /katex >}} meets the coordinate axes at {{< katex >}}A,B,C{{< /katex >}} respectively such that the intercepts on the axes are {{< katex >}}OA = a{{< /katex >}} {{< katex >}}OB = b{{< /katex >}} {{< katex >}}OC = c{{< /katex >}}. Now position vector of the point {{< katex >}}A{{< /katex >}} is {{< katex >}}a\vec{i}{{< /katex >}} Since {{< katex >}}A{{< /katex >}} lies on the given plane, we have {{< katex >}}a\vec{i}\cdot \vec{n} = q{{< /katex >}} which gives {{< katex >}}\hat{i}\cdot \vec{n} = \frac{q}{a}{{< /katex >}} Similarly, since the vectors {{< katex >}}b\hat{j}{{< /katex >}} and {{< katex >}}c\hat{k}{{< /katex >}} lie on the given plane, we have {{< katex >}}\hat{j}\cdot \vec{n} = \frac{q}{b}{{< /katex >}} and {{< katex >}}\hat{k}\cdot \vec{n} = \frac{q}{c}{{< /katex >}}. Substituting {{< katex >}}\vec{r} = x\vec{i} +y\vec{j} +z\vec{k}{{< /katex >}} in {{< katex >}}\vec{r}\cdot \vec{n} = q{{< /katex >}}, we get {{< katex >}}x\vec{i}\cdot \vec{n} +y\vec{j}\cdot \vec{n} +z\vec{k}\cdot \vec{n} = q{{< /katex >}}. So {{< katex >}}x\left(\frac{q}{a}\right) + y\left(\frac{q}{b}\right) + z\left(\frac{q}{c}\right) = q{{< /katex >}}.
+Let the plane  \vec{r}\cdot \vec{n} = q meets the coordinate axes at  A,B,C respectively such that the intercepts on the axes are  OA = a  OB = b  OC = c. Now position vector of the point  A is  a\vec{i} Since  A lies on the given plane, we have  a\vec{i}\cdot \vec{n} = q which gives  \hat{i}\cdot \vec{n} = \frac{q}{a} Similarly, since the vectors  b\hat{j} and  c\hat{k} lie on the given plane, we have  \hat{j}\cdot \vec{n} = \frac{q}{b} and  \hat{k}\cdot \vec{n} = \frac{q}{c}. Substituting  \vec{r} = x\vec{i} +y\vec{j} +z\vec{k} in  \vec{r}\cdot \vec{n} = q, we get  x\vec{i}\cdot \vec{n} +y\vec{j}\cdot \vec{n} +z\vec{k}\cdot \vec{n} = q. So  x\left(\frac{q}{a}\right) + y\left(\frac{q}{b}\right) + z\left(\frac{q}{c}\right) = q.
 
 <center>Fig. 6.26 </center>
 
-Dividing by {{< katex >}}q{{< /katex >}}, we get, {{< katex >}}\frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1{{< /katex >}}. This is called the intercept form of equation of the plane having intercepts {{< katex >}}a,b,c{{< /katex >}} on the {{< katex >}}x,y,z{{< /katex >}} axes respectively.
+Dividing by  q, we get,  \frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1. This is called the intercept form of equation of the plane having intercepts  a,b,c on the  x,y,z axes respectively.
 
 ## Theorem 6.16
 
-The general equation {{< katex >}}ax + by + cz + d = 0{{< /katex >}} of first degree in {{< katex >}}x,y,z{{< /katex >}} represents a plane.
+The general equation  ax + by + cz + d = 0 of first degree in  x,y,z represents a plane.
 
 ## Proof
 
-The equation {{< katex >}}ax + by + cz + d = 0{{< /katex >}} can be written in the vector form as follows
+The equation  ax + by + cz + d = 0 can be written in the vector form as follows
 
-{{< katex display=true >}}
+
 (x\vec{i} +y\vec{j} +z\vec{k})\cdot (a\vec{i} +b\vec{j} +c\vec{k}) = -d\quad \mathrm{or}\quad \vec{r}\cdot \vec{n} = -d.
-{{< /katex >}}
 
-Since this is the vector form of the equation of a plane in standard form, the given equation {{< katex >}}ax + by + cz + d = 0{{< /katex >}} represents a plane. Here {{< katex >}}\vec{n} = a\vec{i} +b\vec{j} +c\vec{k}{{< /katex >}} is a vector normal to the plane.
+
+Since this is the vector form of the equation of a plane in standard form, the given equation  ax + by + cz + d = 0 represents a plane. Here  \vec{n} = a\vec{i} +b\vec{j} +c\vec{k} is a vector normal to the plane.
 
 ## Note
 
-In the general equation {{< katex >}}ax + by + cz + d = 0{{< /katex >}} of a plane, {{< katex >}}a,b,c{{< /katex >}} are direction ratios of the normal to the plane.
+In the general equation  ax + by + cz + d = 0 of a plane,  a,b,c are direction ratios of the normal to the plane.
 
 **Example 6.38**
 
-Find the vector and Cartesian form of the equations of a plane which is at a distance of 12 units from the origin and perpendicular to {{< katex >}}6\hat{i} +2\hat{j} - 3\hat{k}{{< /katex >}}.
+Find the vector and Cartesian form of the equations of a plane which is at a distance of 12 units from the origin and perpendicular to  6\hat{i} +2\hat{j} - 3\hat{k}.
 
 ## Solution
 
-Let {{< katex >}}\vec{d} = 6\hat{i} +2\hat{j} - 3\hat{k}{{< /katex >}} and {{< katex >}}p = 12{{< /katex >}}.
+Let  \vec{d} = 6\hat{i} +2\hat{j} - 3\hat{k} and  p = 12.
 
-If {{< katex >}}\hat{d}{{< /katex >}} is the unit normal vector in the direction of the vector {{< katex >}}6\hat{i} +2\hat{j} - 3\hat{k}{{< /katex >}}
+If  \hat{d} is the unit normal vector in the direction of the vector  6\hat{i} +2\hat{j} - 3\hat{k}
 
-{{< katex display=true >}}
+
 \mathrm{then} \hat{d} = \frac{\vec{d}}{|\vec{d}|} = \frac{1}{7} (6\hat{i} +2\hat{j} - 3\hat{k}).
-{{< /katex >}}
 
-If {{< katex >}}\vec{r}{{< /katex >}} is the position vector of an arbitrary point {{< katex >}}(x,y,z){{< /katex >}} on the plane, then using {{< katex >}}\vec{r}\cdot \hat{d} = p{{< /katex >}}, the vector equation of the plane in normal form is {{< katex >}}\vec{r}\cdot \frac{1}{7} (6\hat{i} +2\hat{j} - 3\hat{k}) = 12{{< /katex >}}.
 
-Substituting {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}} in the above equation, we get {{< katex >}}(x\hat{i} +y\hat{j} +z\hat{k})\cdot \frac{1}{7} (6\hat{i} +2\hat{j} - 3\hat{k}) = 12{{< /katex >}} Applying dot product in the above equation and simplifying, we get {{< katex >}}6x + 2y - 3z = 84{{< /katex >}}, which is the Cartesian equation of the required plane.
+If  \vec{r} is the position vector of an arbitrary point  (x,y,z) on the plane, then using  \vec{r}\cdot \hat{d} = p, the vector equation of the plane in normal form is  \vec{r}\cdot \frac{1}{7} (6\hat{i} +2\hat{j} - 3\hat{k}) = 12.
+
+Substituting  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k} in the above equation, we get  (x\hat{i} +y\hat{j} +z\hat{k})\cdot \frac{1}{7} (6\hat{i} +2\hat{j} - 3\hat{k}) = 12 Applying dot product in the above equation and simplifying, we get  6x + 2y - 3z = 84, which is the Cartesian equation of the required plane.
 
 ## Example 6.39
 
-If the Cartesian equation of a plane is {{< katex >}}3x - 4y + 3z = - 8{{< /katex >}}, find the vector equation of the plane in the standard form.
+If the Cartesian equation of a plane is  3x - 4y + 3z = - 8, find the vector equation of the plane in the standard form.
 
 ## Solution
 
-If {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}} is the position vector of an arbitrary point {{< katex >}}(x,y,z){{< /katex >}} on the plane, then the given equation can be written as {{< katex >}}(x\hat{i} +y\hat{j} +z\hat{k})\cdot (3\hat{i} - 4\hat{j} +3\hat{k}) = - 8{{< /katex >}} or {{< katex >}}(x\hat{i} +y\hat{j} +z\hat{k})\cdot (- 3\hat{i} +4\hat{j} - 3\hat{k}) = 8{{< /katex >}}. That is, {{< katex >}}\vec{r}\cdot (- 3\hat{i} +4\hat{j} - 3\hat{k}) = \mathbf{8}{{< /katex >}} which is the vector equation of the given plane in standard form.
+If  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k} is the position vector of an arbitrary point  (x,y,z) on the plane, then the given equation can be written as  (x\hat{i} +y\hat{j} +z\hat{k})\cdot (3\hat{i} - 4\hat{j} +3\hat{k}) = - 8 or  (x\hat{i} +y\hat{j} +z\hat{k})\cdot (- 3\hat{i} +4\hat{j} - 3\hat{k}) = 8. That is,  \vec{r}\cdot (- 3\hat{i} +4\hat{j} - 3\hat{k}) = \mathbf{8} which is the vector equation of the given plane in standard form.
 
 ## Example 6.40
 
-Find the direction cosines of the normal to the plane and length of the perpendicular from the origin to the plane {{< katex >}}\vec{r}\cdot (3\hat{i} - 4\hat{j} +12\hat{k}) = 5{{< /katex >}}.
+Find the direction cosines of the normal to the plane and length of the perpendicular from the origin to the plane  \vec{r}\cdot (3\hat{i} - 4\hat{j} +12\hat{k}) = 5.
 
 ## Solution
 
-Let {{< katex >}}\vec{d} = 3\hat{i} - 4\hat{j} +12\hat{k}{{< /katex >}} and {{< katex >}}q = 5{{< /katex >}}.
+Let  \vec{d} = 3\hat{i} - 4\hat{j} +12\hat{k} and  q = 5.
 
-If {{< katex >}}\hat{d}{{< /katex >}} is the unit vector in the direction of the vector {{< katex >}}3\hat{i} - 4\hat{j} +12\hat{k}{{< /katex >}}, then {{< katex >}}\hat{d} = \frac{1}{13} (3\hat{i} - 4\hat{j} +12\hat{k}){{< /katex >}}.
+If  \hat{d} is the unit vector in the direction of the vector  3\hat{i} - 4\hat{j} +12\hat{k}, then  \hat{d} = \frac{1}{13} (3\hat{i} - 4\hat{j} +12\hat{k}).
 
 Now, dividing the given equation by 13, we get
 
-{{< katex display=true >}}
+
 \vec{r}\cdot \left(\frac{3}{13}\hat{i} -\frac{4}{13}\hat{j} +\frac{12}{13}\hat{k}\right) = \frac{5}{13}
-{{< /katex >}}
 
-which is the equation of the plane in the normal form {{< katex >}}\vec{r}\cdot \hat{d} = p{{< /katex >}}.
 
-From this equation, we infer that {{< katex >}}\hat{d} = \frac{1}{13} (3\hat{i} - 4\hat{j} +12\hat{k}){{< /katex >}} is a unit vector normal to the plane from the origin. Therefore, the direction cosines of {{< katex >}}\hat{d}{{< /katex >}} are {{< katex >}}\frac{3}{13},\frac{- 4}{13},\frac{12}{13}{{< /katex >}} and the length of the perpendicular from the origin to the plane is {{< katex >}}\frac{5}{13}{{< /katex >}}.
+which is the equation of the plane in the normal form  \vec{r}\cdot \hat{d} = p.
+
+From this equation, we infer that  \hat{d} = \frac{1}{13} (3\hat{i} - 4\hat{j} +12\hat{k}) is a unit vector normal to the plane from the origin. Therefore, the direction cosines of  \hat{d} are  \frac{3}{13},\frac{- 4}{13},\frac{12}{13} and the length of the perpendicular from the origin to the plane is  \frac{5}{13}.
 
 **Example 6.41**
 
-Find the vector and Cartesian equations of the plane passing through the point with position vector {{< katex >}}4\hat{i} +2\hat{j} -3\hat{k}{{< /katex >}} and normal to vector {{< katex >}}2\hat{i} - \hat{j} +\hat{k}{{< /katex >}}.
+Find the vector and Cartesian equations of the plane passing through the point with position vector  4\hat{i} +2\hat{j} -3\hat{k} and normal to vector  2\hat{i} - \hat{j} +\hat{k}.
 
 ## Solution
 
-If the position vector of the given point is {{< katex >}}\vec{a} = 4\hat{i} +2\hat{j} - 3\hat{k}{{< /katex >}} and {{< katex >}}\vec{n} = 2\hat{i} - \hat{j} +\hat{k}{{< /katex >}}, then the equation of the plane passing through a point and normal to a vector is given by {{< katex >}}(\vec{r} -\vec{a})\cdot \vec{n} = 0{{< /katex >}} or {{< katex >}}\vec{r}\cdot \vec{n} = \vec{a}\cdot \vec{n}{{< /katex >}}.
+If the position vector of the given point is  \vec{a} = 4\hat{i} +2\hat{j} - 3\hat{k} and  \vec{n} = 2\hat{i} - \hat{j} +\hat{k}, then the equation of the plane passing through a point and normal to a vector is given by  (\vec{r} -\vec{a})\cdot \vec{n} = 0 or  \vec{r}\cdot \vec{n} = \vec{a}\cdot \vec{n}.
 
-Substituting {{< katex >}}\vec{a} = 4\hat{i} +2\hat{j} - 3\hat{k}{{< /katex >}} and {{< katex >}}\vec{n} = 2\hat{i} - \hat{j} +\hat{k}{{< /katex >}} in the above equation, we get
+Substituting  \vec{a} = 4\hat{i} +2\hat{j} - 3\hat{k} and  \vec{n} = 2\hat{i} - \hat{j} +\hat{k} in the above equation, we get
 
-{{< katex display=true >}}
+
 \vec{r}\cdot (2\hat{i} -\hat{j} +\hat{k}) = (4\hat{i} +2\hat{j} -3\hat{k})\cdot (2\hat{i} -\hat{j} +\hat{k})
-{{< /katex >}}
 
-Thus, the required vector equation of the plane is {{< katex >}}\vec{r}\cdot (2\hat{i} -\hat{j} +\hat{k}) = 3{{< /katex >}}. If {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}} then we get the Cartesian equation of the plane {{< katex >}}2x - y + z = 3{{< /katex >}}.
+
+Thus, the required vector equation of the plane is  \vec{r}\cdot (2\hat{i} -\hat{j} +\hat{k}) = 3. If  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k} then we get the Cartesian equation of the plane  2x - y + z = 3.
 
 ## Example 6.42
 
@@ -1561,21 +1561,21 @@ A variable plane moves in such a way that the sum of the reciprocals of its inte
 
 ## Solution
 
-The equation of the plane having intercepts {{< katex >}}a,b,c{{< /katex >}} on the {{< katex >}}x,y,z{{< /katex >}} axes respectively is {{< katex >}}\frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1{{< /katex >}}. Since the sum of the reciprocals of the intercepts on the coordinate axes is a constant, we have {{< katex >}}\frac{1}{a} +\frac{1}{b} +\frac{1}{c} = k{{< /katex >}}, where {{< katex >}}k{{< /katex >}} is a constant, and which can be written as {{< katex >}}\frac{1}{a}\left(\frac{1}{k}\right) + \frac{1}{b}\left(\frac{1}{k}\right) + \frac{1}{c}\left(\frac{1}{k}\right) = 1{{< /katex >}}. This shows that the plane {{< katex >}}\frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1{{< /katex >}} passes through the fixed point {{< katex >}}\left(\frac{1}{k},\frac{1}{k},\frac{1}{k}\right){{< /katex >}}.
+The equation of the plane having intercepts  a,b,c on the  x,y,z axes respectively is  \frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1. Since the sum of the reciprocals of the intercepts on the coordinate axes is a constant, we have  \frac{1}{a} +\frac{1}{b} +\frac{1}{c} = k, where  k is a constant, and which can be written as  \frac{1}{a}\left(\frac{1}{k}\right) + \frac{1}{b}\left(\frac{1}{k}\right) + \frac{1}{c}\left(\frac{1}{k}\right) = 1. This shows that the plane  \frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1 passes through the fixed point  \left(\frac{1}{k},\frac{1}{k},\frac{1}{k}\right).
 
 **EXERCISE 6.6**
 
-1. Find the vector equation of a plane which is at a distance of 7 units from the origin having {{< katex >}}3, -4,5{{< /katex >}} as direction ratios of a normal to it.
+1. Find the vector equation of a plane which is at a distance of 7 units from the origin having  3, -4,5 as direction ratios of a normal to it.
 
-2. Find the direction cosines of the normal to the plane {{< katex >}}12x + 3y - 4z = 65{{< /katex >}}. Also, find the non-parametric form of vector equation of a plane and the length of the perpendicular to the plane from the origin.
+2. Find the direction cosines of the normal to the plane  12x + 3y - 4z = 65. Also, find the non-parametric form of vector equation of a plane and the length of the perpendicular to the plane from the origin.
 
-3. Find the vector and Cartesian equations of the plane passing through the point with position vector {{< katex >}}2\hat{i} +6\hat{j} +3\hat{k}{{< /katex >}} and normal to the vector {{< katex >}}\hat{i} +3\hat{j} +5\hat{k}{{< /katex >}}.
+3. Find the vector and Cartesian equations of the plane passing through the point with position vector  2\hat{i} +6\hat{j} +3\hat{k} and normal to the vector  \hat{i} +3\hat{j} +5\hat{k}.
 
-4. A plane passes through the point {{< katex >}}(-1,1,2){{< /katex >}} and the normal to the plane of magnitude {{< katex >}}3\sqrt{3}{{< /katex >}} makes equal acute angles with the coordinate axes. Find the equation of the plane.
+4. A plane passes through the point  (-1,1,2) and the normal to the plane of magnitude  3\sqrt{3} makes equal acute angles with the coordinate axes. Find the equation of the plane.
 
-5. Find the intercepts cut off by the plane {{< katex >}}\vec{r}\cdot (6\hat{i} +4\hat{j} -3\hat{k}) = 12{{< /katex >}} on the coordinate axes.
+5. Find the intercepts cut off by the plane  \vec{r}\cdot (6\hat{i} +4\hat{j} -3\hat{k}) = 12 on the coordinate axes.
 
-6. If a plane meets the coordinate axes at {{< katex >}}A,B,C{{< /katex >}} such that the centroid of the triangle {{< katex >}}ABC{{< /katex >}} is the point {{< katex >}}(u,v,w){{< /katex >}}, find the equation of the plane.
+6. If a plane meets the coordinate axes at  A,B,C such that the centroid of the triangle  ABC is the point  (u,v,w), find the equation of the plane.
 
 #### 6.8.4 Equation of a plane passing through three given non- collinear points
 
@@ -1583,55 +1583,55 @@ The equation of the plane having intercepts {{< katex >}}a,b,c{{< /katex >}} on 
 
 **Theorem 6.17**
 
-If three non- collinear points with position vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} are given, then the vector equation of the plane passing through the given points in parametric form is
+If three non- collinear points with position vectors  \vec{a},\vec{b},\vec{c} are given, then the vector equation of the plane passing through the given points in parametric form is
 
-{{< katex display=true >}}
+
 \vec{r} = \vec{a} +s(\vec{b} -\vec{a}) + t(\vec{c} -\vec{a}),\mathrm{~where~}\vec{b}\neq \vec{0},\vec{c}\neq \vec{0}\mathrm{~and~}s,t\in \mathbb{R}.
-{{< /katex >}}
+
 
 ## Proof
 
-Consider a plane passing through three non- collinear points {{< katex >}}A,B,C{{< /katex >}} with position vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} respectively. Then atleast two of them are non- zero vectors. Let us take {{< katex >}}\vec{b}\neq \vec{0}{{< /katex >}} and {{< katex >}}\vec{c}\neq \vec{0}{{< /katex >}}. Let {{< katex >}}\vec{r}{{< /katex >}} be the position vector of an arbitrary point {{< katex >}}P{{< /katex >}} on the plane. Take a point {{< katex >}}D{{< /katex >}} on {{< katex >}}AB{{< /katex >}} (produced) such that {{< katex >}}\overline{AD}{{< /katex >}} is parallel to {{< katex >}}\overline{AB}{{< /katex >}} and {{< katex >}}\overline{DP}{{< /katex >}} is parallel to {{< katex >}}\overline{AC}{{< /katex >}}. Therefore,
+Consider a plane passing through three non- collinear points  A,B,C with position vectors  \vec{a},\vec{b},\vec{c} respectively. Then atleast two of them are non- zero vectors. Let us take  \vec{b}\neq \vec{0} and  \vec{c}\neq \vec{0}. Let  \vec{r} be the position vector of an arbitrary point  P on the plane. Take a point  D on  AB (produced) such that  \overline{AD} is parallel to  \overline{AB} and  \overline{DP} is parallel to  \overline{AC}. Therefore,
 
-{{< katex display=true >}}
+
 \overline{AD} = s(\vec{b} -\vec{a}),\overline{DP} = t(\vec{c} -\vec{a}).
-{{< /katex >}}
 
-Now, in triangle {{< katex >}}ADP{{< /katex >}}, we have
+
+Now, in triangle  ADP, we have
 
 <center>Fig. 6.27 </center>
 
-{{< katex display=true >}}
-\overline{AP} = \overline{AD} +\overline{DP}\mathrm{~or~}\vec{r} -\vec{a} = s(\vec{b} -\vec{a}) + t(\vec{c} -\vec{a}),\mathrm{~where~}\vec{b}\neq \vec{0},\vec{c}\neq \vec{0}\mathrm{~and~}s,t\in \mathbb{R}
-{{< /katex >}}
 
-. That is, {{< katex >}}\vec{r} = \vec{a} +s(\vec{b} -\vec{a}) + t(\vec{c} -\vec{a}){{< /katex >}}
+\overline{AP} = \overline{AD} +\overline{DP}\mathrm{~or~}\vec{r} -\vec{a} = s(\vec{b} -\vec{a}) + t(\vec{c} -\vec{a}),\mathrm{~where~}\vec{b}\neq \vec{0},\vec{c}\neq \vec{0}\mathrm{~and~}s,t\in \mathbb{R}
+
+
+. That is,  \vec{r} = \vec{a} +s(\vec{b} -\vec{a}) + t(\vec{c} -\vec{a})
 
 This is the parametric form of vector equation of the plane passing through the given three non- collinear points.
 
 ### (b) Non-parametric form of vector equation
 
-Let {{< katex >}}A,B{{< /katex >}}, and {{< katex >}}C{{< /katex >}} be the three non collinear points on the plane with position vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} respectively. Then atleast two of them are non- zero vectors. Let us take {{< katex >}}\vec{b}\neq \vec{0}{{< /katex >}} and {{< katex >}}\vec{c}\neq \vec{0}{{< /katex >}}. Now {{< katex >}}\overline{AB} = \vec{b} -\vec{a}{{< /katex >}} and {{< katex >}}\overline{AC} = \vec{c} -\vec{a}{{< /katex >}}. The vectors {{< katex >}}(\vec{b} -\vec{a}){{< /katex >}} and {{< katex >}}(\vec{c} -\vec{a}){{< /katex >}} lie on the plane. Since {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} are non- collinear, {{< katex >}}\overline{AB}{{< /katex >}} is not parallel to {{< katex >}}\overline{AC}{{< /katex >}}. Therefore, {{< katex >}}(\vec{b} -\vec{a})\times (\vec{c} -\vec{a}){{< /katex >}} is perpendicular to the plane.
+Let  A,B, and  C be the three non collinear points on the plane with position vectors  \vec{a},\vec{b},\vec{c} respectively. Then atleast two of them are non- zero vectors. Let us take  \vec{b}\neq \vec{0} and  \vec{c}\neq \vec{0}. Now  \overline{AB} = \vec{b} -\vec{a} and  \overline{AC} = \vec{c} -\vec{a}. The vectors  (\vec{b} -\vec{a}) and  (\vec{c} -\vec{a}) lie on the plane. Since  \vec{a},\vec{b},\vec{c} are non- collinear,  \overline{AB} is not parallel to  \overline{AC}. Therefore,  (\vec{b} -\vec{a})\times (\vec{c} -\vec{a}) is perpendicular to the plane.
 
 <center>Fig. 6.28 </center>
 
-If {{< katex >}}\vec{r}{{< /katex >}} is the position vector of an arbitrary point {{< katex >}}P(x,y,z){{< /katex >}} on the plane, then the equation of the plane passing through the point {{< katex >}}A{{< /katex >}} with position vector {{< katex >}}\vec{a}{{< /katex >}} and perpendicular to the vector {{< katex >}}(\vec{b} -\vec{a})\times (\vec{c} -\vec{a}){{< /katex >}} is given by
+If  \vec{r} is the position vector of an arbitrary point  P(x,y,z) on the plane, then the equation of the plane passing through the point  A with position vector  \vec{a} and perpendicular to the vector  (\vec{b} -\vec{a})\times (\vec{c} -\vec{a}) is given by
 
-{{< katex display=true >}}
+
 (\vec{r} -\vec{a})\cdot ((\vec{b} -\vec{a})\times (\vec{c} -\vec{a})) = 0\quad \mathrm{or}\quad [\vec{r} -\vec{a},\vec{b} -\vec{a},\vec{c} -\vec{a}] = 0
-{{< /katex >}}
+
 
 This is the non- parametric form of vector equation of the plane passing through three non- collinear points.
 
 ### (c) Cartesian form of equation
 
-If {{< katex >}}(x_{1},y_{1},z_{1}),(x_{2},y_{2},z_{2}){{< /katex >}} and {{< katex >}}(x_{3},y_{3},z_{3}){{< /katex >}} are the coordinates of three non- collinear points {{< katex >}}A,B,C{{< /katex >}} with position vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} respectively and {{< katex >}}(x,y,z){{< /katex >}} is the coordinates of the point {{< katex >}}P{{< /katex >}} with position vector {{< katex >}}\vec{r}{{< /katex >}}, then we have {{< katex >}}\vec{a} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k}{{< /katex >}} {{< katex >}}\vec{b} = x_{2}\hat{i} +y_{2}\hat{j} +z_{2}\hat{k}{{< /katex >}} {{< katex >}}\vec{c} = x_{3}\hat{i} +y_{3}\hat{j} +z_{3}\hat{k}{{< /katex >}} and {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}}
+If  (x_{1},y_{1},z_{1}),(x_{2},y_{2},z_{2}) and  (x_{3},y_{3},z_{3}) are the coordinates of three non- collinear points  A,B,C with position vectors  \vec{a},\vec{b},\vec{c} respectively and  (x,y,z) is the coordinates of the point  P with position vector  \vec{r}, then we have  \vec{a} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k}  \vec{b} = x_{2}\hat{i} +y_{2}\hat{j} +z_{2}\hat{k}  \vec{c} = x_{3}\hat{i} +y_{3}\hat{j} +z_{3}\hat{k} and  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k}
 
 Using these vectors, the non- parametric form of vector equation of the plane passing through the given three non- collinear points can be equivalently written as
 
-{{< katex display=true >}}
+
 \begin{vmatrix} x - x_1 & y - y_1 & z - z_1 \\ x_2 - x_1 & y_2 - y_1 & z_2 - z_1 \\ x_3 - x_1 & y_3 - y_1 & z_3 - z_1 \end{vmatrix} = 0
-{{< /katex >}}
+
 
 which is the Cartesian equation of the plane passing through three non- collinear points.
 
@@ -1639,11 +1639,11 @@ which is the Cartesian equation of the plane passing through three non- collinea
 
 ### (a) Parametric form of vector equation
 
-Consider a plane passing through a given point {{< katex >}}A{{< /katex >}} with position vector {{< katex >}}\vec{a}{{< /katex >}} and parallel to two given non- parallel vectors {{< katex >}}\vec{b}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}}. If {{< katex >}}\vec{r}{{< /katex >}} is the position vector of an arbitrary point {{< katex >}}P{{< /katex >}} on the plane, then the vectors {{< katex >}}(\vec{r} - \vec{a}),\vec{b}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}} are coplanar. So, {{< katex >}}(\vec{r} - \vec{a}){{< /katex >}} lies in the plane containing {{< katex >}}\vec{b}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}}. Then, there exists scalars {{< katex >}}s,t\in \mathbb{R}{{< /katex >}} such that {{< katex >}}\vec{r} - \vec{a} = s\vec{b} +t\vec{c}{{< /katex >}} which implies
+Consider a plane passing through a given point  A with position vector  \vec{a} and parallel to two given non- parallel vectors  \vec{b} and  \vec{c}. If  \vec{r} is the position vector of an arbitrary point  P on the plane, then the vectors  (\vec{r} - \vec{a}),\vec{b} and  \vec{c} are coplanar. So,  (\vec{r} - \vec{a}) lies in the plane containing  \vec{b} and  \vec{c}. Then, there exists scalars  s,t\in \mathbb{R} such that  \vec{r} - \vec{a} = s\vec{b} +t\vec{c} which implies
 
-{{< katex display=true >}}
+
 \vec{r} = \vec{a} +s\vec{b} +t\vec{c},\mathrm{~where~}s,t\in \mathbb{R} \quad (1)
-{{< /katex >}}
+
 
 This is the parametric form of vector equation of the plane passing through a given point and parallel to two given non- parallel vectors.
 
@@ -1651,19 +1651,19 @@ This is the parametric form of vector equation of the plane passing through a gi
 
 Equation (1) can be equivalently written as
 
-{{< katex display=true >}}
+
 (\vec{r} - \vec{a})\cdot (\vec{b}\times \vec{c}) = 0 \quad (2)
-{{< /katex >}}
+
 
 which is the non- parametric form of vector equation of the plane passing through a given point and parallel to two given non- parallel vectors.
 
 ### (c) Cartesian form of equation
 
-If {{< katex >}}\vec{a} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k}{{< /katex >}} {{< katex >}}\vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k}{{< /katex >}} {{< katex >}}\vec{c} = c_{1}\hat{i} +c_{2}\hat{j} +c_{3}\hat{k}{{< /katex >}} and {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}}, then the equation (2) is equivalent to
+If  \vec{a} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k}  \vec{b} = b_{1}\hat{i} +b_{2}\hat{j} +b_{3}\hat{k}  \vec{c} = c_{1}\hat{i} +c_{2}\hat{j} +c_{3}\hat{k} and  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k}, then the equation (2) is equivalent to
 
-{{< katex display=true >}}
+
 \begin{vmatrix} x - x_1 & y - y_1 & z - z_1 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix} = 0
-{{< /katex >}}
+
 
 This is the Cartesian equation of the plane passing through a given point and parallel to two given non- parallel vectors.
 
@@ -1671,130 +1671,130 @@ This is the Cartesian equation of the plane passing through a given point and pa
 
 ### (a) Parametric form of vector equation
 
-The parametric form of vector equation of the plane passing through two given distinct points {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} with position vectors {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}}, and parallel to a non- zero vector {{< katex >}}\vec{c}{{< /katex >}} is
+The parametric form of vector equation of the plane passing through two given distinct points  A and  B with position vectors  \vec{a} and  \vec{b}, and parallel to a non- zero vector  \vec{c} is
 
-{{< katex display=true >}}
+
 \vec{r} = \vec{a} +s(\vec{b} -\vec{a}) + t\vec{c}\mathrm{or}\vec{r} = (1 - s)\vec{a} +s\vec{b} +t\vec{c} \quad (1)
-{{< /katex >}}
 
-where {{< katex >}}s,t\in \mathbb{R},(\vec{b} -\vec{a}){{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}} are not parallel vectors.
+
+where  s,t\in \mathbb{R},(\vec{b} -\vec{a}) and  \vec{c} are not parallel vectors.
 
 ### (b) Non-parametric form of vector equation
 
 Equation (1) can be written equivalently in non- parametric vector form as
 
-{{< katex display=true >}}
-(\vec{r} -\vec{a})\cdot ((\vec{b} -\vec{a})\times \vec{c}) = 0 \quad (2)
-{{< /katex >}}
 
-where {{< katex >}}(\vec{b} -\vec{a}){{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}} are not parallel vectors.
+(\vec{r} -\vec{a})\cdot ((\vec{b} -\vec{a})\times \vec{c}) = 0 \quad (2)
+
+
+where  (\vec{b} -\vec{a}) and  \vec{c} are not parallel vectors.
 
 ### (c) Cartesian form of equation
 
-If {{< katex >}}\vec{a} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k},\vec{b} = x_{2}\hat{i} +y_{2}\hat{j} +z_{2}\hat{k},\vec{c} = c_{1}\hat{i} +c_{2}\hat{j} +c_{3}\hat{k}\neq \vec{0}{{< /katex >}} and {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}}, then equation (2) is equivalent to
+If  \vec{a} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k},\vec{b} = x_{2}\hat{i} +y_{2}\hat{j} +z_{2}\hat{k},\vec{c} = c_{1}\hat{i} +c_{2}\hat{j} +c_{3}\hat{k}\neq \vec{0} and  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k}, then equation (2) is equivalent to
 
-{{< katex display=true >}}
+
 \begin{vmatrix} x - x_1 & y - y_1 & z - z_1 \\ x_2 - x_1 & y_2 - y_1 & z_2 - z_1 \\ c_1 & c_2 & c_3 \end{vmatrix} = 0
-{{< /katex >}}
+
 
 This is the required Cartesian equation.
 
 ## Example 6.43
 
-Find the non- parametric form of vector equation, and Cartesian equation of the plane passing through the point {{< katex >}}(0,1, - 5){{< /katex >}} and parallel to the straight lines {{< katex >}}\vec{r} = (\hat{i} +2\hat{j} - 4\hat{k}) + s(2\hat{i} +3\hat{j} +6\hat{k}){{< /katex >}} and {{< katex >}}\vec{r} = (\hat{i} - 3\hat{j} +5\hat{k}) + t(\hat{i} +\hat{j} -\hat{k}){{< /katex >}}.
+Find the non- parametric form of vector equation, and Cartesian equation of the plane passing through the point  (0,1, - 5) and parallel to the straight lines  \vec{r} = (\hat{i} +2\hat{j} - 4\hat{k}) + s(2\hat{i} +3\hat{j} +6\hat{k}) and  \vec{r} = (\hat{i} - 3\hat{j} +5\hat{k}) + t(\hat{i} +\hat{j} -\hat{k}).
 
 ## Solution
 
-We observe that the required plane is parallel to the vectors {{< katex >}}\vec{b} = 2\hat{i} +3\hat{j} +6\hat{k},\vec{c} = \hat{i} +\hat{j} -\hat{k}{{< /katex >}} and passing through the point {{< katex >}}(0,1, - 5){{< /katex >}} with position vector {{< katex >}}\vec{a}{{< /katex >}}. We observe that {{< katex >}}\vec{b}{{< /katex >}} is not parallel to {{< katex >}}\vec{c}{{< /katex >}}. Then the vector equation of the plane in non- parametric form is given by {{< katex >}}(\vec{r} -\vec{a})\cdot (\vec{b}\times \vec{c}) = 0{{< /katex >}}. {{< katex >}}\therefore{{< /katex >}} (1)
+We observe that the required plane is parallel to the vectors  \vec{b} = 2\hat{i} +3\hat{j} +6\hat{k},\vec{c} = \hat{i} +\hat{j} -\hat{k} and passing through the point  (0,1, - 5) with position vector  \vec{a}. We observe that  \vec{b} is not parallel to  \vec{c}. Then the vector equation of the plane in non- parametric form is given by  (\vec{r} -\vec{a})\cdot (\vec{b}\times \vec{c}) = 0.  \therefore (1)
 
-{{< katex display=true >}}
+
 \vec{b}\times\vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 2 & 3 & 6 \\ 1 & 1 & -1 \end{vmatrix} = (-3-6)\hat{i} - (-2-6)\hat{j} + (2-3)\hat{k} = -9\hat{i} + 8\hat{j} - \hat{k}
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 (\vec{r} -(\hat{j} -5\hat{k}))\cdot (-9\hat{i} +8\hat{j} -\hat{k}) = 0,\mathrm{~which~implies~that~}
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 \vec{r}\cdot (-9\hat{i} +8\hat{j} -\hat{k}) = 13.
-{{< /katex >}}
 
-If {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}} is the position vector of an arbitrary point on the plane, then from the above equation, we get the Cartesian equation of the plane as {{< katex >}}- 9x + 8y - z = 13{{< /katex >}} or {{< katex >}}9x - 8y + z + 13 = 0{{< /katex >}}.
+
+If  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k} is the position vector of an arbitrary point on the plane, then from the above equation, we get the Cartesian equation of the plane as  - 9x + 8y - z = 13 or  9x - 8y + z + 13 = 0.
 
 ## Example 6.44
 
-Find the vector parametric, vector non- parametric and Cartesian form of the equation of the plane passing through the points {{< katex >}}(- 1,2,0){{< /katex >}}, {{< katex >}}(2,2 - 1){{< /katex >}} and parallel to the straight line {{< katex >}}\frac{x - 1}{1} = \frac{2y + 1}{2} = \frac{z + 1}{- 1}{{< /katex >}}.
+Find the vector parametric, vector non- parametric and Cartesian form of the equation of the plane passing through the points  (- 1,2,0),  (2,2 - 1) and parallel to the straight line  \frac{x - 1}{1} = \frac{2y + 1}{2} = \frac{z + 1}{- 1}.
 
 ## Solution
 
-The required plane is parallel to the given line and so it is parallel to the vector {{< katex >}}\vec{c} = \hat{i} +\hat{j} -\hat{k}{{< /katex >}} and the plane passes through the points {{< katex >}}\vec{a} = -\hat{i} +2\hat{j},\vec{b} = 2\hat{i} +2\hat{j} -\hat{k}{{< /katex >}}.
+The required plane is parallel to the given line and so it is parallel to the vector  \vec{c} = \hat{i} +\hat{j} -\hat{k} and the plane passes through the points  \vec{a} = -\hat{i} +2\hat{j},\vec{b} = 2\hat{i} +2\hat{j} -\hat{k}.
 
-Vector equation of the plane in parametric form is {{< katex >}}\vec{r} = \vec{a} +s\left(\vec{b} -\vec{a}\right) +t\vec{c}{{< /katex >}}, where {{< katex >}}s{{< /katex >}} {{< katex >}}t\in \mathbb{R}{{< /katex >}} which implies that {{< katex >}}\vec{r} = \left(-\hat{i} +2\hat{j}\right) +s\left(3\hat{i} -\hat{k}\right) +t\left(\hat{i} +\hat{j} -\hat{k}\right){{< /katex >}}, where {{< katex >}}s,t\in \mathbb{R}{{< /katex >}} vector equation of the plane in non- parametric form is {{< katex >}}(\vec{r} -\vec{a})\cdot ((\vec{b} -\vec{a})\times \vec{c}) = 0{{< /katex >}} {{< katex >}}\mathrm{Now},(\vec{b} -\vec{a})\times \vec{c} = \left| \begin{array}{ccc}\hat{i} & \hat{j} & \hat{k}\\ 3 & 0 & -1\\ 1 & 1 & -1 \end{array} \right| = \hat{i} +2\hat{j} +3\hat{k},{{< /katex >}} we have {{< katex >}}(\vec{r} -(-\hat{i} +2\hat{j}))\cdot (\hat{i} +2\hat{j} +3\hat{k}) = 0\Rightarrow \vec{r}\cdot (\hat{i} +2\hat{j} +3\hat{k}) = 3{{< /katex >}} If {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}} is the position vector of an arbitrary point on the plane, then from the above equation, we get the Cartesian equation of the plane as {{< katex >}}x + 2y + 3z = 3{{< /katex >}}
+Vector equation of the plane in parametric form is  \vec{r} = \vec{a} +s\left(\vec{b} -\vec{a}\right) +t\vec{c}, where  s  t\in \mathbb{R} which implies that  \vec{r} = \left(-\hat{i} +2\hat{j}\right) +s\left(3\hat{i} -\hat{k}\right) +t\left(\hat{i} +\hat{j} -\hat{k}\right), where  s,t\in \mathbb{R} vector equation of the plane in non- parametric form is  (\vec{r} -\vec{a})\cdot ((\vec{b} -\vec{a})\times \vec{c}) = 0  \mathrm{Now},(\vec{b} -\vec{a})\times \vec{c} = \left| \begin{array}{ccc}\hat{i} & \hat{j} & \hat{k}\\ 3 & 0 & -1\\ 1 & 1 & -1 \end{array} \right| = \hat{i} +2\hat{j} +3\hat{k}, we have  (\vec{r} -(-\hat{i} +2\hat{j}))\cdot (\hat{i} +2\hat{j} +3\hat{k}) = 0\Rightarrow \vec{r}\cdot (\hat{i} +2\hat{j} +3\hat{k}) = 3 If  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k} is the position vector of an arbitrary point on the plane, then from the above equation, we get the Cartesian equation of the plane as  x + 2y + 3z = 3
 
 **EXERCISE 6.7**
 
-1. Find the non-parametric form of vector equation, and Cartesian equation of the plane passing through the point {{< katex >}}(2,3,6){{< /katex >}} and parallel to the straight lines {{< katex >}}\frac{x - 1}{2} = \frac{y + 1}{3} = \frac{z - 3}{1}{{< /katex >}} and {{< katex >}}\frac{x + 3}{2} = \frac{y - 3}{-5} = \frac{z + 1}{-3}{{< /katex >}}
+1. Find the non-parametric form of vector equation, and Cartesian equation of the plane passing through the point  (2,3,6) and parallel to the straight lines  \frac{x - 1}{2} = \frac{y + 1}{3} = \frac{z - 3}{1} and  \frac{x + 3}{2} = \frac{y - 3}{-5} = \frac{z + 1}{-3}
 
-2. Find the non-parametric form of vector equation, and Cartesian equations of the plane passing through the points {{< katex >}}(2,2,1){{< /katex >}}, {{< katex >}}(9,3,6){{< /katex >}} and perpendicular to the plane {{< katex >}}2x + 6y + 6z = 9{{< /katex >}}.
+2. Find the non-parametric form of vector equation, and Cartesian equations of the plane passing through the points  (2,2,1),  (9,3,6) and perpendicular to the plane  2x + 6y + 6z = 9.
 
-3. Find parametric form of vector equation and Cartesian equations of the plane passing through the points {{< katex >}}(2,2,1){{< /katex >}}, {{< katex >}}(1, -2,3){{< /katex >}} and parallel to the straight line passing through the points {{< katex >}}(2,1, -3){{< /katex >}} and {{< katex >}}(-1,5, -8){{< /katex >}}.
+3. Find parametric form of vector equation and Cartesian equations of the plane passing through the points  (2,2,1),  (1, -2,3) and parallel to the straight line passing through the points  (2,1, -3) and  (-1,5, -8).
 
-4. Find the non-parametric form of vector equation and Cartesian equation of the plane passing through the point {{< katex >}}(1, -2,4){{< /katex >}} and perpendicular to the plane {{< katex >}}x + 2y - 3z = 11{{< /katex >}} and parallel to the line {{< katex >}}\frac{x + 7}{3} = \frac{y + 3}{-1} = \frac{z}{1}{{< /katex >}}.
+4. Find the non-parametric form of vector equation and Cartesian equation of the plane passing through the point  (1, -2,4) and perpendicular to the plane  x + 2y - 3z = 11 and parallel to the line  \frac{x + 7}{3} = \frac{y + 3}{-1} = \frac{z}{1}.
 
-5. Find the parametric form of vector equation, and Cartesian equations of the plane containing the line {{< katex >}}\vec{r} = (\hat{i} -\hat{j} +3\hat{k}) + t(2\hat{i} -\hat{j} +4\hat{k}){{< /katex >}} and perpendicular to plane {{< katex >}}\vec{r}\cdot (\hat{i} +2\hat{j} +\hat{k}) = 8{{< /katex >}}.
+5. Find the parametric form of vector equation, and Cartesian equations of the plane containing the line  \vec{r} = (\hat{i} -\hat{j} +3\hat{k}) + t(2\hat{i} -\hat{j} +4\hat{k}) and perpendicular to plane  \vec{r}\cdot (\hat{i} +2\hat{j} +\hat{k}) = 8.
 
-6. Find the parametric vector, non-parametric vector and Cartesian form of the equations of the plane passing through the three non-collinear points {{< katex >}}(3,6, -2){{< /katex >}}, {{< katex >}}(-1, -2,6){{< /katex >}}, and {{< katex >}}(6,4, -2){{< /katex >}}.
+6. Find the parametric vector, non-parametric vector and Cartesian form of the equations of the plane passing through the three non-collinear points  (3,6, -2),  (-1, -2,6), and  (6,4, -2).
 
 7. Find the non-parametric form of vector equation, and Cartesian equations of the plane
-   {{< katex display=true >}}
+   
    \vec{r} = \left(6\hat{i} -\hat{j} +\hat{k}\right) + s\left(-\hat{i} +2\hat{j} +\hat{k}\right) + t\left(-5\hat{i} -4\hat{j} -5\hat{k}\right).
-   {{< /katex >}}
+   
 
 #### 6.8.7 Condition for a line to lie in a plane
 
 We observe that a straight line will lie in a plane if every point on the line, lie in the plane and the normal to the plane is perpendicular to the line.
 
-(i) If the line {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}} lies in the plane {{< katex >}}\vec{r}\cdot \vec{n} = d{{< /katex >}}, then {{< katex >}}\vec{a}\cdot \vec{n} = d{{< /katex >}} and {{< katex >}}\vec{b}\cdot \vec{n} = 0{{< /katex >}}
+(i) If the line  \vec{r} = \vec{a} +t\vec{b} lies in the plane  \vec{r}\cdot \vec{n} = d, then  \vec{a}\cdot \vec{n} = d and  \vec{b}\cdot \vec{n} = 0
 
-(ii) If the line {{< katex >}}\frac{x - x_{1}}{a} = \frac{y - y_{1}}{b} = \frac{z - z_{1}}{c}{{< /katex >}} lies in the plane {{< katex >}}Ax + By + Cz + D = 0{{< /katex >}}, then
+(ii) If the line  \frac{x - x_{1}}{a} = \frac{y - y_{1}}{b} = \frac{z - z_{1}}{c} lies in the plane  Ax + By + Cz + D = 0, then
 
-{{< katex display=true >}}
+
 Ax_{1} + By_{1} + Cz_{1} + D = 0 \text{and} aA + bB + cC = 0.
-{{< /katex >}}
+
 
 **Example 6.45**
 
-Verify whether the line {{< katex >}}\frac{x - 3}{- 4} = \frac{y - 4}{- 7} = \frac{z + 3}{12}{{< /katex >}} lies in the plane {{< katex >}}5x - y + z = 8{{< /katex >}}.
+Verify whether the line  \frac{x - 3}{- 4} = \frac{y - 4}{- 7} = \frac{z + 3}{12} lies in the plane  5x - y + z = 8.
 
 ## Solution
 
-Here, {{< katex >}}(x_{1},y_{1},z_{1}) = (3,4, - 3){{< /katex >}} and direction ratios of the given straight line are {{< katex >}}(a,b,c) = (- 4, - 7,12){{< /katex >}}. Direction ratios of the normal to the given plane are {{< katex >}}(A,B,C) = (5, - 1,1){{< /katex >}}.
+Here,  (x_{1},y_{1},z_{1}) = (3,4, - 3) and direction ratios of the given straight line are  (a,b,c) = (- 4, - 7,12). Direction ratios of the normal to the given plane are  (A,B,C) = (5, - 1,1).
 
-We observe that, the given point {{< katex >}}(x_{1},y_{1},z_{1}) = (3,4, - 3){{< /katex >}} satisfies the given plane {{< katex >}}5x - y + z = 8{{< /katex >}}
+We observe that, the given point  (x_{1},y_{1},z_{1}) = (3,4, - 3) satisfies the given plane  5x - y + z = 8
 
-Next, {{< katex >}}aA + bB + cC = (- 4)(5) + (- 7)(- 1) + (12)(1) = - 1\neq 0{{< /katex >}}. So, the normal to the plane is not perpendicular to the line. Hence, the given line does not lie in the plane.
+Next,  aA + bB + cC = (- 4)(5) + (- 7)(- 1) + (12)(1) = - 1\neq 0. So, the normal to the plane is not perpendicular to the line. Hence, the given line does not lie in the plane.
 
 #### 6.8.8 Condition for coplanarity of two lines
 
 **(a) Condition in vector form**
 
-The two given non- parallel lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} are coplanar. So they lie in a single plane. Let A and C be the points whose position vectors are {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}}. Then A and C lie on the plane. Since {{< katex >}}\vec{b}{{< /katex >}} and {{< katex >}}\vec{d}{{< /katex >}} are parallel to the plane, {{< katex >}}\vec{b}\times \vec{d}{{< /katex >}} is perpendicular to the plane. So {{< katex >}}\overrightarrow{AC}{{< /katex >}} is perpendicular to {{< katex >}}\vec{b}\times \vec{d}{{< /katex >}}. That is,
+The two given non- parallel lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} are coplanar. So they lie in a single plane. Let A and C be the points whose position vectors are  \vec{a} and  \vec{c}. Then A and C lie on the plane. Since  \vec{b} and  \vec{d} are parallel to the plane,  \vec{b}\times \vec{d} is perpendicular to the plane. So  \overrightarrow{AC} is perpendicular to  \vec{b}\times \vec{d}. That is,
 
 <center>Fig. 6.29 </center>
 
-{{< katex display=true >}}
+
 (\vec{c} -\vec{a})\cdot (\vec{b}\times \vec{d}) = 0
-{{< /katex >}}
+
 
 This is the required condition for coplanarity of two lines in vector form.
 
 ### (b) Condition in Cartesian form
 
-Two lines {{< katex >}}\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}{{< /katex >}} and {{< katex >}}\frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}}{{< /katex >}} are coplanar if
+Two lines  \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} and  \frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}} are coplanar if
 
-{{< katex display=true >}}
+
 \begin{vmatrix} x_2 - x_1 & y_2 - y_1 & z_2 - z_1 \\ b_1 & b_2 & b_3 \\ d_1 & d_2 & d_3 \end{vmatrix} = 0
-{{< /katex >}}
+
 
 This is the required condition for coplanarity of two lines in Cartesian form.
 
@@ -1802,75 +1802,75 @@ This is the required condition for coplanarity of two lines in Cartesian form.
 
 **(a) Parametric form of vector equation**
 
-Let {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} be two non- parallel coplanar lines. Then {{< katex >}}\vec{b}\times \vec{d}\neq \vec{0}{{< /katex >}}. Let {{< katex >}}P{{< /katex >}} be any point on the plane and let {{< katex >}}\vec{r}_{0}{{< /katex >}} be its position vector. Then, the vectors {{< katex >}}\vec{r}_{0} - \vec{a},\vec{b},\vec{d}{{< /katex >}} as well as {{< katex >}}\vec{r}_{0} - \vec{c},\vec{b},\vec{d}{{< /katex >}} are also coplanar. So, we get {{< katex >}}\vec{r}_{0} - \vec{a} = t\vec{b} +s\vec{d}{{< /katex >}} or {{< katex >}}\vec{r}_{0} - \vec{c} = t\vec{b} +s\vec{d}{{< /katex >}}. Hence, the vector equation in parametric form is {{< katex >}}\vec{r} = \vec{a} +t\vec{b} +s\vec{d}{{< /katex >}} or {{< katex >}}\vec{r} = \vec{c} +t\vec{b} +s\vec{d}{{< /katex >}}.
+Let  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} be two non- parallel coplanar lines. Then  \vec{b}\times \vec{d}\neq \vec{0}. Let  P be any point on the plane and let  \vec{r}_{0} be its position vector. Then, the vectors  \vec{r}_{0} - \vec{a},\vec{b},\vec{d} as well as  \vec{r}_{0} - \vec{c},\vec{b},\vec{d} are also coplanar. So, we get  \vec{r}_{0} - \vec{a} = t\vec{b} +s\vec{d} or  \vec{r}_{0} - \vec{c} = t\vec{b} +s\vec{d}. Hence, the vector equation in parametric form is  \vec{r} = \vec{a} +t\vec{b} +s\vec{d} or  \vec{r} = \vec{c} +t\vec{b} +s\vec{d}.
 
 **(b) Non-parametric form of vector equation**
 
-Let {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} be two non- parallel coplanar lines. Then {{< katex >}}\vec{b}\times \vec{d}\neq \vec{0}{{< /katex >}}. Let {{< katex >}}P{{< /katex >}} be any point on the plane and let {{< katex >}}\vec{r}_{0}{{< /katex >}} be its position vector. Then, the vectors {{< katex >}}\vec{r}_{0} - \vec{a},\vec{b},\vec{d}{{< /katex >}} as well as {{< katex >}}\vec{r}_{0} - \vec{c},\vec{b},\vec{d}{{< /katex >}} are also coplanar. So, we get {{< katex >}}\left(\vec{r}_{0} - \vec{a}\right).\left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}} or {{< katex >}}\left(\vec{r}_{0} - \vec{c}\right).\left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}}. Hence, the vector equation in non- parametric form is {{< katex >}}\left(\vec{r} - \vec{a}\right).\left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}} or {{< katex >}}\left(\vec{r} - \vec{c}\right).\left(\vec{b}\times \vec{d}\right) = 0.{{< /katex >}}
+Let  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} be two non- parallel coplanar lines. Then  \vec{b}\times \vec{d}\neq \vec{0}. Let  P be any point on the plane and let  \vec{r}_{0} be its position vector. Then, the vectors  \vec{r}_{0} - \vec{a},\vec{b},\vec{d} as well as  \vec{r}_{0} - \vec{c},\vec{b},\vec{d} are also coplanar. So, we get  \left(\vec{r}_{0} - \vec{a}\right).\left(\vec{b}\times \vec{d}\right) = 0 or  \left(\vec{r}_{0} - \vec{c}\right).\left(\vec{b}\times \vec{d}\right) = 0. Hence, the vector equation in non- parametric form is  \left(\vec{r} - \vec{a}\right).\left(\vec{b}\times \vec{d}\right) = 0 or  \left(\vec{r} - \vec{c}\right).\left(\vec{b}\times \vec{d}\right) = 0.
 
 ### (C) Cartesian form of equation of plane
 
 In Cartesian form the equation of the plane containing the two given coplanar lines
 
-{{< katex >}}\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}{{< /katex >}} and {{< katex >}}\frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}}{{< /katex >}} is given by
+ \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} and  \frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}} is given by
 
-{{< katex display=true >}}
+
 \begin{vmatrix} x - x_1 & y - y_1 & z - z_1 \\ b_1 & b_2 & b_3 \\ d_1 & d_2 & d_3 \end{vmatrix} = 0
-{{< /katex >}}
+
 
 or
 
-{{< katex display=true >}}
+
 \begin{vmatrix} x - x_2 & y - y_2 & z - z_2 \\ b_1 & b_2 & b_3 \\ d_1 & d_2 & d_3 \end{vmatrix} = 0
-{{< /katex >}}
+
 
 ## Example 6.46
 
-Show that the lines {{< katex >}}\vec{r} = \left(-\hat{i} -3\hat{j} -5\hat{k}\right) + s\left(3\hat{i} +5\hat{j} +7\hat{k}\right){{< /katex >}} and {{< katex >}}\vec{r} = \left(2\hat{i} +4\hat{j} +6\hat{k}\right) + t\left(\hat{i} +4\hat{j} +7\hat{k}\right){{< /katex >}} are coplanar. Also, find the non- parametric form of vector equation of the plane containing these lines.
+Show that the lines  \vec{r} = \left(-\hat{i} -3\hat{j} -5\hat{k}\right) + s\left(3\hat{i} +5\hat{j} +7\hat{k}\right) and  \vec{r} = \left(2\hat{i} +4\hat{j} +6\hat{k}\right) + t\left(\hat{i} +4\hat{j} +7\hat{k}\right) are coplanar. Also, find the non- parametric form of vector equation of the plane containing these lines.
 
 ## Solution
 
 Comparing the two given lines with
 
-{{< katex display=true >}}
+
 \vec{r} = \vec{a} +t\vec{b},\vec{r} = \vec{c} +s\vec{d}
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 \vec{a} = -\hat{i} -3\hat{j} -5\hat{k},\vec{b} = 3\hat{i} +5\hat{j} +7\hat{k},\vec{c} = 2\hat{i} +4\hat{j} +6\hat{k}\mathrm{~and~}\vec{d} = \hat{i} +4\hat{j} +7\hat{k}
-{{< /katex >}}
 
-We know that the two given lines are coplanar, if {{< katex >}}\left(\vec{c} - \vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}}
 
-{{< katex display=true >}}
+We know that the two given lines are coplanar, if  \left(\vec{c} - \vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0
+
+
 \vec{c} - \vec{a} = 3\hat{i} +7\hat{j} +11\hat{k},\quad \vec{b}\times\vec{d} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 3 & 5 & 7 \\ 1 & 4 & 7 \end{vmatrix} = 7\hat{i} -14\hat{j} +7\hat{k}
-{{< /katex >}}
 
-Then, {{< katex >}}\left(\vec{c} - \vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = \left(3\hat{i} +7\hat{j} +11\hat{k}\right)\cdot \left(7\hat{i} -14\hat{j} +7\hat{k}\right) = 0.{{< /katex >}}
+
+Then,  \left(\vec{c} - \vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = \left(3\hat{i} +7\hat{j} +11\hat{k}\right)\cdot \left(7\hat{i} -14\hat{j} +7\hat{k}\right) = 0.
 
 Therefore the two given lines are coplanar. Then we find the non- parametric form of vector equation of the plane containing the two given coplanar lines. We know that the plane containing the two given coplanar lines is
 
-{{< katex display=true >}}
-\left(\vec{r} -\vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0
-{{< /katex >}}
 
-which implies that {{< katex >}}\left(\vec{r} - \left(-\hat{i} -3\hat{j} -5\hat{k}\right)\right)\cdot \left(7\hat{i} -14\hat{j} +7\hat{k}\right) = 0{{< /katex >}}. Thus, the required non- parametric vector equation of the plane containing the two given coplanar lines is {{< katex >}}\vec{r}\cdot \left(\hat{i} - 2\hat{j} +\hat{k}\right) = 0{{< /katex >}}
+\left(\vec{r} -\vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0
+
+
+which implies that  \left(\vec{r} - \left(-\hat{i} -3\hat{j} -5\hat{k}\right)\right)\cdot \left(7\hat{i} -14\hat{j} +7\hat{k}\right) = 0. Thus, the required non- parametric vector equation of the plane containing the two given coplanar lines is  \vec{r}\cdot \left(\hat{i} - 2\hat{j} +\hat{k}\right) = 0
 
 ## EXERCISE 6.8
 
-1. Find the parametric form of vector equation and Cartesian equations of a straight line passing through (5,2,8) and is perpendicular to the straight lines {{< katex >}}\vec{r} = (\hat{i} +\hat{j} -\hat{k}) + s(2\hat{i} -2\hat{j} +\hat{k}){{< /katex >}} and {{< katex >}}\vec{r} = (2\hat{i} -\hat{j} -3\hat{k}) + t(\hat{i} +2\hat{j} +2\hat{k}){{< /katex >}}.
+1. Find the parametric form of vector equation and Cartesian equations of a straight line passing through (5,2,8) and is perpendicular to the straight lines  \vec{r} = (\hat{i} +\hat{j} -\hat{k}) + s(2\hat{i} -2\hat{j} +\hat{k}) and  \vec{r} = (2\hat{i} -\hat{j} -3\hat{k}) + t(\hat{i} +2\hat{j} +2\hat{k}).
 
-2. Show that the lines {{< katex >}}\vec{r} = (6\hat{i} +\hat{j} +2\hat{k}) + s(\hat{i} +2\hat{j} -3\hat{k}){{< /katex >}} and {{< katex >}}\vec{r} = (3\hat{i} +2\hat{j} -2\hat{k}) + t(2\hat{i} +4\hat{j} -5\hat{k}){{< /katex >}} are skew lines and hence find the shortest distance between them.
+2. Show that the lines  \vec{r} = (6\hat{i} +\hat{j} +2\hat{k}) + s(\hat{i} +2\hat{j} -3\hat{k}) and  \vec{r} = (3\hat{i} +2\hat{j} -2\hat{k}) + t(2\hat{i} +4\hat{j} -5\hat{k}) are skew lines and hence find the shortest distance between them.
 
-3. If the two lines {{< katex >}}\frac{x - 1}{2} = \frac{y + 1}{3} = \frac{z - 1}{4}{{< /katex >}} and {{< katex >}}\frac{x - 3}{1} = \frac{y - m}{2} = z{{< /katex >}} intersect at a point, find the value of {{< katex >}}m{{< /katex >}}.
+3. If the two lines  \frac{x - 1}{2} = \frac{y + 1}{3} = \frac{z - 1}{4} and  \frac{x - 3}{1} = \frac{y - m}{2} = z intersect at a point, find the value of  m.
 
-4. Show that the lines {{< katex >}}\frac{x - 3}{3} = \frac{y - 3}{-1}, z - 1 = 0{{< /katex >}} and {{< katex >}}\frac{x - 6}{2} = \frac{z - 1}{3}, y - 2 = 0{{< /katex >}} intersect. Also find the point of intersection.
+4. Show that the lines  \frac{x - 3}{3} = \frac{y - 3}{-1}, z - 1 = 0 and  \frac{x - 6}{2} = \frac{z - 1}{3}, y - 2 = 0 intersect. Also find the point of intersection.
 
-5. Show that the straight lines {{< katex >}}x + 1 = 2y = -12z{{< /katex >}} and {{< katex >}}x = y + 2 = 6z - 6{{< /katex >}} are skew and hence find the shortest distance between them.
+5. Show that the straight lines  x + 1 = 2y = -12z and  x = y + 2 = 6z - 6 are skew and hence find the shortest distance between them.
 
-6. Find the parametric form of vector equation of the straight line passing through {{< katex >}}(-1,2,1){{< /katex >}} and parallel to the straight line {{< katex >}}\vec{r} = (2\hat{i} +3\hat{j} -\hat{k}) + t(\hat{i} -2\hat{j} +\hat{k}){{< /katex >}} and hence find the shortest distance between the lines.
+6. Find the parametric form of vector equation of the straight line passing through  (-1,2,1) and parallel to the straight line  \vec{r} = (2\hat{i} +3\hat{j} -\hat{k}) + t(\hat{i} -2\hat{j} +\hat{k}) and hence find the shortest distance between the lines.
 
-7. Find the foot of the perpendicular drawn from the point {{< katex >}}(5,4,2){{< /katex >}} to the line {{< katex >}}\frac{x + 1}{2} = \frac{y - 3}{3} = \frac{z - 1}{-1}{{< /katex >}}. Also, find the equation of the perpendicular.
+7. Find the foot of the perpendicular drawn from the point  (5,4,2) to the line  \frac{x + 1}{2} = \frac{y - 3}{3} = \frac{z - 1}{-1}. Also, find the equation of the perpendicular.
 
 ### 6.8 Different forms of Equation of a plane
 
@@ -1900,27 +1900,27 @@ Let us find the vector and Cartesian equations of planes using the above situati
 
 **Theorem 6.15**
 
-The equation of the plane at a distance {{< katex >}}p{{< /katex >}} from the origin and perpendicular to the unit normal vector {{< katex >}}\hat{d}{{< /katex >}} is {{< katex >}}\vec{r}\cdot \hat{d} = p{{< /katex >}}.
+The equation of the plane at a distance  p from the origin and perpendicular to the unit normal vector  \hat{d} is  \vec{r}\cdot \hat{d} = p.
 
-Consider a plane whose perpendicular distance from the origin is {{< katex >}}p{{< /katex >}}.
+Consider a plane whose perpendicular distance from the origin is  p.
 
-Let {{< katex >}}A{{< /katex >}} be the foot of the perpendicular from {{< katex >}}O{{< /katex >}} to the plane.
+Let  A be the foot of the perpendicular from  O to the plane.
 
-Let {{< katex >}}\hat{d}{{< /katex >}} be the unit normal vector in the direction of {{< katex >}}\overline{OA}{{< /katex >}}.
+Let  \hat{d} be the unit normal vector in the direction of  \overline{OA}.
 
-Then {{< katex >}}\overline{OA} = p\hat{d}{{< /katex >}}.
+Then  \overline{OA} = p\hat{d}.
 
-If {{< katex >}}\vec{r}{{< /katex >}} is the position vector of an arbitrary point {{< katex >}}P{{< /katex >}} on the plane,
+If  \vec{r} is the position vector of an arbitrary point  P on the plane,
 
-then {{< katex >}}\overline{AP}{{< /katex >}} is perpendicular to {{< katex >}}\overline{OA}{{< /katex >}}.
+then  \overline{AP} is perpendicular to  \overline{OA}.
 
-Therefore, {{< katex >}}\overline{AP} \cdot \overline{OA} = 0 \Rightarrow (\vec{r} - p\hat{d}) \cdot p\hat{d} = 0{{< /katex >}}
+Therefore,  \overline{AP} \cdot \overline{OA} = 0 \Rightarrow (\vec{r} - p\hat{d}) \cdot p\hat{d} = 0
 
-{{< katex display=true >}}
+
 \Rightarrow (\vec{r} -p\hat{d})\cdot \hat{d} = 0
-{{< /katex >}}
 
-which gives {{< katex >}}\vec{r} \cdot \hat{d} = p{{< /katex >}}.
+
+which gives  \vec{r} \cdot \hat{d} = p.
 
 ![](https://placehold.co/600x400)
 
@@ -1930,160 +1930,160 @@ The above equation is called the vector equation of the plane in normal form.
 
 ### (b) Cartesian equation of a plane in normal form
 
-Let {{< katex >}}l,m,n{{< /katex >}} be the direction cosines of {{< katex >}}\hat{d}{{< /katex >}}. Then we have {{< katex >}}\hat{d} = l\hat{i} +m\hat{j} +n\hat{k}{{< /katex >}}.
+Let  l,m,n be the direction cosines of  \hat{d}. Then we have  \hat{d} = l\hat{i} +m\hat{j} +n\hat{k}.
 
 Thus, equation (1) becomes
 
-{{< katex display=true >}}
+
 \vec{r} \cdot (l\hat{i} +m\hat{j} +n\hat{k}) = p
-{{< /katex >}}
 
-If {{< katex >}}P{{< /katex >}} is {{< katex >}}(x,y,z){{< /katex >}}, then {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}}
 
-Therefore, {{< katex >}}(x\hat{i} +y\hat{j} +z\hat{k}) \cdot (l\hat{i} +m\hat{j} +n\hat{k}) = p{{< /katex >}} or {{< katex >}}lx + my + nz = p{{< /katex >}}
+If  P is  (x,y,z), then  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k}
+
+Therefore,  (x\hat{i} +y\hat{j} +z\hat{k}) \cdot (l\hat{i} +m\hat{j} +n\hat{k}) = p or  lx + my + nz = p
 
 Equation (2) is called the Cartesian equation of the plane in normal form.
 
 ## Remark
 
-(i) If the plane passes through the origin, then {{< katex >}}p = 0{{< /katex >}}. So, the equation of the plane is
+(i) If the plane passes through the origin, then  p = 0. So, the equation of the plane is
 
-{{< katex display=true >}}
+
 lx + my + nz = 0.
-{{< /katex >}}
 
-(ii) If {{< katex >}}\vec{d}{{< /katex >}} is normal vector to the plane, then {{< katex >}}\hat{d} = \frac{\vec{d}}{|\vec{d}|}{{< /katex >}} is a unit normal to the plane. So, the vector equation of the plane is {{< katex >}}\vec{r} \cdot \frac{\vec{d}}{|\vec{d}|} = p{{< /katex >}} or {{< katex >}}\vec{r} \cdot \vec{d} = q{{< /katex >}}, where {{< katex >}}q = p |\vec{d} |{{< /katex >}}. The equation {{< katex >}}\vec{r} \cdot \vec{d} = q{{< /katex >}} is the vector equation of a plane in standard form.
+
+(ii) If  \vec{d} is normal vector to the plane, then  \hat{d} = \frac{\vec{d}}{|\vec{d}|} is a unit normal to the plane. So, the vector equation of the plane is  \vec{r} \cdot \frac{\vec{d}}{|\vec{d}|} = p or  \vec{r} \cdot \vec{d} = q, where  q = p |\vec{d} |. The equation  \vec{r} \cdot \vec{d} = q is the vector equation of a plane in standard form.
 
 **Note**
 
-In the standard form {{< katex >}}\vec{r} \cdot \vec{d} = q{{< /katex >}}, {{< katex >}}\vec{d}{{< /katex >}} need not be a unit normal and {{< katex >}}q{{< /katex >}} need not be the perpendicular distance.
+In the standard form  \vec{r} \cdot \vec{d} = q,  \vec{d} need not be a unit normal and  q need not be the perpendicular distance.
 
 #### 6.8.2 Equation of a plane perpendicular to a vector and passing through a given point
 
 ### (a) Vector form of equation
 
-Consider a plane passing through a point {{< katex >}}A{{< /katex >}} with position vector {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{n}{{< /katex >}} is a normal vector to the given plane.
+Consider a plane passing through a point  A with position vector  \vec{a} and  \vec{n} is a normal vector to the given plane.
 
-Let {{< katex >}}\vec{r}{{< /katex >}} be the position vector of an arbitrary point {{< katex >}}P{{< /katex >}} on the plane.
+Let  \vec{r} be the position vector of an arbitrary point  P on the plane.
 
 ![](https://placehold.co/600x400)
 
 *Fig. 6.25*
 
-Then {{< katex >}}\overline{AP}{{< /katex >}} is perpendicular to {{< katex >}}\vec{n}{{< /katex >}}.
+Then  \overline{AP} is perpendicular to  \vec{n}.
 
-{{< katex display=true >}}
+
 \overline{AP}\cdot \vec{n} = 0 \quad (1)
-{{< /katex >}}
 
-which is the vector form of the equation of a plane passing through a point with position vector {{< katex >}}\vec{a}{{< /katex >}} and perpendicular to {{< katex >}}\vec{n}{{< /katex >}}.
+
+which is the vector form of the equation of a plane passing through a point with position vector  \vec{a} and perpendicular to  \vec{n}.
 
 ## Note
 
-{{< katex display=true >}}
+
 (\vec{r} -\vec{a})\cdot \vec{n} = 0\Rightarrow \vec{r}\cdot \vec{n} = \vec{a}\cdot \vec{n}\Rightarrow \vec{r}\cdot \vec{n} = q,
-{{< /katex >}}
-where {{< katex >}}q = \vec{a}\cdot \vec{n}{{< /katex >}}.
+
+where  q = \vec{a}\cdot \vec{n}.
 
 ### (b) Cartesian form of equation
 
-If {{< katex >}}a,b,c{{< /katex >}} are the direction ratios of {{< katex >}}\vec{n}{{< /katex >}}, then we have {{< katex >}}\vec{n} = a\vec{i} +b\vec{j} +c\vec{k}{{< /katex >}}. Suppose, {{< katex >}}A{{< /katex >}} is {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}} then equation (1) becomes {{< katex >}}\left((x - x_{1})\hat{i} +(y - y_{1})\hat{j} +(z - z_{1})\hat{k}\right)\cdot (a\vec{i} +b\vec{j} +c\vec{k}) = 0{{< /katex >}}. That is,
+If  a,b,c are the direction ratios of  \vec{n}, then we have  \vec{n} = a\vec{i} +b\vec{j} +c\vec{k}. Suppose,  A is  (x_{1},y_{1},z_{1}) then equation (1) becomes  \left((x - x_{1})\hat{i} +(y - y_{1})\hat{j} +(z - z_{1})\hat{k}\right)\cdot (a\vec{i} +b\vec{j} +c\vec{k}) = 0. That is,
 
-{{< katex display=true >}}
+
 a(x - x_{1}) + b(y - y_{1}) + c(z - z_{1}) = 0
-{{< /katex >}}
 
-which is the Cartesian equation of a plane, normal to a vector with direction ratios {{< katex >}}a,b,c{{< /katex >}} and passing through a given point {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}}.
+
+which is the Cartesian equation of a plane, normal to a vector with direction ratios  a,b,c and passing through a given point  (x_{1},y_{1},z_{1}).
 
 #### 6.8.3 Intercept form of the equation of a plane
 
-Let the plane {{< katex >}}\vec{r}\cdot \vec{n} = q{{< /katex >}} meets the coordinate axes at {{< katex >}}A,B,C{{< /katex >}} respectively such that the intercepts on the axes are {{< katex >}}OA = a{{< /katex >}}, {{< katex >}}OB = b{{< /katex >}}, {{< katex >}}OC = c{{< /katex >}}. Now position vector of the point {{< katex >}}A{{< /katex >}} is {{< katex >}}a\vec{i}{{< /katex >}}. Since {{< katex >}}A{{< /katex >}} lies on the given plane, we have {{< katex >}}a\vec{i}\cdot \vec{n} = q{{< /katex >}} which gives {{< katex >}}\hat{i}\cdot \vec{n} = \frac{q}{a}{{< /katex >}}. Similarly, since the vectors {{< katex >}}\vec{b}\vec{j}{{< /katex >}} and {{< katex >}}c\vec{k}{{< /katex >}} lie on the given plane, we have {{< katex >}}\hat{j}\cdot \vec{n} = \frac{q}{b}{{< /katex >}} and {{< katex >}}\hat{k}\cdot \vec{n} = \frac{q}{c}{{< /katex >}}. Substituting {{< katex >}}\vec{r} = x\vec{i} +y\vec{j} +z\vec{k}{{< /katex >}} in {{< katex >}}\vec{r}\cdot \vec{n} = q{{< /katex >}}, we get {{< katex >}}x\vec{i}\cdot \vec{n} +y\vec{j}\cdot \vec{n} +z\vec{k}\cdot \vec{n} = q{{< /katex >}}. So {{< katex >}}x\left(\frac{q}{a}\right) + y\left(\frac{q}{b}\right) + z\left(\frac{q}{c}\right) = q{{< /katex >}}.
+Let the plane  \vec{r}\cdot \vec{n} = q meets the coordinate axes at  A,B,C respectively such that the intercepts on the axes are  OA = a,  OB = b,  OC = c. Now position vector of the point  A is  a\vec{i}. Since  A lies on the given plane, we have  a\vec{i}\cdot \vec{n} = q which gives  \hat{i}\cdot \vec{n} = \frac{q}{a}. Similarly, since the vectors  \vec{b}\vec{j} and  c\vec{k} lie on the given plane, we have  \hat{j}\cdot \vec{n} = \frac{q}{b} and  \hat{k}\cdot \vec{n} = \frac{q}{c}. Substituting  \vec{r} = x\vec{i} +y\vec{j} +z\vec{k} in  \vec{r}\cdot \vec{n} = q, we get  x\vec{i}\cdot \vec{n} +y\vec{j}\cdot \vec{n} +z\vec{k}\cdot \vec{n} = q. So  x\left(\frac{q}{a}\right) + y\left(\frac{q}{b}\right) + z\left(\frac{q}{c}\right) = q.
 
 ![](https://placehold.co/600x400)
 
 *Fig. 6.26*
 
-Dividing by {{< katex >}}q{{< /katex >}}, we get, {{< katex >}}\frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1{{< /katex >}}. This is called the intercept form of equation of the plane having intercepts {{< katex >}}a,b,c{{< /katex >}} on the {{< katex >}}x,y,z{{< /katex >}} axes respectively.
+Dividing by  q, we get,  \frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1. This is called the intercept form of equation of the plane having intercepts  a,b,c on the  x,y,z axes respectively.
 
 ## Theorem 6.16
 
-The general equation {{< katex >}}ax + by + cz + d = 0{{< /katex >}} of first degree in {{< katex >}}x,y,z{{< /katex >}} represents a plane.
+The general equation  ax + by + cz + d = 0 of first degree in  x,y,z represents a plane.
 
 ## Proof
 
-The equation {{< katex >}}ax + by + cz + d = 0{{< /katex >}} can be written in the vector form as follows
+The equation  ax + by + cz + d = 0 can be written in the vector form as follows
 
-{{< katex display=true >}}
+
 (x\vec{i} +y\vec{j} +z\vec{k})\cdot (a\vec{i} +b\vec{j} +c\vec{k}) = -d\quad \text{or}\quad \vec{r}\cdot \vec{n} = -d.
-{{< /katex >}}
 
-Since this is the vector form of the equation of a plane in standard form, the given equation {{< katex >}}ax + by + cz + d = 0{{< /katex >}} represents a plane. Here {{< katex >}}\vec{n} = a\vec{i} +b\vec{j} +c\vec{k}{{< /katex >}} is a vector normal to the plane.
+
+Since this is the vector form of the equation of a plane in standard form, the given equation  ax + by + cz + d = 0 represents a plane. Here  \vec{n} = a\vec{i} +b\vec{j} +c\vec{k} is a vector normal to the plane.
 
 ## Note
 
-In the general equation {{< katex >}}ax + by + cz + d = 0{{< /katex >}} of a plane, {{< katex >}}a,b,c{{< /katex >}} are direction ratios of the normal to the plane.
+In the general equation  ax + by + cz + d = 0 of a plane,  a,b,c are direction ratios of the normal to the plane.
 
 ## Example 6.38
 
-Find the vector and Cartesian form of the equations of a plane which is at a distance of 12 units from the origin and perpendicular to {{< katex >}}6\hat{i} +2\hat{j} - 3\hat{k}{{< /katex >}}.
+Find the vector and Cartesian form of the equations of a plane which is at a distance of 12 units from the origin and perpendicular to  6\hat{i} +2\hat{j} - 3\hat{k}.
 
 ## Solution
 
-Let {{< katex >}}\vec{d} = 6\hat{i} +2\hat{j} - 3\hat{k}{{< /katex >}} and {{< katex >}}p = 12{{< /katex >}}.
+Let  \vec{d} = 6\hat{i} +2\hat{j} - 3\hat{k} and  p = 12.
 
-If {{< katex >}}\hat{d}{{< /katex >}} is the unit normal vector in the direction of the vector {{< katex >}}6\hat{i} +2\hat{j} - 3\hat{k}{{< /katex >}}
+If  \hat{d} is the unit normal vector in the direction of the vector  6\hat{i} +2\hat{j} - 3\hat{k}
 
-{{< katex display=true >}}
+
 \text{then} \hat{d} = \frac{\vec{d}}{|\vec{d}|} = \frac{1}{7} (6\hat{i} +2\hat{j} - 3\hat{k}).
-{{< /katex >}}
 
-If {{< katex >}}\vec{r}{{< /katex >}} is the position vector of an arbitrary point {{< katex >}}(x,y,z){{< /katex >}} on the plane, then using {{< katex >}}\vec{r}\cdot \hat{d} = p{{< /katex >}}, the vector equation of the plane in normal form is {{< katex >}}\vec{r}\cdot \frac{1}{7} (6\hat{i} +2\hat{j} - 3\hat{k}) = 12{{< /katex >}}.
 
-Substituting {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}} in the above equation, we get {{< katex >}}(x\hat{i} +y\hat{j} +z\hat{k})\cdot \frac{1}{7} (6\hat{i} +2\hat{j} - 3\hat{k}) = 12{{< /katex >}}. Applying dot product in the above equation and simplifying, we get {{< katex >}}6x + 2y - 3z = 84{{< /katex >}}, which is the Cartesian equation of the required plane.
+If  \vec{r} is the position vector of an arbitrary point  (x,y,z) on the plane, then using  \vec{r}\cdot \hat{d} = p, the vector equation of the plane in normal form is  \vec{r}\cdot \frac{1}{7} (6\hat{i} +2\hat{j} - 3\hat{k}) = 12.
+
+Substituting  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k} in the above equation, we get  (x\hat{i} +y\hat{j} +z\hat{k})\cdot \frac{1}{7} (6\hat{i} +2\hat{j} - 3\hat{k}) = 12. Applying dot product in the above equation and simplifying, we get  6x + 2y - 3z = 84, which is the Cartesian equation of the required plane.
 
 ## Example 6.39
 
-If the Cartesian equation of a plane is {{< katex >}}3x - 4y + 3z = - 8{{< /katex >}}, find the vector equation of the plane in the standard form.
+If the Cartesian equation of a plane is  3x - 4y + 3z = - 8, find the vector equation of the plane in the standard form.
 
 ## Solution
 
-If {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}} is the position vector of an arbitrary point {{< katex >}}(x,y,z){{< /katex >}} on the plane, then the given equation can be written as {{< katex >}}(x\hat{i} +y\hat{j} +z\hat{k})\cdot (3\hat{i} - 4\hat{j} +3\hat{k}) = - 8{{< /katex >}} or {{< katex >}}(x\hat{i} +y\hat{j} +z\hat{k})\cdot (- 3\hat{i} +4\hat{j} - 3\hat{k}) = 8{{< /katex >}}. That is, {{< katex >}}\vec{r}\cdot (- 3\hat{i} +4\hat{j} - 3\hat{k}) = 8{{< /katex >}} which is the vector equation of the given plane in standard form.
+If  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k} is the position vector of an arbitrary point  (x,y,z) on the plane, then the given equation can be written as  (x\hat{i} +y\hat{j} +z\hat{k})\cdot (3\hat{i} - 4\hat{j} +3\hat{k}) = - 8 or  (x\hat{i} +y\hat{j} +z\hat{k})\cdot (- 3\hat{i} +4\hat{j} - 3\hat{k}) = 8. That is,  \vec{r}\cdot (- 3\hat{i} +4\hat{j} - 3\hat{k}) = 8 which is the vector equation of the given plane in standard form.
 
 ## Example 6.40
 
-Find the direction cosines of the normal to the plane and length of the perpendicular from the origin to the plane {{< katex >}}\vec{r}\cdot (3\hat{i} - 4\hat{j} +12\hat{k}) = 5{{< /katex >}}.
+Find the direction cosines of the normal to the plane and length of the perpendicular from the origin to the plane  \vec{r}\cdot (3\hat{i} - 4\hat{j} +12\hat{k}) = 5.
 
 ## Solution
 
-Let {{< katex >}}\vec{d} = 3\hat{i} - 4\hat{j} +12\hat{k}{{< /katex >}} and {{< katex >}}q = 5{{< /katex >}}.
+Let  \vec{d} = 3\hat{i} - 4\hat{j} +12\hat{k} and  q = 5.
 
-If {{< katex >}}\hat{d}{{< /katex >}} is the unit vector in the direction of the vector {{< katex >}}3\hat{i} - 4\hat{j} +12\hat{k}{{< /katex >}}, then {{< katex >}}\hat{d} = \frac{1}{13} (3\hat{i} - 4\hat{j} +12\hat{k}){{< /katex >}}.
+If  \hat{d} is the unit vector in the direction of the vector  3\hat{i} - 4\hat{j} +12\hat{k}, then  \hat{d} = \frac{1}{13} (3\hat{i} - 4\hat{j} +12\hat{k}).
 
 Now, dividing the given equation by 13, we get
 
-{{< katex display=true >}}
+
 \vec{r}\cdot \left(\frac{3}{13}\hat{i} -\frac{4}{13}\hat{j} +\frac{12}{13}\hat{k}\right) = \frac{5}{13}
-{{< /katex >}}
 
-which is the equation of the plane in the normal form {{< katex >}}\vec{r}\cdot \hat{d} = p{{< /katex >}}.
 
-From this equation, we infer that {{< katex >}}\hat{d} = \frac{1}{13} (3\hat{i} - 4\hat{j} +12\hat{k}){{< /katex >}} is a unit vector normal to the plane from the origin. Therefore, the direction cosines of {{< katex >}}\hat{d}{{< /katex >}} are {{< katex >}}\frac{3}{13},\frac{- 4}{13},\frac{12}{13}{{< /katex >}} and the length of the perpendicular from the origin to the plane is {{< katex >}}\frac{5}{13}{{< /katex >}}.
+which is the equation of the plane in the normal form  \vec{r}\cdot \hat{d} = p.
+
+From this equation, we infer that  \hat{d} = \frac{1}{13} (3\hat{i} - 4\hat{j} +12\hat{k}) is a unit vector normal to the plane from the origin. Therefore, the direction cosines of  \hat{d} are  \frac{3}{13},\frac{- 4}{13},\frac{12}{13} and the length of the perpendicular from the origin to the plane is  \frac{5}{13}.
 
 ## Example 6.41
 
-Find the vector and Cartesian equations of the plane passing through the point with position vector {{< katex >}}4\dot{i} +2\dot{j} -3\dot{k}{{< /katex >}} and normal to vector {{< katex >}}2\dot{i} - \dot{j} +\dot{k}{{< /katex >}}.
+Find the vector and Cartesian equations of the plane passing through the point with position vector  4\dot{i} +2\dot{j} -3\dot{k} and normal to vector  2\dot{i} - \dot{j} +\dot{k}.
 
 ## Solution
 
-If the position vector of the given point is {{< katex >}}\vec{a} = 4\dot{i} +2\dot{j} - 3\dot{k}{{< /katex >}} and {{< katex >}}\vec{n} = 2\dot{i} - \dot{j} +\dot{k}{{< /katex >}}, then the equation of the plane passing through a point and normal to a vector is given by {{< katex >}}(\vec{r} -\vec{a})\cdot \vec{n} = 0{{< /katex >}} or {{< katex >}}\vec{r}\cdot \vec{n} = \vec{a}\cdot \vec{n}{{< /katex >}}.
+If the position vector of the given point is  \vec{a} = 4\dot{i} +2\dot{j} - 3\dot{k} and  \vec{n} = 2\dot{i} - \dot{j} +\dot{k}, then the equation of the plane passing through a point and normal to a vector is given by  (\vec{r} -\vec{a})\cdot \vec{n} = 0 or  \vec{r}\cdot \vec{n} = \vec{a}\cdot \vec{n}.
 
-Substituting {{< katex >}}\vec{a} = 4\dot{i} +2\dot{j} - 3\dot{k}{{< /katex >}} and {{< katex >}}\vec{n} = 2\dot{i} - \dot{j} +\dot{k}{{< /katex >}} in the above equation, we get
+Substituting  \vec{a} = 4\dot{i} +2\dot{j} - 3\dot{k} and  \vec{n} = 2\dot{i} - \dot{j} +\dot{k} in the above equation, we get
 
-{{< katex display=true >}}
+
 \vec{r}\cdot (2\dot{i} -\dot{j} +\dot{k}) = (4\dot{i} +2\dot{j} -3\dot{k})\cdot (2\dot{i} -\dot{j} +\dot{k})
-{{< /katex >}}
 
-Thus, the required vector equation of the plane is {{< katex >}}\vec{r}\cdot (2\dot{i} -\dot{j} +\dot{k}) = 3{{< /katex >}}. If {{< katex >}}\vec{r} = x\dot{i} +y\dot{j} +z\dot{k}{{< /katex >}} then we get the Cartesian equation of the plane {{< katex >}}2x - y + z = 3{{< /katex >}}.
+
+Thus, the required vector equation of the plane is  \vec{r}\cdot (2\dot{i} -\dot{j} +\dot{k}) = 3. If  \vec{r} = x\dot{i} +y\dot{j} +z\dot{k} then we get the Cartesian equation of the plane  2x - y + z = 3.
 
 ## Example 6.42
 
@@ -2091,89 +2091,89 @@ A variable plane moves in such a way that the sum of the reciprocals of its inte
 
 ## Solution
 
-The equation of the plane having intercepts {{< katex >}}a,b,c{{< /katex >}} on the {{< katex >}}x,y,z{{< /katex >}} axes respectively is {{< katex >}}\frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1{{< /katex >}}. Since the sum of the reciprocals of the intercepts on the coordinate axes is a constant, we have {{< katex >}}\frac{1}{a} +\frac{1}{b} +\frac{1}{c} = k{{< /katex >}}, where {{< katex >}}k{{< /katex >}} is a constant, and which can be written as {{< katex >}}\frac{1}{a}\left(\frac{1}{k}\right) + \frac{1}{b}\left(\frac{1}{k}\right) + \frac{1}{c}\left(\frac{1}{k}\right) = 1{{< /katex >}}. This shows that the plane {{< katex >}}\frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1{{< /katex >}} passes through the fixed point {{< katex >}}\left(\frac{1}{k},\frac{1}{k},\frac{1}{k}\right){{< /katex >}}.
+The equation of the plane having intercepts  a,b,c on the  x,y,z axes respectively is  \frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1. Since the sum of the reciprocals of the intercepts on the coordinate axes is a constant, we have  \frac{1}{a} +\frac{1}{b} +\frac{1}{c} = k, where  k is a constant, and which can be written as  \frac{1}{a}\left(\frac{1}{k}\right) + \frac{1}{b}\left(\frac{1}{k}\right) + \frac{1}{c}\left(\frac{1}{k}\right) = 1. This shows that the plane  \frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1 passes through the fixed point  \left(\frac{1}{k},\frac{1}{k},\frac{1}{k}\right).
 
 ## EXERCISE 6.6
 
-1. Find the vector equation of a plane which is at a distance of 7 units from the origin having {{< katex >}}3, -4,5{{< /katex >}} as direction ratios of a normal to it.
+1. Find the vector equation of a plane which is at a distance of 7 units from the origin having  3, -4,5 as direction ratios of a normal to it.
 
-2. Find the direction cosines of the normal to the plane {{< katex >}}12x + 3y - 4z = 65{{< /katex >}}. Also, find the non-parametric form of vector equation of a plane and the length of the perpendicular to the plane from the origin.
+2. Find the direction cosines of the normal to the plane  12x + 3y - 4z = 65. Also, find the non-parametric form of vector equation of a plane and the length of the perpendicular to the plane from the origin.
 
-3. Find the vector and Cartesian equations of the plane passing through the point with position vector {{< katex >}}2\dot{i} +6\dot{j} +3\dot{k}{{< /katex >}} and normal to the vector {{< katex >}}\dot{i} +3\dot{j} +5\dot{k}{{< /katex >}}.
+3. Find the vector and Cartesian equations of the plane passing through the point with position vector  2\dot{i} +6\dot{j} +3\dot{k} and normal to the vector  \dot{i} +3\dot{j} +5\dot{k}.
 
-4. A plane passes through the point {{< katex >}}(-1,1,2){{< /katex >}} and the normal to the plane of magnitude {{< katex >}}3\sqrt{3}{{< /katex >}} makes equal acute angles with the coordinate axes. Find the equation of the plane.
+4. A plane passes through the point  (-1,1,2) and the normal to the plane of magnitude  3\sqrt{3} makes equal acute angles with the coordinate axes. Find the equation of the plane.
 
-5. Find the intercepts cut off by the plane {{< katex >}}\vec{r}\cdot (6\dot{i} +4\dot{j} -3\dot{k}) = 12{{< /katex >}} on the coordinate axes.
+5. Find the intercepts cut off by the plane  \vec{r}\cdot (6\dot{i} +4\dot{j} -3\dot{k}) = 12 on the coordinate axes.
 
-6. If a plane meets the coordinate axes at {{< katex >}}A,B,C{{< /katex >}} such that the centroid of the triangle {{< katex >}}ABC{{< /katex >}} is the point {{< katex >}}(u,v,w){{< /katex >}}, find the equation of the plane.
+6. If a plane meets the coordinate axes at  A,B,C such that the centroid of the triangle  ABC is the point  (u,v,w), find the equation of the plane.
 
 ## EXERCISE 6.7
 
-1. Find the non-parametric form of vector equation, and Cartesian equation of the plane passing through the point {{< katex >}}(2,3,6){{< /katex >}} and parallel to the straight lines {{< katex >}}\frac{x - 1}{2} = \frac{y + 1}{3} = \frac{z - 3}{1}{{< /katex >}} and {{< katex >}}\frac{x + 3}{2} = \frac{y - 3}{-5} = \frac{z + 1}{-3}{{< /katex >}}
+1. Find the non-parametric form of vector equation, and Cartesian equation of the plane passing through the point  (2,3,6) and parallel to the straight lines  \frac{x - 1}{2} = \frac{y + 1}{3} = \frac{z - 3}{1} and  \frac{x + 3}{2} = \frac{y - 3}{-5} = \frac{z + 1}{-3}
 
-2. Find the non-parametric form of vector equation, and Cartesian equations of the plane passing through the points {{< katex >}}(2,2,1){{< /katex >}}, {{< katex >}}(9,3,6){{< /katex >}} and perpendicular to the plane {{< katex >}}2x + 6y + 6z = 9{{< /katex >}}.
+2. Find the non-parametric form of vector equation, and Cartesian equations of the plane passing through the points  (2,2,1),  (9,3,6) and perpendicular to the plane  2x + 6y + 6z = 9.
 
-3. Find parametric form of vector equation and Cartesian equations of the plane passing through the points {{< katex >}}(2,2,1){{< /katex >}}, {{< katex >}}(1, -2,3){{< /katex >}} and parallel to the straight line passing through the points {{< katex >}}(2,1, -3){{< /katex >}} and {{< katex >}}(-1,5, -8){{< /katex >}}.
+3. Find parametric form of vector equation and Cartesian equations of the plane passing through the points  (2,2,1),  (1, -2,3) and parallel to the straight line passing through the points  (2,1, -3) and  (-1,5, -8).
 
-4. Find the non-parametric form of vector equation and Cartesian equation of the plane passing through the point {{< katex >}}(1, -2,4){{< /katex >}} and perpendicular to the plane {{< katex >}}x + 2y - 3z = 11{{< /katex >}} and parallel to the line {{< katex >}}\frac{x + 7}{3} = \frac{y + 3}{-1} = \frac{z}{1}{{< /katex >}}.
+4. Find the non-parametric form of vector equation and Cartesian equation of the plane passing through the point  (1, -2,4) and perpendicular to the plane  x + 2y - 3z = 11 and parallel to the line  \frac{x + 7}{3} = \frac{y + 3}{-1} = \frac{z}{1}.
 
-5. Find the parametric form of vector equation, and Cartesian equations of the plane containing the line {{< katex >}}\vec{r} = (\hat{i} -\hat{j} +3\hat{k}) + t(2\hat{i} -\hat{j} +4\hat{k}){{< /katex >}} and perpendicular to plane {{< katex >}}\vec{r}\cdot (\hat{i} +2\hat{j} +\hat{k}) = 8{{< /katex >}}.
+5. Find the parametric form of vector equation, and Cartesian equations of the plane containing the line  \vec{r} = (\hat{i} -\hat{j} +3\hat{k}) + t(2\hat{i} -\hat{j} +4\hat{k}) and perpendicular to plane  \vec{r}\cdot (\hat{i} +2\hat{j} +\hat{k}) = 8.
 
-6. Find the parametric vector, non-parametric vector and Cartesian form of the equations of the plane passing through the three non-collinear points {{< katex >}}(3,6, -2){{< /katex >}}, {{< katex >}}(-1, -2,6){{< /katex >}}, and {{< katex >}}(6,4, -2){{< /katex >}}.
+6. Find the parametric vector, non-parametric vector and Cartesian form of the equations of the plane passing through the three non-collinear points  (3,6, -2),  (-1, -2,6), and  (6,4, -2).
 
 7. Find the non-parametric form of vector equation, and Cartesian equations of the plane
 
-{{< katex display=true >}}
+
 \vec{r} = \left(6\hat{i} -\hat{j} +\hat{k}\right) + s\left(-\hat{i} +2\hat{j} +\hat{k}\right) + t\left(-5\hat{i} -4\hat{j} -5\hat{k}\right).
-{{< /katex >}}
+
 
 #### 6.8.7 Condition for a line to lie in a plane
 
 We observe that a straight line will lie in a plane if every point on the line, lie in the plane and the normal to the plane is perpendicular to the line.
 
-(i) If the line {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}} lies in the plane {{< katex >}}\vec{r}\cdot \vec{n} = d{{< /katex >}}, then {{< katex >}}\vec{a}\cdot \vec{n} = d{{< /katex >}} and {{< katex >}}\vec{b}\cdot \vec{n} = 0{{< /katex >}}
+(i) If the line  \vec{r} = \vec{a} +t\vec{b} lies in the plane  \vec{r}\cdot \vec{n} = d, then  \vec{a}\cdot \vec{n} = d and  \vec{b}\cdot \vec{n} = 0
 
-(ii) If the line {{< katex >}}\frac{x - x_{1}}{a} = \frac{y - y_{1}}{b} = \frac{z - z_{1}}{c}{{< /katex >}} lies in the plane {{< katex >}}Ax + By + Cz + D = 0{{< /katex >}}, then
+(ii) If the line  \frac{x - x_{1}}{a} = \frac{y - y_{1}}{b} = \frac{z - z_{1}}{c} lies in the plane  Ax + By + Cz + D = 0, then
 
-{{< katex display=true >}}
+
 Ax_{1} + By_{1} + Cz_{1} + D = 0 \text{ and } aA + bB + cC = 0.
-{{< /katex >}}
+
 
 ## Example 6.45
 
-Verify whether the line {{< katex >}}\frac{x - 3}{- 4} = \frac{y - 4}{- 7} = \frac{z + 3}{12}{{< /katex >}} lies in the plane {{< katex >}}5x - y + z = 8{{< /katex >}}.
+Verify whether the line  \frac{x - 3}{- 4} = \frac{y - 4}{- 7} = \frac{z + 3}{12} lies in the plane  5x - y + z = 8.
 
 ## Solution
 
-Here, {{< katex >}}(x_{1},y_{1},z_{1}) = (3,4, - 3){{< /katex >}} and direction ratios of the given straight line are {{< katex >}}(a,b,c) = (- 4, - 7,12){{< /katex >}}. Direction ratios of the normal to the given plane are {{< katex >}}(A,B,C) = (5, - 1,1){{< /katex >}}.
+Here,  (x_{1},y_{1},z_{1}) = (3,4, - 3) and direction ratios of the given straight line are  (a,b,c) = (- 4, - 7,12). Direction ratios of the normal to the given plane are  (A,B,C) = (5, - 1,1).
 
-We observe that, the given point {{< katex >}}(x_{1},y_{1},z_{1}) = (3,4, - 3){{< /katex >}} satisfies the given plane {{< katex >}}5x - y + z = 8{{< /katex >}}.
+We observe that, the given point  (x_{1},y_{1},z_{1}) = (3,4, - 3) satisfies the given plane  5x - y + z = 8.
 
-Next, {{< katex >}}aA + bB + cC = (- 4)(5) + (- 7)(- 1) + (12)(1) = - 1\neq 0{{< /katex >}}. So, the normal to the plane is not perpendicular to the line. Hence, the given line does not lie in the plane.
+Next,  aA + bB + cC = (- 4)(5) + (- 7)(- 1) + (12)(1) = - 1\neq 0. So, the normal to the plane is not perpendicular to the line. Hence, the given line does not lie in the plane.
 
 #### 6.8.8 Condition for coplanarity of two lines
 
 (a) Condition in vector form
 
-The two given non- parallel lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} are coplanar. So they lie in a single plane. Let A and C be the points whose position vectors are {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}}. Then A and C lie on the plane. Since {{< katex >}}\vec{b}{{< /katex >}} and {{< katex >}}\vec{d}{{< /katex >}} are parallel to the plane, {{< katex >}}\vec{b}\times \vec{d}{{< /katex >}} is perpendicular to the plane. So {{< katex >}}\overrightarrow{AC}{{< /katex >}} is perpendicular to {{< katex >}}\vec{b}\times \vec{d}{{< /katex >}}. That is,
+The two given non- parallel lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} are coplanar. So they lie in a single plane. Let A and C be the points whose position vectors are  \vec{a} and  \vec{c}. Then A and C lie on the plane. Since  \vec{b} and  \vec{d} are parallel to the plane,  \vec{b}\times \vec{d} is perpendicular to the plane. So  \overrightarrow{AC} is perpendicular to  \vec{b}\times \vec{d}. That is,
 
 ![](https://placehold.co/600x400)
 
 *Fig. 6.29*
 
-{{< katex display=true >}}
+
 (\vec{c} -\vec{a})\cdot (\vec{b}\times \vec{d}) = 0
-{{< /katex >}}
+
 
 This is the required condition for coplanarity of two lines in vector form.
 
 ### (b) Condition in Cartesian form
 
-Two lines {{< katex >}}\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}{{< /katex >}} and {{< katex >}}\frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}}{{< /katex >}} are coplanar if
+Two lines  \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} and  \frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}} are coplanar if
 
-{{< katex display=true >}}
+
 \begin{vmatrix} x_2 - x_1 & y_2 - y_1 & z_2 - z_1 \\ b_1 & b_2 & b_3 \\ d_1 & d_2 & d_3 \end{vmatrix} = 0
-{{< /katex >}}
+
 
 This is the required condition for coplanarity of two lines in Cartesian form.
 
@@ -2181,67 +2181,67 @@ This is the required condition for coplanarity of two lines in Cartesian form.
 
 (a) Parametric form of vector equation
 
-Let {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} be two non- parallel coplanar lines. Then {{< katex >}}\vec{b}\times \vec{d}\neq \vec{0}{{< /katex >}}. Let {{< katex >}}P{{< /katex >}} be any point on the plane and let {{< katex >}}\vec{r}_{0}{{< /katex >}} be its position vector. Then, the vectors {{< katex >}}\vec{r}_{0} - \vec{a},\vec{b},\vec{d}{{< /katex >}} as well as {{< katex >}}\vec{r}_{0} - \vec{c},\vec{b},\vec{d}{{< /katex >}} are also coplanar. So, we get {{< katex >}}\vec{r}_{0} - \vec{a} = t\vec{b} +s\vec{d}{{< /katex >}} or {{< katex >}}\vec{r}_{0} - \vec{c} = t\vec{b} +s\vec{d}{{< /katex >}}. Hence, the vector equation in parametric form is {{< katex >}}\vec{r} = \vec{a} +t\vec{b} +s\vec{d}{{< /katex >}} or {{< katex >}}\vec{r} = \vec{c} +t\vec{b} +s\vec{d}{{< /katex >}}.
+Let  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} be two non- parallel coplanar lines. Then  \vec{b}\times \vec{d}\neq \vec{0}. Let  P be any point on the plane and let  \vec{r}_{0} be its position vector. Then, the vectors  \vec{r}_{0} - \vec{a},\vec{b},\vec{d} as well as  \vec{r}_{0} - \vec{c},\vec{b},\vec{d} are also coplanar. So, we get  \vec{r}_{0} - \vec{a} = t\vec{b} +s\vec{d} or  \vec{r}_{0} - \vec{c} = t\vec{b} +s\vec{d}. Hence, the vector equation in parametric form is  \vec{r} = \vec{a} +t\vec{b} +s\vec{d} or  \vec{r} = \vec{c} +t\vec{b} +s\vec{d}.
 
 ### (b) Non-parametric form of vector equation
 
-Let {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} be two non- parallel coplanar lines. Then {{< katex >}}\vec{b}\times \vec{d}\neq \vec{0}{{< /katex >}}. Let {{< katex >}}P{{< /katex >}} be any point on the plane and let {{< katex >}}\vec{r}_{0}{{< /katex >}} be its position vector. Then, the vectors {{< katex >}}\vec{r}_{0} - \vec{a},\vec{b},\vec{d}{{< /katex >}} as well as {{< katex >}}\vec{r}_{0} - \vec{c},\vec{b},\vec{d}{{< /katex >}} are also coplanar. So, we get {{< katex >}}\left(\vec{r}_{0} - \vec{a}\right).\left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}} or {{< katex >}}\left(\vec{r}_{0} - \vec{c}\right).\left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}}. Hence, the vector equation in non- parametric form is {{< katex >}}\left(\vec{r} - \vec{a}\right).\left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}} or {{< katex >}}\left(\vec{r} - \vec{c}\right).\left(\vec{b}\times \vec{d}\right) = 0.{{< /katex >}}
+Let  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} be two non- parallel coplanar lines. Then  \vec{b}\times \vec{d}\neq \vec{0}. Let  P be any point on the plane and let  \vec{r}_{0} be its position vector. Then, the vectors  \vec{r}_{0} - \vec{a},\vec{b},\vec{d} as well as  \vec{r}_{0} - \vec{c},\vec{b},\vec{d} are also coplanar. So, we get  \left(\vec{r}_{0} - \vec{a}\right).\left(\vec{b}\times \vec{d}\right) = 0 or  \left(\vec{r}_{0} - \vec{c}\right).\left(\vec{b}\times \vec{d}\right) = 0. Hence, the vector equation in non- parametric form is  \left(\vec{r} - \vec{a}\right).\left(\vec{b}\times \vec{d}\right) = 0 or  \left(\vec{r} - \vec{c}\right).\left(\vec{b}\times \vec{d}\right) = 0.
 
 ## (C) Cartesian form of equation of plane
 
 In Cartesian form the equation of the plane containing the two given coplanar lines
 
-{{< katex >}}\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}{{< /katex >}} and {{< katex >}}\frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}}{{< /katex >}} is given by
+ \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} and  \frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}} is given by
 
-{{< katex display=true >}}
+
 \begin{vmatrix} x - x_1 & y - y_1 & z - z_1 \\ b_1 & b_2 & b_3 \\ d_1 & d_2 & d_3 \end{vmatrix} = 0
-{{< /katex >}}
+
 
 ## Example 6.46
 
-Show that the lines {{< katex >}}\vec{r} = \left(-\hat{i} -3\hat{j} -5\hat{k}\right) + s\left(3\hat{i} +5\hat{j} +7\hat{k}\right){{< /katex >}} and {{< katex >}}\vec{r} = \left(2\hat{i} +4\hat{j} +6\hat{k}\right) + t\left(\hat{i} +4\hat{j} +7\hat{k}\right){{< /katex >}} are coplanar. Also, find the non- parametric form of vector equation of the plane containing these lines.
+Show that the lines  \vec{r} = \left(-\hat{i} -3\hat{j} -5\hat{k}\right) + s\left(3\hat{i} +5\hat{j} +7\hat{k}\right) and  \vec{r} = \left(2\hat{i} +4\hat{j} +6\hat{k}\right) + t\left(\hat{i} +4\hat{j} +7\hat{k}\right) are coplanar. Also, find the non- parametric form of vector equation of the plane containing these lines.
 
 ## Solution
 
 Comparing the two given lines with
 
-{{< katex display=true >}}
+
 \vec{r} = \vec{a} +t\vec{b},\quad \vec{r} = \vec{c} +s\vec{d}
-{{< /katex >}}
 
-{{< katex display=true >}}
+
+
 \vec{a} = -\hat{i} -3\hat{j} -5\hat{k},\quad \vec{b} = 3\hat{i} +5\hat{j} +7\hat{k},\quad \vec{c} = 2\hat{i} +4\hat{j} +6\hat{k}\quad \text{and}\quad \vec{d} = \hat{i} +4\hat{j} +7\hat{k}
-{{< /katex >}}
 
-We know that the two given lines are coplanar, if {{< katex >}}\left(\vec{c} - \vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}}.
 
-First, compute {{< katex >}}\vec{b}\times \vec{d}{{< /katex >}}:
+We know that the two given lines are coplanar, if  \left(\vec{c} - \vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0.
 
-{{< katex display=true >}}
+First, compute  \vec{b}\times \vec{d}:
+
+
 \vec{b}\times \vec{d} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 3 & 5 & 7 \\ 1 & 4 & 7 \end{vmatrix} = (35-28)\hat{i} - (21-7)\hat{j} + (12-5)\hat{k} = 7\hat{i} - 14\hat{j} + 7\hat{k}
-{{< /katex >}}
 
-Now, {{< katex >}}\vec{c} - \vec{a} = (2\hat{i} +4\hat{j} +6\hat{k}) - (-\hat{i} -3\hat{j} -5\hat{k}) = 3\hat{i} +7\hat{j} +11\hat{k}{{< /katex >}}.
 
-Then, {{< katex >}}\left(\vec{c} - \vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = \left(3\hat{i} +7\hat{j} +11\hat{k}\right)\cdot \left(7\hat{i} -14\hat{j} +7\hat{k}\right) = 21 - 98 + 77 = 0.{{< /katex >}}
+Now,  \vec{c} - \vec{a} = (2\hat{i} +4\hat{j} +6\hat{k}) - (-\hat{i} -3\hat{j} -5\hat{k}) = 3\hat{i} +7\hat{j} +11\hat{k}.
+
+Then,  \left(\vec{c} - \vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = \left(3\hat{i} +7\hat{j} +11\hat{k}\right)\cdot \left(7\hat{i} -14\hat{j} +7\hat{k}\right) = 21 - 98 + 77 = 0.
 
 Therefore the two given lines are coplanar. Then we find the non- parametric form of vector equation of the plane containing the two given coplanar lines. We know that the plane containing the two given coplanar lines is
 
-{{< katex display=true >}}
-\left(\vec{r} -\vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0
-{{< /katex >}}
 
-which implies that {{< katex >}}\left(\vec{r} - \left(-\hat{i} -3\hat{j} -5\hat{k}\right)\right)\cdot \left(7\hat{i} -14\hat{j} +7\hat{k}\right) = 0{{< /katex >}}. Thus, the required non-parametric vector equation of the plane containing the two given coplanar lines is {{< katex >}}\vec{r}\cdot \left(\hat{i} - 2\hat{j} +\hat{k}\right) = 0{{< /katex >}}.
+\left(\vec{r} -\vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0
+
+
+which implies that  \left(\vec{r} - \left(-\hat{i} -3\hat{j} -5\hat{k}\right)\right)\cdot \left(7\hat{i} -14\hat{j} +7\hat{k}\right) = 0. Thus, the required non-parametric vector equation of the plane containing the two given coplanar lines is  \vec{r}\cdot \left(\hat{i} - 2\hat{j} +\hat{k}\right) = 0.
 
 ### EXERCISE 6.8
 
-1. Show that the straight lines {{< katex >}}\vec{r} = (5\hat{i} +7\hat{j} -3\hat{k}) + s(4\hat{i} +4\hat{j} -5\hat{k}){{< /katex >}} and {{< katex >}}\vec{r} = \left(8\hat{i} +4\hat{j} +5\hat{k}\right) + t\left(7\hat{i} +\hat{j} +3\hat{k}\right){{< /katex >}} are coplanar. Find the vector equation of the plane in which they lie.
+1. Show that the straight lines  \vec{r} = (5\hat{i} +7\hat{j} -3\hat{k}) + s(4\hat{i} +4\hat{j} -5\hat{k}) and  \vec{r} = \left(8\hat{i} +4\hat{j} +5\hat{k}\right) + t\left(7\hat{i} +\hat{j} +3\hat{k}\right) are coplanar. Find the vector equation of the plane in which they lie.
 
-2. Show that the lines {{< katex >}}\frac{x - 2}{1} = \frac{y - 3}{1} = \frac{z - 4}{3}{{< /katex >}} and {{< katex >}}\frac{x - 1}{-3} = \frac{y - 4}{2} = \frac{z - 5}{1}{{< /katex >}} are coplanar. Also, find the plane containing these lines.
+2. Show that the lines  \frac{x - 2}{1} = \frac{y - 3}{1} = \frac{z - 4}{3} and  \frac{x - 1}{-3} = \frac{y - 4}{2} = \frac{z - 5}{1} are coplanar. Also, find the plane containing these lines.
 
-3. If the straight lines {{< katex >}}\frac{x - 1}{1} = \frac{y - 2}{2} = \frac{z - 3}{m^{2}}{{< /katex >}} and {{< katex >}}\frac{x - 3}{1} = \frac{y - 2}{m^{2}} = \frac{z - 1}{2}{{< /katex >}} are coplanar, find the distinct real values of {{< katex >}}m{{< /katex >}} .
+3. If the straight lines  \frac{x - 1}{1} = \frac{y - 2}{2} = \frac{z - 3}{m^{2}} and  \frac{x - 3}{1} = \frac{y - 2}{m^{2}} = \frac{z - 1}{2} are coplanar, find the distinct real values of  m .
 
-4. If the straight lines {{< katex >}}\frac{x - 1}{2} = \frac{y + 1}{\lambda} = \frac{z}{5}{{< /katex >}} and {{< katex >}}\frac{x + 1}{5} = \frac{y + 1}{\lambda} = \frac{z}{\lambda}{{< /katex >}} are coplanar, find {{< katex >}}\lambda{{< /katex >}} and equations of the planes containing these two lines.
+4. If the straight lines  \frac{x - 1}{2} = \frac{y + 1}{\lambda} = \frac{z}{5} and  \frac{x + 1}{5} = \frac{y + 1}{\lambda} = \frac{z}{\lambda} are coplanar, find  \lambda and equations of the planes containing these two lines.
 
 #### 6.8.10 Angle between two planes
 
@@ -2249,100 +2249,100 @@ The angle between two given planes is same as the angle between their normals.
 
 ## Theorem 6.18
 
-The acute angle {{< katex >}}\theta{{< /katex >}} between the two planes {{< katex >}}\vec{r}\cdot \vec{n}_{1} = p_{1}{{< /katex >}} and {{< katex >}}\vec{r}\cdot \vec{n}_{2} = p_{2}{{< /katex >}} is given by
+The acute angle  \theta between the two planes  \vec{r}\cdot \vec{n}_{1} = p_{1} and  \vec{r}\cdot \vec{n}_{2} = p_{2} is given by
 
-{{< katex display=true >}}
+
 \theta = \cos^{-1}\left(\frac{|\vec{n}_{1}\cdot\vec{n}_{2}|}{|\vec{n}_{1}||\vec{n}_{2}|}\right)
-{{< /katex >}}
+
 
 ![](https://placehold.co/600x400)
 *Fig.6.30*
 
 ## Proof
 
-If {{< katex >}}\theta{{< /katex >}} is the acute angle between two planes {{< katex >}}\vec{r}\cdot \vec{n}_{1} = p_{1}{{< /katex >}} and {{< katex >}}\vec{r}\cdot \vec{n}_{2} = p_{2}{{< /katex >}} , then {{< katex >}}\theta{{< /katex >}} is the acute angle between their normal vectors {{< katex >}}\vec{n}_{1}{{< /katex >}} and {{< katex >}}\vec{n}_{2}{{< /katex >}} .
+If  \theta is the acute angle between two planes  \vec{r}\cdot \vec{n}_{1} = p_{1} and  \vec{r}\cdot \vec{n}_{2} = p_{2} , then  \theta is the acute angle between their normal vectors  \vec{n}_{1} and  \vec{n}_{2} .
 
-Therefore, {{< katex display=true >}}\cos \theta = \left(\frac{|\vec{n}_{1}\cdot\vec{n}_{2}|}{|\vec{n}_{1}||\vec{n}_{2}|}\right)\Rightarrow \theta = \cos^{- 1}\left(\frac{|\vec{n}_{1}\cdot\vec{n}_{2}|}{|\vec{n}_{1}||\vec{n}_{2}|}\right){{< /katex >}} ... (1)
+Therefore, \cos \theta = \left(\frac{|\vec{n}_{1}\cdot\vec{n}_{2}|}{|\vec{n}_{1}||\vec{n}_{2}|}\right)\Rightarrow \theta = \cos^{- 1}\left(\frac{|\vec{n}_{1}\cdot\vec{n}_{2}|}{|\vec{n}_{1}||\vec{n}_{2}|}\right) ... (1)
 
 ## Remark
 
-(i) If two planes {{< katex >}}\vec{r}\cdot \vec{n}_{1} = p_{1}{{< /katex >}} and {{< katex >}}\vec{r}\cdot \vec{n}_{2} = p_{2}{{< /katex >}} are perpendicular, then {{< katex >}}\vec{n}_{1}\cdot \vec{n}_{2} = 0{{< /katex >}}
+(i) If two planes  \vec{r}\cdot \vec{n}_{1} = p_{1} and  \vec{r}\cdot \vec{n}_{2} = p_{2} are perpendicular, then  \vec{n}_{1}\cdot \vec{n}_{2} = 0
 
-(ii) If the planes {{< katex >}}\vec{r}\cdot \vec{n}_{1} = p_{1}{{< /katex >}} and {{< katex >}}\vec{r}\cdot \vec{n}_{2} = p_{2}{{< /katex >}} are parallel, then {{< katex >}}\vec{n}_{1} = \lambda \vec{n}_{2}{{< /katex >}} , where {{< katex >}}\lambda{{< /katex >}} is a scalar
+(ii) If the planes  \vec{r}\cdot \vec{n}_{1} = p_{1} and  \vec{r}\cdot \vec{n}_{2} = p_{2} are parallel, then  \vec{n}_{1} = \lambda \vec{n}_{2} , where  \lambda is a scalar
 
-(iii) Equation of a plane parallel to the plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} is {{< katex >}}\vec{r}\cdot \vec{n} = k{{< /katex >}} , {{< katex >}}k\in \mathbb{R}{{< /katex >}}
+(iii) Equation of a plane parallel to the plane  \vec{r}\cdot \vec{n} = p is  \vec{r}\cdot \vec{n} = k ,  k\in \mathbb{R}
 
 ## Theorem 6.19
 
-The acute angle {{< katex >}}\theta{{< /katex >}} between the planes {{< katex >}}a_{1}x + b_{1}y + c_{1}z + d_{1} = 0{{< /katex >}} and
+The acute angle  \theta between the planes  a_{1}x + b_{1}y + c_{1}z + d_{1} = 0 and
 
-{{< katex display=true >}}a_{2}x + b_{2}y + c_{2}z + d_{2} = 0 \text{ is given by } \theta = \cos^{-1}\left(\frac{|a_{1}a_{2} + b_{1}b_{2} + c_{1}c_{2}|}{\sqrt{a_{1}^{2} + b_{1}^{2} + c_{1}^{2}}\sqrt{a_{2}^{2} + b_{2}^{2} + c_{2}^{2}}}\right){{< /katex >}}
+a_{2}x + b_{2}y + c_{2}z + d_{2} = 0 \text{ is given by } \theta = \cos^{-1}\left(\frac{|a_{1}a_{2} + b_{1}b_{2} + c_{1}c_{2}|}{\sqrt{a_{1}^{2} + b_{1}^{2} + c_{1}^{2}}\sqrt{a_{2}^{2} + b_{2}^{2} + c_{2}^{2}}}\right)
 
 XII - Mathematics
 
 ---
 
-If {{< katex >}}\vec{n}_{1}{{< /katex >}} and {{< katex >}}\vec{n}_{2}{{< /katex >}} are the vectors normal to the two given planes {{< katex >}}a_{i}x + b_{i}y + c_{i}z + d_{1} = 0{{< /katex >}} and {{< katex >}}a_{2}x + b_{2}y + c_{2}z + d_{2} = 0{{< /katex >}} respectively. Then, {{< katex >}}\vec{n}_{1} = a_{1}\hat{i} +b_{1}\hat{j} +c_{1}\hat{k}{{< /katex >}} and {{< katex >}}\vec{n}_{2} = a_{2}\hat{i} +b_{2}\hat{j} +c_{2}\hat{k}{{< /katex >}}
+If  \vec{n}_{1} and  \vec{n}_{2} are the vectors normal to the two given planes  a_{i}x + b_{i}y + c_{i}z + d_{1} = 0 and  a_{2}x + b_{2}y + c_{2}z + d_{2} = 0 respectively. Then,  \vec{n}_{1} = a_{1}\hat{i} +b_{1}\hat{j} +c_{1}\hat{k} and  \vec{n}_{2} = a_{2}\hat{i} +b_{2}\hat{j} +c_{2}\hat{k}
 
-Therefore, using equation (1) in theorem 6.18 the acute angle {{< katex >}}\theta{{< /katex >}} between the planes is given by equation
+Therefore, using equation (1) in theorem 6.18 the acute angle  \theta between the planes is given by equation
 
 ## Remark
 
-(i) The planes {{< katex >}}a_{1}x + b_{1}y + c_{1}z + d_{1} = 0{{< /katex >}} and {{< katex >}}a_{2}x + b_{2}y + c_{2}z + d_{2} = 0{{< /katex >}} are perpendicular if
+(i) The planes  a_{1}x + b_{1}y + c_{1}z + d_{1} = 0 and  a_{2}x + b_{2}y + c_{2}z + d_{2} = 0 are perpendicular if
 
-{{< katex display=true >}}a_{1}a_{2} + b_{1}b_{2} + c_{1}c_{2} = 0{{< /katex >}}
+a_{1}a_{2} + b_{1}b_{2} + c_{1}c_{2} = 0
 
-(ii) The planes {{< katex >}}a_{1}x + b_{1}y + c_{1}z + d_{1} = 0{{< /katex >}} and {{< katex >}}a_{2}x + b_{2}y + c_{2}z + d_{2} = 0{{< /katex >}} are parallel if {{< katex >}}\frac{a_{1}}{a_{2}} = \frac{b_{1}}{b_{2}} = \frac{c_{1}}{c_{2}}{{< /katex >}}
+(ii) The planes  a_{1}x + b_{1}y + c_{1}z + d_{1} = 0 and  a_{2}x + b_{2}y + c_{2}z + d_{2} = 0 are parallel if  \frac{a_{1}}{a_{2}} = \frac{b_{1}}{b_{2}} = \frac{c_{1}}{c_{2}}
 
-(iii) Equation of a plane parallel to the plane {{< katex >}}ax + by + cz = p{{< /katex >}} is {{< katex >}}ax + by + cz = k{{< /katex >}} , {{< katex >}}k \in \mathbb{R}{{< /katex >}}
+(iii) Equation of a plane parallel to the plane  ax + by + cz = p is  ax + by + cz = k ,  k \in \mathbb{R}
 
 ## Example 6.47
 
-Find the acute angle between the planes {{< katex >}}\vec{r} \cdot \left(2\hat{i} +2\hat{j} +2\hat{k}\right) = 11{{< /katex >}} and {{< katex >}}4x - 2y + 2z = 15{{< /katex >}} .
+Find the acute angle between the planes  \vec{r} \cdot \left(2\hat{i} +2\hat{j} +2\hat{k}\right) = 11 and  4x - 2y + 2z = 15 .
 
 ## Solution
 
-The normal vectors of the two given planes {{< katex >}}\vec{r} \cdot \left(2\hat{i} +2\hat{j} +2\hat{k}\right) = 11{{< /katex >}} and {{< katex >}}4x - 2y + 2z = 15{{< /katex >}} are {{< katex >}}\vec{n}_{1} = 2\hat{i} +2\hat{j} +2\hat{k}{{< /katex >}} and {{< katex >}}\vec{n}_{2} = 4\hat{i} - 2\hat{j} +2\hat{k}{{< /katex >}} respectively.
+The normal vectors of the two given planes  \vec{r} \cdot \left(2\hat{i} +2\hat{j} +2\hat{k}\right) = 11 and  4x - 2y + 2z = 15 are  \vec{n}_{1} = 2\hat{i} +2\hat{j} +2\hat{k} and  \vec{n}_{2} = 4\hat{i} - 2\hat{j} +2\hat{k} respectively.
 
-If {{< katex >}}\theta{{< /katex >}} is the acute angle between the planes, then we have equation
+If  \theta is the acute angle between the planes, then we have equation
 
 #### 6.8.11 Angle between a line and a plane
 
 We know that the angle between a line and a plane is the complement of the angle between the normal to the plane and the line
 
-Let {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}} be the equation of the line and {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} be the equation of the plane. We know that {{< katex >}}\vec{b}{{< /katex >}} is parallel to the given line and {{< katex >}}\vec{n}{{< /katex >}} is normal to the given plane. If {{< katex >}}\theta{{< /katex >}} is the acute angle between the line and the plane, then the acute angle between {{< katex >}}\vec{n}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} is {{< katex >}}\left(\frac{\pi}{2} -\theta\right){{< /katex >}} . Therefore,
+Let  \vec{r} = \vec{a} +t\vec{b} be the equation of the line and  \vec{r}\cdot \vec{n} = p be the equation of the plane. We know that  \vec{b} is parallel to the given line and  \vec{n} is normal to the given plane. If  \theta is the acute angle between the line and the plane, then the acute angle between  \vec{n} and  \vec{b} is  \left(\frac{\pi}{2} -\theta\right) . Therefore,
 
-{{< katex display=true >}}\cos \left(\frac{\pi}{2} -\theta\right) = \sin \theta = \frac{\left|\vec{b}\cdot\vec{n}\right|}{\left|\vec{b}\right|\left|\vec{n}\right|}{{< /katex >}}
+\cos \left(\frac{\pi}{2} -\theta\right) = \sin \theta = \frac{\left|\vec{b}\cdot\vec{n}\right|}{\left|\vec{b}\right|\left|\vec{n}\right|}
 
 ---
 
-So, the acute angle between the line and the plane is given by {{< katex display=true >}}\theta = \sin^{- 1}\left(\frac{|\vec{b}\cdot\vec{n}|}{|\vec{b}||\vec{n}|}\right){{< /katex >}} ... (1)
+So, the acute angle between the line and the plane is given by \theta = \sin^{- 1}\left(\frac{|\vec{b}\cdot\vec{n}|}{|\vec{b}||\vec{n}|}\right) ... (1)
 
-In Cartesian form if {{< katex >}}\frac{x - x_{1}}{a_{1}} = \frac{y - y_{1}}{b_{1}} = \frac{z - z_{1}}{c_{1}}{{< /katex >}} and {{< katex >}}a x + b y + c z = p{{< /katex >}} are the equations of the line and the plane, then {{< katex >}}\vec{b} = a_{1}\hat{i} +b_{1}\hat{j} +c_{1}\hat{k}{{< /katex >}} and {{< katex >}}\vec{n} = a\hat{i} +b\hat{j} +c\hat{k}{{< /katex >}} . Therefore, using (1), the acute angle {{< katex >}}\theta{{< /katex >}} between the line and plane is given by
+In Cartesian form if  \frac{x - x_{1}}{a_{1}} = \frac{y - y_{1}}{b_{1}} = \frac{z - z_{1}}{c_{1}} and  a x + b y + c z = p are the equations of the line and the plane, then  \vec{b} = a_{1}\hat{i} +b_{1}\hat{j} +c_{1}\hat{k} and  \vec{n} = a\hat{i} +b\hat{j} +c\hat{k} . Therefore, using (1), the acute angle  \theta between the line and plane is given by
 
-the plane, then {{< katex >}}\vec{b} = a_{1}\hat{i} +b_{1}\hat{j} +c_{1}\hat{k}{{< /katex >}} and {{< katex >}}\vec{n} = a\hat{i} +b\hat{j} +c\hat{k}{{< /katex >}} . Therefore, using (1), the acute angle {{< katex >}}\theta{{< /katex >}} between the line and plane is given by
+the plane, then  \vec{b} = a_{1}\hat{i} +b_{1}\hat{j} +c_{1}\hat{k} and  \vec{n} = a\hat{i} +b\hat{j} +c\hat{k} . Therefore, using (1), the acute angle  \theta between the line and plane is given by
 
-{{< katex display=true >}}\theta = \sin^{-1}\left(\frac{|a a_{1} + b b_{1} + c c_{1}|}{\sqrt{a^{2} + b^{2} + c^{2}}\sqrt{a_{1}^{2} + b_{1}^{2} + c_{1}^{2}}}\right){{< /katex >}}
+\theta = \sin^{-1}\left(\frac{|a a_{1} + b b_{1} + c c_{1}|}{\sqrt{a^{2} + b^{2} + c^{2}}\sqrt{a_{1}^{2} + b_{1}^{2} + c_{1}^{2}}}\right)
 
 ## Remark
 
 (i) If the line is perpendicular to the plane, then the line is parallel to the normal to the plane.
 
-So, {{< katex >}}\vec{b}{{< /katex >}} is perpendicular to {{< katex >}}\vec{n}{{< /katex >}} . Then we have {{< katex >}}\vec{b} = \lambda \vec{n}{{< /katex >}} where {{< katex >}}\lambda \in \mathbb{R}{{< /katex >}} , which gives {{< katex >}}\frac{a_{1}}{a} = \frac{b_{1}}{b} = \frac{c_{1}}{c}{{< /katex >}} .
+So,  \vec{b} is perpendicular to  \vec{n} . Then we have  \vec{b} = \lambda \vec{n} where  \lambda \in \mathbb{R} , which gives  \frac{a_{1}}{a} = \frac{b_{1}}{b} = \frac{c_{1}}{c} .
 
 (ii) If the line is parallel to the plane, then the line is perpendicular to the normal to the plane.
 
-Therefore, {{< katex >}}\vec{b}\cdot \vec{n} = 0\Rightarrow a a_{1} + b b_{1} + c c_{1} = 0{{< /katex >}}
+Therefore,  \vec{b}\cdot \vec{n} = 0\Rightarrow a a_{1} + b b_{1} + c c_{1} = 0
 
 ## Example 6.48
 
-Find the angle between the straight line {{< katex >}}\vec{r} = \left(2\hat{i} +3\hat{j} +\hat{k}\right) + t\left(\hat{i} -\hat{j} +\hat{k}\right){{< /katex >}} and the plane {{< katex >}}2x - y + z = 5{{< /katex >}} .
+Find the angle between the straight line  \vec{r} = \left(2\hat{i} +3\hat{j} +\hat{k}\right) + t\left(\hat{i} -\hat{j} +\hat{k}\right) and the plane  2x - y + z = 5 .
 
 ## Solution
 
-The angle between a line {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}} and a plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} with normal {{< katex >}}\vec{n}{{< /katex >}} is {{< katex >}}\theta = \sin^{- 1}\left(\frac{|\vec{b}\cdot\vec{n}|}{|\vec{b}||\vec{n}|}\right){{< /katex >}} .
+The angle between a line  \vec{r} = \vec{a} +t\vec{b} and a plane  \vec{r}\cdot \vec{n} = p with normal  \vec{n} is  \theta = \sin^{- 1}\left(\frac{|\vec{b}\cdot\vec{n}|}{|\vec{b}||\vec{n}|}\right) .
 
-Here, {{< katex >}}\vec{b} = \hat{i} -\hat{j} +\hat{k}{{< /katex >}} and {{< katex >}}\vec{n} = 2\hat{i} -\hat{j} +\hat{k}{{< /katex >}} .
+Here,  \vec{b} = \hat{i} -\hat{j} +\hat{k} and  \vec{n} = 2\hat{i} -\hat{j} +\hat{k} .
 
 equation
 
@@ -2352,128 +2352,128 @@ equation
 
 Theorem 6.20
 
-The perpendicular distance from a point with position vector {{< katex >}}\vec{u}{{< /katex >}} to the plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} is given by
+The perpendicular distance from a point with position vector  \vec{u} to the plane  \vec{r}\cdot \vec{n} = p is given by
 
-{{< katex display=true >}}\delta = \frac{|\vec{u}\cdot\vec{n} - p|}{|\vec{n}|}.{{< /katex >}}
+\delta = \frac{|\vec{u}\cdot\vec{n} - p|}{|\vec{n}|}.
 
 ## Proof
 
-Let {{< katex >}}\mathcal{A}{{< /katex >}} be the point whose position vector is {{< katex >}}\vec{u}{{< /katex >}} .
+Let  \mathcal{A} be the point whose position vector is  \vec{u} .
 
 ---
 
-Let {{< katex >}}F{{< /katex >}} be the foot of the perpendicular from the point {{< katex >}}A{{< /katex >}} to the plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} . The line joining {{< katex >}}F{{< /katex >}} and {{< katex >}}A{{< /katex >}} is parallel to the normal vector {{< katex >}}\vec{n}{{< /katex >}} and hence its equation is {{< katex >}}\vec{r} = \vec{u} +t\vec{n}{{< /katex >}} .
+Let  F be the foot of the perpendicular from the point  A to the plane  \vec{r}\cdot \vec{n} = p . The line joining  F and  A is parallel to the normal vector  \vec{n} and hence its equation is  \vec{r} = \vec{u} +t\vec{n} .
 
-But {{< katex >}}F{{< /katex >}} is the point of intersection of the line {{< katex >}}\vec{r} = \vec{u} +t\vec{n}{{< /katex >}} and the given plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} . If {{< katex >}}\vec{r}_{1}{{< /katex >}} is the position vector of {{< katex >}}F{{< /katex >}} , then {{< katex >}}\vec{r}_{1} = \vec{u} +t_{1}\vec{n}{{< /katex >}} for some {{< katex >}}t_{1}\in \mathbb{R}{{< /katex >}} , and {{< katex >}}\vec{r}_{1}\cdot \vec{n} = p{{< /katex >}} . Eliminating {{< katex >}}\vec{r}_{1}{{< /katex >}} we get
+But  F is the point of intersection of the line  \vec{r} = \vec{u} +t\vec{n} and the given plane  \vec{r}\cdot \vec{n} = p . If  \vec{r}_{1} is the position vector of  F , then  \vec{r}_{1} = \vec{u} +t_{1}\vec{n} for some  t_{1}\in \mathbb{R} , and  \vec{r}_{1}\cdot \vec{n} = p . Eliminating  \vec{r}_{1} we get
 
-{{< katex display=true >}}(\vec{u} +t_{1}\vec{n})\cdot \vec{n} = p \text{ which implies } t_{1} = \frac{p - (\vec{u}\cdot\vec{n})}{|\vec{n}|^{2}}.{{< /katex >}}
+(\vec{u} +t_{1}\vec{n})\cdot \vec{n} = p \text{ which implies } t_{1} = \frac{p - (\vec{u}\cdot\vec{n})}{|\vec{n}|^{2}}.
 
 ![](https://placehold.co/600x400)
 *Fig. 6.32*
 
-{{< katex display=true >}}\overline{{F A}} = \vec{u} -(\vec{u} +t_{1}\vec{n}) = -t_{1}\vec{n} = \left(\frac{(\vec{u}\cdot\vec{n}) - p}{|\vec{n}|^{2}}\right)\vec{n}{{< /katex >}}
+\overline{{F A}} = \vec{u} -(\vec{u} +t_{1}\vec{n}) = -t_{1}\vec{n} = \left(\frac{(\vec{u}\cdot\vec{n}) - p}{|\vec{n}|^{2}}\right)\vec{n}
 
 Therefore, the length of the perpendicular from the point A to the given plane is
 
-{{< katex display=true >}}\delta = |\overline{{F A}} | = \left|\left(\frac{(\vec{u}\cdot\vec{n}) - p}{|\vec{n}|^{2}}\right)\vec{n}\right| = \left|\left(\vec{u}\cdot\vec{n}\right) - p\right|{{< /katex >}}
+\delta = |\overline{{F A}} | = \left|\left(\frac{(\vec{u}\cdot\vec{n}) - p}{|\vec{n}|^{2}}\right)\vec{n}\right| = \left|\left(\vec{u}\cdot\vec{n}\right) - p\right|
 
 The position vector of the foot F of the perpendicular AF is given by
 
-{{< katex display=true >}}\vec{r}_{1} = \vec{u} +t_{1}\vec{n} \text{ or } \vec{r}_{1} = \vec{u} +\left(\frac{p - \vec{u}\cdot\vec{n}}{|\vec{n}|^{2}}\right)\vec{n}{{< /katex >}}
+\vec{r}_{1} = \vec{u} +t_{1}\vec{n} \text{ or } \vec{r}_{1} = \vec{u} +\left(\frac{p - \vec{u}\cdot\vec{n}}{|\vec{n}|^{2}}\right)\vec{n}
 
 ![](https://placehold.co/600x400)
 
 ### (b) Equation of a plane in Cartesian form
 
-In Cartesian form if {{< katex >}}A\left(x_{1},y_{1},z_{1}\right){{< /katex >}} is the given point with position vector {{< katex >}}\vec{u}{{< /katex >}} and {{< katex >}}a x + b y + c z = p{{< /katex >}} is the Cartesian equation of the given plane, then {{< katex >}}\vec{u} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k}{{< /katex >}} and {{< katex >}}\vec{n} = a\hat{i} +b\hat{j} +c\hat{k}{{< /katex >}} . Therefore, using these vectors in {{< katex >}}\delta = \frac{|\vec{u}\cdot\vec{n} - p|}{|\vec{n}|}{{< /katex >}} , we get the perpendicular distance from a point to the plane in Cartesian form as
+In Cartesian form if  A\left(x_{1},y_{1},z_{1}\right) is the given point with position vector  \vec{u} and  a x + b y + c z = p is the Cartesian equation of the given plane, then  \vec{u} = x_{1}\hat{i} +y_{1}\hat{j} +z_{1}\hat{k} and  \vec{n} = a\hat{i} +b\hat{j} +c\hat{k} . Therefore, using these vectors in  \delta = \frac{|\vec{u}\cdot\vec{n} - p|}{|\vec{n}|} , we get the perpendicular distance from a point to the plane in Cartesian form as
 
-{{< katex display=true >}}\delta = \frac{|a x_{1} + b y_{1} + c z_{1} - p|}{\sqrt{a^{2} + b^{2} + c^{2}}} = \frac{|a x_{1} + b y_{1} + c z_{1} - p|}{\sqrt{a^{2} + b^{2} + c^{2}}}{{< /katex >}}
+\delta = \frac{|a x_{1} + b y_{1} + c z_{1} - p|}{\sqrt{a^{2} + b^{2} + c^{2}}} = \frac{|a x_{1} + b y_{1} + c z_{1} - p|}{\sqrt{a^{2} + b^{2} + c^{2}}}
 
 ## Remark
 
-The perpendicular distance from the origin to the plane {{< katex >}}a x + b y + c z + d = 0{{< /katex >}} is given by
+The perpendicular distance from the origin to the plane  a x + b y + c z + d = 0 is given by
 
-{{< katex display=true >}}\delta = \frac{|d|}{\sqrt{a^{2} + b^{2} + c^{2}}}{{< /katex >}}
+\delta = \frac{|d|}{\sqrt{a^{2} + b^{2} + c^{2}}}
 
 ## Example 6.49
 
-Find the distance of a point {{< katex >}}(2,5, - 3){{< /katex >}} from the plane {{< katex >}}\vec{r}\cdot \left(6\hat{i} - 3\hat{j} +2\hat{k}\right) = 5{{< /katex >}}
+Find the distance of a point  (2,5, - 3) from the plane  \vec{r}\cdot \left(6\hat{i} - 3\hat{j} +2\hat{k}\right) = 5
 
 ## Solution
 
-Comparing the given equation of the plane with {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} , we have {{< katex >}}\vec{n} = 6\hat{i} - 3\hat{j} +2\hat{k}{{< /katex >}} .
+Comparing the given equation of the plane with  \vec{r}\cdot \vec{n} = p , we have  \vec{n} = 6\hat{i} - 3\hat{j} +2\hat{k} .
 
 ---
 
-We know that the perpendicular distance from the given point with position vector {{< katex >}}\vec{u}{{< /katex >}} to the plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} is given by {{< katex >}}\delta = \frac{|\vec{u}\cdot\vec{n} - p|}{|\vec{n}|}{{< /katex >}} . Therefore, substituting {{< katex >}}\vec{u} = (2,5, - 3) = 2\hat{i} +5\hat{j} - 3\hat{k}{{< /katex >}} and {{< katex >}}\vec{n} = 6\hat{i} - 3\hat{j} +2\hat{k}{{< /katex >}} in the formula, we get
+We know that the perpendicular distance from the given point with position vector  \vec{u} to the plane  \vec{r}\cdot \vec{n} = p is given by  \delta = \frac{|\vec{u}\cdot\vec{n} - p|}{|\vec{n}|} . Therefore, substituting  \vec{u} = (2,5, - 3) = 2\hat{i} +5\hat{j} - 3\hat{k} and  \vec{n} = 6\hat{i} - 3\hat{j} +2\hat{k} in the formula, we get
 
-{{< katex display=true >}}\delta = \frac{|\vec{u}\cdot\vec{n} - p|}{|\vec{n}|} = \frac{\left|(2\hat{i} +5\hat{j} - 3\hat{k})\cdot(6\hat{i} -3\hat{j} +2\hat{k}) - 5\right|}{|6\hat{i} -3\hat{j} +2\hat{k}|} = 2 \text{ units}.{{< /katex >}}
+\delta = \frac{|\vec{u}\cdot\vec{n} - p|}{|\vec{n}|} = \frac{\left|(2\hat{i} +5\hat{j} - 3\hat{k})\cdot(6\hat{i} -3\hat{j} +2\hat{k}) - 5\right|}{|6\hat{i} -3\hat{j} +2\hat{k}|} = 2 \text{ units}.
 
 ## Example 6.50
 
-Find the distance of the point {{< katex >}}(5, - 5, - 10){{< /katex >}} from the point of intersection of a straight line passing through the points {{< katex >}}A(4,1,2){{< /katex >}} and {{< katex >}}B(7,5,4){{< /katex >}} with the plane {{< katex >}}x - y + z = 5{{< /katex >}} .
+Find the distance of the point  (5, - 5, - 10) from the point of intersection of a straight line passing through the points  A(4,1,2) and  B(7,5,4) with the plane  x - y + z = 5 .
 
 ## Solution
 
-The Cartesian equation of the straight line joining {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} is
+The Cartesian equation of the straight line joining  A and  B is
 
-{{< katex display=true >}}\frac{x - 4}{3} = \frac{y - 1}{4} = \frac{z - 2}{2} = t \text{ (say).}{{< /katex >}}
+\frac{x - 4}{3} = \frac{y - 1}{4} = \frac{z - 2}{2} = t \text{ (say).}
 
-Therefore, an arbitrary point on the straight line is of the form {{< katex >}}(3t + 4,4t + 1,2t + 2){{< /katex >}} . To find the point of intersection of the straight line and the plane, we substitute {{< katex >}}x = 3t + 4,y = 4t + 1,z = 2t + 2{{< /katex >}} in {{< katex >}}x - y + z = 5{{< /katex >}} , and we get {{< katex >}}t = 0{{< /katex >}} . Therefore, the point of intersection of the straight line is {{< katex >}}(4,1,2){{< /katex >}} . Now, the distance between the two points {{< katex >}}(4,1,2){{< /katex >}} and {{< katex >}}(5, - 5, - 10){{< /katex >}} is
+Therefore, an arbitrary point on the straight line is of the form  (3t + 4,4t + 1,2t + 2) . To find the point of intersection of the straight line and the plane, we substitute  x = 3t + 4,y = 4t + 1,z = 2t + 2 in  x - y + z = 5 , and we get  t = 0 . Therefore, the point of intersection of the straight line is  (4,1,2) . Now, the distance between the two points  (4,1,2) and  (5, - 5, - 10) is
 
-{{< katex display=true >}}\sqrt{(4 - 5)^2 + (1 + 5)^2 + (2 + 10)^2} = \sqrt{181} \text{ units}.{{< /katex >}}
+\sqrt{(4 - 5)^2 + (1 + 5)^2 + (2 + 10)^2} = \sqrt{181} \text{ units}.
 
 #### 6.8.13 Distance between two parallel planes
 
 ## Theorem 6.21
 
-The distance between two parallel planes {{< katex >}}ax + by + cz + d_1 = 0{{< /katex >}} and {{< katex >}}ax + by + cz + d_2 = 0{{< /katex >}} is given by {{< katex >}}\frac{|d_1 - d_2|}{\sqrt{a^2 + b^2 + c^2}}{{< /katex >}} .
+The distance between two parallel planes  ax + by + cz + d_1 = 0 and  ax + by + cz + d_2 = 0 is given by  \frac{|d_1 - d_2|}{\sqrt{a^2 + b^2 + c^2}} .
 
 ## Proof
 
-Let {{< katex >}}A(x_{1},y_{1},z_{1}){{< /katex >}} be any point on the plane {{< katex >}}ax + by + cz + d_2 = 0{{< /katex >}} , then we have
+Let  A(x_{1},y_{1},z_{1}) be any point on the plane  ax + by + cz + d_2 = 0 , then we have
 
-{{< katex display=true >}}ax_{1} + by_{1} + cz_{1} + d_{2} = 0\Rightarrow ax_{1} + by_{1} + cz_{1} = -d_{2}{{< /katex >}}
+ax_{1} + by_{1} + cz_{1} + d_{2} = 0\Rightarrow ax_{1} + by_{1} + cz_{1} = -d_{2}
 
-The distance of the plane {{< katex >}}ax + by + cz + d_1 = 0{{< /katex >}} from the point {{< katex >}}A(x_{1},y_{1},z_{1}){{< /katex >}} is given by
+The distance of the plane  ax + by + cz + d_1 = 0 from the point  A(x_{1},y_{1},z_{1}) is given by
 
-{{< katex display=true >}}\delta = \frac{|ax_{1} + by_{1} + cz_{1} + d_{1}|}{\sqrt{a^{2} + b^{2} + c^{2}}} = \frac{|d_{1} - d_{2}|}{\sqrt{a^{2} + b^{2} + c^{2}}}{{< /katex >}}
+\delta = \frac{|ax_{1} + by_{1} + cz_{1} + d_{1}|}{\sqrt{a^{2} + b^{2} + c^{2}}} = \frac{|d_{1} - d_{2}|}{\sqrt{a^{2} + b^{2} + c^{2}}}
 
-Hence, the distance between two parallel planes {{< katex >}}ax + by + cz + d_1 = 0{{< /katex >}} and {{< katex >}}ax + by + cz + d_2 = 0{{< /katex >}} is given by {{< katex >}}\delta = \frac{|d_1 - d_2|}{\sqrt{a^2 + b^2 + c^2}}{{< /katex >}} .
+Hence, the distance between two parallel planes  ax + by + cz + d_1 = 0 and  ax + by + cz + d_2 = 0 is given by  \delta = \frac{|d_1 - d_2|}{\sqrt{a^2 + b^2 + c^2}} .
 
 ---
 
-Find the distance between the parallel planes {{< katex >}}x + 2y - 2z + 1 = 0{{< /katex >}} and {{< katex >}}2x + 4y - 4z + 5 = 0{{< /katex >}} .
+Find the distance between the parallel planes  x + 2y - 2z + 1 = 0 and  2x + 4y - 4z + 5 = 0 .
 
 ## Solution
 
-We know that the formula for the distance between two parallel planes {{< katex >}}a x + b y + c z + d_{1} = 0{{< /katex >}} and {{< katex >}}a x + b y + c z + d_{2} = 0{{< /katex >}} is {{< katex >}}\delta = \frac{\left|d_{1} - d_{2}\right|}{\sqrt{a^{2} + b^{2} + c^{2}}}{{< /katex >}} . Rewrite the second equation as {{< katex >}}x + 2y - 2z + \frac{5}{2} = 0{{< /katex >}} .
+We know that the formula for the distance between two parallel planes  a x + b y + c z + d_{1} = 0 and  a x + b y + c z + d_{2} = 0 is  \delta = \frac{\left|d_{1} - d_{2}\right|}{\sqrt{a^{2} + b^{2} + c^{2}}} . Rewrite the second equation as  x + 2y - 2z + \frac{5}{2} = 0 .
 
-Comparing the given equations with the general equations, we get {{< katex >}}a = 1,b = 2,c = - 2,d_{1} = 1,d_{2} = \frac{5}{2}{{< /katex >}} .
+Comparing the given equations with the general equations, we get  a = 1,b = 2,c = - 2,d_{1} = 1,d_{2} = \frac{5}{2} .
 
 Substituting these values in the formula, we get the distance
 
-{{< katex display=true >}}\delta = \frac{\left|d_{1} - d_{2}\right|}{\sqrt{a^{2} + b^{2} + c^{2}}} = \frac{\left|1 - \frac{5}{2}\right|}{\sqrt{1^{2} + 2^{2} + \left(-2^{2}\right)}} = \frac{1}{2} \text{ units}.{{< /katex >}}
+\delta = \frac{\left|d_{1} - d_{2}\right|}{\sqrt{a^{2} + b^{2} + c^{2}}} = \frac{\left|1 - \frac{5}{2}\right|}{\sqrt{1^{2} + 2^{2} + \left(-2^{2}\right)}} = \frac{1}{2} \text{ units}.
 
 ## Example 6.52
 
-Find the distance between the planes {{< katex >}}\vec{r}\cdot \left(2\hat{i} -\hat{j} -2\hat{k}\right) = 6{{< /katex >}} and {{< katex >}}\vec{r}\cdot \left(6\hat{i} -3\hat{j} -6\hat{k}\right) = 27{{< /katex >}}
+Find the distance between the planes  \vec{r}\cdot \left(2\hat{i} -\hat{j} -2\hat{k}\right) = 6 and  \vec{r}\cdot \left(6\hat{i} -3\hat{j} -6\hat{k}\right) = 27
 
 ## Solution
 
-Let {{< katex >}}\vec{u}{{< /katex >}} be the position vector of an arbitrary point on the plane {{< katex >}}\vec{r}\cdot (2\hat{i} -\hat{j} -2\hat{k}) = 6{{< /katex >}} . Then, we have
+Let  \vec{u} be the position vector of an arbitrary point on the plane  \vec{r}\cdot (2\hat{i} -\hat{j} -2\hat{k}) = 6 . Then, we have
 
-{{< katex display=true >}}\vec{u}\cdot (2\hat{i} -\hat{j} -2\hat{k}) = 6. \quad (1){{< /katex >}}
+\vec{u}\cdot (2\hat{i} -\hat{j} -2\hat{k}) = 6. \quad (1)
 
-If {{< katex >}}\delta{{< /katex >}} is the distance between the given planes, then {{< katex >}}\delta{{< /katex >}} is the perpendicular distance from {{< katex >}}\vec{u}{{< /katex >}} to the plane
+If  \delta is the distance between the given planes, then  \delta is the perpendicular distance from  \vec{u} to the plane
 
-{{< katex display=true >}}\vec{r}\cdot (6\hat{i} -3\hat{j} -6\hat{k}) = 27.{{< /katex >}} Therefore, {{< katex display=true >}}\delta = \frac{\left|\vec{u}\cdot\vec{n} - p\right|}{\left|\vec{n}\right|} = \frac{\left|\vec{u}\cdot(6\hat{i} - 3\hat{j} - 6\hat{k}) - 27\right|}{\sqrt{6^{2} + (-3)^{2} + (-6)^{2}}} = \left|\frac{3(\vec{u}\cdot(2\hat{i} - \hat{j} - 2\hat{k})) - 27}{9}\right| = \left|\frac{(3(6) - 27)}{9}\right| = 1{{< /katex >}} unit.
+\vec{r}\cdot (6\hat{i} -3\hat{j} -6\hat{k}) = 27. Therefore, \delta = \frac{\left|\vec{u}\cdot\vec{n} - p\right|}{\left|\vec{n}\right|} = \frac{\left|\vec{u}\cdot(6\hat{i} - 3\hat{j} - 6\hat{k}) - 27\right|}{\sqrt{6^{2} + (-3)^{2} + (-6)^{2}}} = \left|\frac{3(\vec{u}\cdot(2\hat{i} - \hat{j} - 2\hat{k})) - 27}{9}\right| = \left|\frac{(3(6) - 27)}{9}\right| = 1 unit.
 
 #### 6.8.14 Equation of line of intersection of two planes
 
-Let {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} and {{< katex >}}\vec{r}\cdot \vec{m} = q{{< /katex >}} be two non- parallel planes. We know that {{< katex >}}\vec{n}{{< /katex >}} and {{< katex >}}\vec{m}{{< /katex >}} are perpendicular to the given planes respectively. So, the line of intersection of these planes is perpendicular to both {{< katex >}}\vec{n}{{< /katex >}} and {{< katex >}}\vec{m}{{< /katex >}} . Therefore, it is parallel to the vector {{< katex >}}\vec{n}\times \vec{m}{{< /katex >}} . Let {{< katex >}}\vec{n}\times \vec{m} = l_{1}\hat{i} +l_{2}\hat{j} +l_{3}\hat{k}{{< /katex >}}
+Let  \vec{r}\cdot \vec{n} = p and  \vec{r}\cdot \vec{m} = q be two non- parallel planes. We know that  \vec{n} and  \vec{m} are perpendicular to the given planes respectively. So, the line of intersection of these planes is perpendicular to both  \vec{n} and  \vec{m} . Therefore, it is parallel to the vector  \vec{n}\times \vec{m} . Let  \vec{n}\times \vec{m} = l_{1}\hat{i} +l_{2}\hat{j} +l_{3}\hat{k}
 
-Consider the equations of two planes {{< katex >}}a_{1}x + b_{1}y + c_{1}z = p{{< /katex >}} and {{< katex >}}a_{2}x + b_{2}y + c_{2}z = q{{< /katex >}} . The line of intersection of the two given planes intersects at least one of the coordinate planes. For simplicity, we assume that the line meets the coordinate plane {{< katex >}}z = 0{{< /katex >}} . Substitute {{< katex >}}z = 0{{< /katex >}} and obtain the two equations {{< katex >}}a_{1}x + b_{1}y - p = 0{{< /katex >}} and {{< katex >}}a_{2}x + b_{2}y - q = 0{{< /katex >}} . Then by solving these equations, we get the values of {{< katex >}}x{{< /katex >}} and {{< katex >}}y{{< /katex >}} as {{< katex >}}x_{1}{{< /katex >}} and {{< katex >}}y_{1}{{< /katex >}} respectively.
+Consider the equations of two planes  a_{1}x + b_{1}y + c_{1}z = p and  a_{2}x + b_{2}y + c_{2}z = q . The line of intersection of the two given planes intersects at least one of the coordinate planes. For simplicity, we assume that the line meets the coordinate plane  z = 0 . Substitute  z = 0 and obtain the two equations  a_{1}x + b_{1}y - p = 0 and  a_{2}x + b_{2}y - q = 0 . Then by solving these equations, we get the values of  x and  y as  x_{1} and  y_{1} respectively.
 
 ![](https://placehold.co/600x400)
 *Fig. 6.33*
@@ -2482,292 +2482,292 @@ Consider the equations of two planes {{< katex >}}a_{1}x + b_{1}y + c_{1}z = p{{
 
 Theorem 6.22
 
-The vector equation of a plane which passes through the line of intersection of the planes {{< katex >}}\vec{r}\cdot \vec{n}_{1} = d_{1}{{< /katex >}} and {{< katex >}}\vec{r}\cdot \vec{n}_{2} = d_{2}{{< /katex >}} is given by {{< katex >}}\left(\vec{r}\cdot \vec{n}_{1} - d_{1}\right) + \lambda \left(\vec{r}\cdot \vec{n}_{2} - d_{2}\right) = 0{{< /katex >}} , where {{< katex >}}\lambda \in \mathbb{R}{{< /katex >}} .
+The vector equation of a plane which passes through the line of intersection of the planes  \vec{r}\cdot \vec{n}_{1} = d_{1} and  \vec{r}\cdot \vec{n}_{2} = d_{2} is given by  \left(\vec{r}\cdot \vec{n}_{1} - d_{1}\right) + \lambda \left(\vec{r}\cdot \vec{n}_{2} - d_{2}\right) = 0 , where  \lambda \in \mathbb{R} .
 
 ## Proof
 
 Consider the equation
 
-{{< katex display=true >}}\left(\vec{r}\cdot \vec{n}_{1} - d_{1}\right) + \lambda \left(\vec{r}\cdot \vec{n}_{2} - d_{2}\right) = 0 \quad (1){{< /katex >}}
+\left(\vec{r}\cdot \vec{n}_{1} - d_{1}\right) + \lambda \left(\vec{r}\cdot \vec{n}_{2} - d_{2}\right) = 0 \quad (1)
 
 The above equation can be simplified as
 
-{{< katex display=true >}}\vec{r}\cdot (\vec{n}_{1} + \lambda \vec{n}_{2}) - (d_{1} + \lambda d_{2}) = 0 \quad (2){{< /katex >}}
+\vec{r}\cdot (\vec{n}_{1} + \lambda \vec{n}_{2}) - (d_{1} + \lambda d_{2}) = 0 \quad (2)
 
-Put {{< katex >}}\vec{n} = \vec{n}_{1} + \lambda \vec{n}_{2}{{< /katex >}} , {{< katex >}}d = (d_{1} + \lambda d_{2}){{< /katex >}} .
+Put  \vec{n} = \vec{n}_{1} + \lambda \vec{n}_{2} ,  d = (d_{1} + \lambda d_{2}) .
 
 Then the equation (2) becomes
 
-{{< katex display=true >}}\vec{r}\cdot \vec{n} = d \quad (3){{< /katex >}}
+\vec{r}\cdot \vec{n} = d \quad (3)
 
 ![](https://placehold.co/600x400)
 *Fig. 6.34*
 
 The equation (3) represents a plane. Hence (1) represents a plane.
 
-Let {{< katex >}}\vec{r}_{1}{{< /katex >}} be the position vector of any point on the line of intersection of the plane. Then {{< katex >}}\vec{r}_{1}{{< /katex >}} satisfies both the equations {{< katex >}}\vec{r}\cdot \vec{n}_{1} = d_{1}{{< /katex >}} and {{< katex >}}\vec{r}\cdot \vec{n}_{2} = d_{2}{{< /katex >}} . So, we have
+Let  \vec{r}_{1} be the position vector of any point on the line of intersection of the plane. Then  \vec{r}_{1} satisfies both the equations  \vec{r}\cdot \vec{n}_{1} = d_{1} and  \vec{r}\cdot \vec{n}_{2} = d_{2} . So, we have
 
-{{< katex display=true >}}\begin{array}{r l r} & {} & {\vec{r}_{1}\cdot \vec{n}_{1} = d_{1}}\\ & {} & {\text{and}\quad \vec{r}_{2}\cdot \vec{n}_{2} = d_{2}} \end{array} \quad (4){{< /katex >}}
+\begin{array}{r l r} & {} & {\vec{r}_{1}\cdot \vec{n}_{1} = d_{1}}\\ & {} & {\text{and}\quad \vec{r}_{2}\cdot \vec{n}_{2} = d_{2}} \end{array} \quad (4)
 
-By (4) and (5), {{< katex >}}\vec{r}_{1}{{< /katex >}} satisfies (1). So, any point on the line of intersection lies on the plane (1). This proves that the plane (1) passes through the line of intersection.
+By (4) and (5),  \vec{r}_{1} satisfies (1). So, any point on the line of intersection lies on the plane (1). This proves that the plane (1) passes through the line of intersection.
 
-The cartesian equation of a plane which passes through the line of intersection of the planes {{< katex >}}a_{1}x + b_{1}y + c_{1}z = d_{1}{{< /katex >}} and {{< katex >}}a_{2}x + b_{2}y + c_{2}z = d_{2}{{< /katex >}} is given by
+The cartesian equation of a plane which passes through the line of intersection of the planes  a_{1}x + b_{1}y + c_{1}z = d_{1} and  a_{2}x + b_{2}y + c_{2}z = d_{2} is given by
 
-{{< katex display=true >}}(a_{1}x + b_{1}y + c_{1}z - d_{1}) + \lambda (a_{2}x + b_{2}y + c_{2}z - d_{2}) = 0{{< /katex >}}
+(a_{1}x + b_{1}y + c_{1}z - d_{1}) + \lambda (a_{2}x + b_{2}y + c_{2}z - d_{2}) = 0
 
 ## Example 6.53
 
-Find the equation of the plane passing through the intersection of the planes {{< katex >}}\vec{r}\cdot \left(\hat{i} +\hat{j} +\hat{k}\right) + 1 = 0{{< /katex >}} and {{< katex >}}\vec{r}\cdot \left(2\hat{i} - 3\hat{j} +5\hat{k}\right) = 2{{< /katex >}} and the point {{< katex >}}(- 1,2,1){{< /katex >}} .
+Find the equation of the plane passing through the intersection of the planes  \vec{r}\cdot \left(\hat{i} +\hat{j} +\hat{k}\right) + 1 = 0 and  \vec{r}\cdot \left(2\hat{i} - 3\hat{j} +5\hat{k}\right) = 2 and the point  (- 1,2,1) .
 
 ## Solution
 
-We know that the vector equation of a plane passing through the line of intersection of the planes {{< katex >}}\vec{r}\cdot \vec{n}_{1} = d_{1}{{< /katex >}} and {{< katex >}}\vec{r}\cdot \vec{n}_{2} = d_{2}{{< /katex >}} is given by {{< katex >}}\left(\vec{r}\cdot \vec{n}_{1} - d_{1}\right) + \lambda \left(\vec{r}\cdot \vec{n}_{2} - d_{2}\right) = 0{{< /katex >}}
+We know that the vector equation of a plane passing through the line of intersection of the planes  \vec{r}\cdot \vec{n}_{1} = d_{1} and  \vec{r}\cdot \vec{n}_{2} = d_{2} is given by  \left(\vec{r}\cdot \vec{n}_{1} - d_{1}\right) + \lambda \left(\vec{r}\cdot \vec{n}_{2} - d_{2}\right) = 0
 
-Substituting {{< katex >}}\vec{r} = x\hat{i} +y\hat{j} +z\hat{k}{{< /katex >}} , {{< katex >}}\vec{n}_{1} = \hat{i} +\hat{j} +\hat{k}{{< /katex >}} , {{< katex >}}\vec{n}_{2} = 2\hat{i} - 3\hat{j} +5\hat{k}{{< /katex >}} , {{< katex >}}d_{1} = 1{{< /katex >}} , {{< katex >}}d_{2} = - 2{{< /katex >}} in the above equation, we get
+Substituting  \vec{r} = x\hat{i} +y\hat{j} +z\hat{k} ,  \vec{n}_{1} = \hat{i} +\hat{j} +\hat{k} ,  \vec{n}_{2} = 2\hat{i} - 3\hat{j} +5\hat{k} ,  d_{1} = 1 ,  d_{2} = - 2 in the above equation, we get
 
-{{< katex display=true >}}(x + y + z + 1) + \lambda (2x - 3y + 5z - 2) = 0{{< /katex >}}
+(x + y + z + 1) + \lambda (2x - 3y + 5z - 2) = 0
 
 XII - Mathematics
 
 ---
 
-Since this plane passes through the point {{< katex >}}(- 1,2,1){{< /katex >}} , we get {{< katex >}}\lambda = \frac{3}{5}{{< /katex >}} , and hence the required equation of the plane is {{< katex >}}11x - 4y + 20z = 1{{< /katex >}} .
+Since this plane passes through the point  (- 1,2,1) , we get  \lambda = \frac{3}{5} , and hence the required equation of the plane is  11x - 4y + 20z = 1 .
 
 ## Example 6.54
 
-Find the equation of the plane passing through the intersection of the planes {{< katex >}}2x + 3y - z + 7 = 0{{< /katex >}} and {{< katex >}}x + y - 2z + 5 = 0{{< /katex >}} and is perpendicular to the plane {{< katex >}}x + y - 3z - 5 = 0{{< /katex >}} .
+Find the equation of the plane passing through the intersection of the planes  2x + 3y - z + 7 = 0 and  x + y - 2z + 5 = 0 and is perpendicular to the plane  x + y - 3z - 5 = 0 .
 
 ## Solution
 
-The equation of the plane passing through the intersection of the planes {{< katex >}}2x + 3y - z + 7 = 0{{< /katex >}} and {{< katex >}}x + y - 2z + 5 = 0{{< /katex >}} is {{< katex >}}\left(2x + 3y - z + 7\right) + \lambda \left(x + y - 2z + 5\right) = 0{{< /katex >}} or
+The equation of the plane passing through the intersection of the planes  2x + 3y - z + 7 = 0 and  x + y - 2z + 5 = 0 is  \left(2x + 3y - z + 7\right) + \lambda \left(x + y - 2z + 5\right) = 0 or
 
-{{< katex display=true >}}\left(2 + \lambda\right)x + \left(3 + \lambda\right)y + \left(-1 - 2\lambda\right)z + \left(7 + 5\lambda\right) = 0{{< /katex >}}
+\left(2 + \lambda\right)x + \left(3 + \lambda\right)y + \left(-1 - 2\lambda\right)z + \left(7 + 5\lambda\right) = 0
 
-since this plane is perpendicular to the given plane {{< katex >}}x + y - 3z - 5 = 0{{< /katex >}} , the normals of these two planes are perpendicular to each other. Therefore, we have
+since this plane is perpendicular to the given plane  x + y - 3z - 5 = 0 , the normals of these two planes are perpendicular to each other. Therefore, we have
 
-{{< katex display=true >}}(1)\left(2 + \lambda\right) + (1)\left(3 + \lambda\right) + (-3)\left(-1 - 2\lambda\right) = 0{{< /katex >}}
+(1)\left(2 + \lambda\right) + (1)\left(3 + \lambda\right) + (-3)\left(-1 - 2\lambda\right) = 0
 
-which implies that {{< katex >}}\lambda = - 1{{< /katex >}} . Thus the required equation of the plane is
+which implies that  \lambda = - 1 . Thus the required equation of the plane is
 
-{{< katex display=true >}}\left(2x + 3y - z + 7\right) - \left(x + y - 2z + 5\right) = 0\Rightarrow x + 2y + z + 2 = 0.{{< /katex >}}
+\left(2x + 3y - z + 7\right) - \left(x + y - 2z + 5\right) = 0\Rightarrow x + 2y + z + 2 = 0.
 
 ### 6.9 Image of a Point in a Plane
 
-Let A be the given point whose position vector is {{< katex >}}\vec{u}{{< /katex >}} . Let {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} be the equation of the plane. Let {{< katex >}}\vec{v}{{< /katex >}} be the position vector of the mirror image {{< katex >}}A^{\prime}{{< /katex >}} of {{< katex >}}A{{< /katex >}} in the plane. Then {{< katex >}}\overline{{A A^{\prime}}}{{< /katex >}} is perpendicular to the plane. So it is parallel to {{< katex >}}\vec{n}{{< /katex >}} . Then
+Let A be the given point whose position vector is  \vec{u} . Let  \vec{r}\cdot \vec{n} = p be the equation of the plane. Let  \vec{v} be the position vector of the mirror image  A^{\prime} of  A in the plane. Then  \overline{{A A^{\prime}}} is perpendicular to the plane. So it is parallel to  \vec{n} . Then
 
-{{< katex display=true >}}\overline{{A A^{\prime}}} = \lambda \vec{n} \text{ or } \vec{v} -\vec{u} = \lambda \vec{n}\Rightarrow \vec{v} = \vec{u} +\lambda \vec{n} \quad (1){{< /katex >}}
+\overline{{A A^{\prime}}} = \lambda \vec{n} \text{ or } \vec{v} -\vec{u} = \lambda \vec{n}\Rightarrow \vec{v} = \vec{u} +\lambda \vec{n} \quad (1)
 
-Let {{< katex >}}M{{< /katex >}} be the middle point of {{< katex >}}A A^{\prime}{{< /katex >}} . Then the position vector of {{< katex >}}M{{< /katex >}} is {{< katex >}}\frac{\vec{u} + \vec{v}}{2}{{< /katex >}} . But {{< katex >}}M{{< /katex >}} lies on the plane.
+Let  M be the middle point of  A A^{\prime} . Then the position vector of  M is  \frac{\vec{u} + \vec{v}}{2} . But  M lies on the plane.
 
-{{< katex display=true >}}\text{So},\quad \left(\frac{\vec{u} + \vec{v}}{2}\right)\cdot \vec{n} = p. \quad (2){{< /katex >}}
+\text{So},\quad \left(\frac{\vec{u} + \vec{v}}{2}\right)\cdot \vec{n} = p. \quad (2)
 
 Substituting (1) in (2), we get
 
-{{< katex display=true >}}\left(\frac{\vec{u} + \lambda\vec{n} + \vec{u}}{2}\right)\cdot \vec{n} = p\Rightarrow \lambda = \frac{2\left[p - (\vec{u}\cdot\vec{n})\right]}{|\vec{n}|^{2}}{{< /katex >}}
+\left(\frac{\vec{u} + \lambda\vec{n} + \vec{u}}{2}\right)\cdot \vec{n} = p\Rightarrow \lambda = \frac{2\left[p - (\vec{u}\cdot\vec{n})\right]}{|\vec{n}|^{2}}
 
-Therefore, the position vector of {{< katex >}}A^{\prime}{{< /katex >}}
+Therefore, the position vector of  A^{\prime}
 
-{{< katex display=true >}}\text{is } \vec{v} = \vec{u} +\frac{2[p - (\vec{u}\cdot\vec{n})]}{|\vec{n}|^{2}}{{< /katex >}}
+\text{is } \vec{v} = \vec{u} +\frac{2[p - (\vec{u}\cdot\vec{n})]}{|\vec{n}|^{2}}
 
 ![](https://placehold.co/600x400)
 *Fig.6.35*
 
 ## Note
 
-The mid point of {{< katex >}}M{{< /katex >}} of {{< katex >}}A A^{\prime}{{< /katex >}} is the foot of the perpendicular from the point {{< katex >}}A{{< /katex >}} to the plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} . So the position vector of the foot {{< katex >}}M{{< /katex >}} of the perpendicular is given by.
+The mid point of  M of  A A^{\prime} is the foot of the perpendicular from the point  A to the plane  \vec{r}\cdot \vec{n} = p . So the position vector of the foot  M of the perpendicular is given by.
 
-{{< katex display=true >}}\frac{\vec{u} + \vec{v}}{2} = \frac{\vec{u}}{2} +\frac{1}{2}\left(\vec{u} +\frac{2[p - (\vec{u}\cdot\vec{n})]}{|\vec{n}|^{2}}\vec{n}\right){{< /katex >}}
+\frac{\vec{u} + \vec{v}}{2} = \frac{\vec{u}}{2} +\frac{1}{2}\left(\vec{u} +\frac{2[p - (\vec{u}\cdot\vec{n})]}{|\vec{n}|^{2}}\vec{n}\right)
 
 ---
 
 #### 6.9.1 The coordinates of the image of a point in a plane
 
-Let {{< katex >}}(a_{1},a_{2},a_{3}){{< /katex >}} be the point {{< katex >}}\vec{u}{{< /katex >}} whose image in the plane is required. Then {{< katex >}}\vec{u} = a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k}{{< /katex >}} .
+Let  (a_{1},a_{2},a_{3}) be the point  \vec{u} whose image in the plane is required. Then  \vec{u} = a_{1}\hat{i} +a_{2}\hat{j} +a_{3}\hat{k} .
 
-Let {{< katex >}}a x + b y + c z = d{{< /katex >}} be the equation of the given plane. Writing the equation in the vector form we get {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} where {{< katex >}}\vec{n} = a\vec{i} +b\vec{j} +c\vec{k}{{< /katex >}} . Then the position vector of the image is
+Let  a x + b y + c z = d be the equation of the given plane. Writing the equation in the vector form we get  \vec{r}\cdot \vec{n} = p where  \vec{n} = a\vec{i} +b\vec{j} +c\vec{k} . Then the position vector of the image is
 
-{{< katex display=true >}}\vec{v} = \vec{u} +\frac{2\big[p - (\vec{u}\cdot\vec{n})\big]}{|\vec{n}|^{2}}\vec{n}.{{< /katex >}}
+\vec{v} = \vec{u} +\frac{2\big[p - (\vec{u}\cdot\vec{n})\big]}{|\vec{n}|^{2}}\vec{n}.
 
-If {{< katex >}}\vec{v} = \nu_{1}\hat{i} +\nu_{2}\hat{j} +\nu_{3}\hat{k}{{< /katex >}} , then {{< katex >}}\nu_{1} = a_{1} + 2a\alpha{{< /katex >}} , {{< katex >}}\nu_{2} = a_{2} + 2a\alpha{{< /katex >}} , {{< katex >}}\nu_{3} = a_{3} + 2a\alpha{{< /katex >}}
+If  \vec{v} = \nu_{1}\hat{i} +\nu_{2}\hat{j} +\nu_{3}\hat{k} , then  \nu_{1} = a_{1} + 2a\alpha ,  \nu_{2} = a_{2} + 2a\alpha ,  \nu_{3} = a_{3} + 2a\alpha
 
-{{< katex display=true >}}\text{where } \alpha = \frac{2\big[p - (a a_{1} + b a_{2} + c a_{3})\big]}{a^{2} + b^{2} + c^{2}}.{{< /katex >}}
+\text{where } \alpha = \frac{2\big[p - (a a_{1} + b a_{2} + c a_{3})\big]}{a^{2} + b^{2} + c^{2}}.
 
 ## Example 6.55
 
-Find the image of the point whose position vector is {{< katex >}}\vec{i} +2\vec{j} +3\vec{k}{{< /katex >}} in the plane {{< katex >}}\vec{r}\cdot \left(\vec{i} +2\vec{j} +4\vec{k}\right) = 38{{< /katex >}} .
+Find the image of the point whose position vector is  \vec{i} +2\vec{j} +3\vec{k} in the plane  \vec{r}\cdot \left(\vec{i} +2\vec{j} +4\vec{k}\right) = 38 .
 
 ## Solution
 
-Here, {{< katex >}}\vec{u} = \hat{i} +2\hat{j} +3\hat{k}{{< /katex >}} , {{< katex >}}\vec{n} = \hat{i} +2\hat{j} +4\hat{k}{{< /katex >}} , {{< katex >}}p = 38{{< /katex >}} . Then the position vector of the image {{< katex >}}\vec{v}{{< /katex >}} of
+Here,  \vec{u} = \hat{i} +2\hat{j} +3\hat{k} ,  \vec{n} = \hat{i} +2\hat{j} +4\hat{k} ,  p = 38 . Then the position vector of the image  \vec{v} of
 
-{{< katex >}}\vec{u} = \hat{i} +2\hat{j} +3\hat{k}{{< /katex >}} is given by {{< katex >}}\vec{v} = \vec{u} +\frac{2\big[p - (\vec{u}\cdot\vec{n})\big]}{|\vec{n}|^{2}}\vec{n}.{{< /katex >}}
+ \vec{u} = \hat{i} +2\hat{j} +3\hat{k} is given by  \vec{v} = \vec{u} +\frac{2\big[p - (\vec{u}\cdot\vec{n})\big]}{|\vec{n}|^{2}}\vec{n}.
 
-{{< katex display=true >}}\vec{v} = \left(\hat{i} +2\hat{j} +3\hat{k}\right) + \frac{2\left[38 - \left(\left(\hat{i} +2\hat{j} +3\hat{k}\right)\cdot \left(\hat{i} +2\hat{j} +4\hat{k}\right)\right)\right]}{\left(\hat{i} +2\hat{j} +4\hat{k}\right)\cdot\left(\hat{i} +2\hat{j} +4\hat{k}\right)}\left(\hat{i} +2\hat{j} +4\hat{k}\right).{{< /katex >}}
+\vec{v} = \left(\hat{i} +2\hat{j} +3\hat{k}\right) + \frac{2\left[38 - \left(\left(\hat{i} +2\hat{j} +3\hat{k}\right)\cdot \left(\hat{i} +2\hat{j} +4\hat{k}\right)\right)\right]}{\left(\hat{i} +2\hat{j} +4\hat{k}\right)\cdot\left(\hat{i} +2\hat{j} +4\hat{k}\right)}\left(\hat{i} +2\hat{j} +4\hat{k}\right).
 
-That is, {{< katex >}}\vec{v} = \left(\hat{i} +2\hat{j} +3\hat{k}\right) + 2\left(\frac{38 - 17}{21}\right)\left(\hat{i} +2\hat{j} +4\hat{k}\right) = 3\hat{i} +6\hat{j} +11\hat{k}{{< /katex >}} .
+That is,  \vec{v} = \left(\hat{i} +2\hat{j} +3\hat{k}\right) + 2\left(\frac{38 - 17}{21}\right)\left(\hat{i} +2\hat{j} +4\hat{k}\right) = 3\hat{i} +6\hat{j} +11\hat{k} .
 
-Therefore, the image of the point with position vector {{< katex >}}\hat{i} +2\hat{j} +3\hat{k}{{< /katex >}} is {{< katex >}}3\hat{i} +6\hat{j} +11\hat{k}{{< /katex >}} .
+Therefore, the image of the point with position vector  \hat{i} +2\hat{j} +3\hat{k} is  3\hat{i} +6\hat{j} +11\hat{k} .
 
 ## Note
 
-The foot of the perpendicular from the point with position vector {{< katex >}}\hat{i} +2\hat{j} +3\hat{k}{{< /katex >}} in the given plane is
+The foot of the perpendicular from the point with position vector  \hat{i} +2\hat{j} +3\hat{k} in the given plane is
 
-{{< katex display=true >}}\frac{(\hat{i} +2\hat{j} +3\hat{k}) + (3\hat{i} +6\hat{j} +11\hat{k})}{2} = 2\hat{i} +4\hat{j} +7\hat{k}.{{< /katex >}}
+\frac{(\hat{i} +2\hat{j} +3\hat{k}) + (3\hat{i} +6\hat{j} +11\hat{k})}{2} = 2\hat{i} +4\hat{j} +7\hat{k}.
 
 ## 6.10 Meeting Point of a Line and a Plane
 
 ## Theorem 6.23
 
-The position vector of the point of intersection of the straight line {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}} and the plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} is {{< katex >}}\vec{a} +\left(\frac{p - (\vec{a}\cdot\vec{n})}{\vec{b}\cdot\vec{n}}\right)\vec{b}{{< /katex >}} , provided {{< katex >}}\vec{b}\cdot \vec{n}\neq 0{{< /katex >}} .
+The position vector of the point of intersection of the straight line  \vec{r} = \vec{a} +t\vec{b} and the plane  \vec{r}\cdot \vec{n} = p is  \vec{a} +\left(\frac{p - (\vec{a}\cdot\vec{n})}{\vec{b}\cdot\vec{n}}\right)\vec{b} , provided  \vec{b}\cdot \vec{n}\neq 0 .
 
 ## Proof
 
-Let {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}} be the equation of the given line which is not parallel to the given plane whose equation is {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} . So, {{< katex >}}\vec{b}\cdot \vec{n}\neq 0{{< /katex >}} .
+Let  \vec{r} = \vec{a} +t\vec{b} be the equation of the given line which is not parallel to the given plane whose equation is  \vec{r}\cdot \vec{n} = p . So,  \vec{b}\cdot \vec{n}\neq 0 .
 
 ### EXERCISE 6.9
 
-1. Find the equation of the plane passing through the line of intersection of the planes {{< katex >}}\vec{r}\cdot \left(2\vec{i} -7\vec{j} +4\vec{k}\right) = 3{{< /katex >}} and {{< katex >}}3x - 5y + 4z + 11 = 0{{< /katex >}} , and the point {{< katex >}}(-2,1,3){{< /katex >}} .
+1. Find the equation of the plane passing through the line of intersection of the planes  \vec{r}\cdot \left(2\vec{i} -7\vec{j} +4\vec{k}\right) = 3 and  3x - 5y + 4z + 11 = 0 , and the point  (-2,1,3) .
 
-2. Find the equation of the plane passing through the line of intersection of the planes {{< katex >}}x + 2y + 3z = 2{{< /katex >}} and {{< katex >}}x - y + z = 3{{< /katex >}} , and at a distance {{< katex >}}\frac{2}{\sqrt{3}}{{< /katex >}} from the point {{< katex >}}(3,1, - 1){{< /katex >}} .
+2. Find the equation of the plane passing through the line of intersection of the planes  x + 2y + 3z = 2 and  x - y + z = 3 , and at a distance  \frac{2}{\sqrt{3}} from the point  (3,1, - 1) .
 
-3. Find the angle between the line {{< katex >}}\vec{r} = \left(2\vec{i} - \vec{j} +\vec{k}\right) + t\left(\vec{i} +2\vec{j} -2\vec{k}\right){{< /katex >}} and the plane {{< katex >}}\vec{r}\cdot \left(6\vec{i} +3\vec{j} +2\vec{k}\right) = 8{{< /katex >}}
+3. Find the angle between the line  \vec{r} = \left(2\vec{i} - \vec{j} +\vec{k}\right) + t\left(\vec{i} +2\vec{j} -2\vec{k}\right) and the plane  \vec{r}\cdot \left(6\vec{i} +3\vec{j} +2\vec{k}\right) = 8
 
-4. Find the angle between the planes {{< katex >}}\vec{r}\cdot \left(\vec{i} +\vec{j} -2\vec{k}\right) = 3{{< /katex >}} and {{< katex >}}2x - 2y + z = 2{{< /katex >}} .
+4. Find the angle between the planes  \vec{r}\cdot \left(\vec{i} +\vec{j} -2\vec{k}\right) = 3 and  2x - 2y + z = 2 .
 
-5. Find the equation of the plane which passes through the point {{< katex >}}(3,4, - 1){{< /katex >}} and is parallel to the plane {{< katex >}}2x - 3y + 5z + 7 = 0{{< /katex >}} . Also, find the distance between the two planes.
+5. Find the equation of the plane which passes through the point  (3,4, - 1) and is parallel to the plane  2x - 3y + 5z + 7 = 0 . Also, find the distance between the two planes.
 
-6. Find the length of the perpendicular from the point {{< katex >}}(1, - 2,3){{< /katex >}} to the plane {{< katex >}}x - y + z = 5{{< /katex >}} .
+6. Find the length of the perpendicular from the point  (1, - 2,3) to the plane  x - y + z = 5 .
 
-7. Find the point of intersection of the line {{< katex >}}x - 1 = \frac{y}{2} = z + 1{{< /katex >}} with the plane {{< katex >}}2x - y + 2z = 2{{< /katex >}} . Also, find the angle between the line and the plane.
+7. Find the point of intersection of the line  x - 1 = \frac{y}{2} = z + 1 with the plane  2x - y + 2z = 2 . Also, find the angle between the line and the plane.
 
-8. Find the coordinates of the foot of the perpendicular and length of the perpendicular from the point {{< katex >}}(4,3,2){{< /katex >}} to the plane {{< katex >}}x + 2y + 3z = 2{{< /katex >}} .
+8. Find the coordinates of the foot of the perpendicular and length of the perpendicular from the point  (4,3,2) to the plane  x + 2y + 3z = 2 .
 
 ## EXERCISE 6.10
 
 Choose the correct or the most suitable answer from the given four alternatives:
 
-1. If {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} are parallel vectors, then {{< katex >}}[\vec{a},\vec{c},\vec{b}]{{< /katex >}} is equal to
+1. If  \vec{a} and  \vec{b} are parallel vectors, then  [\vec{a},\vec{c},\vec{b}] is equal to
 
    (1) 2
    (2) -1
    (3) 1
    (4) 0
 
-2. If a vector {{< katex >}}\vec{a}{{< /katex >}} lies in the plane of {{< katex >}}\vec{\beta}{{< /katex >}} and {{< katex >}}\vec{\gamma}{{< /katex >}} , then
+2. If a vector  \vec{a} lies in the plane of  \vec{\beta} and  \vec{\gamma} , then
 
-   {{< katex >}}[\vec{a},\vec{\beta},\vec{\gamma}] = 1\qquad (2)[\vec{a},\vec{\beta},\vec{\gamma}] = -1\qquad (3)[\vec{a},\vec{\beta},\vec{\gamma}] = 0\qquad (4)[\vec{a},\vec{\beta},\vec{\gamma}] = 2{{< /katex >}}
+    [\vec{a},\vec{\beta},\vec{\gamma}] = 1\qquad (2)[\vec{a},\vec{\beta},\vec{\gamma}] = -1\qquad (3)[\vec{a},\vec{\beta},\vec{\gamma}] = 0\qquad (4)[\vec{a},\vec{\beta},\vec{\gamma}] = 2
 
-3. If {{< katex >}}\vec{a}\cdot \vec{b} = \vec{b}\cdot \vec{c} = \vec{c}\cdot \vec{a} = 0{{< /katex >}} , then the value of {{< katex >}}[\vec{a},\vec{b},\vec{c}]{{< /katex >}} is
+3. If  \vec{a}\cdot \vec{b} = \vec{b}\cdot \vec{c} = \vec{c}\cdot \vec{a} = 0 , then the value of  [\vec{a},\vec{b},\vec{c}] is
 
-   {{< katex >}}(1)|\vec{a}||\vec{b}||\vec{c}|\qquad (2)\frac{1}{3} |\vec{a}||\vec{b}||\vec{c}|\qquad (3)1 \quad (4) -1{{< /katex >}}
+    (1)|\vec{a}||\vec{b}||\vec{c}|\qquad (2)\frac{1}{3} |\vec{a}||\vec{b}||\vec{c}|\qquad (3)1 \quad (4) -1
 
-4. If {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} are three unit vectors such that {{< katex >}}\vec{a}{{< /katex >}} is perpendicular to {{< katex >}}\vec{b}{{< /katex >}} , and is parallel to {{< katex >}}\vec{c}{{< /katex >}} then {{< katex >}}\vec{a}\times (\vec{b}\times \vec{c}){{< /katex >}} is equal to
+4. If  \vec{a},\vec{b},\vec{c} are three unit vectors such that  \vec{a} is perpendicular to  \vec{b} , and is parallel to  \vec{c} then  \vec{a}\times (\vec{b}\times \vec{c}) is equal to
 
-   {{< katex >}}(1)\vec{a}\qquad (2)\vec{b}\qquad (3)\vec{c}\qquad (4)\vec{0}{{< /katex >}}
+    (1)\vec{a}\qquad (2)\vec{b}\qquad (3)\vec{c}\qquad (4)\vec{0}
 
-5. If {{< katex >}}[\vec{a},\vec{b},\vec{c}] = 1{{< /katex >}} , then the value of {{< katex >}}\frac{\vec{a}\cdot(\vec{b}\times\vec{c})}{(\vec{c}\times\vec{a})\cdot\vec{b}} +\frac{\vec{b}\cdot(\vec{c}\times\vec{a})}{(\vec{a}\times\vec{b})\cdot\vec{c}} +\frac{\vec{c}\cdot(\vec{a}\times\vec{b})}{(\vec{c}\times\vec{b})\cdot\vec{a}}{{< /katex >}} is
+5. If  [\vec{a},\vec{b},\vec{c}] = 1 , then the value of  \frac{\vec{a}\cdot(\vec{b}\times\vec{c})}{(\vec{c}\times\vec{a})\cdot\vec{b}} +\frac{\vec{b}\cdot(\vec{c}\times\vec{a})}{(\vec{a}\times\vec{b})\cdot\vec{c}} +\frac{\vec{c}\cdot(\vec{a}\times\vec{b})}{(\vec{c}\times\vec{b})\cdot\vec{a}} is
 
    (1) 1
    (2) -1
    (3) 2
    (4) 3
 
-6. The volume of the parallelepiped with its edges represented by the vectors {{< katex >}}\vec{i} +\vec{j}{{< /katex >}} , {{< katex >}}\vec{i} +2\vec{j}{{< /katex >}} , {{< katex >}}\vec{i} +\vec{j} +\pi \vec{k}{{< /katex >}} is
+6. The volume of the parallelepiped with its edges represented by the vectors  \vec{i} +\vec{j} ,  \vec{i} +2\vec{j} ,  \vec{i} +\vec{j} +\pi \vec{k} is
 
-   {{< katex >}}(1)\frac{\pi}{2}\qquad (2)\frac{\pi}{3}\qquad (3)\pi \qquad (4)\frac{\pi}{4}{{< /katex >}}
+    (1)\frac{\pi}{2}\qquad (2)\frac{\pi}{3}\qquad (3)\pi \qquad (4)\frac{\pi}{4}
 
-7. If {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} are unit vectors such that {{< katex >}}[\vec{a},\vec{b},\vec{a}\times \vec{b}] = \frac{1}{4}{{< /katex >}} , then the angle between {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} is
+7. If  \vec{a} and  \vec{b} are unit vectors such that  [\vec{a},\vec{b},\vec{a}\times \vec{b}] = \frac{1}{4} , then the angle between  \vec{a} and  \vec{b} is
 
-   {{< katex >}}(1)\frac{\pi}{6}\qquad (2)\frac{\pi}{4}\qquad (3)\frac{\pi}{3}\qquad (4)\frac{\pi}{2}{{< /katex >}}
+    (1)\frac{\pi}{6}\qquad (2)\frac{\pi}{4}\qquad (3)\frac{\pi}{3}\qquad (4)\frac{\pi}{2}
 
-8. If {{< katex >}}\vec{a} = \hat{i} +\hat{j} +\hat{k}{{< /katex >}} , {{< katex >}}\vec{b} = \hat{i} +\hat{j}{{< /katex >}} , {{< katex >}}\vec{c} = \hat{i}{{< /katex >}} and {{< katex >}}(\vec{a}\times \vec{b})\times \vec{c} = \lambda \vec{a} +\mu \vec{b}{{< /katex >}} , then the value of {{< katex >}}\lambda +\mu{{< /katex >}} is
+8. If  \vec{a} = \hat{i} +\hat{j} +\hat{k} ,  \vec{b} = \hat{i} +\hat{j} ,  \vec{c} = \hat{i} and  (\vec{a}\times \vec{b})\times \vec{c} = \lambda \vec{a} +\mu \vec{b} , then the value of  \lambda +\mu is
 
    (1) 0
    (2) 1
    (3) 6
    (4) 3
 
-9. If {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} are non-coplanar, non-zero vectors such that {{< katex >}}[\vec{a},\vec{b},\vec{c} ] = 3{{< /katex >}} , then {{< katex >}}[\vec{a}\times \vec{b},\vec{b}\times \vec{c},\vec{c}\times \vec{a} ]^{2}{{< /katex >}} is equal to
+9. If  \vec{a},\vec{b},\vec{c} are non-coplanar, non-zero vectors such that  [\vec{a},\vec{b},\vec{c} ] = 3 , then  [\vec{a}\times \vec{b},\vec{b}\times \vec{c},\vec{c}\times \vec{a} ]^{2} is equal to
 
    (1) 81
    (2) 9
    (3) 27
    (4) 18
 
-10. If {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} are three non-coplanar unit vectors such that {{< katex >}}\vec{a}\times (\vec{b}\times \vec{c}) = \frac{\vec{b} + \vec{c}}{\sqrt{2}}{{< /katex >}} , then the angle between {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} is
+10. If  \vec{a},\vec{b},\vec{c} are three non-coplanar unit vectors such that  \vec{a}\times (\vec{b}\times \vec{c}) = \frac{\vec{b} + \vec{c}}{\sqrt{2}} , then the angle between  \vec{a} and  \vec{b} is
 
-    (1) {{< katex >}}\frac{\pi}{2}{{< /katex >}} (2) {{< katex >}}\frac{3\pi}{4}{{< /katex >}} (3) {{< katex >}}\frac{\pi}{4}{{< /katex >}} (4) {{< katex >}}\pi{{< /katex >}}
+    (1)  \frac{\pi}{2} (2)  \frac{3\pi}{4} (3)  \frac{\pi}{4} (4)  \pi
 
-11. If the volume of the parallelepiped with {{< katex >}}\vec{a}\times \vec{b}{{< /katex >}}, {{< katex >}}\vec{b}\times \vec{c}{{< /katex >}}, {{< katex >}}\vec{c}\times \vec{a}{{< /katex >}} as coterminous edges is 8 cubic units, then the volume of the parallelepiped with {{< katex >}}(\vec{a}\times \vec{b})\times (\vec{b}\times \vec{c}),(\vec{b}\times \vec{c})\times (\vec{c}\times \vec{a}){{< /katex >}} and {{< katex >}}(\vec{c}\times \vec{a})\times (\vec{a}\times \vec{b}){{< /katex >}} as coterminous edges is,
+11. If the volume of the parallelepiped with  \vec{a}\times \vec{b},  \vec{b}\times \vec{c},  \vec{c}\times \vec{a} as coterminous edges is 8 cubic units, then the volume of the parallelepiped with  (\vec{a}\times \vec{b})\times (\vec{b}\times \vec{c}),(\vec{b}\times \vec{c})\times (\vec{c}\times \vec{a}) and  (\vec{c}\times \vec{a})\times (\vec{a}\times \vec{b}) as coterminous edges is,
 
     (1) 8 cubic units
     (2) 512 cubic units
     (3) 64 cubic units
     (4) 24 cubic units
 
-12. Consider the vectors {{< katex >}}\vec{a},\vec{b},\vec{c},\vec{d}{{< /katex >}} such that {{< katex >}}(\vec{a}\times \vec{b})\times (\vec{c}\times \vec{d}) = \vec{0}{{< /katex >}} . Let {{< katex >}}P_{1}{{< /katex >}} and {{< katex >}}P_{2}{{< /katex >}} be the planes determined by the pairs of vectors {{< katex >}}\vec{a},\vec{b}{{< /katex >}} and {{< katex >}}\vec{c},\vec{d}{{< /katex >}} respectively. Then the angle between {{< katex >}}P_{1}{{< /katex >}} and {{< katex >}}P_{2}{{< /katex >}} is
+12. Consider the vectors  \vec{a},\vec{b},\vec{c},\vec{d} such that  (\vec{a}\times \vec{b})\times (\vec{c}\times \vec{d}) = \vec{0} . Let  P_{1} and  P_{2} be the planes determined by the pairs of vectors  \vec{a},\vec{b} and  \vec{c},\vec{d} respectively. Then the angle between  P_{1} and  P_{2} is
 
-    (1) {{< katex >}}0^{\circ}{{< /katex >}} (2) {{< katex >}}45^{\circ}{{< /katex >}} (3) {{< katex >}}60^{\circ}{{< /katex >}} (4) {{< katex >}}90^{\circ}{{< /katex >}}
+    (1)  0^{\circ} (2)  45^{\circ} (3)  60^{\circ} (4)  90^{\circ}
 
-13. If {{< katex >}}\vec{a}\times (\vec{b}\times \vec{c}) = (\vec{a}\times \vec{b})\times \vec{c}{{< /katex >}} , where {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} are any three vectors such that {{< katex >}}\vec{b}\cdot \vec{c}\neq 0{{< /katex >}} and {{< katex >}}\vec{a}\cdot \vec{b}\neq 0{{< /katex >}} then {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}} are
+13. If  \vec{a}\times (\vec{b}\times \vec{c}) = (\vec{a}\times \vec{b})\times \vec{c} , where  \vec{a},\vec{b},\vec{c} are any three vectors such that  \vec{b}\cdot \vec{c}\neq 0 and  \vec{a}\cdot \vec{b}\neq 0 then  \vec{a} and  \vec{c} are
 
     (1) perpendicular
     (2) parallel
-    (3) inclined at an angle {{< katex >}}\frac{\pi}{3}{{< /katex >}}
-    (4) inclined at an angle {{< katex >}}\frac{\pi}{6}{{< /katex >}}
+    (3) inclined at an angle  \frac{\pi}{3}
+    (4) inclined at an angle  \frac{\pi}{6}
 
-14. If {{< katex >}}\vec{a} = 2\hat{i} +3\hat{j} -\hat{k}{{< /katex >}}, {{< katex >}}\vec{b} = \hat{i} +2\hat{j} -5\hat{k}{{< /katex >}}, {{< katex >}}\vec{c} = 3\hat{i} +5\hat{j} -\hat{k}{{< /katex >}}, then a vector perpendicular to {{< katex >}}\vec{a}{{< /katex >}} and lies in the plane containing {{< katex >}}\vec{b}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}} is
+14. If  \vec{a} = 2\hat{i} +3\hat{j} -\hat{k},  \vec{b} = \hat{i} +2\hat{j} -5\hat{k},  \vec{c} = 3\hat{i} +5\hat{j} -\hat{k}, then a vector perpendicular to  \vec{a} and lies in the plane containing  \vec{b} and  \vec{c} is
 
-    {{< katex >}}(1) -17\hat{i} +21\hat{j} -97\hat{k}{{< /katex >}} {{< katex >}}(3) -17\hat{i} -21\hat{j} +97\hat{k}{{< /katex >}}
+     (1) -17\hat{i} +21\hat{j} -97\hat{k}  (3) -17\hat{i} -21\hat{j} +97\hat{k}
 
-15. The angle between the lines {{< katex >}}\frac{x - 2}{3} = \frac{y + 1}{-2},z = 2{{< /katex >}} and {{< katex >}}\frac{x - 1}{1} = \frac{2y + 3}{3} = \frac{z + 5}{2}{{< /katex >}} is
+15. The angle between the lines  \frac{x - 2}{3} = \frac{y + 1}{-2},z = 2 and  \frac{x - 1}{1} = \frac{2y + 3}{3} = \frac{z + 5}{2} is
 
-    (1) {{< katex >}}\frac{\pi}{6}{{< /katex >}} (2) {{< katex >}}\frac{\pi}{4}{{< /katex >}} (3) {{< katex >}}\frac{\pi}{3}{{< /katex >}} (4) {{< katex >}}\frac{\pi}{2}{{< /katex >}}
+    (1)  \frac{\pi}{6} (2)  \frac{\pi}{4} (3)  \frac{\pi}{3} (4)  \frac{\pi}{2}
 
-16. If the line {{< katex >}}\frac{x - 2}{3} = \frac{y - 1}{-5} = \frac{z + 2}{2}{{< /katex >}} lies in the plane {{< katex >}}x + 3y - \alpha z + \beta = 0{{< /katex >}} , then {{< katex >}}(\alpha ,\beta){{< /katex >}} is
-    (1) {{< katex >}}(-5,5){{< /katex >}} (2) {{< katex >}}(-6,7){{< /katex >}} (3) {{< katex >}}(5, -5){{< /katex >}} (4) {{< katex >}}(6, -7){{< /katex >}}
+16. If the line  \frac{x - 2}{3} = \frac{y - 1}{-5} = \frac{z + 2}{2} lies in the plane  x + 3y - \alpha z + \beta = 0 , then  (\alpha ,\beta) is
+    (1)  (-5,5) (2)  (-6,7) (3)  (5, -5) (4)  (6, -7)
 
-17. The angle between the line {{< katex >}}\vec{r} = (\hat{i} +2\hat{j} -3\hat{k}) + t(2\hat{i} +\hat{j} -2\hat{k}){{< /katex >}} and the plane {{< katex >}}\vec{r}\cdot (\hat{i} +\hat{j}) + 4 = 0{{< /katex >}} is
+17. The angle between the line  \vec{r} = (\hat{i} +2\hat{j} -3\hat{k}) + t(2\hat{i} +\hat{j} -2\hat{k}) and the plane  \vec{r}\cdot (\hat{i} +\hat{j}) + 4 = 0 is
 
-    (1) {{< katex >}}0^{\circ}{{< /katex >}} (2) {{< katex >}}30^{\circ}{{< /katex >}} (3) {{< katex >}}45^{\circ}{{< /katex >}} (4) {{< katex >}}90^{\circ}{{< /katex >}}
+    (1)  0^{\circ} (2)  30^{\circ} (3)  45^{\circ} (4)  90^{\circ}
 
-18. The coordinates of the point where the line {{< katex >}}\vec{r} = (6\hat{i} -\hat{j} -3\hat{k}) + t(-\hat{i} +4\hat{k}){{< /katex >}} meets the plane {{< katex >}}\vec{r}.(\hat{i} +\hat{j} -\hat{k}) = 3{{< /katex >}} are
+18. The coordinates of the point where the line  \vec{r} = (6\hat{i} -\hat{j} -3\hat{k}) + t(-\hat{i} +4\hat{k}) meets the plane  \vec{r}.(\hat{i} +\hat{j} -\hat{k}) = 3 are
 
-    {{< katex >}}(1) (2,1,0) \qquad (2) (7, -1, -7) \qquad (3) (1,2, -6) \qquad (4) (5, -1,1){{< /katex >}}
+     (1) (2,1,0) \qquad (2) (7, -1, -7) \qquad (3) (1,2, -6) \qquad (4) (5, -1,1)
 
-19. Distance from the origin to the plane {{< katex >}}3x - 6y + 2z + 7 = 0{{< /katex >}} is
+19. Distance from the origin to the plane  3x - 6y + 2z + 7 = 0 is
 
     (1) 0
     (2) 1
     (3) 2
     (4) 3
 
-20. The distance between the planes {{< katex >}}x + 2y + 3z + 7 = 0{{< /katex >}} and {{< katex >}}2x + 4y + 6z + 7 = 0{{< /katex >}} is
+20. The distance between the planes  x + 2y + 3z + 7 = 0 and  2x + 4y + 6z + 7 = 0 is
 
-    (1) {{< katex >}}\frac{\sqrt{7}}{2\sqrt{2}}{{< /katex >}} (2) {{< katex >}}\frac{7}{2}{{< /katex >}} (3) {{< katex >}}\frac{\sqrt{7}}{2}{{< /katex >}} (4) {{< katex >}}\frac{7}{2\sqrt{2}}{{< /katex >}}
+    (1)  \frac{\sqrt{7}}{2\sqrt{2}} (2)  \frac{7}{2} (3)  \frac{\sqrt{7}}{2} (4)  \frac{7}{2\sqrt{2}}
 
-21. If the direction cosines of a line are {{< katex >}}\frac{1}{c}, \frac{1}{c}, \frac{1}{c}{{< /katex >}} , then
+21. If the direction cosines of a line are  \frac{1}{c}, \frac{1}{c}, \frac{1}{c} , then
 
-    (1) {{< katex >}}c = \pm 3{{< /katex >}} (2) {{< katex >}}c = \pm \sqrt{3}{{< /katex >}} (3) {{< katex >}}c > 0{{< /katex >}} (4) {{< katex >}}0< c< 1{{< /katex >}}
+    (1)  c = \pm 3 (2)  c = \pm \sqrt{3} (3)  c > 0 (4)  0< c< 1
 
-22. The vector equation {{< katex >}}\vec{r} = (\hat{i} -2\hat{j} -\hat{k}) + t(6\hat{j} -\hat{k}){{< /katex >}} represents a straight line passing through the points
+22. The vector equation  \vec{r} = (\hat{i} -2\hat{j} -\hat{k}) + t(6\hat{j} -\hat{k}) represents a straight line passing through the points
 
-    (1) {{< katex >}}(0,6, -1){{< /katex >}} and {{< katex >}}(1, -2, -1){{< /katex >}}
-    (2) {{< katex >}}(0,6, -1){{< /katex >}} and {{< katex >}}(-1, -4, -2){{< /katex >}}
-    (3) {{< katex >}}(1, -2, -1){{< /katex >}} and {{< katex >}}(1,4, -2){{< /katex >}}
-    (4) {{< katex >}}(1, -2, -1){{< /katex >}} and {{< katex >}}(0, -6,1){{< /katex >}}
+    (1)  (0,6, -1) and  (1, -2, -1)
+    (2)  (0,6, -1) and  (-1, -4, -2)
+    (3)  (1, -2, -1) and  (1,4, -2)
+    (4)  (1, -2, -1) and  (0, -6,1)
 
-23. If the distance of the point {{< katex >}}(1,1,1){{< /katex >}} from the origin is half of its distance from the plane {{< katex >}}x + y + z + k = 0{{< /katex >}} , then the values of {{< katex >}}k{{< /katex >}} are
+23. If the distance of the point  (1,1,1) from the origin is half of its distance from the plane  x + y + z + k = 0 , then the values of  k are
 
-    (1) {{< katex >}}\pm 3{{< /katex >}} (2) {{< katex >}}\pm 6{{< /katex >}} (3) {{< katex >}}-3,9{{< /katex >}} (4) {{< katex >}}3, -9{{< /katex >}}
+    (1)  \pm 3 (2)  \pm 6 (3)  -3,9 (4)  3, -9
 
-24. If the planes {{< katex >}}\vec{r}.(2\hat{i} -\lambda \hat{j} +\hat{k}) = 3{{< /katex >}} and {{< katex >}}\vec{r}.(4\hat{i} +\hat{j} -\mu \hat{k}) = 5{{< /katex >}} are parallel, then the value of {{< katex >}}\lambda{{< /katex >}} and {{< katex >}}\mu{{< /katex >}} are
+24. If the planes  \vec{r}.(2\hat{i} -\lambda \hat{j} +\hat{k}) = 3 and  \vec{r}.(4\hat{i} +\hat{j} -\mu \hat{k}) = 5 are parallel, then the value of  \lambda and  \mu are
 
-    (1) {{< katex >}}\frac{1}{2}, -2{{< /katex >}} (2) {{< katex >}}-\frac{1}{2},2{{< /katex >}} (3) {{< katex >}}-\frac{1}{2}, -2{{< /katex >}} (4) {{< katex >}}\frac{1}{2},2{{< /katex >}}
+    (1)  \frac{1}{2}, -2 (2)  -\frac{1}{2},2 (3)  -\frac{1}{2}, -2 (4)  \frac{1}{2},2
 
-25. If the length of the perpendicular from the origin to the plane {{< katex >}}2x + 3y + \lambda z = 1{{< /katex >}} , {{< katex >}}\lambda > 0{{< /katex >}} is {{< katex >}}\frac{1}{5}{{< /katex >}} , then the value of {{< katex >}}\lambda{{< /katex >}} is
+25. If the length of the perpendicular from the origin to the plane  2x + 3y + \lambda z = 1 ,  \lambda > 0 is  \frac{1}{5} , then the value of  \lambda is
 
-    (1) {{< katex >}}2\sqrt{3}{{< /katex >}} (2) {{< katex >}}3\sqrt{2}{{< /katex >}} (3) 0 (4) 1
+    (1)  2\sqrt{3} (2)  3\sqrt{2} (3) 0 (4) 1
 
 ---
 
@@ -2777,35 +2777,35 @@ Choose the correct or the most suitable answer from the given four alternatives:
 
 ---
 
-1. For a given set of three vectors {{< katex >}}\vec{a},\vec{b}{{< /katex >}} and {{< katex >}}\vec{c}{{< /katex >}} , the scalar {{< katex >}}(\vec{a}\times \vec{b})\cdot \vec{c}{{< /katex >}} is called a scalar triple product of {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} .
+1. For a given set of three vectors  \vec{a},\vec{b} and  \vec{c} , the scalar  (\vec{a}\times \vec{b})\cdot \vec{c} is called a scalar triple product of  \vec{a},\vec{b},\vec{c} .
 
-2. The volume of the parallelepiped formed by using the three vectors {{< katex >}}\vec{a},\vec{b}{{< /katex >}} , and {{< katex >}}\vec{c}{{< /katex >}} as co-terminus edges is given by {{< katex >}}\left|(\vec{a}\times \vec{b})\cdot \vec{c}\right|{{< /katex >}} .
+2. The volume of the parallelepiped formed by using the three vectors  \vec{a},\vec{b} , and  \vec{c} as co-terminus edges is given by  \left|(\vec{a}\times \vec{b})\cdot \vec{c}\right| .
 
 3. The scalar triple product of three non-zero vectors is zero if and only if the three vectors are coplanar.
 
-4. Three vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} are coplanar, if, and only if there exist scalars {{< katex >}}r,s,t\in \mathbb{R}{{< /katex >}} such that atleast one of them is non-zero and {{< katex >}}r\vec{a} +s\vec{b} +t\vec{c} = \vec{0}{{< /katex >}} .
+4. Three vectors  \vec{a},\vec{b},\vec{c} are coplanar, if, and only if there exist scalars  r,s,t\in \mathbb{R} such that atleast one of them is non-zero and  r\vec{a} +s\vec{b} +t\vec{c} = \vec{0} .
 
-5. If {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} and {{< katex >}}\vec{p},\vec{q},\vec{r}{{< /katex >}} are any two systems of three vectors, and if {{< katex >}}\vec{p} = x_{1}\vec{a} +y_{1}\vec{b} +z_{1}\vec{c}{{< /katex >}}
+5. If  \vec{a},\vec{b},\vec{c} and  \vec{p},\vec{q},\vec{r} are any two systems of three vectors, and if  \vec{p} = x_{1}\vec{a} +y_{1}\vec{b} +z_{1}\vec{c}
 
-6. For a given set of three vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} , the vector {{< katex >}}\vec{a}\times (\vec{b}\times \vec{c}){{< /katex >}} is called vector triple product.
+6. For a given set of three vectors  \vec{a},\vec{b},\vec{c} , the vector  \vec{a}\times (\vec{b}\times \vec{c}) is called vector triple product.
 
-7. For any three vectors {{< katex >}}\vec{a},\vec{b},\vec{c}{{< /katex >}} we have {{< katex >}}\vec{a}\times (\vec{b}\times \vec{c}) = (\vec{a}\cdot \vec{c})\vec{b} -(\vec{a}\cdot \vec{b})\vec{c}{{< /katex >}} .
+7. For any three vectors  \vec{a},\vec{b},\vec{c} we have  \vec{a}\times (\vec{b}\times \vec{c}) = (\vec{a}\cdot \vec{c})\vec{b} -(\vec{a}\cdot \vec{b})\vec{c} .
 
-8. Parametric form of the vector equation of a straight line that passes through a given point with position vector {{< katex >}}\vec{a}{{< /katex >}} and parallel to a given vector {{< katex >}}\vec{b}{{< /katex >}} is {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}} , where {{< katex >}}t\in \mathbb{R}{{< /katex >}} .
+8. Parametric form of the vector equation of a straight line that passes through a given point with position vector  \vec{a} and parallel to a given vector  \vec{b} is  \vec{r} = \vec{a} +t\vec{b} , where  t\in \mathbb{R} .
 
-9. Cartesian equations of a straight line that passes through the point {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}} and parallel to a vector with direction ratios {{< katex >}}b_{1},b_{2},b_{3}{{< /katex >}} are {{< katex >}}\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}{{< /katex >}} .
+9. Cartesian equations of a straight line that passes through the point  (x_{1},y_{1},z_{1}) and parallel to a vector with direction ratios  b_{1},b_{2},b_{3} are  \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} .
 
-10. Any point on the line {{< katex >}}\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}{{< /katex >}} is of the form {{< katex >}}(x_{1} + t b_{1},y_{1} + t b_{2},z_{1} + t b_{3}),t\in \mathbb{R}{{< /katex >}} .
+10. Any point on the line  \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} is of the form  (x_{1} + t b_{1},y_{1} + t b_{2},z_{1} + t b_{3}),t\in \mathbb{R} .
 
-11. Parametric form of vector equation of a straight line that passes through two given points with position vectors {{< katex >}}\vec{a}{{< /katex >}} and {{< katex >}}\vec{b}{{< /katex >}} is {{< katex >}}\vec{r} = \vec{a} +t(\vec{b} - \vec{a}),t\in \mathbb{R}{{< /katex >}} .
+11. Parametric form of vector equation of a straight line that passes through two given points with position vectors  \vec{a} and  \vec{b} is  \vec{r} = \vec{a} +t(\vec{b} - \vec{a}),t\in \mathbb{R} .
 
-12. Cartesian equations of a line that passes through two given points {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}} and {{< katex >}}(x_{2},y_{2},z_{2}){{< /katex >}} are {{< katex >}}\frac{x - x_{1}}{x_{2} - x_{1}} = \frac{y - y_{1}}{y_{2} - y_{1}} = \frac{z - z_{1}}{z_{2} - z_{1}}{{< /katex >}} .
+12. Cartesian equations of a line that passes through two given points  (x_{1},y_{1},z_{1}) and  (x_{2},y_{2},z_{2}) are  \frac{x - x_{1}}{x_{2} - x_{1}} = \frac{y - y_{1}}{y_{2} - y_{1}} = \frac{z - z_{1}}{z_{2} - z_{1}} .
 
-13. If {{< katex >}}\theta{{< /katex >}} is the acute angle between two straight lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} , then
+13. If  \theta is the acute angle between two straight lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} , then
 
-    {{< katex display=true >}}
+    
     \cos \theta = \left| \frac{\vec{b} \cdot \vec{d}}{|\vec{b}| |\vec{d}|} \right|
-    {{< /katex >}}
+    
 
 14. Two lines are said to be coplanar if they lie in the same plane.
 
@@ -2813,93 +2813,93 @@ Choose the correct or the most suitable answer from the given four alternatives:
 
 16. The shortest distance between the two skew lines is the length of the line segment perpendicular to both the skew lines.
 
-17. The shortest distance between the two skew lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} is
+17. The shortest distance between the two skew lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} is
 
-    {{< katex display=true >}}
+    
     \delta = \frac{\left|(\vec{c} - \vec{a})\cdot(\vec{b}\times \vec{d})\right|}{\left|\vec{b}\times \vec{d}\right|},\mathrm{~where~}\left|\vec{b}\times \vec{d}\right|\neq 0.
-    {{< /katex >}}
+    
 
-18. Two straight lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} intersect each other if {{< katex >}}\left(\vec{c} -\vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}}
+18. Two straight lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} intersect each other if  \left(\vec{c} -\vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0
 
-19. The shortest distance between the two parallel lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{b}{{< /katex >}} is {{< katex >}}d = \frac{\left|\left(\vec{c} - \vec{a}\right)\times\vec{b}\right|}{\left|\vec{b}\right|}{{< /katex >}}} where {{< katex >}}|\vec{b}|\neq 0{{< /katex >}}
+19. The shortest distance between the two parallel lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{b} is  d = \frac{\left|\left(\vec{c} - \vec{a}\right)\times\vec{b}\right|}{\left|\vec{b}\right|}} where  |\vec{b}|\neq 0
 
-20. If two lines {{< katex >}}\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}{{< /katex >}} and {{< katex >}}\frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}}{{< /katex >}} intersect, then
+20. If two lines  \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} and  \frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}} intersect, then
 
-    {{< katex display=true >}}
+    
     \begin{vmatrix} x_2 - x_1 & y_2 - y_1 & z_2 - z_1 \\ b_1 & b_2 & b_3 \\ d_1 & d_2 & d_3 \end{vmatrix} = 0
-    {{< /katex >}}
+    
 
 21. A straight line which is perpendicular to a plane is called a normal to the plane.
 
-22. The equation of the plane at a distance {{< katex >}}p{{< /katex >}} from the origin and perpendicular to the unit normal vector {{< katex >}}\vec{d}{{< /katex >}} is {{< katex >}}\vec{r}\cdot \vec{d} = p{{< /katex >}} (normal form)
+22. The equation of the plane at a distance  p from the origin and perpendicular to the unit normal vector  \vec{d} is  \vec{r}\cdot \vec{d} = p (normal form)
 
-23. Cartesian equation of the plane in normal form is {{< katex >}}l x + m y + n z = p{{< /katex >}}
+23. Cartesian equation of the plane in normal form is  l x + m y + n z = p
 
-24. Vector form of the equation of a plane passing through a point with position vector {{< katex >}}\vec{a}{{< /katex >}} and perpendicular to {{< katex >}}\vec{n}{{< /katex >}} is {{< katex >}}(\vec{r} -\vec{a})\cdot \vec{n} = 0{{< /katex >}}
+24. Vector form of the equation of a plane passing through a point with position vector  \vec{a} and perpendicular to  \vec{n} is  (\vec{r} -\vec{a})\cdot \vec{n} = 0
 
-25. Cartesian equation of a plane normal to a vector with direction ratios {{< katex >}}a,b,c{{< /katex >}} and passing through a given point {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}} is {{< katex >}}a\left(x - x_{1}\right) + b\left(y - y_{1}\right) + c\left(z - z_{1}\right) = 0{{< /katex >}}
+25. Cartesian equation of a plane normal to a vector with direction ratios  a,b,c and passing through a given point  (x_{1},y_{1},z_{1}) is  a\left(x - x_{1}\right) + b\left(y - y_{1}\right) + c\left(z - z_{1}\right) = 0
 
-26. Intercept form of the equation of the plane {{< katex >}}\vec{r}\cdot \vec{n} = q{{< /katex >}} , having intercepts {{< katex >}}a,b,c{{< /katex >}} on the {{< katex >}}x,y,z{{< /katex >}} axes respectively is {{< katex >}}\frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1{{< /katex >}}
+26. Intercept form of the equation of the plane  \vec{r}\cdot \vec{n} = q , having intercepts  a,b,c on the  x,y,z axes respectively is  \frac{x}{a} +\frac{y}{b} +\frac{z}{c} = 1
 
-27. Parametric form of vector equation of the plane passing through three given non-collinear points is {{< katex >}}\vec{r} = \vec{a} +s\left(\vec{b} -\vec{a}\right) + t\left(\vec{c} -\vec{a}\right){{< /katex >}}
+27. Parametric form of vector equation of the plane passing through three given non-collinear points is  \vec{r} = \vec{a} +s\left(\vec{b} -\vec{a}\right) + t\left(\vec{c} -\vec{a}\right)
 
-28. Cartesian equation of the plane passing through three non-collinear points {{< katex >}}(x_1, y_1, z_1){{< /katex >}}, {{< katex >}}(x_2, y_2, z_2){{< /katex >}}, and {{< katex >}}(x_3, y_3, z_3){{< /katex >}} is
+28. Cartesian equation of the plane passing through three non-collinear points  (x_1, y_1, z_1),  (x_2, y_2, z_2), and  (x_3, y_3, z_3) is
 
-    {{< katex display=true >}}
+    
     \begin{vmatrix} x - x_1 & y - y_1 & z - z_1 \\ x_2 - x_1 & y_2 - y_1 & z_2 - z_1 \\ x_3 - x_1 & y_3 - y_1 & z_3 - z_1 \end{vmatrix} = 0
-    {{< /katex >}}
+    
 
 29. A straight will lie on a plane if every point on the line, lie in the plane and the normal to the plane is perpendicular to the line.
 
-30. The two given non-parallel lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} are coplanar if {{< katex >}}\left(\vec{c} -\vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}}
+30. The two given non-parallel lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} are coplanar if  \left(\vec{c} -\vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0
 
-31. Two lines {{< katex >}}\frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}}{{< /katex >}} and {{< katex >}}\frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}}{{< /katex >}} are coplanar if
+31. Two lines  \frac{x - x_{1}}{b_{1}} = \frac{y - y_{1}}{b_{2}} = \frac{z - z_{1}}{b_{3}} and  \frac{x - x_{2}}{d_{1}} = \frac{y - y_{2}}{d_{2}} = \frac{z - z_{2}}{d_{3}} are coplanar if
 
-    {{< katex display=true >}}
+    
     \begin{vmatrix} x_2 - x_1 & y_2 - y_1 & z_2 - z_1 \\ b_1 & b_2 & b_3 \\ d_1 & d_2 & d_3 \end{vmatrix} = 0
-    {{< /katex >}}
+    
 
-32. Non-parametric form of vector equation of the plane containing the two coplanar lines {{< katex >}}\vec{r} = \vec{a} +s\vec{b}{{< /katex >}} and {{< katex >}}\vec{r} = \vec{c} +t\vec{d}{{< /katex >}} is {{< katex >}}\left(\vec{r} -\vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}} or {{< katex >}}\left(\vec{r} -\vec{c}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0{{< /katex >}}
+32. Non-parametric form of vector equation of the plane containing the two coplanar lines  \vec{r} = \vec{a} +s\vec{b} and  \vec{r} = \vec{c} +t\vec{d} is  \left(\vec{r} -\vec{a}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0 or  \left(\vec{r} -\vec{c}\right)\cdot \left(\vec{b}\times \vec{d}\right) = 0
 
-33. The acute angle {{< katex >}}\theta{{< /katex >}} between the two planes {{< katex >}}\vec{r}\cdot \vec{n}_{1} = p_{1}{{< /katex >}} and {{< katex >}}\vec{r}\cdot \vec{n}_{2} = p_{2}{{< /katex >}} is {{< katex >}}\theta = \cos^{-1}\left(\frac{|\vec{n}_{1}\cdot \vec{n}_{2}|}{|\vec{n}_1||\vec{n}_2|}\right){{< /katex >}}
+33. The acute angle  \theta between the two planes  \vec{r}\cdot \vec{n}_{1} = p_{1} and  \vec{r}\cdot \vec{n}_{2} = p_{2} is  \theta = \cos^{-1}\left(\frac{|\vec{n}_{1}\cdot \vec{n}_{2}|}{|\vec{n}_1||\vec{n}_2|}\right)
 
-34. If {{< katex >}}\theta{{< /katex >}} is the acute angle between the line {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}} and the plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} , then {{< katex >}}\theta = \sin^{-1}\left(\frac{|\vec{b}\cdot\vec{n}|}{|\vec{b}||\vec{n}|}\right){{< /katex >}}
+34. If  \theta is the acute angle between the line  \vec{r} = \vec{a} +t\vec{b} and the plane  \vec{r}\cdot \vec{n} = p , then  \theta = \sin^{-1}\left(\frac{|\vec{b}\cdot\vec{n}|}{|\vec{b}||\vec{n}|}\right)
 
-35. The perpendicular distance from a point with position vector {{< katex >}}\vec{u}{{< /katex >}} to the plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} is given by
+35. The perpendicular distance from a point with position vector  \vec{u} to the plane  \vec{r}\cdot \vec{n} = p is given by
 
-    {{< katex display=true >}}
+    
     \delta = \frac{|\vec{u}\cdot\vec{n} - p|}{|\vec{n}|}
-    {{< /katex >}}
+    
 
-36. The perpendicular distance from a point {{< katex >}}(x_{1},y_{1},z_{1}){{< /katex >}} to the plane {{< katex >}}ax + by + cz = p{{< /katex >}} is
+36. The perpendicular distance from a point  (x_{1},y_{1},z_{1}) to the plane  ax + by + cz = p is
 
-    {{< katex display=true >}}
+    
     \delta = \frac{|ax_{1} + by_{1} + cz_{1} - p|}{\sqrt{a^{2} + b^{2} + c^{2}}}.
-    {{< /katex >}}
+    
 
-37. The perpendicular distance from the origin to the plane {{< katex >}}ax + by + cz + d = 0{{< /katex >}} is given by
+37. The perpendicular distance from the origin to the plane  ax + by + cz + d = 0 is given by
 
-    {{< katex display=true >}}
+    
     \delta = \frac{|d|}{\sqrt{a^{2} + b^{2} + c^{2}}}
-    {{< /katex >}}
+    
 
-38. The distance between two parallel planes {{< katex >}}ax + by + cz + d_{1} = 0{{< /katex >}} and {{< katex >}}ax + by + cz + d_{2} = 0{{< /katex >}} is given by {{< katex >}}\frac{|d_{1} - d_{2}|}{\sqrt{a^{2} + b^{2} + c^{2}}}{{< /katex >}}.
+38. The distance between two parallel planes  ax + by + cz + d_{1} = 0 and  ax + by + cz + d_{2} = 0 is given by  \frac{|d_{1} - d_{2}|}{\sqrt{a^{2} + b^{2} + c^{2}}}.
 
-39. The vector equation of a plane which passes through the line of intersection of the planes {{< katex >}}\vec{r}\cdot \vec{n}_{1} = d_{1}{{< /katex >}} and {{< katex >}}\vec{r}\cdot \vec{n}_{2} = d_{2}{{< /katex >}} is given by {{< katex >}}(\vec{r}\cdot \vec{n}_{1} - d_{1}) + \lambda (\vec{r}\cdot \vec{n}_{2} - d_{2}) = 0{{< /katex >}} , where {{< katex >}}\lambda \in \mathbb{R}{{< /katex >}} is an arbitrary constant.
+39. The vector equation of a plane which passes through the line of intersection of the planes  \vec{r}\cdot \vec{n}_{1} = d_{1} and  \vec{r}\cdot \vec{n}_{2} = d_{2} is given by  (\vec{r}\cdot \vec{n}_{1} - d_{1}) + \lambda (\vec{r}\cdot \vec{n}_{2} - d_{2}) = 0 , where  \lambda \in \mathbb{R} is an arbitrary constant.
 
-40. The equation of a plane passing through the line of intersection of the planes {{< katex >}}a_{1}x + b_{1}y + c_{1}z = d_{1}{{< /katex >}} and {{< katex >}}a_{2}x + b_{2}y + c_{2}z = d_{2}{{< /katex >}} is given by
+40. The equation of a plane passing through the line of intersection of the planes  a_{1}x + b_{1}y + c_{1}z = d_{1} and  a_{2}x + b_{2}y + c_{2}z = d_{2} is given by
 
-    {{< katex display=true >}}
+    
     (a_{1}x + b_{1}y + c_{1}z - d_{1}) + \lambda (a_{2}x + b_{2}y + c_{2}z - d_{2}) = 0
-    {{< /katex >}}
+    
 
-41. The position vector of the point of intersection of the line {{< katex >}}\vec{r} = \vec{a} +t\vec{b}{{< /katex >}} and the plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} is obtained by solving for {{< katex >}}t{{< /katex >}} from {{< katex >}}(\vec{a} + t\vec{b})\cdot \vec{n} = p{{< /katex >}}.
+41. The position vector of the point of intersection of the line  \vec{r} = \vec{a} +t\vec{b} and the plane  \vec{r}\cdot \vec{n} = p is obtained by solving for  t from  (\vec{a} + t\vec{b})\cdot \vec{n} = p.
 
-42. If {{< katex >}}\vec{v}{{< /katex >}} is the position vector of the image of {{< katex >}}\vec{u}{{< /katex >}} in the plane {{< katex >}}\vec{r}\cdot \vec{n} = p{{< /katex >}} , then
+42. If  \vec{v} is the position vector of the image of  \vec{u} in the plane  \vec{r}\cdot \vec{n} = p , then
 
-    {{< katex display=true >}}
+    
     \vec{v} = \vec{u} +\frac{2\left[p - \left(\vec{u}\cdot\vec{n}\right)\right]}{|\vec{n}|^{2}}\vec{n}.
-    {{< /katex >}}
+    
 
 ## ICT CORNER
 
