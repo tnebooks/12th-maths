@@ -41,7 +41,7 @@ The slope can be used as a measure to determine the increasing or decreasing nat
 
 <center>Fig.7.1 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.1: Diagram illustrating slope of a line*
 
 Slope or Gradient of a curve: Let  y = f(x) be a given curve. The slope of the line joining the two distinct points  (x,f(x)) and the point  (x + h,f(x + h)) is
@@ -64,7 +64,7 @@ If  \theta is the angle made by the tangent to the curve  y = f(x) at the point 
 
 <center>Fig.7.2 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.2: Tangent line to a curve*
 
 instantaneous rate of change. The average rate of change in an interval is calculated using Newton quotient.
@@ -259,7 +259,7 @@ Substituting  r = 7 and  \frac{dV}{dt} = 1000, we get  1000 = 4\pi \times 49\tim
 
 <center>Fig.7.4 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.4: Inflating spherical balloon*
 
 The surface area  S of the balloon is  S = 4\pi r^2. Therefore,  \frac{dS}{dt} = 8\pi \times r\times \frac{dr}{dt}.
@@ -318,7 +318,7 @@ V = \frac{1}{3}\pi r^2 h = \frac{1}{12}\pi h^3;\frac{dV}{dt} = 30\mathrm{m}^3 /\
 
 <center>Fig.7.5 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.5: Conical salt pile*
 
 ## Example 7.10 (Two variable related rate problem)
@@ -341,7 +341,7 @@ c^{\prime} = \frac{(10\times 80) + (15\times 100)}{\sqrt{10^{2} + 15^{2}}} = \fr
 
 <center>Fig.7.6 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.6: Two cars on perpendicular roads*
 
 at the time of interest.
@@ -404,7 +404,7 @@ The tangent and the normal of a curve at a point are illustrated in Fig. 7.7.
 
 <center>Fig.7.7 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.7: Tangent and normal lines to a curve*
 
 Consider the given curve  y = f(x).
@@ -453,7 +453,7 @@ Therefore, the required equation of normal is
 
 <center>Fig.7.8 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.8: Graph of  y = x^2 + 3x - 2 with tangent and normal at (1,2)*
 
 ## Example 7.12
@@ -496,7 +496,7 @@ That is,  x\cos 2t + y\sin 3t = 3\sin 2t\sin 3t + 2\cos 2t\cos 3t.
 
 <center>Fig.7.9 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.9: Lissajous curve*
 
 ### 7.2.5 Angle between two curves
@@ -611,7 +611,7 @@ At (1,1),  m_{1} = 2,  m_{2} = \frac{1}{2}
 
 <center>Fig.7.11 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.11: Intersection of  y=x^2 and  x=y^2*
 
 ## Example 7.16
@@ -769,7 +769,7 @@ Geometrically this means that if the tangent is moving along the curve starting 
 
 <center>Fig.7.12 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.12: Geometric interpretation of Rolle's Theorem*
 
 ## Example 7.19
@@ -921,7 +921,7 @@ f^{\prime}(c) = \frac{f(b) - f(a)}{b - a}\qquad \dots (6)
 
 <center>Fig.7.13 </center>
 
-![](https://placehold.co/600x400)
+
 *Figure 7.13: Geometric interpretation of Lagrange's Mean Value Theorem*
 
 ## Remark
@@ -1611,7 +1611,7 @@ We have,  f(x) = x^{\frac{2}{3}}, then  f^{\prime}(x) = \frac{2}{3} x^{-\frac{1}
 | Sign of  f^{\prime}(x) | - | + |
 | Monotonicity | strictly decreasing | strictly increasing |
 
-![](https://placehold.co/600x400)
+
 *Fig.7.21*
 
 Because  f^{\prime}(x) changes its sign from negative to positive when passing through  x = 0 for the function  f(x), it has a local minimum at  x = 0. The local minimum value is  f(0) = 0. Note that here the local minimum occurs at a critical point which is not a stationary point.
@@ -1708,7 +1708,7 @@ Therefore,  f(x) strictly increasing on  (-1, 1), strictly decreasing on  (-\inf
 
 Since  f^{\prime}(x) changes from negative to positive when passing through  x = - 1, the first derivative test tells us there is a local minimum at  x = - 1 and the local minimum value is  f(- 1) = -\frac{1}{2}. As  f^{\prime}(x) changes from positive to negative when passing through  x = 1, the first derivative test tells us there is a local maximum at  x = 1 and the local maximum value is  f(1) = \frac{1}{2}.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.22*
 
 **EXERCISE 7.6**
@@ -1724,7 +1724,7 @@ Since  f^{\prime}(x) changes from negative to positive when passing through  x =
    (ii)  f(x) = \frac{e^{x}}{1 - e^{x}}
    (iii)  f(x) = \sin x\cos x + 5, x\in (0,2\pi)
 
-![](https://placehold.co/600x400)
+
 
 ### 7.7 Applications of Second Derivative
 
@@ -1734,7 +1734,7 @@ Second derivative of a function is used to determine the concavity, convexity, t
 
 A graph is said to be concave down (convex up) at a point if the tangent line lies above the graph in the vicinity of the point. It is said to be concave up (convex down) at a point if the tangent line to the graph at that point lies below the graph in the vicinity of the point. This may be easily observed from the adjoining graph.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.23*
 
 **Definition 7.8**
@@ -1796,7 +1796,7 @@ Now,
 
 f^{\prime \prime}(x) = 0\Rightarrow x = 1,x = 3.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.24*
 
 | Interval |  (-\infty, 1) |  (1, 3) |  (3, \infty) |
@@ -1824,7 +1824,7 @@ The given function is a periodic function with period  2\pi and hence there will
 
 We now consider an interval,  (- \pi ,\pi) by splitting into two sub intervals  (- \pi ,0) and  (0,\pi)
 
-![](https://placehold.co/600x400)
+
 *Fig.7.25*
 
 In the interval  (- \pi ,0)  \frac{d^2y}{dx^2} >0 and hence the function is concave upward.
@@ -1864,7 +1864,7 @@ f^{\prime}(x) = 24x^{5} - 24x^{3} = 24x^{3}(x^{2} - 1) = 24x^{3}(x + 1)(x - 1)
 
  f^{\prime}(x) = 0\Rightarrow x = - 1,0,1. Hence the critical numbers are  x = - 1,0,1
 
-![](https://placehold.co/600x400)
+
 *Fig.7.26*
 
 \mathrm{Now}, f^{\prime \prime}(x) = 120x^{4} - 72x^{2} = 24x^{2}(5x^{2} - 3).
@@ -1947,7 +1947,7 @@ Now,
 
  \frac{dV}{dx} = 0 gives the stationary numbers  x = 2,6. Since  6\notin (0,6) the only stationary number is at  x = 2\in (0,6). Further,  \frac{dV}{dx} changes its sign from positive to negative when passing through  x = 2. Therefore at  x = 2 the volume  V is local maximum. The local maximum volume value is  V = 128 units. Hence the maximum cut can only be 2 units.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.27*
 
 **Example 7.60**
@@ -1963,7 +1963,7 @@ Substituting this, we get  \frac{dD}{dx} = 2(x - 1) + 2(y - 1)\left(-\frac{x}{y}
 = \frac{2[x y - y - x y + x]}{y}
 \frac{dD}{dx} = 2\left[\frac{x - y}{y}\right] = 0 \Rightarrow x = y
 
-![](https://placehold.co/600x400)
+
 *Fig.7.28*
 
 Since  (x,y) lie on the circle  x^{2} + y^{2} = 1, we get  2x^{2} = 1 which gives  x = \pm \frac{1}{\sqrt{2}}. Hence the points at which the extremum distance occur are,  \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right), \left(-\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right).
@@ -2048,7 +2048,7 @@ We have,  \lim_{x\to 0^{- }}\frac{1}{x} = -\infty and  \lim_{x\to 0^{+}}\frac{1}
 
 As the curve is symmetric with respect to both the axes,  y = 0 or the  x-axis is also an asymptote. Hence this (rectangular hyperbola) curve has both the vertical and horizontal asymptotes.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.32*
 
 **Example 7.64**
@@ -2065,7 +2065,7 @@ x + 5\Bigg|\frac{x - 11}{x^{2} - 6x + 7}
 
 Notice that we don't need to finish the long division problem to find the remainder. We only need the terms that will make up the equation of the line. The slant asymptote is  y = x - 11.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.33*
 
 As you can see in this graph of the function, the curve approaches the slant asymptote  y = x - 11 but never crosses it.
@@ -2084,7 +2084,7 @@ Therefore  x = - 4 and  x = 4 are vertical asymptotes.
 
 Therefore,  y = 2 is a horizontal asymptote. This can also be obtained by synthetic division.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.34*
 
 ### 7.10 Sketching of Curves
@@ -2118,7 +2118,7 @@ Factorising the given function, we have  y = f(x) = (x - 3)(x + 2).
 
 The rough sketch of the curve is shown on the right side.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.35*
 
 **Example 7.67**
@@ -2141,7 +2141,7 @@ y = f(x) = (x - 3)(x^{2} + 3x + 3).
 
 The rough sketch of the curve is shown on the right side.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.36*
 
 **Example 7.68**
@@ -2163,7 +2163,7 @@ y = f(x) = \frac{x(x - 3)}{(x - 1)}.
 
 The rough sketch is shown on the right side.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.37*
 
 **Example 7.69**
@@ -2203,7 +2203,7 @@ Therefore  x = - 1 and  x = 1 are vertical asymptotes.
 
 The rough sketch of the curve is shown on the right side.
 
-![](https://placehold.co/600x400)
+
 *Fig.7.38*
 
 **EXERCISE 7.9**
