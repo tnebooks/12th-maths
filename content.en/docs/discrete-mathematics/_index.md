@@ -16,7 +16,7 @@ Mathematics can be broadly classified into two categories: **Continuous Mathemat
 
 **Discrete Mathematics** - It involves distinct values which are either finite or countably infinite; i.e. between any two points, there are finite or countably infinite number of points. For example, if we have a finite set of objects, the function can be defined as a list of ordered pairs having these objects, and can be presented as a complete list of those pairs.
 
-The mathematicians who lived in the latter part of the {{< katex >}}19^{\mathrm{th}}{{< /katex >}} and early in the {{< katex >}}20^{\mathrm{th}}{{< /katex >}} centuries developed a new branch of mathematics called discrete mathematics consisting of concepts based on either finite or countably infinite sets like the set of natural numbers. These sets are called discrete sets and the beauty of such sets is that, one can find that a one-to-one correspondence can be defined from these sets onto the set of natural numbers. So, the elements of a discrete set can be arranged as a sequence. This special feature of discrete sets cannot be found in any uncountable set like the set of real numbers where the elements are distributed continuously throughout without any gap.
+The mathematicians who lived in the latter part of the  19^{\mathrm{th}} and early in the  20^{\mathrm{th}} centuries developed a new branch of mathematics called discrete mathematics consisting of concepts based on either finite or countably infinite sets like the set of natural numbers. These sets are called discrete sets and the beauty of such sets is that, one can find that a one-to-one correspondence can be defined from these sets onto the set of natural numbers. So, the elements of a discrete set can be arranged as a sequence. This special feature of discrete sets cannot be found in any uncountable set like the set of real numbers where the elements are distributed continuously throughout without any gap.
 
 Everyone is aware of the fact that the application of computers is playing an important role in every walk of our lives. Consequently the computer science has become partially a science of clear understanding and concise description of computable discrete sets. Also the modern programming languages are to be designed in such a way that they are suitable for descriptions in a concise manner. This compels the computer scientists to train themselves in learning to formulate algorithms based on the discrete sets.
 
@@ -24,7 +24,7 @@ The main advantage of studying discrete mathematics is that its results serve as
 
 ![](https://placehold.co/600x400)
 
-In general, the word 'operation' refers to the process of operating upon either a single or more number of elements at a time. For instance, finding the negative of an element in {{< katex >}}\mathbb{Z}{{< /katex >}} involves a single element at a time. So it is called an unary operation. On the other hand the process of finding the sum of any two elements in {{< katex >}}\mathbb{Z}{{< /katex >}} involves two elements at a time. This kind of operation is called a binary operation. In general an operation involving {{< katex >}}n{{< /katex >}} elements is called an n-ary operation, {{< katex >}}n\in \mathbb{N}{{< /katex >}}. In this section a detailed discussion of the binary operations is presented.
+In general, the word 'operation' refers to the process of operating upon either a single or more number of elements at a time. For instance, finding the negative of an element in  \mathbb{Z} involves a single element at a time. So it is called an unary operation. On the other hand the process of finding the sum of any two elements in  \mathbb{Z} involves two elements at a time. This kind of operation is called a binary operation. In general an operation involving  n elements is called an n-ary operation,  n\in \mathbb{N}. In this section a detailed discussion of the binary operations is presented.
 
 ## Learning Objectives
 
@@ -42,39 +42,39 @@ Upon completion of this chapter, students will be able to
 
 ### 12.2.1 Definitions
 
-The basic arithmetic operations on {{< katex >}}\mathbb{R}{{< /katex >}} are addition {{< katex >}}(+){{< /katex >}}, subtraction {{< katex >}}(-){{< /katex >}}, multiplication {{< katex >}}(\times){{< /katex >}}, and division {{< katex >}}(\div){{< /katex >}}. Eminent mathematicians of the latter part of {{< katex >}}19^{\mathrm{th}}{{< /katex >}} century and in {{< katex >}}20^{\mathrm{th}}{{< /katex >}} century like Abel, Cayley, Cauchy, and others, tried to generalize the properties satisfied by these usual arithmetic operations. To this end they developed new abstract algebraic structures through the axiomatic approach. This new branch of algebra dealing with these abstract algebraic structures is known as abstract algebra.
+The basic arithmetic operations on  \mathbb{R} are addition  (+), subtraction  (-), multiplication  (\times), and division  (\div). Eminent mathematicians of the latter part of  19^{\mathrm{th}} century and in  20^{\mathrm{th}} century like Abel, Cayley, Cauchy, and others, tried to generalize the properties satisfied by these usual arithmetic operations. To this end they developed new abstract algebraic structures through the axiomatic approach. This new branch of algebra dealing with these abstract algebraic structures is known as abstract algebra.
 
 To begin with, consider a simple example involving the basic usual arithmetic operations addition and multiplication of any two natural numbers.
 
-{{< katex display=true >}}
+
 m + n\in \mathbb{N};\quad m\times n\in \mathbb{N},\quad \forall m,n\in \mathbb{N} = \{1,2,3,\ldots\}
-{{< /katex >}}
+
 
 Each of the above two operations yields the following observations:
 
-(1) At a time exactly two elements of {{< katex >}}\mathbb{N}{{< /katex >}} are processed.
-(2) The resulting element (outcome) is also an element of {{< katex >}}\mathbb{N}{{< /katex >}}.
+(1) At a time exactly two elements of  \mathbb{N} are processed.
+(2) The resulting element (outcome) is also an element of  \mathbb{N}.
 
 Any such operation defined on a nonempty set is called a binary operation or a binary composition on the set in abstract algebra.
 
-Any operation {{< katex >}}\ast{{< /katex >}} defined on a non-empty set {{< katex >}}S{{< /katex >}} is called a binary operation on {{< katex >}}S{{< /katex >}} if the following conditions are satisfied:
+Any operation  \ast defined on a non-empty set  S is called a binary operation on  S if the following conditions are satisfied:
 
-(i) The operation {{< katex >}}\ast{{< /katex >}} must be defined for each and every ordered pair {{< katex >}}(a,b)\in S\times S{{< /katex >}}
-(ii) It assigns a unique element {{< katex >}}a\ast b{{< /katex >}} of {{< katex >}}S{{< /katex >}} to every ordered pair {{< katex >}}(a,b)\in S\times S{{< /katex >}}
+(i) The operation  \ast must be defined for each and every ordered pair  (a,b)\in S\times S
+(ii) It assigns a unique element  a\ast b of  S to every ordered pair  (a,b)\in S\times S
 
-In other words, any binary operation {{< katex >}}\ast{{< /katex >}} on {{< katex >}}S{{< /katex >}} is a rule that assigns to each ordered pair of elements of {{< katex >}}S{{< /katex >}} a unique element of {{< katex >}}S{{< /katex >}}. Also {{< katex >}}\ast{{< /katex >}} can be regarded as a function (mapping) with input in the Cartesian product {{< katex >}}S\times S{{< /katex >}} and the output in {{< katex >}}S{{< /katex >}}.
+In other words, any binary operation  \ast on  S is a rule that assigns to each ordered pair of elements of  S a unique element of  S. Also  \ast can be regarded as a function (mapping) with input in the Cartesian product  S\times S and the output in  S.
 
-{{< katex display=true >}}
+
 \ast : S\times S \to S;\quad \ast(a,b) = a\ast b \in S,\text{ where } a\ast b \text{ is a unique element.}
-{{< /katex >}}
 
-A binary operation defined by {{< katex >}}\ast : S\times S \to S;\ \ast(a,b) = a\ast b \in S{{< /katex >}} demands that the output {{< katex >}}a\ast b{{< /katex >}} must always lie in the given set {{< katex >}}S{{< /katex >}} and not in the complement of it. Then we say that {{< katex >}}\ast{{< /katex >}} is closed on {{< katex >}}S{{< /katex >}} or {{< katex >}}S{{< /katex >}} is closed with respect to {{< katex >}}\ast{{< /katex >}}. This property is known as the **closure property**.
+
+A binary operation defined by  \ast : S\times S \to S;\ \ast(a,b) = a\ast b \in S demands that the output  a\ast b must always lie in the given set  S and not in the complement of it. Then we say that  \ast is closed on  S or  S is closed with respect to  \ast. This property is known as the **closure property**.
 
 **Definition 12.2**
 
 Any non-empty set on which one or more binary operations are defined is called an **algebraic structure**.
 
-Another way of defining a binary operation {{< katex >}}\ast{{< /katex >}} on {{< katex >}}S{{< /katex >}} is as follows: {{< katex >}}\forall a,b\in S,\ a\ast b{{< /katex >}} is unique and {{< katex >}}a\ast b \in S{{< /katex >}}.
+Another way of defining a binary operation  \ast on  S is as follows:  \forall a,b\in S,\ a\ast b is unique and  a\ast b \in S.
 
 **Note**
 
@@ -82,31 +82,31 @@ It follows that every binary operation satisfies the closure property.
 
 **Note**
 
-The operation {{< katex >}}\ast{{< /katex >}} is just a symbol which may be {{< katex >}}+,\ \times,\ -,\ \div{{< /katex >}}, matrix addition, matrix multiplication, etc. depending on the set on which it is defined.
+The operation  \ast is just a symbol which may be  +,\ \times,\ -,\ \div, matrix addition, matrix multiplication, etc. depending on the set on which it is defined.
 
-For instance, though {{< katex >}}+{{< /katex >}} and {{< katex >}}\times{{< /katex >}} are binary on {{< katex >}}\mathbb{N}{{< /katex >}}, {{< katex >}}-{{< /katex >}} is not a binary operation on {{< katex >}}\mathbb{N}{{< /katex >}}.
+For instance, though  + and  \times are binary on  \mathbb{N},  - is not a binary operation on  \mathbb{N}.
 
-To verify this, consider {{< katex >}}(3,4) \in \mathbb{N}\times \mathbb{N}{{< /katex >}}
+To verify this, consider  (3,4) \in \mathbb{N}\times \mathbb{N}
 
-{{< katex display=true >}}
+
 \ast(a,b) = -(3,4) = 3 - 4 = -1 \notin \mathbb{N}.
-{{< /katex >}}
 
-Hence - is not a binary operation on {{< katex >}}\mathbb{N}{{< /katex >}}. So {{< katex >}}\mathbb{N}{{< /katex >}} is to be extended to {{< katex >}}\mathbb{Z}{{< /katex >}} in order that - becomes a binary operation on {{< katex >}}\mathbb{Z}{{< /katex >}}. Thus {{< katex >}}\mathbb{Z}{{< /katex >}} is closed with respect to {{< katex >}}+,\ \times,{{< /katex >}} and {{< katex >}}-{{< /katex >}}. Thus {{< katex >}}(\mathbb{Z}, + ,\times , - ){{< /katex >}} is an algebraic structure.
+
+Hence - is not a binary operation on  \mathbb{N}. So  \mathbb{N} is to be extended to  \mathbb{Z} in order that - becomes a binary operation on  \mathbb{Z}. Thus  \mathbb{Z} is closed with respect to  +,\ \times, and  -. Thus  (\mathbb{Z}, + ,\times , - ) is an algebraic structure.
 
 **Observations**
 
 The binary operation depends on the set on which it is defined.
 
-(a) The operation - which is not a binary operation on {{< katex >}}\mathbb{N}{{< /katex >}} but it is binary on {{< katex >}}\mathbb{Z}{{< /katex >}}. The set {{< katex >}}\mathbb{N}{{< /katex >}} is extended to include zero and negative integers. We call the included set {{< katex >}}\mathbb{Z}{{< /katex >}}.
+(a) The operation - which is not a binary operation on  \mathbb{N} but it is binary on  \mathbb{Z}. The set  \mathbb{N} is extended to include zero and negative integers. We call the included set  \mathbb{Z}.
 
-(b) The operation {{< katex >}}\div{{< /katex >}} on {{< katex >}}\mathbb{Z}{{< /katex >}} is not a binary operation on {{< katex >}}\mathbb{Z}{{< /katex >}}. For instance, for {{< katex >}}(1,2)\in \mathbb{Z}\times \mathbb{Z}{{< /katex >}}, {{< katex >}}\div(1,2) = \frac{1}{2}\notin \mathbb{Z}{{< /katex >}}. Hence {{< katex >}}\mathbb{Z}{{< /katex >}} has to be extended further into {{< katex >}}\mathbb{Q}{{< /katex >}}.
+(b) The operation  \div on  \mathbb{Z} is not a binary operation on  \mathbb{Z}. For instance, for  (1,2)\in \mathbb{Z}\times \mathbb{Z},  \div(1,2) = \frac{1}{2}\notin \mathbb{Z}. Hence  \mathbb{Z} has to be extended further into  \mathbb{Q}.
 
-(c) It is a known fact that the division by 0 is not defined in basic arithmetic. So {{< katex >}}\div{{< /katex >}} is a binary operation on the set {{< katex >}}\mathbb{Q}\backslash \{0\}{{< /katex >}}. Thus {{< katex >}}+,\ \times,\ -{{< /katex >}} are binary operations on {{< katex >}}\mathbb{Q}{{< /katex >}} and {{< katex >}}\div{{< /katex >}} is a binary operation on {{< katex >}}\mathbb{Q}\backslash \{0\}{{< /katex >}}.
+(c) It is a known fact that the division by 0 is not defined in basic arithmetic. So  \div is a binary operation on the set  \mathbb{Q}\backslash \{0\}. Thus  +,\ \times,\ - are binary operations on  \mathbb{Q} and  \div is a binary operation on  \mathbb{Q}\backslash \{0\}.
 
-Now the question is regarding the reasons for extending further {{< katex >}}\mathbb{Q}{{< /katex >}} to {{< katex >}}\mathbb{R}{{< /katex >}} and then from {{< katex >}}\mathbb{R}{{< /katex >}} to {{< katex >}}\mathbb{C}{{< /katex >}}. Accordingly, a number system is needed where not only all the basic arithmetic operations {{< katex >}}+,\ -,\ \times,\ \div{{< /katex >}} but also to include the roots of the equations of the form {{< katex >}}x^{2} - 2 = 0{{< /katex >}} and {{< katex >}}x^{2} + 1 = 0{{< /katex >}}.
+Now the question is regarding the reasons for extending further  \mathbb{Q} to  \mathbb{R} and then from  \mathbb{R} to  \mathbb{C}. Accordingly, a number system is needed where not only all the basic arithmetic operations  +,\ -,\ \times,\ \div but also to include the roots of the equations of the form  x^{2} - 2 = 0 and  x^{2} + 1 = 0.
 
-So, in addition to the existing systems, the collection of irrational numbers and imaginary numbers (See Chapter 3) are to be adjoined. Consequently {{< katex >}}\mathbb{R}{{< /katex >}} and then {{< katex >}}\mathbb{C}{{< /katex >}} are obtained. The biggest number system {{< katex >}}\mathbb{C}{{< /katex >}} properly includes all the other number systems {{< katex >}}\mathbb{N}{{< /katex >}}, {{< katex >}}\mathbb{Z}{{< /katex >}}, {{< katex >}}\mathbb{Q}{{< /katex >}}, and {{< katex >}}\mathbb{R}{{< /katex >}} as subsets.
+So, in addition to the existing systems, the collection of irrational numbers and imaginary numbers (See Chapter 3) are to be adjoined. Consequently  \mathbb{R} and then  \mathbb{C} are obtained. The biggest number system  \mathbb{C} properly includes all the other number systems  \mathbb{N},  \mathbb{Z},  \mathbb{Q}, and  \mathbb{R} as subsets.
 
 | Number System | N | Z | Q | R | C | Q\\{0} | R\\{0} | C\\{0} |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -119,58 +119,58 @@ So, in addition to the existing systems, the collection of irrational numbers an
 
 Examine the binary operation (closure property) of the following operations on the respective sets (if it is not, make it binary):
 
-{{< katex display=true >}}
+
 a * b = a + 3ab - 5b^{2};\quad \forall a,b\in \mathbb{Z}
-{{< /katex >}}
+
 
 **Solution**
 
-Since {{< katex >}}\times{{< /katex >}} is a binary operation on {{< katex >}}\mathbb{Z}{{< /katex >}}, {{< katex >}}a,b\in \mathbb{Z} \Rightarrow a\times b = ab\in \mathbb{Z}{{< /katex >}} and {{< katex >}}b\times b = b^{2}\in \mathbb{Z}{{< /katex >}} ...(1)
+Since  \times is a binary operation on  \mathbb{Z},  a,b\in \mathbb{Z} \Rightarrow a\times b = ab\in \mathbb{Z} and  b\times b = b^{2}\in \mathbb{Z} ...(1)
 
-The fact that {{< katex >}}+{{< /katex >}} is a binary operation on {{< katex >}}\mathbb{Z}{{< /katex >}} and (1) {{< katex >}}\Rightarrow 3ab = (ab + ab + ab)\in \mathbb{Z}{{< /katex >}} and
+The fact that  + is a binary operation on  \mathbb{Z} and (1)  \Rightarrow 3ab = (ab + ab + ab)\in \mathbb{Z} and
 
-{{< katex display=true >}}
+
 5b^{2} = (b^{2} + b^{2} + b^{2} + b^{2} + b^{2})\in \mathbb{Z}. \quad (2)
-{{< /katex >}}
 
-Also {{< katex >}}a\in \mathbb{Z}{{< /katex >}} and {{< katex >}}3ab\in \mathbb{Z}{{< /katex >}} implies {{< katex >}}a + 3ab\in \mathbb{Z}{{< /katex >}} ...(3)
 
-(2), (3), the closure property of - on {{< katex >}}\mathbb{Z}{{< /katex >}} yield {{< katex >}}a*b = (a + 3ab - 5b^{2})\in \mathbb{Z}{{< /katex >}}. Since {{< katex >}}a*b{{< /katex >}} belongs to {{< katex >}}\mathbb{Z}{{< /katex >}}, {{< katex >}}^{*}{{< /katex >}} is a binary operation on {{< katex >}}\mathbb{Z}{{< /katex >}}.
+Also  a\in \mathbb{Z} and  3ab\in \mathbb{Z} implies  a + 3ab\in \mathbb{Z} ...(3)
+
+(2), (3), the closure property of - on  \mathbb{Z} yield  a*b = (a + 3ab - 5b^{2})\in \mathbb{Z}. Since  a*b belongs to  \mathbb{Z},  ^{*} is a binary operation on  \mathbb{Z}.
 
 ### 12.2.2 Some more properties of a binary operation
 
 **Commutative property**
 
-Any binary operation {{< katex >}}^{*}{{< /katex >}} defined on a nonempty set {{< katex >}}S{{< /katex >}} is said to satisfy the commutative property, if
+Any binary operation  ^{*} defined on a nonempty set  S is said to satisfy the commutative property, if
 
-{{< katex display=true >}}
+
 a*b = b*a \quad \forall a,b\in S.
-{{< /katex >}}
+
 
 **Associative property**
 
-Any binary operation {{< katex >}}\ast{{< /katex >}} defined on a nonempty set {{< katex >}}S{{< /katex >}} is said to satisfy the associative property, if
+Any binary operation  \ast defined on a nonempty set  S is said to satisfy the associative property, if
 
-{{< katex display=true >}}
+
 a*(b*c) = (a*b)*c \quad \forall a,b,c\in S.
-{{< /katex >}}
+
 
 **Existence of identity property**
 
-An element {{< katex >}}e\in S{{< /katex >}} is said to be the **Identity Element** of {{< katex >}}S{{< /katex >}} under the binary operation {{< katex >}}\ast{{< /katex >}} if for all {{< katex >}}a\in S{{< /katex >}} we have that {{< katex >}}a\ast e = a{{< /katex >}} and {{< katex >}}e\ast a = a{{< /katex >}}.
+An element  e\in S is said to be the **Identity Element** of  S under the binary operation  \ast if for all  a\in S we have that  a\ast e = a and  e\ast a = a.
 
 **Existence of inverse property**
 
-If an identity element {{< katex >}}e{{< /katex >}} exists and if for every {{< katex >}}a\in S{{< /katex >}}, there exists {{< katex >}}b{{< /katex >}} in {{< katex >}}S{{< /katex >}} such that {{< katex >}}a\ast b = e{{< /katex >}} and {{< katex >}}b\ast a = e{{< /katex >}} then {{< katex >}}b\in S{{< /katex >}} is said to be the **Inverse Element** of {{< katex >}}a{{< /katex >}}. In such instances, we write {{< katex >}}b = a^{- 1}{{< /katex >}}.
+If an identity element  e exists and if for every  a\in S, there exists  b in  S such that  a\ast b = e and  b\ast a = e then  b\in S is said to be the **Inverse Element** of  a. In such instances, we write  b = a^{- 1}.
 
 **Note**
 
-{{< katex >}}a^{- 1}{{< /katex >}} is an element of {{< katex >}}S{{< /katex >}}. It should be read as the inverse of {{< katex >}}a{{< /katex >}} and not as {{< katex >}}\frac{1}{a}{{< /katex >}}.
+ a^{- 1} is an element of  S. It should be read as the inverse of  a and not as  \frac{1}{a}.
 
 **Note**
 
-(i) The multiplicative identity is 1 in {{< katex >}}\mathbb{Z}{{< /katex >}} and it is the one and only one element with the property {{< katex >}}n\cdot 1 = 1\cdot n = n,\ \forall n\in \mathbb{Z}{{< /katex >}}.
-(ii) The multiplicative inverse of any element, say 2 in {{< katex >}}\mathbb{Q}{{< /katex >}} is {{< katex >}}\frac{1}{2}{{< /katex >}} and no other nonzero rational number {{< katex >}}x{{< /katex >}} has the property that {{< katex >}}2\cdot x = x\cdot 2 = 1{{< /katex >}}.
+(i) The multiplicative identity is 1 in  \mathbb{Z} and it is the one and only one element with the property  n\cdot 1 = 1\cdot n = n,\ \forall n\in \mathbb{Z}.
+(ii) The multiplicative inverse of any element, say 2 in  \mathbb{Q} is  \frac{1}{2} and no other nonzero rational number  x has the property that  2\cdot x = x\cdot 2 = 1.
 
 **Note**
 
@@ -184,17 +184,17 @@ In an algebraic structure the identity element (if exists) must be unique.
 
 **Proof**
 
-Let {{< katex >}}(S,\ast){{< /katex >}} be an algebraic structure. Assume that the identity element of {{< katex >}}S{{< /katex >}} exists in {{< katex >}}S{{< /katex >}}.
+Let  (S,\ast) be an algebraic structure. Assume that the identity element of  S exists in  S.
 
-It is to be proved that the identity element is unique. Suppose that {{< katex >}}e_{1}{{< /katex >}} and {{< katex >}}e_{2}{{< /katex >}} be any two identity elements of {{< katex >}}S{{< /katex >}}.
+It is to be proved that the identity element is unique. Suppose that  e_{1} and  e_{2} be any two identity elements of  S.
 
-First treat {{< katex >}}e_{1}{{< /katex >}} as the identity and {{< katex >}}e_{2}{{< /katex >}} as an arbitrary element of {{< katex >}}S{{< /katex >}}.
+First treat  e_{1} as the identity and  e_{2} as an arbitrary element of  S.
 
-Then by the existence of identity property, {{< katex >}}e_{2}*e_{1} = e_{1}*e_{2} = e_{2}{{< /katex >}} ...(1)
+Then by the existence of identity property,  e_{2}*e_{1} = e_{1}*e_{2} = e_{2} ...(1)
 
-Interchanging the role of {{< katex >}}e_{1}{{< /katex >}} and {{< katex >}}e_{2}{{< /katex >}}, {{< katex >}}e_{1}*e_{2} = e_{2}*e_{1} = e_{1}{{< /katex >}} ...(2)
+Interchanging the role of  e_{1} and  e_{2},  e_{1}*e_{2} = e_{2}*e_{1} = e_{1} ...(2)
 
-From (1) and (2), {{< katex >}}e_{1} = e_{2}{{< /katex >}}. Hence the identity element is unique which completes the proof.
+From (1) and (2),  e_{1} = e_{2}. Hence the identity element is unique which completes the proof.
 
 **Theorem 12.2 (Uniqueness of Inverse)**
 
@@ -202,54 +202,54 @@ In an algebraic structure the inverse of an element (if exists) must be unique.
 
 **Proof**
 
-Let {{< katex >}}(S,\ast){{< /katex >}} be an algebraic structure and {{< katex >}}a\in S{{< /katex >}}. Assume that the inverse of {{< katex >}}a{{< /katex >}} exists in {{< katex >}}S{{< /katex >}}. It is to be proved that the inverse of {{< katex >}}a{{< /katex >}} is unique. The existence of inverse in {{< katex >}}S{{< /katex >}} ensures the existence of the identity element {{< katex >}}e{{< /katex >}} in {{< katex >}}S{{< /katex >}}.
+Let  (S,\ast) be an algebraic structure and  a\in S. Assume that the inverse of  a exists in  S. It is to be proved that the inverse of  a is unique. The existence of inverse in  S ensures the existence of the identity element  e in  S.
 
-Let {{< katex >}}a\in S{{< /katex >}}. It is to be proved that the inverse {{< katex >}}a{{< /katex >}} (if exists) is unique. Suppose that {{< katex >}}a{{< /katex >}} has two inverses, say, {{< katex >}}a_{1}, a_{2}{{< /katex >}}. Treating {{< katex >}}a_{1}{{< /katex >}} as an inverse of {{< katex >}}a{{< /katex >}} gives {{< katex >}}a*a_{1} = a_{1}*a = e{{< /katex >}} ...(1)
-Next treating {{< katex >}}a_{2}{{< /katex >}} as the inverse of {{< katex >}}a{{< /katex >}} gives {{< katex >}}a*a_{2} = a_{2}*a = e{{< /katex >}} ...(2)
-{{< katex display=true >}}
+Let  a\in S. It is to be proved that the inverse  a (if exists) is unique. Suppose that  a has two inverses, say,  a_{1}, a_{2}. Treating  a_{1} as an inverse of  a gives  a*a_{1} = a_{1}*a = e ...(1)
+Next treating  a_{2} as the inverse of  a gives  a*a_{2} = a_{2}*a = e ...(2)
+
 a_{1} = a_{1}*e = a_{1}*(a*a_{2}) = (a_{1}*a)*a_{2} = e*a_{2} = a_{2}
-{{< /katex >}}
-(by (1) and (2)). So, {{< katex >}}a_{1} = a_{2}{{< /katex >}}. Hence the inverse of {{< katex >}}a{{< /katex >}} is unique which completes the proof.
+
+(by (1) and (2)). So,  a_{1} = a_{2}. Hence the inverse of  a is unique which completes the proof.
 
 **Example 12.2**
 
-Verify the (i) closure property, (ii) commutative property, (iii) associative property (iv) existence of identity and (v) existence of inverse for the arithmetic operation {{< katex >}}+{{< /katex >}} on {{< katex >}}\mathbb{Z}{{< /katex >}}.
+Verify the (i) closure property, (ii) commutative property, (iii) associative property (iv) existence of identity and (v) existence of inverse for the arithmetic operation  + on  \mathbb{Z}.
 
 **Solution**
 
-(i) {{< katex >}}m + n\in \mathbb{Z},\ \forall m,n\in \mathbb{Z}{{< /katex >}}. Hence {{< katex >}}+{{< /katex >}} is a binary operation on {{< katex >}}\mathbb{Z}{{< /katex >}}.
+(i)  m + n\in \mathbb{Z},\ \forall m,n\in \mathbb{Z}. Hence  + is a binary operation on  \mathbb{Z}.
 
-(ii) Also {{< katex >}}m + n = n + m,\ \forall m,n\in \mathbb{Z}{{< /katex >}}. So the commutative property is satisfied.
+(ii) Also  m + n = n + m,\ \forall m,n\in \mathbb{Z}. So the commutative property is satisfied.
 
-(iii) {{< katex >}}\forall m,n,p\in \mathbb{Z},\ m + (n + p) = (m + n) + p{{< /katex >}}. Hence the associative property is satisfied.
+(iii)  \forall m,n,p\in \mathbb{Z},\ m + (n + p) = (m + n) + p. Hence the associative property is satisfied.
 
-(iv) {{< katex >}}m + e = e + m = m \Rightarrow e = 0{{< /katex >}}. Thus {{< katex >}}\exists 0\in \mathbb{Z} \Rightarrow (m + 0) = (0 + m) = m{{< /katex >}}. Hence the existence of identity is assured.
+(iv)  m + e = e + m = m \Rightarrow e = 0. Thus  \exists 0\in \mathbb{Z} \Rightarrow (m + 0) = (0 + m) = m. Hence the existence of identity is assured.
 
-(v) {{< katex >}}m + m^{\prime} = m^{\prime} + m = 0 \Rightarrow m^{\prime} = -m{{< /katex >}}. Thus {{< katex >}}\forall m\in \mathbb{Z},\ \exists -m\in \mathbb{Z} \Rightarrow m + (-m) = (-m) + m = 0{{< /katex >}}. Hence, the existence of inverse property is also assured. Thus we see that the usual addition {{< katex >}}+{{< /katex >}} on {{< katex >}}\mathbb{Z}{{< /katex >}} satisfies all the above five properties.
+(v)  m + m^{\prime} = m^{\prime} + m = 0 \Rightarrow m^{\prime} = -m. Thus  \forall m\in \mathbb{Z},\ \exists -m\in \mathbb{Z} \Rightarrow m + (-m) = (-m) + m = 0. Hence, the existence of inverse property is also assured. Thus we see that the usual addition  + on  \mathbb{Z} satisfies all the above five properties.
 
-Note that the additive identity is 0 and the additive inverse of any integer {{< katex >}}m{{< /katex >}} is {{< katex >}}-m{{< /katex >}}.
+Note that the additive identity is 0 and the additive inverse of any integer  m is  -m.
 
 **Example 12.3**
 
-Verify the (i) closure property, (ii) commutative property, (iii) associative property (iv) existence of identity and (v) existence of inverse for the arithmetic operation {{< katex >}}-{{< /katex >}} on {{< katex >}}\mathbb{Z}{{< /katex >}}.
+Verify the (i) closure property, (ii) commutative property, (iii) associative property (iv) existence of identity and (v) existence of inverse for the arithmetic operation  - on  \mathbb{Z}.
 
 **Solution**
 
-(i) Though {{< katex >}}-{{< /katex >}} is not binary on {{< katex >}}\mathbb{N}{{< /katex >}}; it is binary on {{< katex >}}\mathbb{Z}{{< /katex >}}. To check the validity of any more properties satisfied by {{< katex >}}-{{< /katex >}} on {{< katex >}}\mathbb{Z}{{< /katex >}}, it is better to check them for some particular simple values.
+(i) Though  - is not binary on  \mathbb{N}; it is binary on  \mathbb{Z}. To check the validity of any more properties satisfied by  - on  \mathbb{Z}, it is better to check them for some particular simple values.
 
-(ii) Take {{< katex >}}m = 4{{< /katex >}}, {{< katex >}}n = 5{{< /katex >}} and {{< katex >}}(m - n) = (4 - 5) = -1{{< /katex >}} and {{< katex >}}(n - m) = (5 - 4) = 1{{< /katex >}}.
-Hence {{< katex >}}(m - n)\neq (n - m){{< /katex >}}. So the operation {{< katex >}}-{{< /katex >}} is not commutative on {{< katex >}}\mathbb{Z}{{< /katex >}}.
+(ii) Take  m = 4,  n = 5 and  (m - n) = (4 - 5) = -1 and  (n - m) = (5 - 4) = 1.
+Hence  (m - n)\neq (n - m). So the operation  - is not commutative on  \mathbb{Z}.
 
-(iii) In order to check the associative property, let us put {{< katex >}}m = 4{{< /katex >}}, {{< katex >}}n = 5{{< /katex >}} and {{< katex >}}p = 7{{< /katex >}} in both
-{{< katex >}}(m - n) - p{{< /katex >}} and {{< katex >}}m - (n - p){{< /katex >}}.
-{{< katex display=true >}}
+(iii) In order to check the associative property, let us put  m = 4,  n = 5 and  p = 7 in both
+ (m - n) - p and  m - (n - p).
+
 (m - n) - p = (4 - 5) - 7 = (-1 - 7) = -8
-{{< /katex >}}
-{{< katex display=true >}}
+
+
 m - (n - p) = 4 - (5 - 7) = (4 + 2) = 6.
-{{< /katex >}}
-From above, it follows that {{< katex >}}(m - n) - p \neq m - (n - p){{< /katex >}}.
-Hence {{< katex >}}-{{< /katex >}} is not associative on {{< katex >}}\mathbb{Z}{{< /katex >}}.
+
+From above, it follows that  (m - n) - p \neq m - (n - p).
+Hence  - is not associative on  \mathbb{Z}.
 
 (iv) Identity does not exist (why?).
 
@@ -257,58 +257,58 @@ Hence {{< katex >}}-{{< /katex >}} is not associative on {{< katex >}}\mathbb{Z}
 
 **Example 12.4**
 
-Verify the (i) closure property, (ii) commutative property, (iii) associative property (iv) existence of identity and (v) existence of inverse for the arithmetic operation {{< katex >}}+{{< /katex >}} on {{< katex >}}\mathbb{Z}_{e}{{< /katex >}} = the set of all even integers.
+Verify the (i) closure property, (ii) commutative property, (iii) associative property (iv) existence of identity and (v) existence of inverse for the arithmetic operation  + on  \mathbb{Z}_{e} = the set of all even integers.
 
 **Solution**
 
-Consider the set of all even integers {{< katex >}}\mathbb{Z}_{e} = \{2k \mid k \in \mathbb{Z}\} = \{\ldots , -6, -4, -2, 0, 2, 4, 6, \ldots \}{{< /katex >}}.
+Consider the set of all even integers  \mathbb{Z}_{e} = \{2k \mid k \in \mathbb{Z}\} = \{\ldots , -6, -4, -2, 0, 2, 4, 6, \ldots \}.
 
-Let us verify the properties satisfied by {{< katex >}}+{{< /katex >}} on {{< katex >}}\mathbb{Z}_{e}{{< /katex >}}
+Let us verify the properties satisfied by  + on  \mathbb{Z}_{e}
 
 (i) The sum of any two even integers is also an even integer.
-Because {{< katex >}}x,y\in \mathbb{Z}_{e} \Rightarrow x = 2m{{< /katex >}} and {{< katex >}}y = 2n,\ m,n\in \mathbb{Z}{{< /katex >}}
-So {{< katex >}}(x + y) = 2m + 2n = 2(m + n) \in \mathbb{Z}_{e}{{< /katex >}}. Hence {{< katex >}}+{{< /katex >}} is a binary operation on {{< katex >}}\mathbb{Z}_{e}{{< /katex >}}.
+Because  x,y\in \mathbb{Z}_{e} \Rightarrow x = 2m and  y = 2n,\ m,n\in \mathbb{Z}
+So  (x + y) = 2m + 2n = 2(m + n) \in \mathbb{Z}_{e}. Hence  + is a binary operation on  \mathbb{Z}_{e}.
 
-(ii) {{< katex >}}\forall x,y\in \mathbb{Z}_{e},\ (x + y) = 2(m + n) = 2(n + m) = (2n + 2m) = (y + x){{< /katex >}}
-So {{< katex >}}+{{< /katex >}} has commutative property.
+(ii)  \forall x,y\in \mathbb{Z}_{e},\ (x + y) = 2(m + n) = 2(n + m) = (2n + 2m) = (y + x)
+So  + has commutative property.
 
-(iii) Similarly it can be seen that {{< katex >}}\forall x,y,z\in \mathbb{Z}_{e},\ (x + y) + z = x + (y + z){{< /katex >}}
+(iii) Similarly it can be seen that  \forall x,y,z\in \mathbb{Z}_{e},\ (x + y) + z = x + (y + z)
 Hence the associative property is true.
 
-(iv) Now take {{< katex >}}x = 2k{{< /katex >}}, then {{< katex >}}2k + e = e + 2k = 2k \Rightarrow e = 0{{< /katex >}}
-Thus {{< katex >}}\forall x\in \mathbb{Z}_{e},\ \exists 0\in \mathbb{Z}_{e} \Rightarrow x + 0 = 0 + x = x{{< /katex >}}
+(iv) Now take  x = 2k, then  2k + e = e + 2k = 2k \Rightarrow e = 0
+Thus  \forall x\in \mathbb{Z}_{e},\ \exists 0\in \mathbb{Z}_{e} \Rightarrow x + 0 = 0 + x = x
 So, 0 is the identity element.
 
-(v) Taking {{< katex >}}x = 2k{{< /katex >}} and {{< katex >}}x^{\prime}{{< /katex >}} as its inverse, we have {{< katex >}}2k + x^{\prime} = 0 = x^{\prime} + 2k \Rightarrow x^{\prime} = -2k{{< /katex >}}. i.e., {{< katex >}}x^{\prime} = -x{{< /katex >}}.
-Thus {{< katex >}}\forall x\in \mathbb{Z}_{e},\ \exists -x\in \mathbb{Z}_{e} \Rightarrow x + (-x) = (-x) + x = 0{{< /katex >}}
-Hence {{< katex >}}-x{{< /katex >}} is the inverse of {{< katex >}}x\in \mathbb{Z}_{e}{{< /katex >}}.
+(v) Taking  x = 2k and  x^{\prime} as its inverse, we have  2k + x^{\prime} = 0 = x^{\prime} + 2k \Rightarrow x^{\prime} = -2k. i.e.,  x^{\prime} = -x.
+Thus  \forall x\in \mathbb{Z}_{e},\ \exists -x\in \mathbb{Z}_{e} \Rightarrow x + (-x) = (-x) + x = 0
+Hence  -x is the inverse of  x\in \mathbb{Z}_{e}.
 
 **Example 12.5**
 
-Verify the (i) closure property, (ii) commutative property, (iii) associative property (iv) existence of identity and (v) existence of inverse for the arithmetic operation {{< katex >}}+{{< /katex >}} on {{< katex >}}\mathbb{Z}_{o} ={{< /katex >}} the set of all odd integers.
+Verify the (i) closure property, (ii) commutative property, (iii) associative property (iv) existence of identity and (v) existence of inverse for the arithmetic operation  + on  \mathbb{Z}_{o} = the set of all odd integers.
 
 **Solution**
 
-Consider the set {{< katex >}}\mathbb{Z}_{o}{{< /katex >}} of all odd integers {{< katex >}}\mathbb{Z}_{o} = \{2k + 1: k\in \mathbb{Z}\} = \{\ldots , -5, -3, -1, 1, 3, 5, \ldots \}{{< /katex >}}. {{< katex >}}+{{< /katex >}} is not a binary operation on {{< katex >}}\mathbb{Z}_{o}{{< /katex >}} because when {{< katex >}}x = 2m + 1,\ y = 2n + 1,\ x + y = 2(m + n) + 2{{< /katex >}} is even for all {{< katex >}}m{{< /katex >}} and {{< katex >}}n{{< /katex >}}. For instance, consider the two odd numbers {{< katex >}}3, 7\in \mathbb{Z}_{o}{{< /katex >}}. Their sum {{< katex >}}3 + 7 = 10{{< /katex >}} is an even number. In general, if {{< katex >}}x,y\in \mathbb{Z}_{o}{{< /katex >}}, then {{< katex >}}(x + y) \notin \mathbb{Z}_{o}{{< /katex >}}. Other properties need not be checked as it is not a binary operation.
+Consider the set  \mathbb{Z}_{o} of all odd integers  \mathbb{Z}_{o} = \{2k + 1: k\in \mathbb{Z}\} = \{\ldots , -5, -3, -1, 1, 3, 5, \ldots \}.  + is not a binary operation on  \mathbb{Z}_{o} because when  x = 2m + 1,\ y = 2n + 1,\ x + y = 2(m + n) + 2 is even for all  m and  n. For instance, consider the two odd numbers  3, 7\in \mathbb{Z}_{o}. Their sum  3 + 7 = 10 is an even number. In general, if  x,y\in \mathbb{Z}_{o}, then  (x + y) \notin \mathbb{Z}_{o}. Other properties need not be checked as it is not a binary operation.
 
 **Example 12.6**
 
 Verify (i) closure property (ii) commutative property, and (iii) associative property of the following operation on the given set.
 
-{{< katex display=true >}}
+
 (a * b) = a^{b};\quad \forall a,b\in \mathbb{N} \quad \text{(exponentiation property)}
-{{< /katex >}}
+
 
 **Solution**
 
-(i) It is true that {{< katex >}}a * b = a^{b} \in \mathbb{N};\ \forall a,b\in \mathbb{N}{{< /katex >}}. So {{< katex >}}^{*}{{< /katex >}} is a binary operation on {{< katex >}}\mathbb{N}{{< /katex >}}.
+(i) It is true that  a * b = a^{b} \in \mathbb{N};\ \forall a,b\in \mathbb{N}. So  ^{*} is a binary operation on  \mathbb{N}.
 
-(ii) {{< katex >}}a * b = a^{b}{{< /katex >}} and {{< katex >}}b * a = b^{a}{{< /katex >}}. Put {{< katex >}}a = 2{{< /katex >}} and {{< katex >}}b = 3{{< /katex >}}. Then {{< katex >}}a * b = 2^{3} = 8{{< /katex >}} but {{< katex >}}b * a = 3^{2} = 9{{< /katex >}}.
-So {{< katex >}}a * b{{< /katex >}} need not be equal to {{< katex >}}b * a{{< /katex >}}. Hence {{< katex >}}^{*}{{< /katex >}} does not have commutative property.
+(ii)  a * b = a^{b} and  b * a = b^{a}. Put  a = 2 and  b = 3. Then  a * b = 2^{3} = 8 but  b * a = 3^{2} = 9.
+So  a * b need not be equal to  b * a. Hence  ^{*} does not have commutative property.
 
-(iii) Next consider {{< katex >}}a*(b*c) = a*(b^{c}) = a^{(b^{c})}{{< /katex >}}. Take {{< katex >}}a = 2{{< /katex >}}, {{< katex >}}b = 3{{< /katex >}} and {{< katex >}}c = 4{{< /katex >}}.
-Then {{< katex >}}(a*b)*c = (2^{3})*4 = 8^{4}{{< /katex >}}.
-Hence {{< katex >}}a*(b*c) \neq (a*b)*c{{< /katex >}}. So {{< katex >}}^{*}{{< /katex >}} does not have associative property on {{< katex >}}\mathbb{N}{{< /katex >}}.
+(iii) Next consider  a*(b*c) = a*(b^{c}) = a^{(b^{c})}. Take  a = 2,  b = 3 and  c = 4.
+Then  (a*b)*c = (2^{3})*4 = 8^{4}.
+Hence  a*(b*c) \neq (a*b)*c. So  ^{*} does not have associative property on  \mathbb{N}.
 
 **Note:** This binary operation has no identity and no inverse. (Justify).
 
@@ -316,50 +316,50 @@ Hence {{< katex >}}a*(b*c) \neq (a*b)*c{{< /katex >}}. So {{< katex >}}^{*}{{< /
 
 Verify (i) closure property, (ii) commutative property, (iii) associative property, (iv) existence of identity, and (v) existence of inverse for following operation on the given set.
 
-{{< katex display=true >}}
+
 m * n = m + n - mn;\quad m,n\in \mathbb{Z}
-{{< /katex >}}
+
 
 **Solution**
 
-(i) The output {{< katex >}}m + n - mn{{< /katex >}} is clearly an integer and hence {{< katex >}}\ast{{< /katex >}} is a binary operation on {{< katex >}}\mathbb{Z}{{< /katex >}}.
+(i) The output  m + n - mn is clearly an integer and hence  \ast is a binary operation on  \mathbb{Z}.
 
-(ii) {{< katex >}}m*n = m + n - mn = n + m - mn = n*m,\ \forall m,n\in \mathbb{Z}{{< /katex >}}. So {{< katex >}}\ast{{< /katex >}} has commutative property.
+(ii)  m*n = m + n - mn = n + m - mn = n*m,\ \forall m,n\in \mathbb{Z}. So  \ast has commutative property.
 
 (iii) Consider
-{{< katex display=true >}}
+
 \begin{aligned}
 (m*n)*p &= (m + n - mn)*p \\
 &= (m + n - mn) + p - (m + n - mn)p \\
 &= m + n + p - mn - mp - np + mnp \quad (1)
 \end{aligned}
-{{< /katex >}}
+
 
 Similarly,
-{{< katex display=true >}}
+
 \begin{aligned}
 m*(n*p) &= m*(n + p - np) \\
 &= m + (n + p - np) - m(n + p - np) \\
 &= m + n + p - np - mn - mp + mnp \quad (2)
 \end{aligned}
-{{< /katex >}}
 
-From (1) and (2), we see that {{< katex >}}m*(n*p) = (m*n)*p{{< /katex >}}. Hence {{< katex >}}\ast{{< /katex >}} has associative property.
 
-(iv) An integer {{< katex >}}e{{< /katex >}} is to be found such that
-{{< katex display=true >}}
+From (1) and (2), we see that  m*(n*p) = (m*n)*p. Hence  \ast has associative property.
+
+(iv) An integer  e is to be found such that
+
 m*e = e*m = m,\ \forall m\in \mathbb{Z} \Rightarrow m + e - me = m
-{{< /katex >}}
-{{< katex display=true >}}
-\Rightarrow e(1 - m) = 0 \Rightarrow e = 0 \text{ or } m = 1.
-{{< /katex >}}
-But {{< katex >}}m{{< /katex >}} is an arbitrary integer and hence need not be equal to 1. So the only possibility is {{< katex >}}e = 0{{< /katex >}}. Also {{< katex >}}m*0 = 0*m = m,\ \forall m\in \mathbb{Z}{{< /katex >}}. Hence 0 is the identity element and hence the existence of identity is assured.
 
-(v) An element {{< katex >}}m^{\prime}\in \mathbb{Z}{{< /katex >}} is to be found such that {{< katex >}}m*m^{\prime} = m^{\prime}*m = e = 0,\ \forall m\in \mathbb{Z}{{< /katex >}}
-{{< katex display=true >}}
+
+\Rightarrow e(1 - m) = 0 \Rightarrow e = 0 \text{ or } m = 1.
+
+But  m is an arbitrary integer and hence need not be equal to 1. So the only possibility is  e = 0. Also  m*0 = 0*m = m,\ \forall m\in \mathbb{Z}. Hence 0 is the identity element and hence the existence of identity is assured.
+
+(v) An element  m^{\prime}\in \mathbb{Z} is to be found such that  m*m^{\prime} = m^{\prime}*m = e = 0,\ \forall m\in \mathbb{Z}
+
 m*m^{\prime} = 0 \Rightarrow m + m^{\prime} - m m^{\prime} = 0 \Rightarrow m^{\prime} = \frac{m}{m - 1}.
-{{< /katex >}}
-When {{< katex >}}m = 1,\ m^{\prime}{{< /katex >}} is not defined. When {{< katex >}}m = 2,\ m^{\prime}{{< /katex >}} is an integer. But except {{< katex >}}m = 2,\ m^{\prime}{{< /katex >}} need not be an integer for all values of {{< katex >}}m{{< /katex >}}. Hence inverse does not exist in {{< katex >}}\mathbb{Z}{{< /katex >}}.
+
+When  m = 1,\ m^{\prime} is not defined. When  m = 2,\ m^{\prime} is an integer. But except  m = 2,\ m^{\prime} need not be an integer for all values of  m. Hence inverse does not exist in  \mathbb{Z}.
 
 ### 12.2.3 Some binary operations on Boolean Matrices
 
@@ -371,71 +371,71 @@ Note that the boolean entries 0 and 1 can be defined in several ways. In electri
 
 The following two kinds of operations on the collection of all boolean matrices are defined.
 
-Let {{< katex >}}A = \left[a_{ij}\right]{{< /katex >}} and {{< katex >}}B = \left[b_{ij}\right]{{< /katex >}} be any two boolean matrices of the same type. Then their **join** {{< katex >}}\lor{{< /katex >}} and **meet** {{< katex >}}\land{{< /katex >}} are defined as follows:
+Let  A = \left[a_{ij}\right] and  B = \left[b_{ij}\right] be any two boolean matrices of the same type. Then their **join**  \lor and **meet**  \land are defined as follows:
 
 **Definition 12.4: Join of A and B**
 
-{{< katex display=true >}}
+
 A \lor B = [a_{ij}] \lor [b_{ij}] = [a_{ij} \lor b_{ij}] = [c_{ij}]
-{{< /katex >}}
+
 
 **Definition 12.5: Meet of A and B**
 
-{{< katex display=true >}}
-A \land B = [a_{ij}] \land [b_{ij}] = [a_{ij} \land b_{ij}] = [c_{ij}]
-{{< /katex >}}
 
-It is clear that {{< katex >}}(a \vee b) = \max \{a, b\}{{< /katex >}}; {{< katex >}}(a \wedge b) = \min \{a, b\}{{< /katex >}}, {{< katex >}}a, b \in \{0, 1\}{{< /katex >}}.
+A \land B = [a_{ij}] \land [b_{ij}] = [a_{ij} \land b_{ij}] = [c_{ij}]
+
+
+It is clear that  (a \vee b) = \max \{a, b\};  (a \wedge b) = \min \{a, b\},  a, b \in \{0, 1\}.
 
 **Example 12.8**
 
-Let {{< katex >}}A = \begin{bmatrix} 0 & 1 \\ 1 & 1 \end{bmatrix}{{< /katex >}}, {{< katex >}}B = \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix}{{< /katex >}} be any two boolean matrices of the same type. Find {{< katex >}}A \vee B{{< /katex >}} and {{< katex >}}A \wedge B{{< /katex >}}.
+Let  A = \begin{bmatrix} 0 & 1 \\ 1 & 1 \end{bmatrix},  B = \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix} be any two boolean matrices of the same type. Find  A \vee B and  A \wedge B.
 
 **Solution**
 
-{{< katex display=true >}}
-A \vee B = \begin{bmatrix} 0 & 1 \\ 1 & 1 \end{bmatrix} \vee \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 0 \vee 1 & 1 \vee 1 \\ 1 \vee 0 & 1 \vee 1 \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}
-{{< /katex >}}
 
-{{< katex display=true >}}
+A \vee B = \begin{bmatrix} 0 & 1 \\ 1 & 1 \end{bmatrix} \vee \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 0 \vee 1 & 1 \vee 1 \\ 1 \vee 0 & 1 \vee 1 \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}
+
+
+
 A \wedge B = \begin{bmatrix} 0 & 1 \\ 1 & 1 \end{bmatrix} \wedge \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 0 \wedge 1 & 1 \wedge 1 \\ 1 \wedge 0 & 1 \wedge 1 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ 0 & 1 \end{bmatrix}
-{{< /katex >}}
+
 
 **Properties satisfied by join and meet**
 
-Let {{< katex >}}\mathbb{B}{{< /katex >}} be the set of all boolean matrices of the same type. We only state the properties of meet and join.
+Let  \mathbb{B} be the set of all boolean matrices of the same type. We only state the properties of meet and join.
 
 **Closure property**
 
-{{< katex >}}A, B \in \mathbb{B},\ A \vee B = [a_{ij}] \vee [b_{ij}] = [a_{ij} \vee b_{ij}] \in \mathbb{B}{{< /katex >}}. (Because, {{< katex >}}(a_{ij} \vee b_{ij}){{< /katex >}} is either 0 or 1 {{< katex >}}\forall i, j{{< /katex >}}. {{< katex >}}\vee{{< /katex >}} is a binary operation on {{< katex >}}\mathbb{B}{{< /katex >}}.
+ A, B \in \mathbb{B},\ A \vee B = [a_{ij}] \vee [b_{ij}] = [a_{ij} \vee b_{ij}] \in \mathbb{B}. (Because,  (a_{ij} \vee b_{ij}) is either 0 or 1  \forall i, j.  \vee is a binary operation on  \mathbb{B}.
 
 **Commutative property**
 
-{{< katex >}}A \vee B = B \vee A,\ \forall A, B \in \mathbb{B}{{< /katex >}}. {{< katex >}}\vee{{< /katex >}} is commutative.
+ A \vee B = B \vee A,\ \forall A, B \in \mathbb{B}.  \vee is commutative.
 
 **Associative property**
 
-{{< katex >}}A \vee (B \vee C) = (A \vee B) \vee C,\ \forall A, B, C \in \mathbb{B}{{< /katex >}}. {{< katex >}}\vee{{< /katex >}} is associative.
+ A \vee (B \vee C) = (A \vee B) \vee C,\ \forall A, B, C \in \mathbb{B}.  \vee is associative.
 
 **Existence of identity property**
 
-{{< katex >}}\forall A \in \mathbb{B},\ \exists{{< /katex >}} the null matrix {{< katex >}}0 \in \mathbb{B} \Rightarrow A \vee 0 = 0 \vee A = A{{< /katex >}}. The identity element for {{< katex >}}\vee{{< /katex >}} is the null matrix.
+ \forall A \in \mathbb{B},\ \exists the null matrix  0 \in \mathbb{B} \Rightarrow A \vee 0 = 0 \vee A = A. The identity element for  \vee is the null matrix.
 
 **Existence of inverse property**
 
-For any matrix {{< katex >}}A \in \mathbb{B}{{< /katex >}}, it is impossible to find a matrix {{< katex >}}B \in \mathbb{B} \Rightarrow A \vee B = B \vee A = 0{{< /katex >}}. So the inverse does not exist.
+For any matrix  A \in \mathbb{B}, it is impossible to find a matrix  B \in \mathbb{B} \Rightarrow A \vee B = B \vee A = 0. So the inverse does not exist.
 
-Similarly, it can be verified that the operation meet {{< katex >}}\land{{< /katex >}} satisfies (i) closure property (ii) commutative property (iii) associative property (iv) the matrix {{< katex >}}U = \begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}{{< /katex >}} exists as the identity in {{< katex >}}\mathbb{B}{{< /katex >}} and (v) the existence of inverse is not assured.
+Similarly, it can be verified that the operation meet  \land satisfies (i) closure property (ii) commutative property (iii) associative property (iv) the matrix  U = \begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix} exists as the identity in  \mathbb{B} and (v) the existence of inverse is not assured.
 
 #### 12.2.4 Modular Arithmetic
 
-Having discussed the properties of operations like basic usual arithmetic operations, matrix addition and multiplication, join and meet of boolean matrices, one more new operation called the Modular Arithmetic is discussed in this section. The modular arithmetic refers to the process of dividing some number {{< katex >}}a{{< /katex >}} by a positive integer {{< katex >}}n{{< /katex >}} ({{< katex >}}>1{{< /katex >}}), called modulus, and then equating {{< katex >}}a{{< /katex >}} with the remainder {{< katex >}}b{{< /katex >}} modulo {{< katex >}}n{{< /katex >}} and it is written as {{< katex >}}a \equiv b \pmod{n}{{< /katex >}}, read as '{{< katex >}}a{{< /katex >}} is congruent to {{< katex >}}b{{< /katex >}} modulo {{< katex >}}n{{< /katex >}}'.
+Having discussed the properties of operations like basic usual arithmetic operations, matrix addition and multiplication, join and meet of boolean matrices, one more new operation called the Modular Arithmetic is discussed in this section. The modular arithmetic refers to the process of dividing some number  a by a positive integer  n ( >1), called modulus, and then equating  a with the remainder  b modulo  n and it is written as  a \equiv b \pmod{n}, read as ' a is congruent to  b modulo  n'.
 
-Here {{< katex >}}a\equiv b \pmod{n}{{< /katex >}} means {{< katex >}}a - b = n\cdot k{{< /katex >}} for some integer {{< katex >}}k{{< /katex >}} and {{< katex >}}b{{< /katex >}} is the least non-negative integer when {{< katex >}}a{{< /katex >}} is divided by {{< katex >}}n{{< /katex >}}.
+Here  a\equiv b \pmod{n} means  a - b = n\cdot k for some integer  k and  b is the least non-negative integer when  a is divided by  n.
 
-For instance, {{< katex >}}25\equiv 4 \pmod{7}{{< /katex >}}, {{< katex >}}-20\equiv -2 \pmod{3} \equiv 1 \pmod{3}{{< /katex >}} and {{< katex >}}15\equiv 0 \pmod{5}{{< /katex >}}, etc. Further the set of integers when divided by {{< katex >}}n{{< /katex >}}, leaves the remainder {{< katex >}}0,1,2,\ldots ,n-1{{< /katex >}}. In the case of {{< katex >}}\mathbb{Z}_{5}{{< /katex >}},
+For instance,  25\equiv 4 \pmod{7},  -20\equiv -2 \pmod{3} \equiv 1 \pmod{3} and  15\equiv 0 \pmod{5}, etc. Further the set of integers when divided by  n, leaves the remainder  0,1,2,\ldots ,n-1. In the case of  \mathbb{Z}_{5},
 
-{{< katex display=true >}}
+
 \begin{aligned}
 &[0] = \{\ldots , -15, -10, -5, 0, 5, 10, 15, \ldots \}\\
 &[1] = \{\ldots , -14, -9, -4, 1, 6, 11, \ldots \}\\
@@ -443,23 +443,23 @@ For instance, {{< katex >}}25\equiv 4 \pmod{7}{{< /katex >}}, {{< katex >}}-20\e
 &[3] = \{\ldots , -12, -7, -2, 3, 8, 13, \ldots \}\\
 &[4] = \{\ldots , -11, -6, -1, 4, 9, 14, \ldots \}
 \end{aligned}
-{{< /katex >}}
+
 
 ![](https://placehold.co/600x400)
 
-We write this as {{< katex >}}\mathbb{Z}_{5} = \{[0],[1],[2],[3],[4]\}{{< /katex >}}. In each class, any two numbers are congruent modulo 5.
+We write this as  \mathbb{Z}_{5} = \{[0],[1],[2],[3],[4]\}. In each class, any two numbers are congruent modulo 5.
 
-Before 2007, modular arithmetic is used in 10-digit ISBN (International Standard Book Number) numbering system. For instance, the last digit is for parity check. It is from the set {{< katex >}}\{0,1,2,3,4,5,6,7,8,9,X\}{{< /katex >}}. In ISBN number, 81-7808-755-3, the last digit 3 is obtained as
+Before 2007, modular arithmetic is used in 10-digit ISBN (International Standard Book Number) numbering system. For instance, the last digit is for parity check. It is from the set  \{0,1,2,3,4,5,6,7,8,9,X\}. In ISBN number, 81-7808-755-3, the last digit 3 is obtained as
 
-{{< katex display=true >}}
+
 1*8 + 2*1 + 3*7 + 4*8 + 5*0 + 6*8 + 7*7 + 8*5 + 9*5 = 8 + 2 + 21 + 32 + 0 + 48 + 49 + 40 + 45 = 245 \equiv 3 \pmod{11}.
-{{< /katex >}}
+
 
 Alternatively, the weighted sum is calculated in the reverse manner
 
-{{< katex display=true >}}
+
 9*8 + 8*1 + 7*7 + 6*8 + 5*0 + 4*8 + 3*7 + 2*5 + 1*5 = 245 = 3 \pmod{11}.
-{{< /katex >}}
+
 
 In both ways, we get the same check number 3.
 
@@ -474,33 +474,33 @@ For instance, consider the ISBN Number: 978-81-931995-6-5. Take 12 digits from l
 
 The total of last row is 155. The nearest (higher) integer in multiples of 10 is 160. The difference 160-155=5. The additive inverse modulo 10 is 5 which is 13-th digit in the ISBN number.
 
-Two new operations namely **addition modulo {{< katex >}}n{{< /katex >}}**, {{< katex >}}+_{n}{{< /katex >}} and **multiplication modulo {{< katex >}}n{{< /katex >}}**, {{< katex >}}\times_{n}{{< /katex >}} are defined on the set {{< katex >}}\mathbb{Z}_{n}{{< /katex >}} of all non-negative integers less than {{< katex >}}n{{< /katex >}} under modulo arithmetic.
+Two new operations namely **addition modulo  n**,  +_{n} and **multiplication modulo  n**,  \times_{n} are defined on the set  \mathbb{Z}_{n} of all non-negative integers less than  n under modulo arithmetic.
 
 **Definition 12.6**
 
-(i) The addition modulo {{< katex >}}n{{< /katex >}} is defined as follows.
-Let {{< katex >}}a,b\in \mathbb{Z}_{n}{{< /katex >}}. Then
-{{< katex display=true >}}
-a +_{n} b = \text{the remainder of } a + b \text{ on division by } n
-{{< /katex >}}
+(i) The addition modulo  n is defined as follows.
+Let  a,b\in \mathbb{Z}_{n}. Then
 
-(ii) The multiplication modulo {{< katex >}}n{{< /katex >}} is defined as follows.
-Let {{< katex >}}a,b\in \mathbb{Z}_{n}{{< /katex >}}. Then
-{{< katex display=true >}}
+a +_{n} b = \text{the remainder of } a + b \text{ on division by } n
+
+
+(ii) The multiplication modulo  n is defined as follows.
+Let  a,b\in \mathbb{Z}_{n}. Then
+
 a \times_{n} b = \text{the remainder of } a \times b \text{ on division by } n
-{{< /katex >}}
+
 
 **Example 12.9**
 
-Verify (i) closure property, (ii) commutative property, (iii) associative property, (iv) existence of identity, and (v) existence of inverse for the operation {{< katex >}}+_{5}{{< /katex >}} on {{< katex >}}\mathbb{Z}_{5}{{< /katex >}} using table corresponding to addition modulo 5.
+Verify (i) closure property, (ii) commutative property, (iii) associative property, (iv) existence of identity, and (v) existence of inverse for the operation  +_{5} on  \mathbb{Z}_{5} using table corresponding to addition modulo 5.
 
 **Solution**
 
-It is known that {{< katex >}}\mathbb{Z}_{5} = \{[0], [1], [2], [3], [4]\}{{< /katex >}}. The table corresponding to addition modulo 5 is as follows: We take reminders {{< katex >}}\{0,1,2,3,4\}{{< /katex >}} to represent the classes {{< katex >}}\{[0],[1],[2],[3],[4]\}{{< /katex >}}.
+It is known that  \mathbb{Z}_{5} = \{[0], [1], [2], [3], [4]\}. The table corresponding to addition modulo 5 is as follows: We take reminders  \{0,1,2,3,4\} to represent the classes  \{[0],[1],[2],[3],[4]\}.
 
 **Table 12.2: Addition Modulo 5**
 
-| {{< katex >}}+_{5}{{< /katex >}} | 0 | 1 | 2 | 3 | 4 |
+|  +_{5} | 0 | 1 | 2 | 3 | 4 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0 | 0 | 1 | 2 | 3 | 4 |
 | 1 | 1 | 2 | 3 | 4 | 0 |
@@ -508,32 +508,32 @@ It is known that {{< katex >}}\mathbb{Z}_{5} = \{[0], [1], [2], [3], [4]\}{{< /k
 | 3 | 3 | 4 | 0 | 1 | 2 |
 | 4 | 4 | 0 | 1 | 2 | 3 |
 
-(i) Since each box in the table is filled by exactly one element of {{< katex >}}\mathbb{Z}_{5}{{< /katex >}}, the output {{< katex >}}a + _{5}b{{< /katex >}} is unique and hence {{< katex >}}+_{5}{{< /katex >}} is a binary operation.
+(i) Since each box in the table is filled by exactly one element of  \mathbb{Z}_{5}, the output  a + _{5}b is unique and hence  +_{5} is a binary operation.
 
-(ii) The entries are symmetrically placed with respect to the main diagonal. So {{< katex >}}+_{5}{{< /katex >}} has commutative property.
+(ii) The entries are symmetrically placed with respect to the main diagonal. So  +_{5} has commutative property.
 
 (iii) The table cannot be used directly for the verification of the associative property. So it is to be verified as usual.
-For {{< katex >}}2, 3, 4 \in \mathbb{Z}_{5}{{< /katex >}}, then {{< katex >}}(2 + _{5}3) + _{5}4 = 0 + _{5}4 = 4 \pmod{5}{{< /katex >}}
-and {{< katex >}}2 + _{5}(3 + _{5}4) = 2 + _{5}2 = 4 \pmod{5}{{< /katex >}}.
-Hence {{< katex >}}(2 + _{5}3) + _{5}4 = 2 + _{5}(3 + _{5}4){{< /katex >}}.
-Proceeding like this one can verify this for all possible triples and ultimately it can be shown that {{< katex >}}+_{5}{{< /katex >}} is associative.
+For  2, 3, 4 \in \mathbb{Z}_{5}, then  (2 + _{5}3) + _{5}4 = 0 + _{5}4 = 4 \pmod{5}
+and  2 + _{5}(3 + _{5}4) = 2 + _{5}2 = 4 \pmod{5}.
+Hence  (2 + _{5}3) + _{5}4 = 2 + _{5}(3 + _{5}4).
+Proceeding like this one can verify this for all possible triples and ultimately it can be shown that  +_{5} is associative.
 
-(iv) The row headed by 0 and the column headed by {{< katex >}}0\in \mathbb{Z}_{5}{{< /katex >}} are identical. Hence the identity element is 0.
+(iv) The row headed by 0 and the column headed by  0\in \mathbb{Z}_{5} are identical. Hence the identity element is 0.
 
-(v) The existence of inverse is guaranteed provided the identity 0 exists in each row and each column. From Table 12.2, it is clear that this property is true in this case. The method of finding the inverse of any one of the elements of {{< katex >}}\mathbb{Z}_{5}{{< /katex >}}, say 2 is outlined below.
-First find the position of the identity element 0 in the III row headed by 2. Move horizontally along the III row and after reaching 0, move vertically above 0 in the IV column, because 0 is in the III row and IV column. The element reached at the topmost position of IV column is 3. This element 3 is nothing but the inverse of 2, because, {{< katex >}}2 + _{5}3 = 0 \pmod{5}{{< /katex >}}. In this way, the inverse of each and every element of {{< katex >}}\mathbb{Z}_{5}{{< /katex >}} can be obtained. Note that the inverse of 0 is 0, that of 1 is 4, that of 2 is 3, that of 3 is 2, and, that of 4 is 1.
+(v) The existence of inverse is guaranteed provided the identity 0 exists in each row and each column. From Table 12.2, it is clear that this property is true in this case. The method of finding the inverse of any one of the elements of  \mathbb{Z}_{5}, say 2 is outlined below.
+First find the position of the identity element 0 in the III row headed by 2. Move horizontally along the III row and after reaching 0, move vertically above 0 in the IV column, because 0 is in the III row and IV column. The element reached at the topmost position of IV column is 3. This element 3 is nothing but the inverse of 2, because,  2 + _{5}3 = 0 \pmod{5}. In this way, the inverse of each and every element of  \mathbb{Z}_{5} can be obtained. Note that the inverse of 0 is 0, that of 1 is 4, that of 2 is 3, that of 3 is 2, and, that of 4 is 1.
 
 **Example 12.10**
 
-Verify (i) closure property, (ii) commutative property, (iii) associative property, (iv) existence of identity, and (v) existence of inverse for the operation {{< katex >}}\times_{11}{{< /katex >}} on a subset {{< katex >}}A = \{1,3,4,5,9\}{{< /katex >}} of the set of remainders {{< katex >}}\{0,1,2,3,4,5,6,7,8,9,10\}{{< /katex >}}.
+Verify (i) closure property, (ii) commutative property, (iii) associative property, (iv) existence of identity, and (v) existence of inverse for the operation  \times_{11} on a subset  A = \{1,3,4,5,9\} of the set of remainders  \{0,1,2,3,4,5,6,7,8,9,10\}.
 
 **Solution**
 
-The table for the operation {{< katex >}}\times_{11}{{< /katex >}} is as follows.
+The table for the operation  \times_{11} is as follows.
 
 **Table 12.3: Multiplication Modulo 11 on A**
 
-| {{< katex >}}\times_{11}{{< /katex >}} | 1 | 3 | 4 | 5 | 9 |
+|  \times_{11} | 1 | 3 | 4 | 5 | 9 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | 1 | 3 | 4 | 5 | 9 |
 | 3 | 3 | 9 | 1 | 4 | 5 |
@@ -541,45 +541,45 @@ The table for the operation {{< katex >}}\times_{11}{{< /katex >}} is as follows
 | 5 | 5 | 4 | 9 | 3 | 1 |
 | 9 | 9 | 5 | 3 | 1 | 4 |
 
-Following the same kind of procedure as explained in the previous example, a brief outline of the process of verification of the properties of {{< katex >}}\times_{11}{{< /katex >}} on A is given below.
+Following the same kind of procedure as explained in the previous example, a brief outline of the process of verification of the properties of  \times_{11} on A is given below.
 
-(i) Since each box has a unique element of A, {{< katex >}}\times_{11}{{< /katex >}} is a binary operation on A.
+(i) Since each box has a unique element of A,  \times_{11} is a binary operation on A.
 
-(ii) The entries are symmetrical about the main diagonal. Hence {{< katex >}}\times_{11}{{< /katex >}} has commutative property.
+(ii) The entries are symmetrical about the main diagonal. Hence  \times_{11} has commutative property.
 
 (iii) As usual, the associative property can be seen to be true.
 
 (iv) The entries of both the row and column headed by the element 1 are identical. Hence 1 is the identity element.
 
-(v) Since the identity 1 exists in each row and each column, the existence of inverse property is assured for {{< katex >}}\times_{11}{{< /katex >}}. The inverse of 1 is 1, that of 3 is 4, that of 4 is 3, 5 is 9, and, that of 9 is 5.
+(v) Since the identity 1 exists in each row and each column, the existence of inverse property is assured for  \times_{11}. The inverse of 1 is 1, that of 3 is 4, that of 4 is 3, 5 is 9, and, that of 9 is 5.
 
 ## EXERCISE 12.1
 
-1. Determine whether {{< katex >}}\ast{{< /katex >}} is a binary operation on the sets given below.
-   (i) {{< katex >}}a * b = a \mid b \text{ on } \mathbb{R}{{< /katex >}}
-   (ii) {{< katex >}}a * b = \min (a,b) \text{ on } A = \{1,2,3,4,5\}{{< /katex >}}
-   (iii) {{< katex >}}(a * b) = a\sqrt{b} \text{ is binary on } \mathbb{R}{{< /katex >}}.
+1. Determine whether  \ast is a binary operation on the sets given below.
+   (i)  a * b = a \mid b \text{ on } \mathbb{R}
+   (ii)  a * b = \min (a,b) \text{ on } A = \{1,2,3,4,5\}
+   (iii)  (a * b) = a\sqrt{b} \text{ is binary on } \mathbb{R}.
 
-2. On {{< katex >}}\mathbb{Z}{{< /katex >}}, define {{< katex >}}\ast{{< /katex >}} by {{< katex >}}(m * n) = m^{n} + n^{m}:\ \forall m,n\in \mathbb{Z}{{< /katex >}}. Is {{< katex >}}\ast{{< /katex >}} binary on {{< katex >}}\mathbb{Z}{{< /katex >}}?
+2. On  \mathbb{Z}, define  \ast by  (m * n) = m^{n} + n^{m}:\ \forall m,n\in \mathbb{Z}. Is  \ast binary on  \mathbb{Z}?
 
-3. Let {{< katex >}}\ast{{< /katex >}} be defined on {{< katex >}}\mathbb{R}{{< /katex >}} by {{< katex >}}(a * b) = a + b + ab - 7{{< /katex >}}. Is {{< katex >}}\ast{{< /katex >}} binary on {{< katex >}}\mathbb{R}{{< /katex >}}? If so, find {{< katex >}}3 * \left(\frac{-7}{15}\right){{< /katex >}}.
+3. Let  \ast be defined on  \mathbb{R} by  (a * b) = a + b + ab - 7. Is  \ast binary on  \mathbb{R}? If so, find  3 * \left(\frac{-7}{15}\right).
 
-4. Let {{< katex >}}A = \{a + \sqrt{5}b : a,b\in \mathbb{Z}\}{{< /katex >}}. Check whether the usual multiplication is a binary operation on {{< katex >}}A{{< /katex >}}.
+4. Let  A = \{a + \sqrt{5}b : a,b\in \mathbb{Z}\}. Check whether the usual multiplication is a binary operation on  A.
 
-5. (i) Define an operation {{< katex >}}\ast{{< /katex >}} on {{< katex >}}\mathbb{Q}{{< /katex >}} as follows: {{< katex >}}a * b = \left(\frac{a + b}{2}\right);\ \forall a,b\in \mathbb{Q}{{< /katex >}}. Examine the closure, commutative, and associative properties satisfied by {{< katex >}}\ast{{< /katex >}} on {{< katex >}}\mathbb{Q}{{< /katex >}}.
-   (ii) Define an operation {{< katex >}}\ast{{< /katex >}} on {{< katex >}}\mathbb{Q}{{< /katex >}} as follows: {{< katex >}}a * b = \left(\frac{a + b}{2}\right);\ \forall a,b\in \mathbb{Q}{{< /katex >}}. Examine the existence of identity and the existence of inverse for the operation {{< katex >}}\ast{{< /katex >}} on {{< katex >}}\mathbb{Q}{{< /katex >}}.
+5. (i) Define an operation  \ast on  \mathbb{Q} as follows:  a * b = \left(\frac{a + b}{2}\right);\ \forall a,b\in \mathbb{Q}. Examine the closure, commutative, and associative properties satisfied by  \ast on  \mathbb{Q}.
+   (ii) Define an operation  \ast on  \mathbb{Q} as follows:  a * b = \left(\frac{a + b}{2}\right);\ \forall a,b\in \mathbb{Q}. Examine the existence of identity and the existence of inverse for the operation  \ast on  \mathbb{Q}.
 
-6. Fill in the following table so that the binary operation {{< katex >}}\ast{{< /katex >}} on {{< katex >}}A = \{a,b,c\}{{< /katex >}} is commutative.
+6. Fill in the following table so that the binary operation  \ast on  A = \{a,b,c\} is commutative.
 
-| {{< katex >}}\ast{{< /katex >}} | a | b | c |
+|  \ast | a | b | c |
 | :--- | :--- | :--- | :--- |
 | a | b |   |   |
 | b |   | b |   |
 | c | a | c |   |
 
-7. Consider the binary operation {{< katex >}}\ast{{< /katex >}} defined on the set {{< katex >}}A = \{a,b,c,d\}{{< /katex >}} by the following table:
+7. Consider the binary operation  \ast defined on the set  A = \{a,b,c,d\} by the following table:
 
-| {{< katex >}}\ast{{< /katex >}} | a | b | c | d |
+|  \ast | a | b | c | d |
 | :--- | :--- | :--- | :--- | :--- |
 | a | a | c | b | d |
 | b | d | a | b | c |
@@ -588,13 +588,13 @@ Following the same kind of procedure as explained in the previous example, a bri
 
 Is it commutative and associative?
 
-8. Let {{< katex >}}A = \begin{pmatrix} 1 & 0 & 1 & 0 \\ 0 & 1 & 0 & 1 \\ 1 & 0 & 0 & 1 \end{pmatrix}{{< /katex >}}, {{< katex >}}B = \begin{pmatrix} 0 & 1 & 0 & 1 \\ 1 & 0 & 1 & 0 \\ 1 & 0 & 0 & 1 \end{pmatrix}{{< /katex >}}, {{< katex >}}C = \begin{pmatrix} 1 & 1 & 0 & 1 \\ 0 & 1 & 1 & 0 \\ 1 & 1 & 1 & 1 \end{pmatrix}{{< /katex >}} be any three boolean matrices of the same type. Find (i) {{< katex >}}A \lor B{{< /katex >}} (ii) {{< katex >}}A \land B{{< /katex >}} (iii) {{< katex >}}(A \lor B) \land C{{< /katex >}} (iv) {{< katex >}}(A \land B) \lor C{{< /katex >}}.
+8. Let  A = \begin{pmatrix} 1 & 0 & 1 & 0 \\ 0 & 1 & 0 & 1 \\ 1 & 0 & 0 & 1 \end{pmatrix},  B = \begin{pmatrix} 0 & 1 & 0 & 1 \\ 1 & 0 & 1 & 0 \\ 1 & 0 & 0 & 1 \end{pmatrix},  C = \begin{pmatrix} 1 & 1 & 0 & 1 \\ 0 & 1 & 1 & 0 \\ 1 & 1 & 1 & 1 \end{pmatrix} be any three boolean matrices of the same type. Find (i)  A \lor B (ii)  A \land B (iii)  (A \lor B) \land C (iv)  (A \land B) \lor C.
 
-9. (i) Let {{< katex >}}M = \left\{ \begin{pmatrix} x \\ x \\ x \end{pmatrix} : x \in \mathbb{R} - \{0\} \right\}{{< /katex >}} and let {{< katex >}}\ast{{< /katex >}} be the matrix multiplication. Determine whether {{< katex >}}M{{< /katex >}} is closed under {{< katex >}}\ast{{< /katex >}}. If so, examine the commutative and associative properties satisfied by {{< katex >}}\ast{{< /katex >}} on {{< katex >}}M{{< /katex >}}.
-   (ii) Let {{< katex >}}M = \left\{ \begin{pmatrix} x \\ x \\ x \end{pmatrix} : x \in \mathbb{R} - \{0\} \right\}{{< /katex >}} and let {{< katex >}}\ast{{< /katex >}} be the matrix multiplication. Determine whether {{< katex >}}M{{< /katex >}} is closed under {{< katex >}}\ast{{< /katex >}}. If so, examine the existence of identity, existence of inverse properties for the operation {{< katex >}}\ast{{< /katex >}} on {{< katex >}}M{{< /katex >}}.
+9. (i) Let  M = \left\{ \begin{pmatrix} x \\ x \\ x \end{pmatrix} : x \in \mathbb{R} - \{0\} \right\} and let  \ast be the matrix multiplication. Determine whether  M is closed under  \ast. If so, examine the commutative and associative properties satisfied by  \ast on  M.
+   (ii) Let  M = \left\{ \begin{pmatrix} x \\ x \\ x \end{pmatrix} : x \in \mathbb{R} - \{0\} \right\} and let  \ast be the matrix multiplication. Determine whether  M is closed under  \ast. If so, examine the existence of identity, existence of inverse properties for the operation  \ast on  M.
 
-10. (i) Let {{< katex >}}A{{< /katex >}} be {{< katex >}}\mathbb{Q} \backslash \{1\}{{< /katex >}}. Define {{< katex >}}\ast{{< /katex >}} on {{< katex >}}A{{< /katex >}} by {{< katex >}}x \ast y = x + y - xy{{< /katex >}}. Is {{< katex >}}\ast{{< /katex >}} binary on {{< katex >}}A{{< /katex >}}? If so, examine the commutative and associative properties satisfied by {{< katex >}}\ast{{< /katex >}} on {{< katex >}}A{{< /katex >}}.
-    (ii) Let {{< katex >}}A{{< /katex >}} be {{< katex >}}\mathbb{Q} \backslash \{1\}{{< /katex >}}. Define {{< katex >}}\ast{{< /katex >}} on {{< katex >}}A{{< /katex >}} by {{< katex >}}x \ast y = x + y - xy{{< /katex >}}. Is {{< katex >}}\ast{{< /katex >}} binary on {{< katex >}}A{{< /katex >}}? If so, examine the existence of identity, existence of inverse properties for the operation {{< katex >}}\ast{{< /katex >}} on {{< katex >}}A{{< /katex >}}.
+10. (i) Let  A be  \mathbb{Q} \backslash \{1\}. Define  \ast on  A by  x \ast y = x + y - xy. Is  \ast binary on  A? If so, examine the commutative and associative properties satisfied by  \ast on  A.
+    (ii) Let  A be  \mathbb{Q} \backslash \{1\}. Define  \ast on  A by  x \ast y = x + y - xy. Is  \ast binary on  A? If so, examine the existence of identity, existence of inverse properties for the operation  \ast on  A.
 
 ## 12.3 Mathematical Logic
 
@@ -603,7 +603,7 @@ Is it commutative and associative?
 
 George Boole was a self-taught English Mathematician, Philosopher and Logician. His results on Boolean Algebra involving the binary numbers play an important role in various fields, particularly more in computer applications. He introduced the idea of Symbolic Logic and contributed a lot of results to the fast development of Mathematical Logic.
 
-The reputed Greek philosopher Aristotle (384-322 BC (BCE)) wrote the first book on logic. The famous German philosopher and mathematician Gottfried Leibnitz of {{< katex >}}17^{\mathrm{th}}{{< /katex >}} century framed the idea of using symbols in Logic. Later this idea was realized by George Boole and Augustus de Morgan in {{< katex >}}19^{\mathrm{th}}{{< /katex >}} century. George Boole established the fact that logic is very much related to mathematics by linking logic, symbols, and algebra together. Mathematical Logic was developed in the late {{< katex >}}19^{\mathrm{th}}{{< /katex >}} and early {{< katex >}}20^{\mathrm{th}}{{< /katex >}} centuries.
+The reputed Greek philosopher Aristotle (384-322 BC (BCE)) wrote the first book on logic. The famous German philosopher and mathematician Gottfried Leibnitz of  17^{\mathrm{th}} century framed the idea of using symbols in Logic. Later this idea was realized by George Boole and Augustus de Morgan in  19^{\mathrm{th}} century. George Boole established the fact that logic is very much related to mathematics by linking logic, symbols, and algebra together. Mathematical Logic was developed in the late  19^{\mathrm{th}} and early  20^{\mathrm{th}} centuries.
 
 In 1930 the researchers noticed (Neumann's statement in his death bed: 0 and 1 are going to rule the world) that the binary numbers 0 and 1 could be used to analyze electrical circuits and thus used to design electronic computers. Today digital computers and electronic circuits are designed to implement this binary arithmetic. We study Mathematical Logic as the language and deductive system of Mathematics and Computer Science.
 
@@ -629,19 +629,19 @@ Any declarative sentence is called a **statement** or a **proposition** which is
 
 Any imperative sentence such as exclamatory, command and any interrogative sentence cannot be a proposition.
 
-The **truth value** of a statement refers to the truth or the falsity of that particular statement. The truth value of a true statement is true and it is denoted by {{< katex >}}T{{< /katex >}} or 1. The truth value of a false statement is false and it is denoted by {{< katex >}}F{{< /katex >}} or 0.
+The **truth value** of a statement refers to the truth or the falsity of that particular statement. The truth value of a true statement is true and it is denoted by  T or 1. The truth value of a false statement is false and it is denoted by  F or 0.
 
-An **open sentence** is a sentence whose truth can vary according to some conditions, which are not stated in the sentence. For instance, (i) {{< katex >}}x \times 7 = 35{{< /katex >}} is an open sentence whose truth value depends on value of {{< katex >}}x{{< /katex >}}. That is, if {{< katex >}}x = 5{{< /katex >}}, it is true and if {{< katex >}}x \neq 5{{< /katex >}}, it is false. (ii) He is a bad person. This is an open sentence. Opinion varies from individual to individual.
+An **open sentence** is a sentence whose truth can vary according to some conditions, which are not stated in the sentence. For instance, (i)  x \times 7 = 35 is an open sentence whose truth value depends on value of  x. That is, if  x = 5, it is true and if  x \neq 5, it is false. (ii) He is a bad person. This is an open sentence. Opinion varies from individual to individual.
 
 **Example 12.11**
 
 Identify the valid statements from the following sentences.
 
 (1) Mount Everest is the highest mountain of the world.
-(2) {{< katex >}}3 + 4 = 8{{< /katex >}}
-(3) {{< katex >}}7 + 5 > 10{{< /katex >}}
+(2)  3 + 4 = 8
+(3)  7 + 5 > 10
 (4) Give me that book.
-(5) {{< katex >}}(10 - x) = 7{{< /katex >}}
+(5)  (10 - x) = 7
 (6) How beautiful this flower is!
 (7) Where are you going?
 (8) Wish you all success.
@@ -649,7 +649,7 @@ Identify the valid statements from the following sentences.
 
 **Solution:**
 
-The truth value of the sentences (1) and (3) are {{< katex >}}T{{< /katex >}}, while that of (2) is {{< katex >}}F{{< /katex >}}. Hence they are statements. The sentence (5) is true for {{< katex >}}x = 3{{< /katex >}} and false for {{< katex >}}x \neq 3{{< /katex >}} and hence it may be true or false but not both. So it is also a statement.
+The truth value of the sentences (1) and (3) are  T, while that of (2) is  F. Hence they are statements. The sentence (5) is true for  x = 3 and false for  x \neq 3 and hence it may be true or false but not both. So it is also a statement.
 
 The sentences (4), (6), (7), (8) are not statements, because (4) is a command, (6) is an exclamatory, (7) is a question while (8) is a sentence expressing one's wishes and (9) is a paradox.
 
@@ -669,12 +669,12 @@ Consider the statement, "It is not a prime number and Ooty is in Kerala".
 
 Note that the above statement is actually a combination of the following two simple statements:
 
-{{< katex >}}p:{{< /katex >}} 1 is not a prime number.
-{{< katex >}}q:{{< /katex >}} Ooty is in Kerala.
+ p: 1 is not a prime number.
+ q: Ooty is in Kerala.
 
 Hence the given statement is not a simple statement. It is a compound statement.
 
-From the above discussions, it follows that any simple statement takes the value either {{< katex >}}T{{< /katex >}} or {{< katex >}}F{{< /katex >}}. So it can be treated as a variable and this variable is known as **statement variable** or **propositional variable**. The propositional variables are usually denoted by {{< katex >}}p, q, r, \ldots{{< /katex >}}.
+From the above discussions, it follows that any simple statement takes the value either  T or  F. So it can be treated as a variable and this variable is known as **statement variable** or **propositional variable**. The propositional variables are usually denoted by  p, q, r, \ldots.
 
 **Definition 12.9 : (Logical Connectives)**
 
@@ -692,33 +692,33 @@ A table showing the relationship between truth values of simple statements and t
 
 **Definition 12.12**
 
-(i) Let {{< katex >}}p{{< /katex >}} be a simple statement. Then the **negation** of {{< katex >}}p{{< /katex >}} is a statement whose truth value is opposite to that of {{< katex >}}p{{< /katex >}}. It is denoted by {{< katex >}}\neg p{{< /katex >}}, read as not {{< katex >}}p{{< /katex >}}. The truth value of {{< katex >}}\neg p{{< /katex >}} is {{< katex >}}T{{< /katex >}}, if {{< katex >}}p{{< /katex >}} is {{< katex >}}F{{< /katex >}}, otherwise it is {{< katex >}}F{{< /katex >}}.
+(i) Let  p be a simple statement. Then the **negation** of  p is a statement whose truth value is opposite to that of  p. It is denoted by  \neg p, read as not  p. The truth value of  \neg p is  T, if  p is  F, otherwise it is  F.
 
-(ii) Let {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} be any two simple statements. The **conjunction** of {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} is obtained by connecting {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} by the word and. It is denoted by {{< katex >}}p \wedge q{{< /katex >}}, read as '{{< katex >}}p{{< /katex >}} conjunction {{< katex >}}q{{< /katex >}}' or '{{< katex >}}p{{< /katex >}} hat {{< katex >}}q{{< /katex >}}'. The truth value of {{< katex >}}p \wedge q{{< /katex >}} is {{< katex >}}T{{< /katex >}}, whenever both {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} are {{< katex >}}T{{< /katex >}} and it is {{< katex >}}F{{< /katex >}} otherwise.
+(ii) Let  p and  q be any two simple statements. The **conjunction** of  p and  q is obtained by connecting  p and  q by the word and. It is denoted by  p \wedge q, read as ' p conjunction  q' or ' p hat  q'. The truth value of  p \wedge q is  T, whenever both  p and  q are  T and it is  F otherwise.
 
-(iii) The **disjunction** of any two simple statements {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} is the compound statement obtained by connecting {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} by the word or. It is denoted by {{< katex >}}p \vee q{{< /katex >}}, read as '{{< katex >}}p{{< /katex >}} disjunction {{< katex >}}q{{< /katex >}}' or '{{< katex >}}p{{< /katex >}} cup {{< katex >}}q{{< /katex >}}'. The truth value of {{< katex >}}p \vee q{{< /katex >}} is {{< katex >}}F{{< /katex >}}, whenever both {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} are {{< katex >}}F{{< /katex >}} and it is {{< katex >}}T{{< /katex >}} otherwise.
+(iii) The **disjunction** of any two simple statements  p and  q is the compound statement obtained by connecting  p and  q by the word or. It is denoted by  p \vee q, read as ' p disjunction  q' or ' p cup  q'. The truth value of  p \vee q is  F, whenever both  p and  q are  F and it is  T otherwise.
 
 **Logical Connectives and their Truth Tables**
 
-(1) Truth Table for NOT {{< katex >}}|\neg |{{< /katex >}} (Negation)
+(1) Truth Table for NOT  |\neg | (Negation)
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}\neg p{{< /katex >}} |
+|  p |  \neg p |
 | :--- | :--- |
 | T | F |
 | F | T |
 
-(2) Truth table for AND {{< katex >}}|\wedge |{{< /katex >}} (Conjunction)
+(2) Truth table for AND  |\wedge | (Conjunction)
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}p \wedge q{{< /katex >}} |
+|  p |  q |  p \wedge q |
 | :--- | :--- | :--- |
 | T | T | T |
 | T | F | F |
 | F | T | F |
 | F | F | F |
 
-(3) Truth table for OR {{< katex >}}|\vee |{{< /katex >}} (Disjunction)
+(3) Truth table for OR  |\vee | (Disjunction)
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}p \vee q{{< /katex >}} |
+|  p |  q |  p \vee q |
 | :--- | :--- | :--- |
 | T | T | T |
 | T | F | T |
@@ -727,38 +727,38 @@ A table showing the relationship between truth values of simple statements and t
 
 **Example 12.12**
 
-Write the statements in words corresponding to {{< katex >}}\neg p{{< /katex >}}, {{< katex >}}p\wedge q{{< /katex >}}, {{< katex >}}p\vee q{{< /katex >}} and {{< katex >}}q\vee \neg p{{< /katex >}}, where {{< katex >}}p{{< /katex >}} is 'It is cold' and {{< katex >}}q{{< /katex >}} is 'It is raining.'
+Write the statements in words corresponding to  \neg p,  p\wedge q,  p\vee q and  q\vee \neg p, where  p is 'It is cold' and  q is 'It is raining.'
 
 **Solution**
 
-(1) {{< katex >}}\neg p{{< /katex >}}: It is not cold.
-(2) {{< katex >}}p\wedge q{{< /katex >}}: It is cold and raining.
-(3) {{< katex >}}p\vee q{{< /katex >}}: It is cold or raining.
-(4) {{< katex >}}q\vee \neg p{{< /katex >}}: It is raining or it is not cold.
+(1)  \neg p: It is not cold.
+(2)  p\wedge q: It is cold and raining.
+(3)  p\vee q: It is cold or raining.
+(4)  q\vee \neg p: It is raining or it is not cold.
 
-Observe that the statement formula {{< katex >}}\neg p{{< /katex >}} has only 1 variable {{< katex >}}p{{< /katex >}} and its truth table has {{< katex >}}2 = (2^{1}){{< /katex >}} rows. Each of the statement formulae {{< katex >}}p\wedge q{{< /katex >}} and {{< katex >}}p\vee q{{< /katex >}} has two variables {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}}. The truth table corresponding to each of them has {{< katex >}}4 = (2^{2}){{< /katex >}} rows. In general, it follows that if a statement formula involves {{< katex >}}n{{< /katex >}} variables, then its truth table will contain {{< katex >}}2^{n}{{< /katex >}} rows.
+Observe that the statement formula  \neg p has only 1 variable  p and its truth table has  2 = (2^{1}) rows. Each of the statement formulae  p\wedge q and  p\vee q has two variables  p and  q. The truth table corresponding to each of them has  4 = (2^{2}) rows. In general, it follows that if a statement formula involves  n variables, then its truth table will contain  2^{n} rows.
 
 **Example 12.13**
 
 How many rows are needed for following statement formulae?
-(i) {{< katex >}}(p \vee \neg t)\wedge (p\vee \neg s){{< /katex >}}
-(ii) {{< katex >}}((p\wedge q)\vee (\neg r\vee \neg s))\wedge (\neg t\wedge \nu){{< /katex >}}
+(i)  (p \vee \neg t)\wedge (p\vee \neg s)
+(ii)  ((p\wedge q)\vee (\neg r\vee \neg s))\wedge (\neg t\wedge \nu)
 
 **Solution**
 
-(i) {{< katex >}}(p\vee \neg t)\wedge (p\vee \neg s){{< /katex >}} contains 3 variables {{< katex >}}p, s{{< /katex >}} and {{< katex >}}t{{< /katex >}}. Hence the corresponding truth table will contain {{< katex >}}2^{3} = 8{{< /katex >}} rows.
+(i)  (p\vee \neg t)\wedge (p\vee \neg s) contains 3 variables  p, s and  t. Hence the corresponding truth table will contain  2^{3} = 8 rows.
 
-(ii) {{< katex >}}((p\wedge q)\vee (\neg r\vee \neg s))\wedge (\neg t\wedge \nu){{< /katex >}} contains 6 variables {{< katex >}}p,q,r,s,t{{< /katex >}}, and {{< katex >}}\nu{{< /katex >}}. Hence the corresponding truth table will contain {{< katex >}}2^{6} = 64{{< /katex >}} rows.
+(ii)  ((p\wedge q)\vee (\neg r\vee \neg s))\wedge (\neg t\wedge \nu) contains 6 variables  p,q,r,s,t, and  \nu. Hence the corresponding truth table will contain  2^{6} = 64 rows.
 
 **Conditional Statement**
 
 **Definition 12.13**
 
-The **conditional statement** of any two statements {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} is the statement, "If {{< katex >}}p{{< /katex >}}, then {{< katex >}}q{{< /katex >}}" and it is denoted by {{< katex >}}p \rightarrow q{{< /katex >}}. Here {{< katex >}}p{{< /katex >}} is called the **hypothesis** or **antecedent** and {{< katex >}}q{{< /katex >}} is called the **conclusion** or **consequence**. {{< katex >}}p \rightarrow q{{< /katex >}} is false only if {{< katex >}}p{{< /katex >}} is true and {{< katex >}}q{{< /katex >}} is false. Otherwise it is true.
+The **conditional statement** of any two statements  p and  q is the statement, "If  p, then  q" and it is denoted by  p \rightarrow q. Here  p is called the **hypothesis** or **antecedent** and  q is called the **conclusion** or **consequence**.  p \rightarrow q is false only if  p is true and  q is false. Otherwise it is true.
 
-**Truth table for {{< katex >}}p\rightarrow q{{< /katex >}}**
+**Truth table for  p\rightarrow q**
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}p \rightarrow q{{< /katex >}} |
+|  p |  q |  p \rightarrow q |
 | :--- | :--- | :--- |
 | T | T | T |
 | T | F | F |
@@ -767,69 +767,69 @@ The **conditional statement** of any two statements {{< katex >}}p{{< /katex >}}
 
 **Example 12.14**
 
-Consider {{< katex >}}p \rightarrow q{{< /katex >}}: If today is Monday, then {{< katex >}}4 + 4 = 8{{< /katex >}}.
-Here the component statements {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} are given by,
-{{< katex >}}p{{< /katex >}}: Today is Monday; {{< katex >}}q: 4 + 4 = 8{{< /katex >}}.
-The truth value of {{< katex >}}p \rightarrow q{{< /katex >}} is {{< katex >}}T{{< /katex >}} because the conclusion {{< katex >}}q{{< /katex >}} is {{< katex >}}T{{< /katex >}}.
-An important point is that {{< katex >}}p \rightarrow q{{< /katex >}} should not be treated by actually considering the meanings of {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} in English. Also it is not necessary that {{< katex >}}p{{< /katex >}} should be related to {{< katex >}}q{{< /katex >}} at all.
+Consider  p \rightarrow q: If today is Monday, then  4 + 4 = 8.
+Here the component statements  p and  q are given by,
+ p: Today is Monday;  q: 4 + 4 = 8.
+The truth value of  p \rightarrow q is  T because the conclusion  q is  T.
+An important point is that  p \rightarrow q should not be treated by actually considering the meanings of  p and  q in English. Also it is not necessary that  p should be related to  q at all.
 
 **Consequences**
 
-From the conditional statement {{< katex >}}p \to q{{< /katex >}}, three more conditional statements are derived. They are listed below.
+From the conditional statement  p \to q, three more conditional statements are derived. They are listed below.
 
-(i) **Converse statement** {{< katex >}}q \to p{{< /katex >}}.
-(ii) **Inverse statement** {{< katex >}}\neg p \to \neg q{{< /katex >}}.
-(iii) **Contrapositive statement** {{< katex >}}\neg q \to \neg p{{< /katex >}}.
+(i) **Converse statement**  q \to p.
+(ii) **Inverse statement**  \neg p \to \neg q.
+(iii) **Contrapositive statement**  \neg q \to \neg p.
 
 **Example 12.15**
 
-Write down the (i) conditional statement (ii) converse statement (iii) inverse statement, and (iv) contrapositive statement for the two statements {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} given below.
+Write down the (i) conditional statement (ii) converse statement (iii) inverse statement, and (iv) contrapositive statement for the two statements  p and  q given below.
 
-{{< katex >}}p{{< /katex >}}: The number of primes is infinite.
-{{< katex >}}q{{< /katex >}}: Ooty is in Kerala.
+ p: The number of primes is infinite.
+ q: Ooty is in Kerala.
 
 **Solution**
 
-Then the four types of conditional statements corresponding to {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} are respectively listed below.
+Then the four types of conditional statements corresponding to  p and  q are respectively listed below.
 
-(i) {{< katex >}}p \to q{{< /katex >}}: (conditional statement) "If the number of primes is infinite then Ooty is in Kerala".
-(ii) {{< katex >}}q \to p{{< /katex >}}: (converse statement) "If Ooty is in Kerala then the number of primes is infinite".
-(iii) {{< katex >}}\neg p \to \neg q{{< /katex >}}: (inverse statement) "If the number of primes is not infinite then Ooty is not in Kerala".
-(iv) {{< katex >}}\neg q \to \neg p{{< /katex >}}: (contrapositive statement) "If Ooty is not in Kerala then the number of primes is not infinite".
+(i)  p \to q: (conditional statement) "If the number of primes is infinite then Ooty is in Kerala".
+(ii)  q \to p: (converse statement) "If Ooty is in Kerala then the number of primes is infinite".
+(iii)  \neg p \to \neg q: (inverse statement) "If the number of primes is not infinite then Ooty is not in Kerala".
+(iv)  \neg q \to \neg p: (contrapositive statement) "If Ooty is not in Kerala then the number of primes is not infinite".
 
 **Bi-conditional Statement**
 
 **Definition 12.14**
 
-The **bi-conditional statement** of any two statements {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} is the statement "{{< katex >}}p{{< /katex >}} if and only if {{< katex >}}q{{< /katex >}}" and is denoted by {{< katex >}}p \leftrightarrow q{{< /katex >}}. Its truth value is {{< katex >}}T{{< /katex >}}, whenever both {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} have the same truth values, otherwise it is false.
+The **bi-conditional statement** of any two statements  p and  q is the statement " p if and only if  q" and is denoted by  p \leftrightarrow q. Its truth value is  T, whenever both  p and  q have the same truth values, otherwise it is false.
 
-**Truth table for {{< katex >}}p\leftrightarrow q{{< /katex >}}**
+**Truth table for  p\leftrightarrow q**
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}p \leftrightarrow q{{< /katex >}} |
+|  p |  q |  p \leftrightarrow q |
 | :--- | :--- | :--- |
 | T | T | T |
 | T | F | F |
 | F | T | F |
 | F | F | T |
 
-**Exclusive OR (EOR) [ {{< katex >}}\nabla {{< /katex >}} ]**
+**Exclusive OR (EOR) [  \nabla  ]**
 
 **Definition 12.15**
 
-Let {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} be any two statements. Then {{< katex >}}p{{< /katex >}} EOR {{< katex >}}q{{< /katex >}} is such a compound statement that its truth value is decided by either {{< katex >}}p{{< /katex >}} or {{< katex >}}q{{< /katex >}} but not both. It is denoted by {{< katex >}}p \nabla q{{< /katex >}}. The truth value of {{< katex >}}p \nabla q{{< /katex >}} is {{< katex >}}T{{< /katex >}} whenever either {{< katex >}}p{{< /katex >}} or {{< katex >}}q{{< /katex >}} is {{< katex >}}T{{< /katex >}}, otherwise it is {{< katex >}}F{{< /katex >}}.
+Let  p and  q be any two statements. Then  p EOR  q is such a compound statement that its truth value is decided by either  p or  q but not both. It is denoted by  p \nabla q. The truth value of  p \nabla q is  T whenever either  p or  q is  T, otherwise it is  F.
 
-**Truth Table for {{< katex >}}p \nabla q{{< /katex >}}**
+**Truth Table for  p \nabla q**
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}p \nabla q{{< /katex >}} |
+|  p |  q |  p \nabla q |
 | :--- | :--- | :--- |
 | T | T | F |
 | T | F | T |
 | F | T | T |
 | F | F | F |
 
-**Example 12.16** Construct the truth table for {{< katex >}}(p\vee q)\wedge (p\vee \neg q){{< /katex >}}.
+**Example 12.16** Construct the truth table for  (p\vee q)\wedge (p\vee \neg q).
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}\neg q{{< /katex >}} | {{< katex >}}r : (p \vee q){{< /katex >}} | {{< katex >}}s : (p \vee \neg q){{< /katex >}} | {{< katex >}}r \wedge s{{< /katex >}} |
+|  p |  q |  \neg q |  r : (p \vee q) |  s : (p \vee \neg q) |  r \wedge s |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | T | T | F | T | T | T |
 | T | F | T | T | T | T |
@@ -842,11 +842,11 @@ Also the above result can be proved without using truth tables. This proof will 
 
 **Definition 12.16**
 
-A statement is said to be a **tautology** if its truth value is always {{< katex >}}T{{< /katex >}} irrespective of the truth values of its component statements. It is denoted by {{< katex >}}\mathbb{T}{{< /katex >}}.
+A statement is said to be a **tautology** if its truth value is always  T irrespective of the truth values of its component statements. It is denoted by  \mathbb{T}.
 
 **Definition 12.17**
 
-A statement is said to be a **contradiction** if its truth value is always {{< katex >}}F{{< /katex >}} irrespective of the truth values of its component statements. It is denoted by {{< katex >}}\mathbb{F}{{< /katex >}}.
+A statement is said to be a **contradiction** if its truth value is always  F irrespective of the truth values of its component statements. It is denoted by  \mathbb{F}.
 
 **Definition 12.18**
 
@@ -854,107 +854,107 @@ A statement which is neither a tautology nor a contradiction is called **conting
 
 **Observations**
 
-1. For a tautology, all the entries in the column corresponding to the statement formula will contain {{< katex >}}T{{< /katex >}}.
-2. For a contradiction, all the entries in the column corresponding to the statement formula will contain {{< katex >}}F{{< /katex >}}.
+1. For a tautology, all the entries in the column corresponding to the statement formula will contain  T.
+2. For a contradiction, all the entries in the column corresponding to the statement formula will contain  F.
 3. The negation of a tautology is a contradiction and the negation of a contradiction is a tautology.
-4. The disjunction of a statement with its negation is a tautology and the conjunction of a statement with its negation is a contradiction. That is {{< katex >}}p \vee \neg p{{< /katex >}} is a tautology and {{< katex >}}p \wedge \neg p{{< /katex >}} is a contradiction. This can be easily seen by constructing their truth tables as given below.
+4. The disjunction of a statement with its negation is a tautology and the conjunction of a statement with its negation is a contradiction. That is  p \vee \neg p is a tautology and  p \wedge \neg p is a contradiction. This can be easily seen by constructing their truth tables as given below.
 
 **Example for tautology**
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}\neg p{{< /katex >}} | {{< katex >}}p \vee \neg p{{< /katex >}} |
+|  p |  \neg p |  p \vee \neg p |
 | :--- | :--- | :--- |
 | T | F | T |
 | F | T | T |
 
-Since the last column of {{< katex >}}p \vee \neg p{{< /katex >}} contains only T, {{< katex >}}p \vee \neg p{{< /katex >}} is a tautology.
+Since the last column of  p \vee \neg p contains only T,  p \vee \neg p is a tautology.
 
 **Example for contradiction**
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}\neg p{{< /katex >}} | {{< katex >}}p \wedge \neg p{{< /katex >}} |
+|  p |  \neg p |  p \wedge \neg p |
 | :--- | :--- | :--- |
 | T | F | F |
 | F | T | F |
 
-Since the last column contains only {{< katex >}}F{{< /katex >}}, {{< katex >}}p \wedge \neg p{{< /katex >}} is a contradiction.
+Since the last column contains only  F,  p \wedge \neg p is a contradiction.
 
 **Note**
 
-All the entries in the last column of Table 12.10 are {{< katex >}}F{{< /katex >}} and hence {{< katex >}}(p \vee q) \wedge (p \vee \neg q){{< /katex >}} is a contradiction.
+All the entries in the last column of Table 12.10 are  F and hence  (p \vee q) \wedge (p \vee \neg q) is a contradiction.
 
 **Example for contingency**
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}p \leftrightarrow q{{< /katex >}} | {{< katex >}}\neg q{{< /katex >}} | {{< katex >}}p \rightarrow \neg q{{< /katex >}} | {{< katex >}}\neg(p \rightarrow \neg q){{< /katex >}} | {{< katex >}}(p \leftrightarrow q) \wedge \neg(p \rightarrow \neg q){{< /katex >}} |
+|  p |  q |  p \leftrightarrow q |  \neg q |  p \rightarrow \neg q |  \neg(p \rightarrow \neg q) |  (p \leftrightarrow q) \wedge \neg(p \rightarrow \neg q) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | T | T | T | F | F | T | T |
 | T | F | F | T | T | F | F |
 | F | T | F | F | T | F | F |
 | F | F | T | T | T | F | F |
 
-In the above truth table, the entries in the last column are a combination of {{< katex >}}T{{< /katex >}} and {{< katex >}}F{{< /katex >}}. The given statement is neither a tautology nor a contradiction. It is a contingency.
+In the above truth table, the entries in the last column are a combination of  T and  F. The given statement is neither a tautology nor a contradiction. It is a contingency.
 
 ### 12.3.4 Duality
 
 **Definition 12.19**
 
-The **dual** of a statement formula is obtained by replacing {{< katex >}}\vee{{< /katex >}} by {{< katex >}}\wedge{{< /katex >}}, {{< katex >}}\wedge{{< /katex >}} by {{< katex >}}\vee{{< /katex >}}, {{< katex >}}T{{< /katex >}} by {{< katex >}}F{{< /katex >}}, {{< katex >}}F{{< /katex >}} by {{< katex >}}T{{< /katex >}}. A dual is obtained by replacing {{< katex >}}\mathbb{T}{{< /katex >}} (tautology) by {{< katex >}}\mathbb{F}{{< /katex >}} (contradiction), and, {{< katex >}}\mathbb{F}{{< /katex >}} by {{< katex >}}\mathbb{T}{{< /katex >}}.
+The **dual** of a statement formula is obtained by replacing  \vee by  \wedge,  \wedge by  \vee,  T by  F,  F by  T. A dual is obtained by replacing  \mathbb{T} (tautology) by  \mathbb{F} (contradiction), and,  \mathbb{F} by  \mathbb{T}.
 
 **Remarks**
 
-(1) The symbol {{< katex >}}\neg{{< /katex >}} is not changed while finding the dual.
+(1) The symbol  \neg is not changed while finding the dual.
 (2) Dual of a dual is the statement itself.
-(3) The special statements {{< katex >}}\mathbb{T}{{< /katex >}} (tautology) and {{< katex >}}\mathbb{F}{{< /katex >}} (contradiction) are duals of each other.
-(4) {{< katex >}}T{{< /katex >}} is changed to {{< katex >}}F{{< /katex >}} and vice-versa.
+(3) The special statements  \mathbb{T} (tautology) and  \mathbb{F} (contradiction) are duals of each other.
+(4)  T is changed to  F and vice-versa.
 
 **Principle of Duality**
 
-If a compound statement {{< katex >}}S_{1}{{< /katex >}} contains only {{< katex >}}\neg{{< /katex >}}, {{< katex >}}\wedge{{< /katex >}}, and {{< katex >}}\vee{{< /katex >}} and statement {{< katex >}}S_{2}{{< /katex >}} arises from {{< katex >}}S_{1}{{< /katex >}} by replacing {{< katex >}}\wedge{{< /katex >}} by {{< katex >}}\vee{{< /katex >}}, and, {{< katex >}}\vee{{< /katex >}} by {{< katex >}}\wedge{{< /katex >}} then {{< katex >}}S_{1}{{< /katex >}} is a tautology if and only if {{< katex >}}S_{2}{{< /katex >}} is a contradiction.
+If a compound statement  S_{1} contains only  \neg,  \wedge, and  \vee and statement  S_{2} arises from  S_{1} by replacing  \wedge by  \vee, and,  \vee by  \wedge then  S_{1} is a tautology if and only if  S_{2} is a contradiction.
 
 **For example**
 
-(i) The dual of {{< katex >}}(p\vee q)\wedge (r\wedge s)\vee \mathbb{F}{{< /katex >}} is {{< katex >}}(p\wedge q)\vee (r\vee s)\wedge \mathbb{T}{{< /katex >}}.
-(ii) The dual of {{< katex >}}p\wedge [\neg q\vee (p\wedge q)\vee \neg r]{{< /katex >}} is {{< katex >}}p\vee [\neg q\wedge (p\vee q)\wedge \neg r]{{< /katex >}}.
+(i) The dual of  (p\vee q)\wedge (r\wedge s)\vee \mathbb{F} is  (p\wedge q)\vee (r\vee s)\wedge \mathbb{T}.
+(ii) The dual of  p\wedge [\neg q\vee (p\wedge q)\vee \neg r] is  p\vee [\neg q\wedge (p\vee q)\wedge \neg r].
 
 ### 12.3.5 Logical Equivalence
 
 **Definition 12.20**
 
-Any two compound statements {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} are said to be **logically equivalent** or simply **equivalent** if the columns corresponding to {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} in the truth table have identical truth values. The logical equivalence of the statements {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} is denoted by {{< katex >}}A\equiv B{{< /katex >}} or {{< katex >}}A\Leftrightarrow B{{< /katex >}}.
+Any two compound statements  A and  B are said to be **logically equivalent** or simply **equivalent** if the columns corresponding to  A and  B in the truth table have identical truth values. The logical equivalence of the statements  A and  B is denoted by  A\equiv B or  A\Leftrightarrow B.
 
-From the definition, it is clear that, if {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} are logically equivalent, then {{< katex >}}A\Leftrightarrow B{{< /katex >}} must be a tautology.
+From the definition, it is clear that, if  A and  B are logically equivalent, then  A\Leftrightarrow B must be a tautology.
 
 **Some Laws of Equivalence**
 
 **1. Idempotent Laws**
 
-(i) {{< katex >}}p\vee p\equiv p{{< /katex >}} (ii) {{< katex >}}p\wedge p\equiv p{{< /katex >}}
+(i)  p\vee p\equiv p (ii)  p\wedge p\equiv p
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}p\vee p{{< /katex >}} | {{< katex >}}p\wedge p{{< /katex >}} |
+|  p |  p\vee p |  p\wedge p |
 | :--- | :--- | :--- |
 | T | T | T |
 | F | F | F |
 
-In the above truth table for both {{< katex >}}p{{< /katex >}}, {{< katex >}}p\vee p{{< /katex >}} and {{< katex >}}p\wedge p{{< /katex >}} have the same truth values. Hence {{< katex >}}p\vee p\equiv p{{< /katex >}} and {{< katex >}}p\wedge p\equiv p{{< /katex >}}.
+In the above truth table for both  p,  p\vee p and  p\wedge p have the same truth values. Hence  p\vee p\equiv p and  p\wedge p\equiv p.
 
 **2. Commutative Laws**
 
-(i) {{< katex >}}p\vee q\equiv q\vee p{{< /katex >}} (ii) {{< katex >}}p\wedge q\equiv q\wedge p{{< /katex >}}
+(i)  p\vee q\equiv q\vee p (ii)  p\wedge q\equiv q\wedge p
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}p\vee q{{< /katex >}} | {{< katex >}}q\vee p{{< /katex >}} |
+|  p |  q |  p\vee q |  q\vee p |
 | :--- | :--- | :--- | :--- |
 | T | T | T | T |
 | T | F | T | T |
 | F | T | T | T |
 | F | F | F | F |
 
-The columns corresponding to {{< katex >}}p\vee q{{< /katex >}} and {{< katex >}}q\vee p{{< /katex >}} are identical. Hence {{< katex >}}p\vee q\equiv q\vee p{{< /katex >}}.
-Similarly (ii) {{< katex >}}p\wedge q\equiv q\wedge p{{< /katex >}} can be proved.
+The columns corresponding to  p\vee q and  q\vee p are identical. Hence  p\vee q\equiv q\vee p.
+Similarly (ii)  p\wedge q\equiv q\wedge p can be proved.
 
 **3. Associative Laws**
 
-(i) {{< katex >}}p \vee (q \vee r) \equiv (p \vee q) \vee r{{< /katex >}}
-(ii) {{< katex >}}p \wedge (q \wedge r) \equiv (p \wedge q) \wedge r{{< /katex >}}
+(i)  p \vee (q \vee r) \equiv (p \vee q) \vee r
+(ii)  p \wedge (q \wedge r) \equiv (p \wedge q) \wedge r
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}r{{< /katex >}} | {{< katex >}}p \vee q{{< /katex >}} | {{< katex >}}q \vee r{{< /katex >}} | {{< katex >}}(p \vee q) \vee r{{< /katex >}} | {{< katex >}}p \vee (q \vee r){{< /katex >}} |
+|  p |  q |  r |  p \vee q |  q \vee r |  (p \vee q) \vee r |  p \vee (q \vee r) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | T | T | T | T | T | T | T |
 | T | T | F | T | T | T | T |
@@ -965,16 +965,16 @@ Similarly (ii) {{< katex >}}p\wedge q\equiv q\wedge p{{< /katex >}} can be prove
 | F | F | T | F | T | T | T |
 | F | F | F | F | F | F | F |
 
-The columns corresponding to {{< katex >}}(p \vee q) \vee r{{< /katex >}} and {{< katex >}}p \vee (q \vee r){{< /katex >}} are identical.
-Hence {{< katex >}}p \vee (q \vee r) \equiv (p \vee q) \vee r{{< /katex >}}.
-Similarly, (ii) {{< katex >}}p \wedge (q \wedge r) \equiv (p \wedge q) \wedge r{{< /katex >}} can be proved.
+The columns corresponding to  (p \vee q) \vee r and  p \vee (q \vee r) are identical.
+Hence  p \vee (q \vee r) \equiv (p \vee q) \vee r.
+Similarly, (ii)  p \wedge (q \wedge r) \equiv (p \wedge q) \wedge r can be proved.
 
 **4. Distributive Laws**
 
-(i) {{< katex >}}p \vee (q \wedge r) \equiv (p \vee q) \wedge (p \vee r){{< /katex >}}
-(ii) {{< katex >}}p \wedge (q \vee r) \equiv (p \wedge q) \vee (p \wedge r){{< /katex >}}
+(i)  p \vee (q \wedge r) \equiv (p \vee q) \wedge (p \vee r)
+(ii)  p \wedge (q \vee r) \equiv (p \wedge q) \vee (p \wedge r)
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}r{{< /katex >}} | {{< katex >}}q \wedge r{{< /katex >}} | {{< katex >}}p \vee (q \wedge r){{< /katex >}} | {{< katex >}}p \vee q{{< /katex >}} | {{< katex >}}p \vee r{{< /katex >}} | {{< katex >}}(p \vee q) \wedge (p \vee r){{< /katex >}} |
+|  p |  q |  r |  q \wedge r |  p \vee (q \wedge r) |  p \vee q |  p \vee r |  (p \vee q) \wedge (p \vee r) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | T | T | T | T | T | T | T | T |
 | T | T | F | F | T | T | T | T |
@@ -985,117 +985,117 @@ Similarly, (ii) {{< katex >}}p \wedge (q \wedge r) \equiv (p \wedge q) \wedge r{
 | F | F | T | F | F | F | T | F |
 | F | F | F | F | F | F | F | F |
 
-The columns corresponding to {{< katex >}}p \vee (q \wedge r){{< /katex >}} and {{< katex >}}(p \vee q) \wedge (p \vee r){{< /katex >}} are identical. Hence {{< katex >}}p \vee (q \wedge r) \equiv (p \vee q) \wedge (p \vee r){{< /katex >}}.
-Similarly (ii) {{< katex >}}p \wedge (q \vee r) \equiv (p \wedge q) \vee (p \wedge r){{< /katex >}} can be proved.
+The columns corresponding to  p \vee (q \wedge r) and  (p \vee q) \wedge (p \vee r) are identical. Hence  p \vee (q \wedge r) \equiv (p \vee q) \wedge (p \vee r).
+Similarly (ii)  p \wedge (q \vee r) \equiv (p \wedge q) \vee (p \wedge r) can be proved.
 
 **5. Identity Laws**
 
-(i) {{< katex >}}p \vee \mathbb{T} \equiv \mathbb{T}{{< /katex >}} and {{< katex >}}p \vee \mathbb{F} \equiv p{{< /katex >}}
-(ii) {{< katex >}}p \wedge \mathbb{T} \equiv p{{< /katex >}} and {{< katex >}}p \wedge \mathbb{F} \equiv \mathbb{F}{{< /katex >}}
+(i)  p \vee \mathbb{T} \equiv \mathbb{T} and  p \vee \mathbb{F} \equiv p
+(ii)  p \wedge \mathbb{T} \equiv p and  p \wedge \mathbb{F} \equiv \mathbb{F}
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}\mathbb{T}{{< /katex >}} | {{< katex >}}\mathbb{F}{{< /katex >}} | {{< katex >}}p \vee \mathbb{T}{{< /katex >}} | {{< katex >}}p \vee \mathbb{F}{{< /katex >}} |
+|  p |  \mathbb{T} |  \mathbb{F} |  p \vee \mathbb{T} |  p \vee \mathbb{F} |
 | :--- | :--- | :--- | :--- | :--- |
 | T | T | F | T | T |
 | F | T | F | T | F |
 
-The entries in the columns corresponding to {{< katex >}}p\vee \mathbb{T}{{< /katex >}} and {{< katex >}}\mathbb{T}{{< /katex >}} are identical and hence they are equivalent. The entries in the columns corresponding to {{< katex >}}p\vee \mathbb{F}{{< /katex >}} and {{< katex >}}p{{< /katex >}} are identical and hence they are equivalent.
+The entries in the columns corresponding to  p\vee \mathbb{T} and  \mathbb{T} are identical and hence they are equivalent. The entries in the columns corresponding to  p\vee \mathbb{F} and  p are identical and hence they are equivalent.
 
 Dually
-(ii) {{< katex >}}p\wedge \mathbb{T} \equiv p{{< /katex >}} and {{< katex >}}p\wedge \mathbb{F}\equiv \mathbb{F}{{< /katex >}} can be proved.
+(ii)  p\wedge \mathbb{T} \equiv p and  p\wedge \mathbb{F}\equiv \mathbb{F} can be proved.
 
 **6. Complement Laws**
 
-(i) {{< katex >}}p\vee \neg p\equiv \mathbb{T}{{< /katex >}} and {{< katex >}}p\wedge \neg p\equiv \mathbb{F}{{< /katex >}}
-(ii) {{< katex >}}\neg \mathbb{T}\equiv \mathbb{F}{{< /katex >}} and {{< katex >}}\neg \mathbb{F}\equiv \mathbb{T}{{< /katex >}}
+(i)  p\vee \neg p\equiv \mathbb{T} and  p\wedge \neg p\equiv \mathbb{F}
+(ii)  \neg \mathbb{T}\equiv \mathbb{F} and  \neg \mathbb{F}\equiv \mathbb{T}
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}\neg p{{< /katex >}} | {{< katex >}}\mathbb{T}{{< /katex >}} | {{< katex >}}\mathbb{F}{{< /katex >}} | {{< katex >}}p \vee \neg p{{< /katex >}} | {{< katex >}}p \wedge \neg p{{< /katex >}} |
+|  p |  \neg p |  \mathbb{T} |  \mathbb{F} |  p \vee \neg p |  p \wedge \neg p |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | T | F | T | F | T | F |
 | F | T | T | F | T | F |
 
-(i) The entries in the columns corresponding to {{< katex >}}p\vee \neg p{{< /katex >}} and {{< katex >}}\mathbb{T}{{< /katex >}} are identical and hence they are equivalent. The entries in the columns corresponding to {{< katex >}}p\wedge \neg p{{< /katex >}} and {{< katex >}}\mathbb{F}{{< /katex >}} are identical and hence they are equivalent.
-(ii) The entries in the columns corresponding to {{< katex >}}\neg \mathbb{T}{{< /katex >}} and {{< katex >}}\mathbb{F}{{< /katex >}} are identical and hence they are equivalent. The entries in the columns corresponding to {{< katex >}}\neg \mathbb{F}{{< /katex >}} and {{< katex >}}\mathbb{T}{{< /katex >}} are identical and hence they are equivalent.
+(i) The entries in the columns corresponding to  p\vee \neg p and  \mathbb{T} are identical and hence they are equivalent. The entries in the columns corresponding to  p\wedge \neg p and  \mathbb{F} are identical and hence they are equivalent.
+(ii) The entries in the columns corresponding to  \neg \mathbb{T} and  \mathbb{F} are identical and hence they are equivalent. The entries in the columns corresponding to  \neg \mathbb{F} and  \mathbb{T} are identical and hence they are equivalent.
 
 **7. Involution Law or Double Negation Law**
 
-{{< katex display=true >}}
-\neg (\neg p) \equiv p
-{{< /katex >}}
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}\neg p{{< /katex >}} | {{< katex >}}\neg (\neg p){{< /katex >}} |
+\neg (\neg p) \equiv p
+
+
+|  p |  \neg p |  \neg (\neg p) |
 | :--- | :--- | :--- |
 | T | F | T |
 | F | T | F |
 
-The entries in the columns corresponding to {{< katex >}}\neg (\neg p){{< /katex >}} and {{< katex >}}p{{< /katex >}} are identical and hence they are equivalent.
+The entries in the columns corresponding to  \neg (\neg p) and  p are identical and hence they are equivalent.
 
 **8. De Morgan's Laws**
 
-(i) {{< katex >}}\neg (p \wedge q) \equiv \neg p \vee \neg q{{< /katex >}}
-(ii) {{< katex >}}\neg (p \vee q) \equiv \neg p \wedge \neg q{{< /katex >}}
+(i)  \neg (p \wedge q) \equiv \neg p \vee \neg q
+(ii)  \neg (p \vee q) \equiv \neg p \wedge \neg q
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}\neg p{{< /katex >}} | {{< katex >}}\neg q{{< /katex >}} | {{< katex >}}p \wedge q{{< /katex >}} | {{< katex >}}\neg (p \wedge q){{< /katex >}} | {{< katex >}}\neg p \vee \neg q{{< /katex >}} |
+|  p |  q |  \neg p |  \neg q |  p \wedge q |  \neg (p \wedge q) |  \neg p \vee \neg q |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | T | T | F | F | T | F | F |
 | T | F | F | T | F | T | T |
 | F | T | T | F | F | T | T |
 | F | F | T | T | F | T | T |
 
-The entries in the columns corresponding to {{< katex >}}\neg (p \wedge q){{< /katex >}} and {{< katex >}}\neg p \vee \neg q{{< /katex >}} are identical and hence they are equivalent. Therefore {{< katex >}}\neg (p \wedge q) \equiv \neg p \vee \neg q{{< /katex >}}. Dually (ii) {{< katex >}}\neg (p \vee q) \equiv \neg p \wedge \neg q{{< /katex >}} can be proved.
+The entries in the columns corresponding to  \neg (p \wedge q) and  \neg p \vee \neg q are identical and hence they are equivalent. Therefore  \neg (p \wedge q) \equiv \neg p \vee \neg q. Dually (ii)  \neg (p \vee q) \equiv \neg p \wedge \neg q can be proved.
 
 **9. Absorption Laws**
-(i) {{< katex >}}p \vee (p \wedge q) \equiv p{{< /katex >}}
-(ii) {{< katex >}}p \wedge (p \vee q) \equiv p{{< /katex >}}
+(i)  p \vee (p \wedge q) \equiv p
+(ii)  p \wedge (p \vee q) \equiv p
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}p \wedge q{{< /katex >}} | {{< katex >}}p \vee q{{< /katex >}} | {{< katex >}}p \vee (p \wedge q){{< /katex >}} | {{< katex >}}p \wedge (p \vee q){{< /katex >}} |
+|  p |  q |  p \wedge q |  p \vee q |  p \vee (p \wedge q) |  p \wedge (p \vee q) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | T | T | T | T | T | T |
 | T | F | F | T | T | T |
 | F | T | F | T | F | F |
 | F | F | F | F | F | F |
 
-(i) The entries in the columns corresponding to {{< katex >}}p \vee (p \wedge q){{< /katex >}} and {{< katex >}}p{{< /katex >}} are identical and hence they are equivalent.
-(ii) The entries in the columns corresponding to {{< katex >}}p \wedge (p \vee q){{< /katex >}} and {{< katex >}}p{{< /katex >}} are identical and hence they are equivalent.
+(i) The entries in the columns corresponding to  p \vee (p \wedge q) and  p are identical and hence they are equivalent.
+(ii) The entries in the columns corresponding to  p \wedge (p \vee q) and  p are identical and hence they are equivalent.
 
 **Example 12.17**
 
-Establish the equivalence property: {{< katex >}}p \to q \equiv \neg p \vee q{{< /katex >}}
+Establish the equivalence property:  p \to q \equiv \neg p \vee q
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}\neg p{{< /katex >}} | {{< katex >}}p \to q{{< /katex >}} | {{< katex >}}\neg p \vee q{{< /katex >}} |
+|  p |  q |  \neg p |  p \to q |  \neg p \vee q |
 | :--- | :--- | :--- | :--- | :--- |
 | T | T | F | T | T |
 | T | F | F | F | F |
 | F | T | T | T | T |
 | F | F | T | T | T |
 
-The entries in the columns corresponding to {{< katex >}}p \to q{{< /katex >}} and {{< katex >}}\neg p \vee q{{< /katex >}} are identical and hence they are equivalent.
+The entries in the columns corresponding to  p \to q and  \neg p \vee q are identical and hence they are equivalent.
 
 **Example 12.18**
 
 Establish the equivalence property connecting the bi-conditional with conditional:
 
-{{< katex display=true >}}
-p \leftrightarrow q \equiv (p \to q) \wedge (q \to p)
-{{< /katex >}}
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}p \to q{{< /katex >}} | {{< katex >}}q \to p{{< /katex >}} | {{< katex >}}p \leftrightarrow q{{< /katex >}} | {{< katex >}}(p \to q) \wedge (q \to p){{< /katex >}} |
+p \leftrightarrow q \equiv (p \to q) \wedge (q \to p)
+
+
+|  p |  q |  p \to q |  q \to p |  p \leftrightarrow q |  (p \to q) \wedge (q \to p) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | T | T | T | T | T | T |
 | T | F | F | T | F | F |
 | F | T | T | F | F | F |
 | F | F | T | T | T | T |
 
-The entries in the columns corresponding to {{< katex >}}p \leftrightarrow q{{< /katex >}} and {{< katex >}}(p \to q) \wedge (q \to p){{< /katex >}} are identical and hence they are equivalent.
+The entries in the columns corresponding to  p \leftrightarrow q and  (p \to q) \wedge (q \to p) are identical and hence they are equivalent.
 
 **Example 12.19**
 
-Using the equivalence property, show that {{< katex >}}p\leftrightarrow q\equiv (p\wedge q)\vee (\neg p\wedge \neg q){{< /katex >}}.
+Using the equivalence property, show that  p\leftrightarrow q\equiv (p\wedge q)\vee (\neg p\wedge \neg q).
 
 **Solution**
 
 It can be obtained by using examples 12.17 and 12.18 that
 
-{{< katex display=true >}}
+
 \begin{aligned}
 p\leftrightarrow q &\equiv (\neg p\vee q)\wedge (\neg q\vee p) \\
 &\equiv (\neg p\vee q)\wedge (p\vee \neg q) \quad \text{(by Commutative Law)}\\
@@ -1105,125 +1105,125 @@ p\leftrightarrow q &\equiv (\neg p\vee q)\wedge (\neg q\vee p) \\
 &\equiv (\neg p\wedge \neg q)\vee (q\wedge p) \quad \text{(by Identity Law)}\\
 &\equiv (p\wedge q)\vee (\neg p\wedge \neg q) \quad \text{(by Commutative Law)}
 \end{aligned}
-{{< /katex >}}
 
-Finally we get {{< katex >}}p\leftrightarrow q\equiv (p\wedge q)\vee (\neg p\wedge \neg q){{< /katex >}}.
+
+Finally we get  p\leftrightarrow q\equiv (p\wedge q)\vee (\neg p\wedge \neg q).
 
 ## EXERCISE 12.2
 
-1. Let {{< katex >}}p:{{< /katex >}} Jupiter is a planet and {{< katex >}}q:{{< /katex >}} India is an island be any two simple statements. Give verbal sentence describing each of the following statements.
-   (i) {{< katex >}}\neg p{{< /katex >}} (ii) {{< katex >}}p\wedge \neg q{{< /katex >}} (iii) {{< katex >}}\neg p\vee q{{< /katex >}} (iv) {{< katex >}}p\longrightarrow q{{< /katex >}} (v) {{< katex >}}p\Leftrightarrow q{{< /katex >}}
+1. Let  p: Jupiter is a planet and  q: India is an island be any two simple statements. Give verbal sentence describing each of the following statements.
+   (i)  \neg p (ii)  p\wedge \neg q (iii)  \neg p\vee q (iv)  p\longrightarrow q (v)  p\Leftrightarrow q
 
-2. Write each of the following sentences in symbolic form using statement variables {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}}.
+2. Write each of the following sentences in symbolic form using statement variables  p and  q.
    (i) 19 is not a prime number and all the angles of a triangle are equal.
    (ii) 19 is a prime number or all the angles of a triangle are not equal.
    (iii) 19 is a prime number and all the angles of a triangle are equal.
    (iv) 19 is not a prime number.
 
 3. Determine the truth value of each of the following statements
-   (i) If {{< katex >}}6 + 2 = 5{{< /katex >}}, then the milk is white.
-   (ii) China is in Europe or {{< katex >}}\sqrt{3}{{< /katex >}} is an integer.
-   (iii) It is not true that {{< katex >}}5 + 5 = 9{{< /katex >}} or Earth is a planet.
+   (i) If  6 + 2 = 5, then the milk is white.
+   (ii) China is in Europe or  \sqrt{3} is an integer.
+   (iii) It is not true that  5 + 5 = 9 or Earth is a planet.
    (iv) 11 is a prime number and all the sides of a rectangle are equal.
 
 4. Which one of the following sentences is a proposition?
-   (i) {{< katex >}}4 + 7 = 12{{< /katex >}}
+   (i)  4 + 7 = 12
    (ii) What are you doing?
-   (iii) {{< katex >}}3^{n} \leq 81,\ n\in \mathbb{N}{{< /katex >}}
+   (iii)  3^{n} \leq 81,\ n\in \mathbb{N}
    (iv) Peacock is our national bird
    (v) How tall this mountain is!
 
 5. Write the converse, inverse, and contrapositive of each of the following implication.
-   (i) If {{< katex >}}x{{< /katex >}} and {{< katex >}}y{{< /katex >}} are numbers such that {{< katex >}}x = y{{< /katex >}}, then {{< katex >}}x^{2} = y^{2}{{< /katex >}}.
+   (i) If  x and  y are numbers such that  x = y, then  x^{2} = y^{2}.
    (ii) If a quadrilateral is a square then it is a rectangle.
 
 6. Construct the truth table for the following statements.
-   (i) {{< katex >}}\neg p\wedge \neg q{{< /katex >}}
-   (ii) {{< katex >}}\neg (p\wedge \neg q){{< /katex >}}
-   (iii) {{< katex >}}(p\vee q)\vee \neg q{{< /katex >}}
-   (iv) {{< katex >}}(\neg p\longrightarrow r)\wedge (p\longrightarrow q){{< /katex >}}
+   (i)  \neg p\wedge \neg q
+   (ii)  \neg (p\wedge \neg q)
+   (iii)  (p\vee q)\vee \neg q
+   (iv)  (\neg p\longrightarrow r)\wedge (p\longrightarrow q)
 
 7. Verify whether the following compound propositions are tautologies or contradictions or contingency.
-   (i) {{< katex >}}(p\wedge q)\wedge \neg (p\vee q){{< /katex >}}
-   (ii) {{< katex >}}((p\vee q)\wedge \neg p)\rightarrow q{{< /katex >}}
-   (iii) {{< katex >}}(p\rightarrow q)\leftrightarrow (\neg p\rightarrow q){{< /katex >}}
-   (iv) {{< katex >}}((p\rightarrow q)\wedge (q\rightarrow r))\rightarrow (p\rightarrow r){{< /katex >}}
+   (i)  (p\wedge q)\wedge \neg (p\vee q)
+   (ii)  ((p\vee q)\wedge \neg p)\rightarrow q
+   (iii)  (p\rightarrow q)\leftrightarrow (\neg p\rightarrow q)
+   (iv)  ((p\rightarrow q)\wedge (q\rightarrow r))\rightarrow (p\rightarrow r)
 
 8. Show that
-   (i) {{< katex >}}\neg (p\wedge q)\equiv \neg p\vee \neg q{{< /katex >}}
-   (ii) {{< katex >}}\neg (p\rightarrow q)\equiv p\wedge \neg q{{< /katex >}}
+   (i)  \neg (p\wedge q)\equiv \neg p\vee \neg q
+   (ii)  \neg (p\rightarrow q)\equiv p\wedge \neg q
 
-9. Prove that {{< katex >}}q\rightarrow p\equiv \neg p\rightarrow q{{< /katex >}}.
+9. Prove that  q\rightarrow p\equiv \neg p\rightarrow q.
 
-10. Show that {{< katex >}}p\rightarrow q{{< /katex >}} and {{< katex >}}q\rightarrow p{{< /katex >}} are not equivalent.
+10. Show that  p\rightarrow q and  q\rightarrow p are not equivalent.
 
-11. Show that {{< katex >}}\neg (p\leftrightarrow q)\equiv p\leftrightarrow \neg q{{< /katex >}}.
+11. Show that  \neg (p\leftrightarrow q)\equiv p\leftrightarrow \neg q.
 
-12. Check whether the statement {{< katex >}}p\rightarrow (q\rightarrow p){{< /katex >}} is a tautology or a contradiction without using the truth table.
+12. Check whether the statement  p\rightarrow (q\rightarrow p) is a tautology or a contradiction without using the truth table.
 
-13. Using truth table check whether the statements {{< katex >}}\neg (p\vee q)\vee (\neg p\wedge q){{< /katex >}} and {{< katex >}}\neg p{{< /katex >}} are logically equivalent.
+13. Using truth table check whether the statements  \neg (p\vee q)\vee (\neg p\wedge q) and  \neg p are logically equivalent.
 
-14. Prove {{< katex >}}p\rightarrow (q\rightarrow r)\equiv (p\wedge q)\rightarrow r{{< /katex >}} without using truth table.
+14. Prove  p\rightarrow (q\rightarrow r)\equiv (p\wedge q)\rightarrow r without using truth table.
 
-15. Prove that {{< katex >}}p\rightarrow (\neg q\vee r)\equiv \neg p\vee (\neg q\vee r){{< /katex >}} using truth table.
+15. Prove that  p\rightarrow (\neg q\vee r)\equiv \neg p\vee (\neg q\vee r) using truth table.
 
 ![](https://placehold.co/600x400)
 
 ## Choose the correct or the most suitable answer from the given four alternatives.
 
-1. A binary operation on a set {{< katex >}}S{{< /katex >}} is a function from
-   (1) {{< katex >}}S\rightarrow S{{< /katex >}}
-   (2) {{< katex >}}(S\times S)\rightarrow S{{< /katex >}}
-   (3) {{< katex >}}S\rightarrow (S\times S){{< /katex >}}
-   (4) {{< katex >}}(S\times S)\rightarrow (S\times S){{< /katex >}}
+1. A binary operation on a set  S is a function from
+   (1)  S\rightarrow S
+   (2)  (S\times S)\rightarrow S
+   (3)  S\rightarrow (S\times S)
+   (4)  (S\times S)\rightarrow (S\times S)
 
 2. Subtraction is not a binary operation in
-   (1) {{< katex >}}\mathbb{R}{{< /katex >}}
-   (2) {{< katex >}}\mathbb{Z}{{< /katex >}}
-   (3) {{< katex >}}\mathbb{N}{{< /katex >}}
-   (4) {{< katex >}}\mathbb{Q}{{< /katex >}}
+   (1)  \mathbb{R}
+   (2)  \mathbb{Z}
+   (3)  \mathbb{N}
+   (4)  \mathbb{Q}
 
-3. Which one of the following is a binary operation on {{< katex >}}\mathbb{N}{{< /katex >}}?
+3. Which one of the following is a binary operation on  \mathbb{N}?
    (1) Subtraction
    (2) Multiplication
    (3) Division
    (4) All the above
 
-4. In the set {{< katex >}}\mathbb{R}{{< /katex >}} of real numbers {{< katex >}}\star{{< /katex >}} is defined as follows. Which one of the following is not a binary operation on {{< katex >}}\mathbb{R}{{< /katex >}}?
-   (1) {{< katex >}}a*b=\min (a,b){{< /katex >}}
-   (2) {{< katex >}}a*b=\max (a,b){{< /katex >}}
-   (3) {{< katex >}}a*b=a{{< /katex >}}
-   (4) {{< katex >}}a*b=a^{b}{{< /katex >}}
+4. In the set  \mathbb{R} of real numbers  \star is defined as follows. Which one of the following is not a binary operation on  \mathbb{R}?
+   (1)  a*b=\min (a,b)
+   (2)  a*b=\max (a,b)
+   (3)  a*b=a
+   (4)  a*b=a^{b}
 
-5. The operation {{< katex >}}\ast{{< /katex >}} defined by {{< katex >}}a\ast b = \frac{ab}{7}{{< /katex >}} is not a binary operation on
-   (1) {{< katex >}}\mathbb{Q}^{+}{{< /katex >}}
-   (2) {{< katex >}}\mathbb{Z}{{< /katex >}}
-   (3) {{< katex >}}\mathbb{R}{{< /katex >}}
-   (4) {{< katex >}}\mathbb{C}{{< /katex >}}
+5. The operation  \ast defined by  a\ast b = \frac{ab}{7} is not a binary operation on
+   (1)  \mathbb{Q}^{+}
+   (2)  \mathbb{Z}
+   (3)  \mathbb{R}
+   (4)  \mathbb{C}
 
-6. In the set {{< katex >}}\mathbb{Q}{{< /katex >}} define {{< katex >}}a\odot b = a + b + ab{{< /katex >}}. For what value of y, {{< katex >}}3\odot (y\odot 5) = 7{{< /katex >}}?
-   (1) {{< katex >}}y = \frac{2}{3}{{< /katex >}}
-   (2) {{< katex >}}y = \frac{-2}{3}{{< /katex >}}
-   (3) {{< katex >}}y = \frac{-3}{2}{{< /katex >}}
-   (4) {{< katex >}}y = 4{{< /katex >}}
+6. In the set  \mathbb{Q} define  a\odot b = a + b + ab. For what value of y,  3\odot (y\odot 5) = 7?
+   (1)  y = \frac{2}{3}
+   (2)  y = \frac{-2}{3}
+   (3)  y = \frac{-3}{2}
+   (4)  y = 4
 
-7. If {{< katex >}}a\ast b = \sqrt{a^{2} + b^{2}}{{< /katex >}} on the real numbers then {{< katex >}}\ast{{< /katex >}} is
+7. If  a\ast b = \sqrt{a^{2} + b^{2}} on the real numbers then  \ast is
    (1) commutative but not associative
    (2) associative but not commutative
    (3) both commutative and associative
    (4) neither commutative nor associative
 
-8. Which one of the following statements has the truth value {{< katex >}}T{{< /katex >}}?
-   (1) sin {{< katex >}}x{{< /katex >}} is an even function.
+8. Which one of the following statements has the truth value  T?
+   (1) sin  x is an even function.
    (2) Every square matrix is non-singular
    (3) The product of complex number and its conjugate is purely imaginary
-   (4) {{< katex >}}\sqrt{5}{{< /katex >}} is an irrational number
+   (4)  \sqrt{5} is an irrational number
 
-9. Which one of the following statements has truth value {{< katex >}}F{{< /katex >}}?
-   (1) Chennai is in India or {{< katex >}}\sqrt{2}{{< /katex >}} is an integer
-   (2) Chennai is in India or {{< katex >}}\sqrt{2}{{< /katex >}} is an irrational number
-   (3) Chennai is in China or {{< katex >}}\sqrt{2}{{< /katex >}} is an integer
-   (4) Chennai is in China or {{< katex >}}\sqrt{2}{{< /katex >}} is an irrational number
+9. Which one of the following statements has truth value  F?
+   (1) Chennai is in India or  \sqrt{2} is an integer
+   (2) Chennai is in India or  \sqrt{2} is an irrational number
+   (3) Chennai is in China or  \sqrt{2} is an integer
+   (4) Chennai is in China or  \sqrt{2} is an irrational number
 
 10. If a compound statement involves 3 simple statements, then the number of rows in the truth table is
     (1) 9
@@ -1231,21 +1231,21 @@ Finally we get {{< katex >}}p\leftrightarrow q\equiv (p\wedge q)\vee (\neg p\wed
     (3) 6
     (4) 3
 
-11. Which one is the inverse of the statement {{< katex >}}(p\lor q)\to (p\land q){{< /katex >}}?
-    (1) {{< katex >}}(p\land q)\to (p\lor q){{< /katex >}}
-    (2) {{< katex >}}(p\lor q)\to (p\land q){{< /katex >}}
-    (3) {{< katex >}}(\neg p\lor \neg q)\to (\neg p\land \neg q){{< /katex >}}
-    (4) {{< katex >}}(\neg p\land \neg q)\to (\neg p\lor \neg q){{< /katex >}}
+11. Which one is the inverse of the statement  (p\lor q)\to (p\land q)?
+    (1)  (p\land q)\to (p\lor q)
+    (2)  (p\lor q)\to (p\land q)
+    (3)  (\neg p\lor \neg q)\to (\neg p\land \neg q)
+    (4)  (\neg p\land \neg q)\to (\neg p\lor \neg q)
 
-12. Which one is the contrapositive of the statement {{< katex >}}(p\lor q)\to r{{< /katex >}}?
-    (1) {{< katex >}}\neg r\to (\neg p\land \neg q){{< /katex >}}
-    (2) {{< katex >}}r\to (p\lor q){{< /katex >}}
-    (3) {{< katex >}}r\to (p\land q){{< /katex >}}
-    (4) {{< katex >}}p\to (q\lor r){{< /katex >}}
+12. Which one is the contrapositive of the statement  (p\lor q)\to r?
+    (1)  \neg r\to (\neg p\land \neg q)
+    (2)  r\to (p\lor q)
+    (3)  r\to (p\land q)
+    (4)  p\to (q\lor r)
 
-13. The truth table for {{< katex >}}(p\land q)\lor \neg q{{< /katex >}} is given below
+13. The truth table for  (p\land q)\lor \neg q is given below
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}(p\land q)\lor \neg q{{< /katex >}} |
+|  p |  q |  (p\land q)\lor \neg q |
 | :--- | :--- | :--- |
 | T | T | (a) |
 | T | F | (b) |
@@ -1258,50 +1258,50 @@ Which one of the following is true?
 (3) T T F T
 (4) T F F F
 
-14. In the last column of the truth table for {{< katex >}}\neg (p\lor \neg q){{< /katex >}} the number of final outcomes of the truth value 'F' are
+14. In the last column of the truth table for  \neg (p\lor \neg q) the number of final outcomes of the truth value 'F' are
     (1) 1
     (2) 2
     (3) 3
     (4) 4
 
-15. Which one of the following is incorrect? For any two propositions {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}}, we have
-    (1) {{< katex >}}\neg (p\lor q)\equiv \neg p\wedge \neg q{{< /katex >}}
-    (2) {{< katex >}}\neg (p\wedge q)\equiv \neg p\vee \neg q{{< /katex >}}
-    (3) {{< katex >}}\neg (p\vee q)\equiv \neg p\vee \neg q{{< /katex >}}
-    (4) {{< katex >}}\neg (\neg p)\equiv p{{< /katex >}}
+15. Which one of the following is incorrect? For any two propositions  p and  q, we have
+    (1)  \neg (p\lor q)\equiv \neg p\wedge \neg q
+    (2)  \neg (p\wedge q)\equiv \neg p\vee \neg q
+    (3)  \neg (p\vee q)\equiv \neg p\vee \neg q
+    (4)  \neg (\neg p)\equiv p
 
 16.
 
-| {{< katex >}}p{{< /katex >}} | {{< katex >}}q{{< /katex >}} | {{< katex >}}(p\wedge q)\to \neg p{{< /katex >}} |
+|  p |  q |  (p\wedge q)\to \neg p |
 | :--- | :--- | :--- |
 | T | T | (a) |
 | T | F | (b) |
 | F | T | (c) |
 | F | F | (d) |
 
-Which one of the following is correct for the truth value of {{< katex >}}(p\wedge q)\rightarrow \neg p{{< /katex >}}?
+Which one of the following is correct for the truth value of  (p\wedge q)\rightarrow \neg p?
 (1) T T T T
 (2) F T T T
 (3) F F T T
 (4) T T T F
 
-17. The dual of {{< katex >}}\neg (p\vee q)\vee [p\vee (p\wedge \neg r)]{{< /katex >}} is
-    (1) {{< katex >}}\neg (p\wedge q)\wedge [p\vee (p\wedge \neg r)]{{< /katex >}}
-    (2) {{< katex >}}(p\wedge q)\wedge [p\wedge (p\vee \neg r)]{{< /katex >}}
-    (3) {{< katex >}}\neg (p\wedge q)\wedge [p\wedge (p\wedge r)]{{< /katex >}}
-    (4) {{< katex >}}\neg (p\wedge q)\wedge [p\wedge (p\vee \neg r)]{{< /katex >}}
+17. The dual of  \neg (p\vee q)\vee [p\vee (p\wedge \neg r)] is
+    (1)  \neg (p\wedge q)\wedge [p\vee (p\wedge \neg r)]
+    (2)  (p\wedge q)\wedge [p\wedge (p\vee \neg r)]
+    (3)  \neg (p\wedge q)\wedge [p\wedge (p\wedge r)]
+    (4)  \neg (p\wedge q)\wedge [p\wedge (p\vee \neg r)]
 
-18. The proposition {{< katex >}}p\wedge (\neg p\vee q){{< /katex >}} is
+18. The proposition  p\wedge (\neg p\vee q) is
     (1) a tautology
     (2) a contradiction
-    (3) logically equivalent to {{< katex >}}p\wedge q{{< /katex >}}
-    (4) logically equivalent to {{< katex >}}p\vee q{{< /katex >}}
+    (3) logically equivalent to  p\wedge q
+    (4) logically equivalent to  p\vee q
 
 19. Determine the truth value of each of the following statements:
-    (a) {{< katex >}}4 + 2 = 5{{< /katex >}} and {{< katex >}}6 + 3 = 9{{< /katex >}}
-    (b) {{< katex >}}3 + 2 = 5{{< /katex >}} and {{< katex >}}6 + 1 = 7{{< /katex >}}
-    (c) {{< katex >}}4 + 5 = 9{{< /katex >}} and {{< katex >}}1 + 2 = 4{{< /katex >}}
-    (d) {{< katex >}}3 + 2 = 5{{< /katex >}} and {{< katex >}}4 + 7 = 11{{< /katex >}}
+    (a)  4 + 2 = 5 and  6 + 3 = 9
+    (b)  3 + 2 = 5 and  6 + 1 = 7
+    (c)  4 + 5 = 9 and  1 + 2 = 4
+    (d)  3 + 2 = 5 and  4 + 7 = 11
     (1) F T F T
     (2) T F T F
     (3) T T F F
@@ -1309,21 +1309,21 @@ Which one of the following is correct for the truth value of {{< katex >}}(p\wed
 
 20. Which one of the following is not true?
     (1) Negation of a negation of a statement is the statement itself.
-    (2) If the last column of the truth table contains only {{< katex >}}T{{< /katex >}} then it is a tautology.
-    (3) If the last column of its truth table contains only {{< katex >}}F{{< /katex >}} then it is a contradiction.
-    (4) If {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} are any two statements then {{< katex >}}p\leftrightarrow q{{< /katex >}} is a tautology.
+    (2) If the last column of the truth table contains only  T then it is a tautology.
+    (3) If the last column of its truth table contains only  F then it is a contradiction.
+    (4) If  p and  q are any two statements then  p\leftrightarrow q is a tautology.
 
 ## Summary
 
-(1) A binary operation {{< katex >}}\ast{{< /katex >}} on a non-empty set {{< katex >}}S{{< /katex >}} is a rule, which associates to each ordered pair {{< katex >}}(a,b){{< /katex >}} of elements {{< katex >}}a,b{{< /katex >}} in {{< katex >}}S{{< /katex >}} a unique element {{< katex >}}a*b{{< /katex >}} in {{< katex >}}S{{< /katex >}}.
+(1) A binary operation  \ast on a non-empty set  S is a rule, which associates to each ordered pair  (a,b) of elements  a,b in  S a unique element  a*b in  S.
 
-(2) Commutative property: Any binary operation {{< katex >}}\ast{{< /katex >}} defined on a nonempty set {{< katex >}}S{{< /katex >}} is said to satisfy the commutative property, if {{< katex >}}a*b = b*a{{< /katex >}}, {{< katex >}}\forall a,b\in S{{< /katex >}}.
+(2) Commutative property: Any binary operation  \ast defined on a nonempty set  S is said to satisfy the commutative property, if  a*b = b*a,  \forall a,b\in S.
 
-(3) Associative property: Any binary operation {{< katex >}}\ast{{< /katex >}} defined on a nonempty set {{< katex >}}S{{< /katex >}} is said to satisfy the associative property, if {{< katex >}}a*(b*c) = (a*b)*c{{< /katex >}}, {{< katex >}}\forall a,b,c\in S{{< /katex >}}.
+(3) Associative property: Any binary operation  \ast defined on a nonempty set  S is said to satisfy the associative property, if  a*(b*c) = (a*b)*c,  \forall a,b,c\in S.
 
-(4) Existence of identity property: An element {{< katex >}}e\in S{{< /katex >}} is said to be the Identity Element of {{< katex >}}S{{< /katex >}} under the binary operation {{< katex >}}\ast{{< /katex >}} if for all {{< katex >}}a\in S{{< /katex >}} we have that {{< katex >}}a*e = a{{< /katex >}} and {{< katex >}}e*a = a{{< /katex >}}.
+(4) Existence of identity property: An element  e\in S is said to be the Identity Element of  S under the binary operation  \ast if for all  a\in S we have that  a*e = a and  e*a = a.
 
-(5) Existence of inverse property: If an identity element {{< katex >}}e{{< /katex >}} exists and if for every {{< katex >}}a\in S{{< /katex >}}, there exists {{< katex >}}b{{< /katex >}} in {{< katex >}}S{{< /katex >}} such that {{< katex >}}a*b = e{{< /katex >}} and {{< katex >}}b*a = e{{< /katex >}} then {{< katex >}}b\in S{{< /katex >}} is said to be the Inverse Element of {{< katex >}}a{{< /katex >}}. In such instance, we write {{< katex >}}b = a^{-1}{{< /katex >}}.
+(5) Existence of inverse property: If an identity element  e exists and if for every  a\in S, there exists  b in  S such that  a*b = e and  b*a = e then  b\in S is said to be the Inverse Element of  a. In such instance, we write  b = a^{-1}.
 
 (6) Uniqueness of Identity: In an algebraic structure the identity element (if exists) must be unique.
 
@@ -1331,41 +1331,41 @@ Which one of the following is correct for the truth value of {{< katex >}}(p\wed
 
 (8) A Boolean Matrix is a real matrix whose entries are either 0 or 1.
 
-(9) Modular arithmetic: Let {{< katex >}}n{{< /katex >}} be a positive integer greater than 1 called the modulus. We say that two integers {{< katex >}}a{{< /katex >}} and {{< katex >}}b{{< /katex >}} are congruent modulo {{< katex >}}n{{< /katex >}} if {{< katex >}}b - a{{< /katex >}} is divisible by {{< katex >}}n{{< /katex >}}. In other words {{< katex >}}a\equiv b \pmod{n}{{< /katex >}} means {{< katex >}}a - b = n\cdot k{{< /katex >}} for some integer {{< katex >}}k{{< /katex >}} and {{< katex >}}b{{< /katex >}} is the least non-negative integer reminder when {{< katex >}}a{{< /katex >}} is divided by {{< katex >}}n{{< /katex >}}. ({{< katex >}}0\leq b\leq n - 1{{< /katex >}})
+(9) Modular arithmetic: Let  n be a positive integer greater than 1 called the modulus. We say that two integers  a and  b are congruent modulo  n if  b - a is divisible by  n. In other words  a\equiv b \pmod{n} means  a - b = n\cdot k for some integer  k and  b is the least non-negative integer reminder when  a is divided by  n. ( 0\leq b\leq n - 1)
 
 (10) Mathematical logic is a study of reasoning through mathematical symbols.
 
-(11) Let {{< katex >}}p{{< /katex >}} be a simple statement. Then the negation of {{< katex >}}p{{< /katex >}} is a statement whose truth value is opposite to that of {{< katex >}}p{{< /katex >}}. It is denoted by {{< katex >}}\neg p{{< /katex >}}, read as not {{< katex >}}p{{< /katex >}}. The truth value of {{< katex >}}\neg p{{< /katex >}} is {{< katex >}}T{{< /katex >}}, if {{< katex >}}p{{< /katex >}} is {{< katex >}}F{{< /katex >}}, otherwise it is {{< katex >}}F{{< /katex >}}.
+(11) Let  p be a simple statement. Then the negation of  p is a statement whose truth value is opposite to that of  p. It is denoted by  \neg p, read as not  p. The truth value of  \neg p is  T, if  p is  F, otherwise it is  F.
 
-(12) Let {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} be any two simple statements. The conjunction of {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} is obtained by connecting {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} by the word and. It is denoted by {{< katex >}}p\wedge q{{< /katex >}}, read as '{{< katex >}}p{{< /katex >}} conjunction {{< katex >}}q{{< /katex >}}' or '{{< katex >}}p{{< /katex >}} hat {{< katex >}}q{{< /katex >}}'. The truth value of {{< katex >}}p\wedge q{{< /katex >}} is {{< katex >}}T{{< /katex >}}, whenever both {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} are {{< katex >}}T{{< /katex >}} and it is {{< katex >}}F{{< /katex >}} otherwise.
+(12) Let  p and  q be any two simple statements. The conjunction of  p and  q is obtained by connecting  p and  q by the word and. It is denoted by  p\wedge q, read as ' p conjunction  q' or ' p hat  q'. The truth value of  p\wedge q is  T, whenever both  p and  q are  T and it is  F otherwise.
 
-(13) The disjunction of any two simple statements {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} is the compound statement obtained by connecting {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} by the word 'or'. It is denoted by {{< katex >}}p\vee q{{< /katex >}}, read as '{{< katex >}}p{{< /katex >}} disjunction {{< katex >}}q{{< /katex >}}' or '{{< katex >}}p{{< /katex >}} cup {{< katex >}}q{{< /katex >}}'. The truth value of {{< katex >}}p\vee q{{< /katex >}} is {{< katex >}}F{{< /katex >}}, whenever both {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} are {{< katex >}}F{{< /katex >}} and it is {{< katex >}}T{{< /katex >}} otherwise.
+(13) The disjunction of any two simple statements  p and  q is the compound statement obtained by connecting  p and  q by the word 'or'. It is denoted by  p\vee q, read as ' p disjunction  q' or ' p cup  q'. The truth value of  p\vee q is  F, whenever both  p and  q are  F and it is  T otherwise.
 
-(14) The conditional statement of any two statements {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} is the statement, 'If {{< katex >}}p{{< /katex >}}, then {{< katex >}}q{{< /katex >}}' and it is denoted by {{< katex >}}p\rightarrow q{{< /katex >}}. The statement {{< katex >}}p\rightarrow q{{< /katex >}} has a truth value {{< katex >}}F{{< /katex >}} when {{< katex >}}q{{< /katex >}} has the truth value {{< katex >}}F{{< /katex >}} and {{< katex >}}p{{< /katex >}} has the truth value {{< katex >}}T{{< /katex >}}; otherwise it has the truth value {{< katex >}}T{{< /katex >}}.
+(14) The conditional statement of any two statements  p and  q is the statement, 'If  p, then  q' and it is denoted by  p\rightarrow q. The statement  p\rightarrow q has a truth value  F when  q has the truth value  F and  p has the truth value  T; otherwise it has the truth value  T.
 
-(15) The bi-conditional statement of any two statements {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} is the statement '{{< katex >}}p{{< /katex >}} if and only if {{< katex >}}q{{< /katex >}}' and is denoted by {{< katex >}}p\leftrightarrow q{{< /katex >}}. The statement {{< katex >}}p\leftrightarrow q{{< /katex >}} has the truth value {{< katex >}}T{{< /katex >}} whenever both {{< katex >}}p{{< /katex >}} and {{< katex >}}q{{< /katex >}} have identical truth values; otherwise has the truth value {{< katex >}}F{{< /katex >}}.
+(15) The bi-conditional statement of any two statements  p and  q is the statement ' p if and only if  q' and is denoted by  p\leftrightarrow q. The statement  p\leftrightarrow q has the truth value  T whenever both  p and  q have identical truth values; otherwise has the truth value  F.
 
-(16) A statement is said to be a tautology if its truth value is always {{< katex >}}T{{< /katex >}} irrespective of the truth values of its component statements. It is denoted by {{< katex >}}\mathbb{T}{{< /katex >}}.
+(16) A statement is said to be a tautology if its truth value is always  T irrespective of the truth values of its component statements. It is denoted by  \mathbb{T}.
 
-(17) A statement is said to be a contradiction if its truth value is always {{< katex >}}F{{< /katex >}} irrespective of the truth values of its component statements. It is denoted by {{< katex >}}\mathbb{F}{{< /katex >}}.
+(17) A statement is said to be a contradiction if its truth value is always  F irrespective of the truth values of its component statements. It is denoted by  \mathbb{F}.
 
 (18) A statement which is neither a tautology nor a contradiction is called contingency.
 
-(19) Any two compound statements {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} are said to be logically equivalent or simply equivalent if the columns corresponding to {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} in the truth table have identical truth values. The logical equivalence of the statements {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} is denoted by {{< katex >}}A \equiv B{{< /katex >}} or {{< katex >}}A \Leftrightarrow B{{< /katex >}}. Further note that if {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}} are logically equivalent, then {{< katex >}}A \leftrightarrow B{{< /katex >}} must be a tautology.
+(19) Any two compound statements  A and  B are said to be logically equivalent or simply equivalent if the columns corresponding to  A and  B in the truth table have identical truth values. The logical equivalence of the statements  A and  B is denoted by  A \equiv B or  A \Leftrightarrow B. Further note that if  A and  B are logically equivalent, then  A \leftrightarrow B must be a tautology.
 
 (20) Some laws of equivalence:
-- **Idempotent Laws:** (i) {{< katex >}}p \lor p \equiv p{{< /katex >}} (ii) {{< katex >}}p \land p \equiv p{{< /katex >}}.
-- **Commutative Laws:** (i) {{< katex >}}p \lor q \equiv q \lor p{{< /katex >}} (ii) {{< katex >}}p \land q \equiv q \land p{{< /katex >}}.
-- **Associative Laws:** (i) {{< katex >}}p \lor (q \lor r) \equiv (p \lor q) \lor r{{< /katex >}} (ii) {{< katex >}}p \land (q \land r) \equiv (p \land q) \land r{{< /katex >}}.
-- **Distributive Laws:** (i) {{< katex >}}p \lor (q \land r) \equiv (p \lor q) \land (p \lor r){{< /katex >}}
-  (ii) {{< katex >}}p\land (q\lor r)\equiv (p\land q)\lor (p\land r){{< /katex >}}
-- **Identity Laws:** (i) {{< katex >}}p \lor \mathbb{T} \equiv \mathbb{T}{{< /katex >}} and {{< katex >}}p \lor \mathbb{F} \equiv p{{< /katex >}}
-  (ii) {{< katex >}}p\land \mathbb{T}\equiv p{{< /katex >}} and {{< katex >}}p\land \mathbb{F}\equiv \mathbb{F}{{< /katex >}}
-- **Complement Laws:** (i) {{< katex >}}p \lor \neg p \equiv \mathbb{T}{{< /katex >}} and {{< katex >}}p \land \neg p \equiv \mathbb{F}{{< /katex >}}
-  (ii) {{< katex >}}\neg \mathbb{T}\equiv \mathbb{F}{{< /katex >}} and {{< katex >}}\neg \mathbb{F}\equiv \mathbb{T}{{< /katex >}}
-- **Involution Law or Double Negation Law:** {{< katex >}}\neg (\neg p) \equiv p{{< /katex >}}
-- **De Morgan's Laws:** (i) {{< katex >}}\neg (p \land q) \equiv \neg p \lor \neg q{{< /katex >}} (ii) {{< katex >}}\neg (p \lor q) \equiv \neg p \land \neg q{{< /katex >}}
-- **Absorption Laws:** (i) {{< katex >}}p \lor (p \land q) \equiv p{{< /katex >}} (ii) {{< katex >}}p \land (p \lor q) \equiv p{{< /katex >}}
+- **Idempotent Laws:** (i)  p \lor p \equiv p (ii)  p \land p \equiv p.
+- **Commutative Laws:** (i)  p \lor q \equiv q \lor p (ii)  p \land q \equiv q \land p.
+- **Associative Laws:** (i)  p \lor (q \lor r) \equiv (p \lor q) \lor r (ii)  p \land (q \land r) \equiv (p \land q) \land r.
+- **Distributive Laws:** (i)  p \lor (q \land r) \equiv (p \lor q) \land (p \lor r)
+  (ii)  p\land (q\lor r)\equiv (p\land q)\lor (p\land r)
+- **Identity Laws:** (i)  p \lor \mathbb{T} \equiv \mathbb{T} and  p \lor \mathbb{F} \equiv p
+  (ii)  p\land \mathbb{T}\equiv p and  p\land \mathbb{F}\equiv \mathbb{F}
+- **Complement Laws:** (i)  p \lor \neg p \equiv \mathbb{T} and  p \land \neg p \equiv \mathbb{F}
+  (ii)  \neg \mathbb{T}\equiv \mathbb{F} and  \neg \mathbb{F}\equiv \mathbb{T}
+- **Involution Law or Double Negation Law:**  \neg (\neg p) \equiv p
+- **De Morgan's Laws:** (i)  \neg (p \land q) \equiv \neg p \lor \neg q (ii)  \neg (p \lor q) \equiv \neg p \land \neg q
+- **Absorption Laws:** (i)  p \lor (p \land q) \equiv p (ii)  p \land (p \lor q) \equiv p
 
 ## ICT CORNER
 

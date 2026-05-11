@@ -1,10 +1,10 @@
-## 10th Science
+## 12th Maths
 
 ## Dev
 
 ```sh
-git clone https://github.com/csebooks/hugo-book themes/hugo-book
-hugo server  --themesDir ../ --disableFastRender
+git clone https://github.com/gurukulams/design-system themes/design-system
+hugo server --disableFastRender
 ```
 
 ## Qustion Loader
@@ -14,7 +14,7 @@ in Linux
 ```bash
 export QUESTIONS_FOLDER="$PWD/questions"
 export PUBLIC_FOLDER="$PWD/public" 
-npm run watch --prefix ../hugo-book
+npm run watch --prefix ../design-system
 ```
 
 in Windows `Cmd`
@@ -22,7 +22,7 @@ in Windows `Cmd`
 ```bash
 set QUESTIONS_FOLDER=%cd%\questions
 set PUBLIC_FOLDER=%cd%\public
-cd themes\hugo-book
+cd themes\design-system
 npm i
 npm run watch
 ```
