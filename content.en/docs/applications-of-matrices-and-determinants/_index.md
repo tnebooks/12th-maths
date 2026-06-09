@@ -2090,3 +2090,4 @@ $$
 (1) $\left[ \begin{array}{ll}2 & -5\\ -3 & 8 \end{array} \right]$ (2) $\left[ \begin{array}{ll}8 & 5\\ 3 & 2 \end{array} \right]$ (3) $\left[ \begin{array}{ll}3 & 1\\ 2 & 1 \end{array} \right]$ (4) $\left[ \begin{array}{ll}8 & -5\\ -3 & 2 \end{array} \right]$
 
 XII - Mathematics
+
