@@ -1,4 +1,4 @@
-\# hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/design-system/
+# hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/design-system/
 
 baseURL = 'http://0.0.0.0:1313/12th-maths/'
 theme = 'design-system'
