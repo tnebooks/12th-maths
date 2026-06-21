@@ -11,8 +11,7 @@ weight: 1
 >
 > \- Gottfried Leibniz
 
-**Rafael Bombelli (1526-1572)**
-
+![](img1.png)
 Many mathematicians contributed to the full development of complex numbers. The rules for addition, subtraction, multiplication, and division of complex numbers were developed by the Italian mathematician Rafael Bombelli. He is generally regarded as the first person to develop an algebra of complex numbers. In honour of his accomplishments, a moon crater was named Bombelli.
 
 ## Real Life Context
@@ -34,36 +33,29 @@ Upon completion of this chapter, students will be able to:
 Before introducing complex numbers, let us try to answer the question "Whether there exists a real number whose square is negative?" Let's look at simple examples to get the answer for it. Consider the equations 1 and 2.
 
 Equation 1: $x^{2}-1=0$  
-Equation 2: $x^{2}+1=0$
 
 $x=\pm \sqrt{1}$  
-$x=\pm \sqrt{-1}$
 
 $x=\pm 1$  
-$x=\pm ?$
 
+Equation 2: $x^{2}+1=0$
+
+$x=\pm \sqrt{-1}$
+
+$x=\pm ?$
+![](fig_2.1.png)
 **Figure 2.1**  
-**Figure 2.2**
 
 Equation 1 has two real solutions, $x = -1$ and $x = 1$. We know that solving an equation in $x$ is equivalent to finding the $x$-intercepts of a graph of $f(x) = x^{2} - 1$ crosses the $x$-axis at $(-1,0)$ and $(1,0)$.
+![](fig_2.2.png)
+**Figure 2.2**
 
 By the same logic, equation 2 has no real solutions since the graph of $f(x) = x^{2} + 1$ does not cross the $x$-axis; we can see this by looking at the graph of $f(x) = x^{2} + 1$.
 
 This is because, when we square a real number it is impossible to get a negative real number. If equation 2 has solutions, then we must create an imaginary number as a square root of $-1$. This imaginary unit $\sqrt{-1}$ is denoted by $i$. The imaginary number $i$ tells us that $i^{2} = -1$. We can use this fact to find other powers of $i$.
 
 #### 2.1.1 Powers of imaginary unit $i$
-
-$$
-\begin{array}{ll}
-i^{0}=1, & i^{1}=i \\
-i^{2}=-1 & i^{3}=i^{2} i=-i \\
-i^{4}=i^{2} i^{2}=1 & i^{5}=i^{4} i=i \\
-i^{6}=i^{4} i^{2}=-1 & i^{7}=i^{4} i^{3}=-i \\
-i^{8}=i^{4} i^{4}=1 & i^{9}=i^{8} i=i \\
-i^{10}=i^{8} i^{2}=-1 & i^{11}=i^{8} i^{3}=-i \\
-i^{12}=i^{8} i^{4}=1 & \text { etc. }
-\end{array}
-$$
+![](t2.1.png)
 
 We note that, for any integer $n$, $i^{n}$ has only four possible values: they correspond to values of $n$ when divided by 4 leave the remainders 0, 1, 2, and 3. That is when the integer $n \leq -4$ or $n \geq 4$, using division algorithm, $n$ can be written as $n = 4q + k$, $0 \leq k < 4$, $k$ and $q$ are integers and we write
 
@@ -87,6 +79,67 @@ Simplify the following
 (ii) $i^{1729} = i^{1728} i^{1} = i$  
 (iii) $i^{-1924} + i^{2018} = i^{-1924+0} + i^{2016+2} = i^{0} + i^{2} = 1 - 1 = 0$
 
+(iv) $$ \sum_{n=1}^{102} i^n = (i^1 + i^2 + i^3 + i^4) + (i^5 + i^6 + i^7 + i^8) + \cdots + (i^{97} + i^{98} + i^{99} + i^{100}) + i^{101} + i^{102} $$
+$$ = (i^1 + i^2 + i^3 + i^4) + (i^1 + i^2 + i^3 + i^4) + \cdots + (i^1 + i^2 + i^3 + i^4) + i^1 + i^2 $$
+$$ = \{i + (-1) + (-i) + 1\} + \{i + (-1) + (-i) + 1\} + \cdots + \{i + (-1) + (-i) + 1\} + i + (-1) $$
+$$ = 0 + 0 + \cdots + 0 + i - 1 $$
+$$ = -1 + i \quad (\text{What is this number?}) $$
+
+(v) $$ i^2 i^3 \cdots i^{40} = i^{1+2+3+\cdots+40} = i^{\frac{40 \times 41}{2}} = i^{80} = i^0 = 1. $$
+
+
+**Result:** Sum of four consecutive powers of $i$ is zero. That is $i^n + i^{n+1} + i^{n+2} + i^{n+3} = 0 \quad \forall n \in \mathbb{Z}$
+
+**Note**
+
+(i) $$ \sqrt{ab} = \sqrt{a} \sqrt{b} $$ valid only if at least one of $a, b$ is non-negative.
+
+For example, $$ 6 = \sqrt{36} = \sqrt{(-4)(-9)} = \sqrt{(-4)} \sqrt{(-9)} = (2i)(3i) = 6i^2 = -6 $$, a contradiction.
+
+Since we have taken $$ \sqrt{(-4)(-9)} = \sqrt{(-4)} \sqrt{(-9)} $$, we arrived at a contradiction.
+
+Therefore $$ \sqrt{ab} = \sqrt{a} \sqrt{b} $$ valid only if at least one of $a, b$ is non-negative.
+
+(ii) For $y \in \mathbb{R}$, $y^2 \geq 0$
+
+Therefore, $$ \sqrt{(-1)(y^2)} = \sqrt{(y^2)(-1)} $$
+$$ \sqrt{(-1)} \sqrt{(y^2)} = \sqrt{(y^2)} \sqrt{(-1)} $$
+$$ iy = yi. $$
+
+![](img2.png)
+
+**EXERCISE 2.1**
+
+Simplify the following:
+
+1. $$ i^{1947} + i^{1950} $$
+2. $$ i^{1948} - i^{-1869} $$
+3. $$ \sum_{n=1}^{12} i^n $$
+4. $$ i^{59} + \frac{1}{i^{59}} $$
+5. $$ i^2 i^3 \cdots i^{2000} $$
+6. $$ \sum_{n=1}^{10} i^{n+50} $$
+
+
+## 2.2 Complex Numbers
+
+We have seen that the equation $x^2 + 1 = 0$ does not have a solution in real number system.
+
+In general there are polynomial equations with real coefficient which have no real solution.
+
+We enlarge the real number system so as to accommodate solutions of such polynomial equations.
+
+This has triggered the mathematicians to define complex number system.
+
+In this section, we define
+
+(i) Complex numbers in rectangular form  
+(ii) Argand plane  
+(iii) Algebraic operations on complex numbers  
+
+The complex number system is an extension of real number system with imaginary unit $i$.
+
+The imaginary unit $i$ with the property $i^2 = -1$, is combined with two real numbers $x$ and $y$ by the process of addition and multiplication, we obtain a complex number $x + iy$. The symbol '$+$' is treated as vector addition. It was introduced by Carl Friedrich Gauss (1777-1855).
+
 ### 2.2.1 Rectangular form
 
 **Definition 2.1 (Rectangular form of a complex number)**
@@ -108,16 +161,54 @@ For instance, if $\alpha + i\beta = -7 + 3i$, then $\alpha = -7$ and $\beta = 3$
 A complex number $z = x + iy$ is uniquely determined by an ordered pair of real numbers $(x,y)$. The numbers $3 - 8i$, $6$ and $-4i$ are equivalent to $(3, -8)$, $(6,0)$, and $(0, -4)$ respectively. In this way we are able to associate a complex number $z = x + iy$ with a point $(x,y)$ in a coordinate plane. If we consider $x$ axis as real axis and $y$ axis as imaginary axis to represent a complex number, then the $xy$-plane is called complex plane or Argand plane. It is named after the Swiss mathematician Jean Argand $(1768 - 1822)$.
 
 A complex number is represented not only by a point, but also by a position vector pointing from the origin to the point. The number, the point, and the vector will all be denoted by the same letter $z$. As usual we identify all vectors which can be obtained from each other by parallel displacements. In this chapter, $\mathbb{C}$ denotes the set of all complex numbers. Geometrically, a complex number can be viewed as either a point in $\mathbb{R}^{2}$ or a vector in the Argand plane.
-
+![](fig_2.3.png)
 **Figure 2.3: Complex number as a point**  
+![](fig_2.4.png)
 **Figure 2.4: Complex number by a position vector pointing from the origin to the point**  
+![](fig_2.5.png)
 **Figure 2.5: Complex number as a vector**
 
 **Illustration 2.1**
 
 Here are some complex numbers: $2 + i, -1 + 2i, 3 - 2i, 0 - 2i, 3 + \sqrt{-2}, -2 - 3i, \cos \frac{\pi}{6} + i \sin \frac{\pi}{6}$, and $3 + 0i$. Some of them are plotted in Argand plane.
 
-**Figure 2.12**
+![](fig_2.6.png)
+**Figure 2.6**
+![](fig_2.7.png)
+**Figure 2.7**
+
+# 2.2.3 Algebraic operations on complex numbers
+
+In this section, we study the algebraic and geometric structure of the complex number system.  
+We assume various corresponding properties of real numbers to be known.
+
+## (i) Scalar multiplication of complex numbers:
+
+If $z = x + iy$ and $k \in \mathbb{R}$, then we define  
+$$kz = (kx) + (ky)i.$$
+
+In particular, $0z = 0$, $1z = z$ and $(-1)z = -z$.
+
+The diagram below shows $kz$ for $k = 2, \frac{1}{2}, -1$.
+
+![](fig_2.8.png)
+**Figure 2.8**
+![](fig_2.9.png)
+**Figure 2.9**
+![](fig_2.10.png)
+**Figure 2.10**
+
+### (ii) Addition of complex numbers:
+
+If $z_1 = x_1 + iy_1$ and $z_2 = x_2 + iy_2$, where $x_1, x_2, y_1, y_2$ and $y_2 \in \mathbb{R}$, then we define  
+$$z_1 + z_2 = (x_1 + iy_1) + (x_2 + iy_2) = (x_1 + x_2) + i(y_1 + y_2).$$
+
+We have already seen that vectors are characterized by length and direction, and that a given vector remains unchanged under translation. When $z_1 = x_1 + iy_1$ and $z_2 = x_2 + iy_2$, then by the parallelogram law of addition, the sum $z_1 + z_2 = (x_1 + x_2) + i(y_1 + y_2)$ corresponds to the point $(x_1 + x_2, y_1 + y_2)$. It also corresponds to a vector with those coordinates as its components. Hence the points $z_1, z_2,$ and $z_1 + z_2$ in complex plane may be obtained vectorially as shown in the adjacent 
+
+![](fig_2.11.png)
+**Figure 2.11**
+
+### (iii) Subtraction of complex numbers
 
 Similarly the difference $z_{1} - z_{2}$ can also be drawn as a position vector whose initial point is the origin and terminal point is $(x_{1} - x_{2}, y_{1} - y_{2})$. We define
 
@@ -139,6 +230,9 @@ $$
 
 It is important to note here that the vector representing the difference of the vector $z_{1} - z_{2}$ may also be drawn joining the end point of $z_{2}$ to the tip of $z_{1}$ instead of the origin. This kind of representation does not alter the meaning or interpretation of the difference operator. The difference vector joining the tips of $z_{1}$ and $z_{2}$ is shown in (green) dotted line.
 
+![](fig_2.12.png)
+**Figure 2.12**
+
 ### (iv) Multiplication of complex numbers
 
 The multiplication of complex numbers $z_{1}$ and $z_{2}$ is defined as
@@ -156,7 +250,7 @@ z_{1}z_{2} = (x_{1}x_{2} - y_{1}y_{2}) + i(x_{1}y_{2} + x_{2}y_{1}).
 $$
 
 Although the product of two complex numbers $z_{1}$ and $z_{2}$ is itself a complex number represented by a vector, that vector lies in the same plane as the vectors $z_{1}$ and $z_{2}$. Evidently, then, this product is neither the scalar product nor the vector product used in vector algebra.
-
+![](fig_2.13.png)
 **Figure 2.13**
 
 **Remark**
@@ -264,7 +358,7 @@ The properties of addition and multiplication of complex numbers are the same as
 | (iii) The associative property<br>For any three complex numbers $z_{1},z_{2},$ and $z_{3}$<br>$(z_{1}+z_{2})+z_{3}=z_{1}+(z_{2}+z_{3})$. | (iii) The associative property<br>For any three complex numbers $z_{1},z_{2},$ and $z_{3}$<br>$(z_{1}z_{2})z_{3}=z_{1}(z_{2}z_{3})$. |
 | (iv) The additive identity<br>There exists a complex number $0=0+0i$ such that, for every complex number $z$,<br>$z+0=0+z=z$<br>The complex number $0=0+0i$ is known as additive identity. | (iv) The multiplicative identity<br>There exists a complex number $1=1+0i$ such that, for every complex number $z$,<br>$z \cdot 1 = 1 \cdot z = z$<br>The complex number $1=1+0i$ is known as multiplicative identity. |
 | (v) The additive inverse<br>For every complex number $z$ there exists a complex number $-z$ such that,<br>$z+(-z)=(-z)+z=0$.<br>$-z$ is called the additive inverse of $z$. | (v) The multiplicative inverse<br>For any nonzero complex number $z$, there exists a complex number $w$ such that,<br>$z w = w z = 1$.<br>$w$ is called the multiplicative inverse of $z$.<br>$w$ is denoted by $z^{-1}$. |
-| (vi) Distributive property (multiplication distributes over addition)<br>For any three complex numbers $z_{1},z_{2},$ and $z_{3}$<br>$z_{1}(z_{2}+z_{3})=z_{1}z_{2}+z_{1}z_{3}$ and $(z_{1}+z_{2})z_{3}=z_{1}z_{3}+z_{2}z_{3}$. | |
+| (vi) Distributive property (multiplication distributes over addition)<br>For any three complex numbers $z_{1},z_{2},$ and $z_{3}$<br>$z_{1}(z_{2}+z_{3})=z_{1}z_{2}+z_{1}z_{3}$ and $(z_{1}+z_{2})z_{3}=z_{1}z_{3}+z_{2}z_{3}$. |
 
 
 Let us now prove some of the properties.
@@ -379,56 +473,122 @@ For instance,
 Geometrically, the conjugate of $z$ is obtained by reflecting $z$ on the real axis.
 
 #### 2.4.1 Geometrical representation of conjugate of a complex number
-
-**Figure 2.14**  
+![](fig_2.14.png)
+**Figure 2.14** 
+![](fig_2.15.png) 
 **Figure 2.15**
 
 **Note**
 
 Two complex numbers $x + i y$ and $x - i y$ are conjugates to each other. The conjugate is useful in division of complex numbers. The complex number can be replaced with a real number in the denominator by multiplying the numerator and denominator by the conjugate of the denominator. This process is similar to rationalising the denominator to remove surds.
 
-#### 2.4.2 Properties of Complex Conjugates
+## 2.4.2 Properties of Complex Conjugates
 
-$$
-\begin{array}{rcl}
-(1) & \overline{z_{1} + z_{2}} = \overline{z_{1}} + \overline{z_{2}} \\
-(2) & \overline{z_{1} - z_{2}} = \overline{z_{1}} - \overline{z_{2}} \\
-(3) & \overline{z_{1}z_{2}} = \overline{z_{1}} \cdot \overline{z_{2}} \\
-(4) & \overline{\left(\frac{z_{1}}{z_{2}}\right)} = \frac{\overline{z_{1}}}{\overline{z_{2}}}, \quad z_{2} \neq 0 \\
-(5) & \operatorname{Re}(z) = \frac{z + \overline{z}}{2} \\
-(6) & \operatorname{Im}(z) = \frac{z - \overline{z}}{2i}
-\end{array}
-$$
+1. $ \overline{z_1 + z_2} = \overline{z_1} + \overline{z_2} $
+2. $ \overline{z_1 - z_2} = \overline{z_1} - \overline{z_2} $
+3. $ \overline{z_1 z_2} = \overline{z_1} \overline{z_2} $
+4. $ \left( \frac{z_1}{z_2} \right) = \frac{\overline{z_1}}{\overline{z_2}}, \quad z_2 \neq 0 $
+5. $ \text{Re}(z) = \frac{z + \overline{z}}{2} $
+6. $ \text{Im}(z) = \frac{z - \overline{z}}{2i} $
+7. $ \left( \overline{z}^n \right) = \left( \overline{z} \right)^n $, where $ n $ is an integer
+8. $ z $ is real if and only if $ z = \overline{z} $
+9. $ z $ is purely imaginary if and only if $ z = -\overline{z} $
+10. $ \overline{z} = z $
 
 Let us verify some of the properties.
 
-**Property**
+### Property
+For any two complex numbers $ z_1 $ and $ z_2 $, we have $ \overline{z_1 + z_2} = \overline{z_1} + \overline{z_2} $.
 
-For any two complex numbers $z_{1}$ and $z_{2}$, we have $\overline{z_{1} + z_{2}} = \overline{z_{1}} + \overline{z_{2}}$
+### Proof
+Let $ z_1 = x_1 + iy_1, \quad z_2 = x_2 + iy_2 $, and $ x_1, x_2, y_1, $ and $ y_2 \in \mathbb{R} $
 
-**Proof**
+$$ \overline{z_1 + z_2} = (x_1 + iy_1) + (x_2 + iy_2) $$
 
-Let $z_{1} = x_{1} + i y_{1}$, $z_{2} = x_{2} + i y_{2}$, and $x_{1},x_{2},y_{1}$, and $y_{2}\in \mathbb{R}$
+$$= (x_1 + x_2) + i(y_1 + y_2) = (x_1 + x_2) - i(y_1 + y_2)$$
 
-$$
-\overline{z_{1} + z_{2}} = \overline{(x_{1} + i y_{1}) + (x_{2} + i y_{2})}
-$$
+$$= (x_1 - iy_1) + (x_2 - iy_2)$$
 
-$$
-= \overline{(x_{1} + x_{2}) + i(y_{1} + y_{2})}
-$$
+$$= z_1 + z_2$$
 
-$$
-= (x_{1} + x_{2}) - i(y_{1} + y_{2})
-$$
+It can be generalized by means of mathematical induction to sums involving any finite number of terms:  
+$$z_1 + z_2 + z_3 + \cdots + z_n = z_1 + z_2 + z_3 + \cdots + z_n.$$
 
-$$
-= (x_{1} - i y_{1}) + (x_{2} - i y_{2})
-$$
 
-$$
-= \overline{z_{1}} + \overline{z_{2}}
-$$
+### Property
+
+$$z_1 z_2 = z_1 \overline{z_2} \quad \text{where } x_1, x_2, y_1, \text{ and } y_2 \in \mathbb{R}$$
+
+
+### Proof
+
+Let  
+$$z_1 = x_1 + iy_1 \quad \text{and} \quad z_2 = x_2 + iy_2.$$
+
+Then,  
+$$z_1 z_2 = (x_1 + iy_1)(x_2 + iy_2) = (x_1 x_2 - y_1 y_2) + i(x_1 y_2 + x_2 y_1).$$
+
+Therefore,  
+$$\overline{z_1 z_2} = \overline{(x_1 x_2 - y_1 y_2)} + i\overline{(x_1 y_2 + x_2 y_1)} = (x_1 x_2 - y_1 y_2) - i(x_1 y_2 + x_2 y_1),$$
+
+and  
+$$\overline{z_1 z_2} = (x_1 - iy_1)(x_2 - iy_2) = (x_1 x_2 - y_1 y_2) - i(x_1 y_2 + x_2 y_1).$$
+
+Therefore,  
+$$\overline{z_1 z_2} = \overline{z_1} \overline{z_2}.$$
+
+
+### Property
+
+A complex number $z$ is purely imaginary if and only if $z = -\overline{z}$.
+
+
+### Proof
+
+Let  
+$$z = x + iy.$$  
+Then by definition  
+$$\overline{z} = x - iy$$
+
+Therefore,  
+$$z = -\overline{z}$$
+
+$$\Leftrightarrow x + iy = -(x - iy)$$
+
+$$\Leftrightarrow 2x = 0 \Leftrightarrow x = 0$$
+
+$$\Leftrightarrow z \text{ is purely imaginary.}$$
+
+Similarly, we can verify the other properties of conjugate of complex numbers.
+
+### Example 2.3
+
+Write  
+$$\frac{3 + 4i}{5 - 12i}$$
+in the $x + iy$ form, hence find its real and imaginary parts.
+
+
+### Solution
+
+To find the real and imaginary parts of  
+$$\frac{3 + 4i}{5 - 12i},$$
+
+first it should be expressed in the rectangular form $x + iy$. To simplify the quotient of two complex numbers, multiply the numerator and denominator by the conjugate of the denominator to eliminate $i$ in the denominator.
+
+$$\frac{3 + 4i}{5 - 12i} = \frac{(3 + 4i)(5 + 12i)}{(5 - 12i)(5 + 12i)}$$
+
+$$= \frac{(15 + 48i) + (20 + 36i)}{5^2 + 12^2}$$
+
+$$= \frac{-33 + 56i}{169} = \frac{33}{169} + i \frac{56}{169}.$$
+
+Therefore,  
+$$\frac{3 + 4i}{5 - 12i} = -\frac{33}{169} + i \frac{56}{169}.$$  
+This is in the $x + iy$ form.  
+
+Hence real part is  
+$$-\frac{33}{169}$$  
+and imaginary part is  
+$$\frac{56}{169}.$$
 
 **Example 2.4**
 
@@ -494,6 +654,336 @@ $$
 = \frac{5}{26} - \frac{6}{13} i.
 $$
 
+### Example 2.7
+Find $ z^{-1} $, if $ z = (2 + 3i)(1 - i) $.
+
+#### Solution
+We have  
+$$z = (2 + 3i)(1 - i) = (2 + 3) + (3 - 2)i = 5 + i$$
+
+$$\Rightarrow z^{-1} = \frac{1}{z} = \frac{1}{5 + i}$$
+
+Multiplying the numerator and denominator by the conjugate of the denominator, we get  
+$$z^{-1} = \frac{(5 - i)}{(5 + i)(5 - i)} = \frac{5 - i}{5^2 + 1^2} = \frac{5}{26} - i \frac{1}{26}$$
+
+$$\Rightarrow z^{-1} = \frac{5}{26} - i \frac{1}{26}$$
+
+
+### Example 2.8
+Show that (i)  
+$$(2 + i\sqrt{3})^{10} + (2 - i\sqrt{3})^{10}$$  
+is real and (ii)  
+$$\left( \frac{19 + 9i}{5 - 3i} \right)^{15} - \left( \frac{8 + i}{1 + 2i} \right)^{15}$$  
+is purely imaginary.
+
+#### Solution
+(i)  
+Let  
+$$z = (2 + i\sqrt{3})^{10} + (2 - i\sqrt{3})^{10}$$
+
+$$\overline{z} = \overline{(2 + i\sqrt{3})^{10} + (2 - i\sqrt{3})^{10}}$$
+
+$$= (2 + i\sqrt{3})^{10} + (2 - i\sqrt{3})^{10}$$
+
+$$= (2 + i\sqrt{3})^{10} + (2 - i\sqrt{2})^{10}$$
+
+$$= (2 + i\sqrt{3})^{10} + (2 - 2i\sqrt{3})^{10}$$
+
+$$= (2 + i\sqrt{3})^{10} + (2 - i\sqrt{3})^{10} = z$$
+
+$$\overline{z} = z \Rightarrow z \text{ is real.}$$
+
+(ii)  
+Let  
+$$z = \left( \frac{19 + 9i}{5 - 3i} \right)^{15} - \left( \frac{8 + i}{1 + 2i} \right)^{15}$$
+
+Here,  
+$$\frac{19 + 9i}{5 - 3i} = \frac{(19 + 9i)(5 + 3i)}{(5 - 3i)(5 + 3i)}$$
+
+$$= \frac{(95 - 27) + i(45 + 57)}{5^2 + 3^2} = \frac{68 + 102i}{34}$$
+
+$$= 2 + 3i$$
+
+and  
+$$\frac{8 + i}{1 + 2i} = \frac{(8 + i)(1 - 2i)}{(1 + 2i)(1 - 2i)}$$
+
+$$= \frac{(8 + 2) + i(1 - 16)}{1^2 + 2^2} = \frac{10 - 15i}{5}$$
+
+$$= 2 - 3i$$
+
+Now  
+$$z = \left( \frac{19 + 9i}{5 - 3i} \right)^{15} - \left( \frac{8 + i}{1 + 2i} \right)^{15}$$
+
+$$\Rightarrow \quad z = (2 + 3i)^{15} - (2 - 3i)^{15}.$$
+
+Then by definition,  
+$$\bar{z} = \left( \overline{(2 + 3i)^{15}} - \overline{(2 - 3i)^{15}} \right)$$
+
+$$= \left( \overline{2 + 3i} \right)^{15} - \left( \overline{2 - 3i} \right)^{15}$$
+
+$$= (2 - 3i)^{15} - (2 + 3i)^{15} = - \left( (2 + 3i)^{15} - (2 - 3i)^{15} \right)$$
+
+$$\Rightarrow \quad \bar{z} = -z.$$
+
+Therefore,  
+$$z = \left( \frac{19 + 9i}{5 - 3i} \right)^{15} - \left( \frac{8 + i}{1 + 2i} \right)^{15}$$  
+is purely imaginary.
+
+
+# EXERCISE 2.4
+
+1. Write the following in the rectangular form:  
+   (i) $\overline{(5 + 9i)} + (2 - 4i)$  
+   (ii) $\frac{10 - 5i}{6 + 2i}$  
+   (iii) $\frac{1}{3i} + \frac{1}{2 - i}$  
+
+2. If $z = x + iy$, find the following in rectangular form.  
+   (i) $\text{Re}\left( \frac{1}{z} \right)$  
+   (ii) $\text{Re}\left( i \bar{z} \right)$  
+   (iii) $\text{Im}(3z + 4\bar{z} - 4i)$  
+
+3. If $z_1 = 2 - i$ and $z_2 = -4 + 3i$, find the inverse of $z_1z_2$ and $\frac{z_1}{z_2}$  
+
+4. The complex numbers $u, v, w$ are related by  
+   $$   \frac{1}{u} = \frac{1}{v} + \frac{1}{w}.$$  
+   If $v = 3 - 4i$ and $w = 4 + 3i$, find $u$ in rectangular form.  
+
+5. Prove the following properties:  
+   (i) $z$ is real if and only if $z = \bar{z}$  
+   (ii) $\text{Re}(z) = \frac{z + \bar{z}}{2}$  
+   (iii) $\text{Im}(z) = \frac{z - \bar{z}}{2i}$  
+
+6. Find the least value of the positive integer $n$ for which  
+   $$   \left( \sqrt{3} + i \right)^n$$  
+   (i) real  
+   (ii) purely imaginary.  
+
+7. Show that  
+   $$   \left( 2 + i\sqrt{3} \right)^{10} - \left( 2 - i\sqrt{3} \right)^{10}$$  
+   is purely imaginary.  
+   (i)  
+   $$   \left( \frac{19 - 7i}{9 + i} \right)^{12} + \left( \frac{20 - 5i}{7 - 6i} \right)^{12}$$  
+   is real.
+
+   ## 2.5 Modulus of a Complex Number
+
+Just as the absolute value of a real number measures the distance of that number from origin along the real number line, the modulus of a complex number measures the distance of that number from the origin in the complex plane. Observe that the length of the line from the origin along the radial line to $z = x + iy$ is simply the hypotenuse of a right triangle, with one side of length $x$ and the other side of length $y$.
+
+![](fig_2.16.png)
+
+### Definition 2.4
+
+If $z = x + iy$, then the modulus of $z$, denoted by $|z|$, is defined by $|z| = \sqrt{x^2 + y^2}$.
+
+For instance  
+(i) $|i| = \sqrt{0^2 + 1^2} = 1$  
+(ii) $|-12i| = \sqrt{0^2 + (-12)^2} = 12$  
+(iii) $|12 - 5i| = \sqrt{12^2 + (-5)^2} = \sqrt{169} = 13$  
+
+
+### Note
+
+If $z = x + iy$, then $\overline{z} = x - iy$, then $z \overline{z} = (x + iy)(x - iy) = (x^2 - iy^2) = x^2 + y^2 = |z|^2$.
+
+
+## 2.5.1 Properties of Modulus of a complex number
+
+1. $|z| = |\overline{z}|$  
+2. $|z_1 + z_2| \leq |z_1| + |z_2|$ (Triangle inequality)  
+3. $|z_1 z_2| = |z_1| |z_2|$  
+4. $|z_1 - z_2| \geq |z_1| - |z_2|$  
+5. $\frac{|z_1|}{|z_2|} = \frac{|z_1|}{|z_2|}, \quad z_2 \neq 0$  
+6. $|z^n| = |z|^n$, where $n$ is an integer  
+7. $\text{Re}(z) \leq |z|$  
+8. $\text{Im}(z) \leq |z|$  
+
+Let us prove some of the properties.
+
+
+### Property Triangle inequality
+
+For any two complex numbers $z_1$ and $z_2$, we have $|z_1 + z_2| \leq |z_1| + |z_2|$.
+
+
+### Proof
+
+Using  
+$$|z_1 + z_2|^2 = (z_1 + z_2)(\overline{z_1} + \overline{z_2})$$  
+$$= (z_1 + z_2)(\overline{z_1} + \overline{z}_2)$$  
+$$= z_1 \overline{z_1} + z_1 \overline{z_2} + z_2 \overline{z_1} + z_2 \overline{z_2}$$  
+$$= z_1 \overline{z_1} + (z_1 \overline{z_2} + z_2 \overline{z_1}) + z_2 \overline{z_2}$$  
+$$= z_1 \overline{z_1} + z_2 \overline{z_2}$$  
+$$= |z_1|^2 + |z_2|^2$$  
+$$= |z|^2 + |z|^2$$  
+$$= |z|^2 + |z|^2$$
+
+$$= |z_1|^2 + 2 \text{Re}(z_1 \overline{z_2}) + |z_2|^2 \tag{2} \quad \text{Re}(z) = z + \overline{z}$$
+$$= |z_1|^2 + 2|z_1|^2 + |z_2|^2 \tag{3} \quad \text{Re}(z) \leq |z|$$
+$$= |z_1|^2 + 2|z_1| |z_2| + |z_2|^2 \tag{4} \quad |z_1| \leq |z_1| \leq |z_2| \text{ and } |z| = |z|$$
+$$\Rightarrow |z_1 + z_2|^2 \leq (|z_1| + |z_2|)^2$$
+$$\Rightarrow |z_1 + z_2| \leq |z_1| + |z_2|.$$
+
+### Geometrical interpretation
+
+Now consider the triangle shown in figure with vertices $O, z_1$ or $z_2$, and $z_1 + z_2$. We know from geometry that the length of the side of the triangle corresponding to the vector $z_1 + z_2$ cannot be greater than the sum of the lengths of the remaining two sides. This is the reason for calling the property as "Triangle Inequality".
+
+It can be generalized by means of mathematical induction to finite number of terms:
+
+$$|z_1 + z_2 + z_3 + \cdots + z_n| \leq |z_1| + |z_2| + |z_3| + \cdots + |z_n| \quad \text{for } n = 2, 3, \cdots.$$
+
+![](fig_2.17.png)
+**Figure 2.17**
+
+### Property The distance between the two points $z_1$ and $z_2$ in complex plane is $|z_1 - z_2|$
+
+If $z_1 = x_1 + iy_1$ and $z_2 = x_2 + iy_2$, then
+
+$$|z_1 - z_2| = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$$
+
+
+### Remark
+
+The distance between the two points $z_1$ and $z_2$ in complex plane is $|z_1 - z_2|$.
+
+If we consider origin, $z_1$ and $z_2$ as vertices of a triangle, by the similar argument we have
+
+$$|z_1 - z_2| \leq |z_1| + |z_2|$$
+$$|z_1| - |z_2| \leq |z_1 + z_2| \leq |z_1| + |z_2|$$
+$$|z_1| - |z_2| \leq |z_1 - z_2| \leq |z_1| + |z_2|.$$
+
+![](fig_2.18.png)
+**Figure 2.18**
+
+### Property Modulus of the product is equal to product of the moduli.
+
+For any two complex numbers $z_1$ and $z_2$, we have $|z_1 z_2| = |z_1| |z_2|$.
+
+
+### Proof
+
+We have
+
+$$|z_1 z_2|^2 = (z_1 z_2)(\overline{z_1} z_2) \tag{1} \quad |z|^2 = z \overline{z}$$
+$$= (z_1)(z_2)(\overline{z_1})(\overline{z_2}) \tag{2} \quad (\overline{z_1} z_2 = \overline{z_1} \overline{z_2})$$
+
+$$= (z_1 \overline{z_1})(z_2 \overline{z_2}) = |z_1|^2 |z_2|^2 \quad \text{(by commutativity } z_1 \overline{z_1} = \overline{z_1} z_1 \overline{z_1} \text{)}$$
+
+Therefore, $$|z_1 z_2| = |z_1| |z_2|.$$
+
+
+
+### Note
+
+It can be generalized by means of mathematical induction to any finite number of terms:
+
+$$|z_1 z_2 z_3 \cdots z_n| = |z_1| |z_2| |z_3| \cdots |z_n|$$
+
+That is the modulus value of a product of complex numbers is equal to the product of the moduli of complex numbers.
+
+Similarly we can prove the other properties of modulus of a complex number.
+
+
+### Example 2.9
+
+If $ z_1 = 3 + 4i $, $ z_2 = 5 - 12i $, and $ z_3 = 6 + 8i $, find $|z_1|$, $|z_2|$, $|z_3|$, $|z_1 + z_2|$, $|z_2 - z_3|$, and $|z_1 + z_3|$.
+
+
+### Solution
+
+Using the given values for $ z_1, z_2, $ and $ z_3 $, we get
+
+$$|z_1| = |3 + 4i| = \sqrt{3^2 + 4^2} = 5$$
+
+$$|z_2| = |5 - 12i| = \sqrt{5^2 + (-12)^2} = 13$$
+
+$$|z_3| = |6 + 8i| = \sqrt{6^2 + 8^2} = 10$$
+
+$$|z_1 + z_2| = |(3 + 4i) + (5 - 12i)| = |8 - 8i| = \sqrt{128} = 8\sqrt{2}$$
+
+$$|z_2 - z_3| = |(5 - 12i) - (6 + 8i)| = |-1 - 20i| = \sqrt{401}$$
+
+$$|z_1 + z_3| = |(3 + 4i) + (6 + 8i)| = |9 + 12i| = \sqrt{225} = 15$$
+
+Note that the triangle inequality is satisfied in all the cases.
+
+$$|z_1 + z_3| = |z_1| + |z_3| = 15 \quad \text{(why?)}$$
+
+
+### Example 2.10
+
+Find the following
+
+(i) $$ \frac{2 + i}{-1 + 2i} $$
+
+(ii) $$ \frac{(1 + i)(2 + 3i)(4i - 3)}{(1 + i)^2} $$
+
+(iii) $$ \frac{i(2 + i)^3}{(1 + i)^2} $$
+
+
+
+### Solution
+
+(i) $$ \frac{2 + i}{-1 + 2i} = \frac{|2 + i|}{|-1 + 2i|} = \frac{\sqrt{2^2 + 1^2}}{\sqrt{(-1)^2 + 2^2}} = 1. \quad \left( \cdots \left| \frac{z_1}{z_2} \right| = \left| \frac{z_1}{z_2} \right|, \quad z_2 \neq 0 \right) $$
+
+(ii) $$ \frac{(1 + i)(2 + 3i)(4i - 3)}{(1 + i)^2} = \frac{|(1 + i)(2 + 3i)| |(4i - 3)|}{(1 + i)^2} = \frac{|1 + i| |2 + 3i| |4i - 3|}{(1 + i)^2} = \frac{|1 + i| |2 + 3| |4 - 3|}{(1 + i)^2} = \frac{\sqrt{2^2 + 1^2}}{\sqrt{(-1)^2 + 2^2}} \left( \cdots \left| \frac{z_1}{z_2} \right| = \left| \frac{z_1}{z_2} \right|, \quad z_2 \neq 0 \right) $$
+
+(iii) $$ \frac{i(2 + i)^3}{(1 + i)^2} = \frac{|i| |(2 + i)^3|}{|(1 + i)^2|} = \frac{|1 + i|^3}{|1 + i|^2} = \frac{\sqrt{4 + 1}}{\sqrt{2}} \left( \cdots \left| \frac{z_1}{z_2} \right| = \left| \frac{z_1}{z_2} \right|, \quad z_2 \neq 0 \right) $$
+
+$$= \frac{\sqrt{5}}{2} = \frac{5\sqrt{5}}{2}.$$
+
+### Example 2.11
+Which one of the points $i, -2+i$, and 3 is farthest from the origin?
+
+#### Solution
+The distance between origin to $z = i, -2+i$, and 3 are
+
+$$|z| = |i| = 1$$
+
+$$|z| = |-2+i| = \sqrt{(-2)^2 + 1^2} = \sqrt{5}$$
+
+$$|z| = |3| = 3$$
+
+Since $1 < \sqrt{5} < 3$, the farthest point from the origin is 3.
+
+![](fig_2.19.png)
+**Figure 2.19**
+
+### Example 2.12
+If $z_1, z_2$, and $z_3$ are complex numbers such that $|z_1| = |z_2| = |z_3| = |z_1 + z_2 + z_3| = 1$,
+
+find the value of $\frac{1}{z_1} + \frac{1}{z_2} + \frac{1}{z_3}$.
+
+#### Solution
+Since, $|z_1| = |z_2| = |z_3| = 1$,
+
+$$|z_1|^2 = 1 \implies z_1 \overline{z_1} = 1, |z_2|^2 = 1 \implies z_2 \overline{z_2} = 1, \text{ and } |z_3|^2 = 1 \implies z_3 \overline{z_3} = 1$$
+
+Therefore, $\overline{z_1} = \frac{1}{z_1}, \overline{z_2} = \frac{1}{z_2}, \text{ and } \overline{z_3} = \frac{1}{z_3}$ and hence
+
+$$\left| \frac{1}{z_1} + \frac{1}{z_2} + \frac{1}{z_3} \right| = \left| \overline{z_1} + \overline{z_2} + \overline{z_3} \right| = |z_1 + z_2 + z_3| = 1.$$
+
+---
+
+### Example 2.13
+If $|z| = 2$ show that $3 \leq |z + 3 + 4i| \leq 7$
+
+#### Solution
+$$|z + 3 + 4i| \leq |z| + |3 + 4i| = 2 + 5 = 7$$
+
+$$|z + 3 + 4i| \leq 7 \tag{1}$$
+
+$$|z + 3 + 4i| \geq |z| - |3 + 4i| = |2 - 5| = 3$$
+
+$$|z + 3 + 4i| \geq 3 \tag{2}$$
+
+From (1) and (2), we get $3 \leq |z + 3 + 4i| \leq 7$.
+
+![](fig_2.20.png)
+**Figure 2.20**
+
+### Note
+To find the lower bound and upper bound use $\|z_1| - |z_2|\| \leq |z_1 + z_2| \leq |z_1| + |z_2|$.
+
 **Example 2.14**
 
 Show that the points $1$, $\frac{-1}{2} + i \frac{\sqrt{3}}{2}$, and $\frac{-1}{2} - i \frac{\sqrt{3}}{2}$ are the vertices of an equilateral triangle.
@@ -517,7 +1007,7 @@ $$
 $$
 |z_{3} - z_{1}| = \left|\left(\frac{-1}{2} - i \frac{\sqrt{3}}{2}\right) - 1\right| = \left|\frac{-3}{2} - \frac{\sqrt{3}}{2} i\right| = \sqrt{\frac{9}{4} + \frac{3}{4}} = \sqrt{3}
 $$
-
+![](fig_2.21.png)
 **Figure 2.21**
 
 Since the sides are equal, the given points form an equilateral triangle.
@@ -565,6 +1055,47 @@ $$
 $$
 
 as required.
+
+$$\Rightarrow \frac{z_2 z_3 + z_1 z_3 + z_1 z_2}{|z_1 + z_2 + z_3|} = r.$$
+(given that $ z_1 + z_2 + z_3 \neq 0 $)
+
+Thus,
+$$\frac{z_2 z_3 + z_1 z_3 + z_1 z_2}{|z_1 + z_2 + z_3|} = r.$$
+
+Example 2.16  
+Show that the equation $ z^2 = \bar{z} $ has four solutions.
+
+Solution  
+We have,
+$$z^2 = \bar{z}.$$
+$$\Rightarrow |z|^2 = |z|$$
+$$\Rightarrow |z|(|z| - 1) = 0,$$
+$$\Rightarrow |z| = 0, \text{ or } |z| = 1.$$
+$$|z| = 0 \Rightarrow z = 0 \text{ is a solution, } |z| = 1 \Rightarrow \bar{z} = 1 \Rightarrow \bar{z} = \frac{1}{z}.$$
+
+Given $ z^2 = \bar{z} \Rightarrow z^2 = \frac{1}{z} \Rightarrow z^3 = 1.$
+
+It has 3 non-zero solutions. Hence including zero solution, there are four solutions.
+
+### 2.5.2 Square roots of a complex number
+
+Let the square root of $ a + ib $ be $ x + iy $
+
+That is $ \sqrt{a + ib} = x + iy $ where $ x, y \in \mathbb{R} $
+$$a + ib = (x + iy)^2 = x^2 - y^2 + i2xy$$
+Equating real and imaginary parts, we get
+$$x^2 - y^2 = a \text{ and } 2xy = b$$
+$$\left( x^2 + y^2 \right)^2 = \left( x^2 - y^2 \right)^2 + 4x^2y^2 = a^2 + b^2$$
+$$x^2 + y^2 = \sqrt{a^2 + b^2}, \text{ since } x^2 + y^2 \text{ is positive}$$
+Solving $ x^2 - y^2 = a $ and $ x^2 + y^2 = \sqrt{a^2 + b^2} $, we get
+$$x = \pm \sqrt{\frac{\sqrt{a^2 + b^2} + a}{2}}; \quad y = \pm \sqrt{\frac{\sqrt{a^2 + b^2} - a}{2}}.$$
+
+Since $ 2xy = b $ it is clear that both $ x $ and $ y $ will have the same sign when $ b $ is positive, and $ x $ and $ y $ have different signs when $ b $ is negative.
+
+Therefore $ \sqrt{a + ib} = \pm \left( \sqrt{\frac{|z| + a}{2}} + i \frac{b}{|b|} \sqrt{\frac{|z| - a}{2}} \right), \text{ where } b \neq 0. \quad (\because \text{Re}(z) \leq |z|)$
+
+Formula for finding square root of a complex number
+$$\sqrt{a + ib} = \pm \left( \sqrt{\frac{|z| + a}{2}} + i \frac{b}{|b|} \sqrt{\frac{|z| - a}{2}} \right), \text{ where } z = a + ib \text{ and } b \neq 0.$$
 
 **Example 2.17**
 
@@ -646,7 +1177,7 @@ $$
 $$
 CA^{2} = |z - i z|^{2} = |5 - i|^{2} = 26
 $$
-
+![](fig_2.22.png)
 **Figure 2.22**
 
 Since $AB^{2} + BC^{2} = CA^{2}$ and $AB = BC$, $\triangle ABC$ is an isosceles right triangle.
@@ -665,6 +1196,7 @@ Therefore $|z - z_{0}| = r$ is the complex form of the equation of a circle. (se
 
 (ii) $|z - z_{0}| > r$ represents the points exterior of the circle.
 
+![](fig_2.23.png)
 **Figure 2.23**
 
 **Illustration 2.3**
@@ -694,7 +1226,7 @@ $$
 $$
 
 It is of the form $|z - z_{0}| = r$ and so it represents a circle, whose centre and radius are $\left(\frac{5}{3}, -\frac{1}{3}\right)$ and $\frac{4}{3}$ respectively.
-
+![](fig_2.24.png)
 **Figure 2.24**
 
 **Example 2.20**
@@ -708,7 +1240,7 @@ Consider the equation $|z + 2 - i| = 2$.
 This can be written as $|z - (-2 + i)| = 2$.
 
 The above equation represents the circle with centre $z_{0} = -2 + i$ and radius $r = 2$. Therefore $|z + 2 - i| < 2$ represents all points inside the circle with centre at $-2 + i$ and radius 2 as shown in figure.
-
+![](fig_2.25.png)
 **Figure 2.25**
 
 **Example 2.21**
@@ -770,137 +1302,62 @@ $$
 
 the locus of $z$ in Cartesian form.
 
-**Solution**
+# EXERCISE 2.6
 
-(i) Let $z = x + iy$
+1. If $ z = x + iy $ is a complex number such that  
+   $$   \left| \frac{z - 4i}{z + 4i} \right| = 1$$
+   show that the locus of $ z $ is real axis.
 
-$$
-\left|\frac{z - 4i}{z + 4i}\right| = 1 \Rightarrow |z - 4i| = |z + 4i|
-$$
+2. If $ z = x + iy $ is a complex number such that  
+   $$   \text{Im} \left( \frac{2z + 1}{iz + 1} \right) = 0,$$
+   show that the locus of $ z $ is  
+   $$   2x^2 + 2y^2 + x - 2y = 0.$$
 
-$$
-|x + iy - 4i| = |x + iy + 4i|
-$$
+3. Obtain the Cartesian form of the locus of $ z = x + iy $ in each of the following cases:
 
-$$
-|x + i(y - 4)| = |x + i(y + 4)|
-$$
+   (i) $$   \text{Re}(iz) = 3$$
+   (ii) $$   \text{Im}((1 - i)z + 1) = 0$$
+   (iii) $$   |z + i| = |z - 1|$$
+   (iv) $$   \overline{z} = z^{-1}.$$
 
-$$
-\sqrt{x^2 + (y-4)^2} = \sqrt{x^2 + (y+4)^2}
-$$
+4. Show that the following equations represent a circle, and, find its centre and radius.
 
-Squaring both sides:
+   (i) $$   |z - 2 - i| = 3$$
+   (ii) $$   |2z + 2 - 4i| = 2$$
+   (iii) $$   |3z - 6 + 12i| = 8.$$
 
-$$
-x^2 + (y-4)^2 = x^2 + (y+4)^2
-$$
+5. Obtain the Cartesian equation for the locus of $ z = x + iy $ in each of the following cases:
 
-$$
-y^2 - 8y + 16 = y^2 + 8y + 16
-$$
+   (i) $$   |z - 4| = 16$$
+   (ii) $$   |z - 4|^2 - |z - 1|^2 = 16.$$# EXERCISE 2.6
 
-$$
--16y = 0 \Rightarrow y = 0
-$$
+1. If $ z = x + iy $ is a complex number such that  
+   $$   \left| \frac{z - 4i}{z + 4i} \right| = 1$$
+   show that the locus of $ z $ is real axis.
 
-Therefore, the locus of $z$ is the real axis.
+2. If $ z = x + iy $ is a complex number such that  
+   $$   \text{Im} \left( \frac{2z + 1}{iz + 1} \right) = 0,$$
+   show that the locus of $ z $ is  
+   $$   2x^2 + 2y^2 + x - 2y = 0.$$
 
-(ii) Let $z = x + iy$
+3. Obtain the Cartesian form of the locus of $ z = x + iy $ in each of the following cases:
 
-$$
-\operatorname{Im}\left(\frac{2z + 1}{iz + 1}\right) = 0
-$$
+   (i) $$   \text{Re}(iz) = 3$$
+   (ii) $$   \text{Im}((1 - i)z + 1) = 0$$
+   (iii) $$   |z + i| = |z - 1|$$
+   (iv) $$   \overline{z} = z^{-1}.$$
 
-$$
-\frac{2(x + iy) + 1}{i(x + iy) + 1} = \frac{2x + 1 + i2y}{ix - y + 1} = \frac{(2x + 1) + i2y}{(1 - y) + ix}
-$$
+4. Show that the following equations represent a circle, and, find its centre and radius.
 
-Multiply numerator and denominator by the conjugate of denominator:
+   (i) $$   |z - 2 - i| = 3$$
+   (ii) $$   |2z + 2 - 4i| = 2$$
+   (iii) $$   |3z - 6 + 12i| = 8.$$
 
-$$
-= \frac{[(2x + 1) + i2y][(1 - y) - ix]}{(1 - y)^2 + x^2}
-$$
+5. Obtain the Cartesian equation for the locus of $ z = x + iy $ in each of the following cases:
 
-The imaginary part of the numerator is:
+   (i) $$   |z - 4| = 16$$
+   (ii) $$   |z - 4|^2 - |z - 1|^2 = 16.$$
 
-$$
-(2x + 1)(-x) + 2y(1 - y) = -2x^2 - x + 2y - 2y^2
-$$
-
-Setting the imaginary part to zero:
-
-$$
--2x^2 - x + 2y - 2y^2 = 0
-$$
-
-$$
-2x^2 + 2y^2 + x - 2y = 0
-$$
-
-(iii) (i) $[\operatorname{Re}(iz)]^2 = 3$
-
-Let $z = x + iy$, then $iz = i(x + iy) = ix - y = -y + ix$
-
-$\operatorname{Re}(iz) = -y$
-
-Therefore $(-y)^2 = 3 \Rightarrow y^2 = 3 \Rightarrow y = \pm \sqrt{3}$
-
-(ii) $\operatorname{Im}[(1 - i)z + 1] = 0$
-
-$(1 - i)(x + iy) + 1 = (x + iy - ix + y) + 1 = (x + y + 1) + i(y - x)$
-
-$\operatorname{Im} = y - x = 0 \Rightarrow y = x$
-
-(iii) $|z + i| = |z - 1|$
-
-$|x + i(y + 1)| = |(x - 1) + iy|$
-
-$x^2 + (y + 1)^2 = (x - 1)^2 + y^2$
-
-$x^2 + y^2 + 2y + 1 = x^2 - 2x + 1 + y^2$
-
-$2y = -2x \Rightarrow y = -x$
-
-(iv) $\overline{z} = z^{-1}$
-
-$\overline{z} = \frac{1}{z} \Rightarrow z\overline{z} = 1 \Rightarrow |z|^2 = 1 \Rightarrow x^2 + y^2 = 1$
-
-4. (i) $|z - 2 - i| = 3$
-
-Centre at $(2, 1)$, radius $= 3$
-
-(ii) $|2z + 2 - 4i| = 2$
-
-$|2(z + 1 - 2i)| = 2$
-
-$2|z + 1 - 2i| = 2 \Rightarrow |z + 1 - 2i| = 1$
-
-Centre at $(-1, 2)$, radius $= 1$
-
-(iii) $|3z - 6 + 12i| = 8$
-
-$|3(z - 2 + 4i)| = 8$
-
-$3|z - 2 + 4i| = 8 \Rightarrow |z - 2 + 4i| = \frac{8}{3}$
-
-Centre at $(2, -4)$, radius $= \frac{8}{3}$
-
-5. (i) $|z - 4| = 16$
-
-$|(x - 4) + iy| = 16$
-
-$(x - 4)^2 + y^2 = 256$
-
-(ii) $|z - 4|^2 - |z - 1|^2 = 16$
-
-$[(x - 4)^2 + y^2] - [(x - 1)^2 + y^2] = 16$
-
-$(x^2 - 8x + 16) - (x^2 - 2x + 1) = 16$
-
-$-8x + 16 + 2x - 1 = 16$
-
-$-6x + 15 = 16 \Rightarrow -6x = 1 \Rightarrow x = -\frac{1}{6}$
 
 ### 2.7 Polar and Euler form of a Complex Number
 
@@ -910,8 +1367,11 @@ When performing addition and subtraction of complex numbers, we use rectangular 
 
 Polar coordinates form another set of parameters that characterize the vector from the origin to the point $z = x + iy$, with magnitude and direction. The polar coordinate system consists of a fixed point $O$ called the pole and the horizontal half line emerging from the pole called the initial line (polar axis). If $r$ is the distance from the pole to a point $P$ and $\theta$ is an angle of inclination measured from the initial line in the counter clockwise direction to the line $OP$, then $r$ and $\theta$ of the ordered pair $(r,\theta)$ are called the polar coordinates of $P$. Superimposing this polar coordinate system on the rectangular coordinate system, as shown in diagram, leads to
 
+![](fig_2.26.png)
 **Figure 2.26**  
-**Figure 2.27**  
+![](fig_2.27.png)
+**Figure 2.27**
+![](fig_2.28.png)  
 **Figure 2.28**
 
 $$
@@ -946,7 +1406,7 @@ Squaring and adding the equations and taking square root, the value of $r$ is gi
 Dividing the equations, $\frac{r\sin\theta}{r\cos\theta} = \frac{y}{x} \Rightarrow \tan \theta = \frac{y}{x}$.
 
 **Case (i)** The real number $\theta$ represents the angle, measured in radians, that $z$ makes with the positive real axis when $z$ is interpreted as a radius vector. The angle $\theta$ has an infinitely many possible values, including negative ones that differ by integral multiples of $2\pi$. Those values can be determined from the equation $\tan \theta = \frac{y}{x}$ where the quadrant containing the point corresponding to $z$ must be specified. Each value of $\theta$ is called an argument of $z$, and the set of all such values is obtained by adding multiple of $2\pi$ to $\theta$, and it is denoted by $\arg z$.
-
+![](fig_2.29.png)
 **Figure 2.29**
 
 **Case (ii)** There is a unique value of $\theta$ which satisfies the condition $-\pi < \theta \leq \pi$.
@@ -960,9 +1420,14 @@ $$
 $$
 
 **Principal Argument of a complex number**
-
-**Figure 2.30**  
+![](fig_2.30.png)
+**Figure 2.30** 
+![](fig_2.31.png)
+**Figure 2.31**
+![](fig_2.32.png)  
 **Figure 2.32**
+![](fig_2.33.png)
+**Figure 2.33** 
 
 The capital A is important here to distinguish the principal value from the general value.
 
@@ -991,6 +1456,8 @@ For instance the principal argument and argument of $1, i, -1$, and $-i$ are sho
 | $\operatorname{Arg}(z)$ | $0$ | $\pi/2$ | $\pi$ | $-\pi/2$ |
 | $\arg z$ | $2n\pi$ | $2n\pi + \pi/2$ | $2n\pi + \pi$ | $2n\pi - \pi/2$ |
 
+
+![](fig_2.34.png)
 **Figure 2.34**
 
 **Illustration**
@@ -1001,7 +1468,7 @@ Plot the following complex numbers in complex plane
 (ii) $4\left(\cos \frac{2\pi}{3} + i\sin \frac{2\pi}{3}\right)$  
 (iii) $3\left(\cos \frac{-5\pi}{6} + i\sin \frac{-5\pi}{6}\right)$  
 (iv) $2\left(\cos \frac{\pi}{6} - i\sin \frac{\pi}{6}\right)$
-
+![](fig_2.35.png) 
 **Figure 2.35**
 
 #### 2.7.2 Euler's Form of the complex number
@@ -1042,7 +1509,7 @@ Since the complex number $\sqrt{3} + i$ lies in the first quadrant, the principa
 $$
 \theta = \alpha = \frac{\pi}{6}.
 $$
-
+![](fig_2.36.png)
 **Figure 2.36**
 
 Therefore, the modulus and principal argument of $\sqrt{3} + i$ are $2$ and $\frac{\pi}{6}$ respectively.
@@ -1054,6 +1521,7 @@ Modulus $= 2$ and
 $$
 \alpha = \tan^{-1}\left|\frac{y}{x}\right| = \tan^{-1}\frac{1}{\sqrt{3}} = \frac{\pi}{6}
 $$
+![](fig_2.37.png)
 
 **Figure 2.37**
 
@@ -1074,6 +1542,7 @@ Since the complex number $-\sqrt{3} - i$ lies in the third quadrant, the princip
 $$
 \theta = \alpha - \pi = \frac{\pi}{6} - \pi = -\frac{5\pi}{6}.
 $$
+![](fig_2.38.png)
 
 **Figure 2.38**
 
@@ -1088,6 +1557,7 @@ Since the complex number lies in the fourth quadrant, the principal value is
 $$
 \theta = -\alpha = -\frac{\pi}{6}
 $$
+![](fig_2.39.png)
 
 **Figure 2.39**
 
@@ -1176,6 +1646,7 @@ $$
 $$
 = \pi - \frac{\pi}{3} = \frac{2\pi}{3}
 $$
+![](fig_2.40.png)
 
 **Figure 2.40**
 
@@ -1204,10 +1675,12 @@ $$
 $$
 z^{-1} = \frac{1}{r}(\cos \theta - i\sin \theta).
 $$
+![](fig_2.41.png)
 
 **Figure 2.41**
 
 **Property 2** If $z_{1} = r_{1}(\cos \theta_{1} + i\sin \theta_{1})$ and $z_{2} = r_{2}(\cos \theta_{2} + i\sin \theta_{2})$, then $z_{1}z_{2} = r_{1}r_{2}(\cos(\theta_{1} + \theta_{2}) + i\sin(\theta_{1} + \theta_{2}))$.
+![](fig_2.42.png)
 
 **Figure 2.42**
 
@@ -1225,11 +1698,42 @@ $$
 = r_{1}r_{2}[\cos(\theta_{1} + \theta_{2}) + i\sin(\theta_{1} + \theta_{2})]
 $$
 
-**Property 3** If $z_{1} = r_{1}(\cos \theta_{1} + i\sin \theta_{1})$ and $z_{2} = r_{2}(\cos \theta_{2} + i\sin \theta_{2})$, then $\frac{z_{1}}{z_{2}} = \frac{r_{1}}{r_{2}}[\cos(\theta_{1} - \theta_{2}) + i\sin(\theta_{1} - \theta_{2})]$.
+**Note**  
+$$\arg(z_1 z_2) = \theta_1 + \theta_2 = \arg(z_1) + \arg(z_2).$$
 
-**Proof** is similar to Property 2.
 
-**EXERCISE 2.6**
+### Property 3  
+If $ z_1 = r_1 (\cos \theta_1 + i \sin \theta_1) $ and $ z_2 = r_2 (\cos \theta_2 + i \sin \theta_2) $, then  
+$$\frac{z_1}{z_2} = \frac{r_1}{r_2} \left[ \cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2) \right].$$
+
+
+### Proof:  
+Using the polar form of $ z_1 $ and $ z_2 $, we have  
+$$\frac{z_1}{z_2} = \frac{r_1 (\cos \theta_1 + i \sin \theta_1)}{r_2 (\cos \theta_2 + i \sin \theta_2)}$$
+$$= \frac{r_1 (\cos \theta_1 + i \sin \theta_1)(\cos \theta_2 - i \sin \theta_2)}{r_2 (\cos \theta_2 + i \sin \theta_2)(\cos \theta_1 - i \sin \theta_1)}$$
+$$= \frac{r_1 (\cos \theta_1 \cos \theta_2 + \sin \theta_1 \sin \theta_2) + i (\sin \theta_1 \cos \theta_2 - \sin \theta_1 \cos \theta_2)}{\cos^2 \theta_1 + \sin^2 \theta_1}$$
+$$= \frac{r_1}{r_2} (\cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2)).$$
+
+
+### Note  
+$$\arg\left(\frac{z_1}{z_2}\right) = \theta_1 - \theta_2 = \arg(z_1) - \arg(z_2).$$
+
+
+### Example 2.25  
+Find the product  
+$$\frac{3}{2} \left( \cos \frac{\pi}{3} + i \sin \frac{\pi}{3} \right) \cdot 6 \left( \cos \frac{5\pi}{6} + i \sin \frac{5\pi}{6} \right)$$  
+in rectangular form.
+
+
+### Solution:  
+The Product  
+$$\frac{3}{2} \left( \cos \frac{\pi}{3} + i \sin \frac{\pi}{3} \right) \cdot 6 \left( \cos \frac{5\pi}{6} + i \sin \frac{5\pi}{6} \right)$$
+$$= \left( \frac{3}{2} \right) (6) \left( \cos \left( \frac{\pi}{3} + \frac{5\pi}{6} \right) + i \sin \left( \frac{\pi}{3} + \frac{5\pi}{6} \right) \right)$$
+$$= 9 \left( \cos \left( \frac{7\pi}{6} \right) + i \sin \left( \frac{7\pi}{6} \right) \right)$$
+$$= 9 \left( \cos \left( \pi + \frac{\pi}{6} \right) + i \sin \left( \pi + \frac{\pi}{6} \right) \right)$$
+
+
+**EXERCISE 2.7**
 
 1. Write in polar form of the following complex numbers  
    (i) $2 + i2\sqrt{3}$  
@@ -1255,8 +1759,7 @@ $$
    (ii) $\sin 3\alpha + \sin 3\beta + \sin 3\gamma = 3\sin(\alpha + \beta + \gamma)$.
 
 6. If $z = x + i y$ and $\arg\left(\frac{z - i}{z + 2}\right) = \frac{\pi}{4}$, show that $x^{2} + y^{2} + 3x - 3y + 2 = 0$.
-
-### 2.8 De Moivre's Theorem and its Applications
+![](img3.png)
 
 **Abraham De Moivre (1667-1754)** was one of the mathematicians to use complex numbers in trigonometry.
 
@@ -1439,8 +1942,38 @@ $$
 
 #### 2.8.2 The $n^{\text{th}}$ roots of a complex number
 
-If we set $\omega = \sqrt[n]{r e^{\frac{i(\theta + 2k\pi)}{n}}}$, the formula for the $n^{\text{th}}$ roots of a complex number has a nice geometric interpretation, as shown in Figure. Note that because $|\omega| = \sqrt[n]{r}$ the $n$ roots all have the same modulus $\sqrt[n]{r}$; they all lie on a circle of radius $\sqrt[n]{r}$ with centre at the origin. Furthermore, the $n$ roots are equally spaced along the circle, because successive $n$ roots have arguments that differ by $\frac{2\pi}{n}$.
+De Moivre's formula can be used to obtain roots of complex numbers. Suppose $ n $ is a positive integer and a complex number $ \omega $ is $ n^{th} $ root of $ z $ denoted by $ z^{1/n} $, then we have
 
+$$\omega^n = z.$$
+
+Let $ \omega = \rho (\cos \phi + i \sin \phi) $ and
+
+$$z = r (\cos \theta + i \sin \theta) = r (\cos (\theta + 2k\pi) + i \sin (\theta + 2k\pi)), \quad k \in \mathbb{Z}$$
+
+Since $ \omega $ is the $ n^{th} $ root of $ z $, then
+
+$$\omega^n = z$$
+
+$$\Rightarrow \rho^n (\cos \phi + i \sin \phi)^n = r (\cos (\theta + 2k\pi) + i \sin (\theta + 2k\pi)), \quad k \in \mathbb{Z}$$
+
+By De Moivre's theorem,
+
+$$\rho^n (\cos n\phi + i \sin n\phi) = r (\cos (\theta + 2k\pi) + i \sin (\theta + 2k\pi)), \quad k \in \mathbb{Z}$$
+
+Comparing the moduli and arguments, we get
+
+$$\rho^n = r \quad \text{and} \quad n\phi = \theta + 2k\pi, \quad k \in \mathbb{Z}$$
+
+$$\rho = r^{1/n} \quad \text{and} \quad \phi = \frac{\theta + 2k\pi}{n}, \quad k \in \mathbb{Z}.$$
+
+Therefore, the values of $ \omega $ are $ r^{1/n} (\cos (\frac{\theta + 2k\pi}{n}) + i \sin (\frac{\theta + 2k\pi}{n})), \quad k \in \mathbb{Z} $.
+
+Although there are infinitely many values of $ k $, the distinct values of $ \omega $ are obtained when $ k = 0, 1, 2, 3, \ldots, n-1 $. When $ k = n, n+1, n+2, \ldots $ we get the same roots at regular intervals (cyclically). Therefore the $ n^{th} $ roots of complex number $ z = r (\cos \theta + i \sin \theta) $ are
+
+$$z^{1/n} = r^{1/n} (\cos (\frac{\theta + 2k\pi}{n}) + i \sin (\frac{\theta + 2k\pi}{n})), \quad k = 0, 1, 2, 3, \ldots, n-1.$$
+
+If we set $\omega = \sqrt[n]{r e^{\frac{i(\theta + 2k\pi)}{n}}}$, the formula for the $n^{\text{th}}$ roots of a complex number has a nice geometric interpretation, as shown in Figure. Note that because $|\omega| = \sqrt[n]{r}$ the $n$ roots all have the same modulus $\sqrt[n]{r}$; they all lie on a circle of radius $\sqrt[n]{r}$ with centre at the origin. Furthermore, the $n$ roots are equally spaced along the circle, because successive $n$ roots have arguments that differ by $\frac{2\pi}{n}$.
+![](fig_2.44.png)
 **Figure 2.44**
 
 **Remark**
@@ -1494,6 +2027,7 @@ $$
 $$
 
 Therefore $\omega$ is an $n^{\text{th}}$ root of unity. From equation (1), the complex numbers $1, \omega, \omega^{2}, \dots, \omega^{n-1}$ are $n^{\text{th}}$ roots of unity. The complex numbers $1, \omega, \omega^{2}, \dots, \omega^{n-1}$ are the points in the complex plane and are the vertices of a regular polygon of $n$ sides inscribed in a unit circle as shown in Fig 2.45. Note that because the $n^{\text{th}}$ roots all have the same modulus 1, they will lie on a circle of radius 1 with centre at the origin. Furthermore, the $n$ roots are equally spaced along the circle, because successive $n^{\text{th}}$ roots have arguments that differ by $\frac{2\pi}{n}$.
+![](fig_2.45.png)
 
 **Figure 2.45**
 
@@ -1562,6 +2096,8 @@ Therefore, the cube roots of unity are
 $$
 1, \frac{-1 + i\sqrt{3}}{2}, \frac{-1 - i\sqrt{3}}{2} \Rightarrow 1, \omega, \text{ and } \omega^{2}, \text{ where } \omega = e^{\frac{i2\pi}{3}} = \frac{-1 + i\sqrt{3}}{2}.
 $$
+![](fig_2.46.png)
+**Figure 2.46**
 
 **Example 2.33**
 
@@ -1590,8 +2126,104 @@ $k = 2$: $z = \cos \pi + i\sin \pi = -1$
 $k = 3$: $z = \cos\left(\frac{3\pi}{2}\right) + i\sin\left(\frac{3\pi}{2}\right) = -i$
 
 Therefore, the fourth roots of unity are $1, i, -1, -i$.
+![](fig_2.47.png)
 
-**EXERCISE 2.7**
+**Figure 2.47**
+
+### Note
+
+(i) In this chapter the letter $\omega$ is used for $n^\text{th}$ roots of unity. Therefore the value of $\omega$ is depending on $n$ as shown in following table.
+
+| value of $n$ | 2    | 3    | 4    | 5    | ...    | $k$    |
+|---|---|---|---|---|---|---|
+| value of $\omega$ | $e^{\frac{2\pi}{2}}$ | $e^{\frac{2\pi}{3}}$ | $e^{\frac{2\pi}{4}}$ | $e^{\frac{2\pi}{5}}$ | ...    | $e^{\frac{2\pi}{k}}$ |
+
+(ii) The complex number $z e^{i\theta}$ is a rotation of $z$ by $\theta$ radians in the counter clockwise direction about the origin.
+
+
+### Example 2.34
+
+Solve the equation $z^3 + 8i = 0$, where $z \in \mathbb{C}$.
+
+
+### Solution
+
+Let
+
+$$z^3 + 8i = 0.$$
+
+Then, we get
+
+$$z^3 = -8i$$
+
+$$= 8(-i) = 8 \left( \cos \left( -\frac{\pi}{2} + 2k\pi \right) + i \sin \left( -\frac{\pi}{2} + 2k\pi \right) \right), \quad k \in \mathbb{Z}.$$
+
+Therefore,
+
+$$z = \sqrt[3]{8} \left( \cos \left( -\frac{\pi}{6} + 4k\pi \right) + i \sin \left( -\frac{\pi}{6} + 4k\pi \right) \right), \quad k = 0, 1, 2.$$
+
+Taking $k = 0, 1, 2$, we get,
+
+$$k = 0, \quad z = 2 \left( \cos \left( -\frac{\pi}{6} \right) + i \sin \left( -\frac{\pi}{6} \right) \right) = 2 \left( \frac{\sqrt{3}}{2} - i \frac{1}{2} \right) = \sqrt{3} - i$$
+
+$$k = 1, \quad z = 2 \left( \cos \left( \frac{\pi}{2} \right) + i \sin \left( \frac{\pi}{2} \right) \right) = 2 = 2 \left( 0 + i \right) = 0 + 2i = 2i$$
+
+$$k = 2, \quad z = 2 \left( \cos \left( \frac{7\pi}{6} \right) + i \sin \left( \frac{7\pi}{6} \right) \right) = 2 \left( \cos \left( \pi + \frac{\pi}{6} \right) + i \sin \left( \pi + \frac{\pi}{6} \right) \right)$$
+
+$$= 2 \left( -\cos \left( \frac{\pi}{6} \right) - i \sin \left( \frac{\pi}{6} \right) \right) = 2 \left( -\frac{\sqrt{3}}{2} - i \frac{1}{2} \right) = -\sqrt{3} - i$$
+
+The values of $z$ are $\sqrt{3} - i, 2i$, and $-\sqrt{3} - i$.
+
+### Example 2.35
+
+Find all cube roots of $\sqrt{3} + i$.
+
+### Solution
+
+We have to find $(\sqrt{3} + i)^i$. Let $z = (\sqrt{3} + i)^i$. Then, $z^3 = \sqrt{3} + i = r(\cos \theta + i \sin \theta)$.
+
+Then, $r = \sqrt{3} + 1 = 2$, and $\alpha = 0 = \frac{\pi}{6}$  
+$$\therefore \sqrt{3} + i \text{ lies in the first quadrant}$$
+
+Therefore, $z^3 = \sqrt{3} + i = 2 \left( \cos \frac{\pi}{6} + i \sin \frac{\pi}{6} \right)$
+
+$$\Rightarrow z = \sqrt[3]{2} \left( \cos \left( \frac{\pi + 12k\pi}{18} \right) + i \sin \left( \frac{\pi + 12k\pi}{18} \right) \right), \quad k = 0, 1, 2.$$
+
+Taking $k = 0, 1, 2$, we get
+
+$$k = 0, \quad z = 2^{\frac{1}{3}} \left( \cos \frac{\pi}{18} + i \sin \frac{\pi}{18} \right);$$
+
+$$k = 1, \quad z = 2^{\frac{1}{3}} \left( \cos \frac{13\pi}{18} + i \sin \frac{13\pi}{18} \right);$$
+
+$$k = 2, \quad z = 2^{\frac{1}{3}} \left( \cos \frac{25\pi}{18} + i \sin \frac{25\pi}{18} \right) = 2^{\frac{1}{3}} \left( -\cos \frac{7\pi}{18} - i \sin \frac{7\pi}{18} \right).$$
+
+### Example 2.36
+
+Suppose $z_1, z_2, \text{ and } z_3$ are the vertices of an equilateral triangle inscribed in the circle $|z| = 2$. If $z_1 = 1 + i\sqrt{3}$, then find $z_2$ and $z_3$.
+
+### Solution
+
+$|z| = 2$ represents the circle with centre $(0, 0)$ and radius 2.
+
+Let $A, B, \text{ and } C$ be the vertices of the given triangle. Since the vertices $z_1, z_2, \text{ and } z_3$ form an equilateral triangle inscribed in the circle $|z| = 2$, the sides of this triangle $AB, BC, \text{ and } CA$ subtend $\frac{2\pi}{3}$ radians (120 degree) at the origin (circumcenter of the triangle).
+
+(The complex number $z e^{i\theta}$ is a rotation of $z$ by $\theta$ radians in the counter clockwise direction about the origin.)
+
+Therefore, we can obtain $z_2$ and $z_3$ by the rotation of $z_1$ by $\frac{2\pi}{3}$ and $\frac{4\pi}{3}$ respectively.
+
+Given that
+
+$$\overline{OA} = z_1 = 1 + i\sqrt{3};$$
+
+$$\overline{OB} = z_1 e^{\frac{2\pi}{3}} = (1 + i\sqrt{3}) e^{\frac{2\pi}{3}}$$
+
+$$= (1 + i\sqrt{3}) \left( \cos \frac{2\pi}{3} + i \sin \frac{2\pi}{3} \right)$$
+
+$$= (1 + i\sqrt{3}) \left( \frac{1}{2} - i \frac{\sqrt{3}}{2} \right) = -2;$$
+
+![](fig_2.48.png)
+
+**EXERCISE 2.8**
 
 1. If $\omega \neq 1$ is a cube root of unity, show that $\frac{a + b\omega + c\omega^{2}}{b + c\omega + a\omega^{2}} + \frac{a + b\omega + c\omega^{2}}{c + a\omega + b\omega^{2}} = -1$.
 
@@ -1627,103 +2259,103 @@ Therefore, the fourth roots of unity are $1, i, -1, -i$.
 
 1. $i^{n} + i^{n+1} + i^{n+2} + i^{n+3}$ is
 
-   (1) $0$ \qquad (2) $1$ \qquad (3) $-1$ \qquad (4) $i$
+   (1) $0$    (2) $1$     (3) $-1$     (4) $i$
 
 2. The value of $\sum_{n=1}^{13}(i^{n} + i^{n-1})$ is
 
-   (1) $1 + i$ \qquad (2) $i$ \qquad (3) $1$ \qquad (4) $0$
+   (1) $1 + i$  (2) $i$  (3) $1$  (4) $0$
 
 3. The area of the triangle formed by the complex numbers $z, iz$, and $z + iz$ in the Argand's diagram is
 
-   (1) $\frac{1}{2}|z|^2$ \qquad (2) $|z|^2$ \qquad (3) $\frac{3}{2}|z|^2$ \qquad (4) $2|z|^2$
+   (1) $\frac{1}{2}|z|^2$  (2) $|z|^2$  (3) $\frac{3}{2}|z|^2$  (4) $2|z|^2$
 
 4. The conjugate of a complex number is $\frac{1}{i-2}$. Then, the complex number is
 
-   (1) $\frac{1}{i+2}$ \qquad (2) $\frac{-1}{i+2}$ \qquad (3) $\frac{-1}{i-2}$ \qquad (4) $\frac{1}{i-2}$
+   (1) $\frac{1}{i+2}$  (2) $\frac{-1}{i+2}$  (3) $\frac{-1}{i-2}$  (4) $\frac{1}{i-2}$
 
 5. If $z = \frac{(\sqrt{3} + i)^{3}(3i + 4)^{2}}{(8 + 6i)^{2}}$, then $|z|$ is equal to
 
-   (1) $0$ \qquad (2) $1$ \qquad (3) $2$ \qquad (4) $3$
+   (1) $0$  (2) $1$  (3) $2$  (4) $3$
 
 6. If $z$ is a non zero complex number, such that $2iz^2 = \overline{z}$ then $|z|$ is
 
-   (1) $\frac{1}{2}$ \qquad (2) $1$ \qquad (3) $2$ \qquad (4) $3$
+   (1) $\frac{1}{2}$  (2) $1$  (3) $2$  (4) $3$
 
 7. If $|z - 2 + i| \leq 2$, then the greatest value of $|z|$ is
 
-   (1) $\sqrt{3} - 2$ \qquad (2) $\sqrt{3} + 2$ \qquad (3) $\sqrt{5} - 2$ \qquad (4) $\sqrt{5} + 2$
+   (1) $\sqrt{3} - 2$  (2) $\sqrt{3} + 2$  (3) $\sqrt{5} - 2$  (4) $\sqrt{5} + 2$
 
 8. If $\left|z - \frac{3}{z}\right| = 2$, then the least value of $|z|$ is
 
-   (1) $1$ \qquad (2) $2$ \qquad (3) $3$ \qquad (4) $5$
+   (1) $1$  (2) $2$  (3) $3$  (4) $5$
 
 9. If $|z| = 1$, then the value of $\frac{1 + z}{1 + \overline{z}}$ is
 
-   (1) $z$ \qquad (2) $\overline{z}$ \qquad (3) $\frac{1}{z}$ \qquad (4) $1$
+   (1) $z$  (2) $\overline{z}$  (3) $\frac{1}{z}$  (4) $1$
 
 10. The solution of the equation $|z| - z = 1 + 2i$ is
 
-    (1) $\frac{3}{2} - 2i$ \qquad (2) $-\frac{3}{2} + 2i$ \qquad (3) $2 - \frac{3}{2}i$ \qquad (4) $2 + \frac{3}{2}i$
+    (1) $\frac{3}{2} - 2i$  (2) $-\frac{3}{2} + 2i$  (3) $2 - \frac{3}{2}i$  (4) $2 + \frac{3}{2}i$
 
 11. If $|z_{1}| = 1$, $|z_{2}| = 2$, $|z_{3}| = 3$ and $|9z_{1}z_{2} + 4z_{1}z_{3} + z_{2}z_{3}| = 12$, then the value of $|z_{1} + z_{2} + z_{3}|$ is
 
-    (1) $1$ \qquad (2) $2$ \qquad (3) $3$ \qquad (4) $4$
+    (1) $1$  (2) $2$  (3) $3$  (4) $4$
 
 12. If $z$ is a complex number such that $z \in \mathbb{C} \setminus \mathbb{R}$ and $z + \frac{1}{z} \in \mathbb{R}$, then $|z|$ is
 
-    (1) $0$ \qquad (2) $1$ \qquad (3) $2$ \qquad (4) $3$
+    (1) $0$ (2) $1$  (3) $2$  (4) $3$
 
 13. $z_{1}, z_{2}$ and $z_{3}$ are complex numbers such that $z_{1} + z_{2} + z_{3} = 0$ and $|z_{1}| = |z_{2}| = |z_{3}| = 1$ then $z_{1}^{2} + z_{2}^{2} + z_{3}^{2}$ is
 
-    (1) $3$ \qquad (2) $2$ \qquad (3) $1$ \qquad (4) $0$
+    (1) $3$  (2) $2$  (3) $1$  (4) $0$
 
 14. If $\frac{z - 1}{z + 1}$ is purely imaginary, then $|z|$ is
 
-    (1) $\frac{1}{2}$ \qquad (2) $1$ \qquad (3) $2$ \qquad (4) $3$
+    (1) $\frac{1}{2}$  (2) $1$  (3) $2$  (4) $3$
 
 15. If $z = x + iy$ is a complex number such that $|z + 2| = |z - 2|$, then the locus of $z$ is
 
-    (1) real axis \qquad (2) imaginary axis \qquad (3) ellipse \qquad (4) circle
+    (1) real axis  (2) imaginary axis  (3) ellipse  (4) circle
 
 16. The principal argument of $\frac{3}{-1 + i}$ is
 
-    (1) $\frac{-5\pi}{6}$ \qquad (2) $\frac{-2\pi}{3}$ \qquad (3) $\frac{-3\pi}{4}$ \qquad (4) $\frac{-\pi}{2}$
+    (1) $\frac{-5\pi}{6}$  (2) $\frac{-2\pi}{3}$  (3) $\frac{-3\pi}{4}$  (4) $\frac{-\pi}{2}$
 
 17. The principal argument of $(\sin 40^{\circ} + i\cos 40^{\circ})^{5}$ is
 
-    (1) $-110^{\circ}$ \qquad (2) $-70^{\circ}$ \qquad (3) $70^{\circ}$ \qquad (4) $110^{\circ}$
+    (1) $-110^{\circ}$  (2) $-70^{\circ}$  (3) $70^{\circ}$  (4) $110^{\circ}$
 
 18. If $(1 + i)(1 + 2i)(1 + 3i)\dots(1 + ni) = x + iy$, then $2 \cdot 5 \cdot 10 \dots (1 + n^{2})$ is
 
-    (1) $1$ \qquad (2) $i$ \qquad (3) $x^{2} + y^{2}$ \qquad (4) $1 + n^{2}$
+    (1) $1$  (2) $i$  (3) $x^{2} + y^{2}$  (4) $1 + n^{2}$
 
 19. If $\omega \neq 1$ is a cubic root of unity and $(1 + \omega)^{7} = A + B\omega$, then $(A, B)$ equals
 
-    (1) $(1,0)$ \qquad (2) $(-1,1)$ \qquad (3) $(0,1)$ \qquad (4) $(1,1)$
+    (1) $(1,0)$  (2) $(-1,1)$  (3) $(0,1)$  (4) $(1,1)$
 
 20. The principal argument of the complex number $\frac{(1 + i\sqrt{3})^{2}}{4i(1 - i\sqrt{3})}$ is
 
-    (1) $\frac{2\pi}{3}$ \qquad (2) $\frac{\pi}{6}$ \qquad (3) $\frac{5\pi}{6}$ \qquad (4) $\frac{\pi}{2}$
+    (1) $\frac{2\pi}{3}$  (2) $\frac{\pi}{6}$  (3) $\frac{5\pi}{6}$  (4) $\frac{\pi}{2}$
 
 21. If $\alpha$ and $\beta$ are the roots of $x^{2} + x + 1 = 0$, then $\alpha^{2020} + \beta^{2020}$ is
 
-    (1) $-2$ \qquad (2) $-1$ \qquad (3) $1$ \qquad (4) $2$
+    (1) $-2$  (2) $-1$  (3) $1$  (4) $2$
 
 22. The product of all four values of $\left(\cos \frac{\pi}{3} + i\sin \frac{\pi}{3}\right)^{\frac{3}{4}}$ is
 
-    (1) $-2$ \qquad (2) $-1$ \qquad (3) $1$ \qquad (4) $2$
+    (1) $-2$  (2) $-1$  (3) $1$  (4) $2$
 
 23. If $\omega \neq 1$ is a cubic root of unity and $\left|\begin{array}{ccc}1 & 1 & 1 \\ 1 & -\omega^{2} & \omega^{2} \\ 1 & \omega^{2} & \omega^{2}\end{array}\right| = 3k$, then $k$ is equal to
 
-    (1) $1$ \qquad (2) $-1$ \qquad (3) $\sqrt{3}i$ \qquad (4) $-\sqrt{3}i$
+    (1) $1$  (2) $-1$  (3) $\sqrt{3}i$  (4) $-\sqrt{3}i$
 
 24. The value of $\left(\frac{1 + \sqrt{3}i}{1 - \sqrt{3}i}\right)^{10}$ is
 
-    (1) $\operatorname{cis}\frac{2\pi}{3}$ \qquad (2) $\operatorname{cis}\frac{4\pi}{3}$ \qquad (3) $-\operatorname{cis}\frac{2\pi}{3}$ \qquad (4) $-\operatorname{cis}\frac{4\pi}{3}$
+    (1) $\operatorname{cis}\frac{2\pi}{3}$  (2) $\operatorname{cis}\frac{4\pi}{3}$  (3) $-\operatorname{cis}\frac{2\pi}{3}$  (4) $-\operatorname{cis}\frac{4\pi}{3}$
 
 25. If $\omega = \operatorname{cis} \frac{2\pi}{3}$, then the number of distinct roots of $\left|\begin{array}{ccc}z + 1 & \omega & \omega^{2} \\ \omega & z + \omega^{2} & 1 \\ \omega^{2} & 1 & z + \omega\end{array}\right| = 0$ is
 
-    (1) $1$ \qquad (2) $2$ \qquad (3) $3$ \qquad (4) $4$
+    (1) $1$  (2) $2$  (3) $3$  (4) $4$
 
 ## SUMMARY
 
