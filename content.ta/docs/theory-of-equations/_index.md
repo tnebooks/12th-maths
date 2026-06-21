@@ -5,4 +5,3 @@ categories:
 weight: 3
 ---
 
-Theory of Equations tamil
