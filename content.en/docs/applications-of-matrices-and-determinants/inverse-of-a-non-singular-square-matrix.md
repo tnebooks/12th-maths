@@ -126,6 +126,7 @@ where $I_3$ is the identity matrix of order 3.
 
 So, by equations (1) and (2), we get $A(\text{adj } A) = (\text{adj } A)A = |A|I_3$.
 
+^^
 > **Note**
 >
 > If $A$ is a singular matrix of order $n$, then $|A| = 0$ and so $A(\text{adj } A) = (\text{adj } A)A = O_n$, where $O_n$ denotes zero matrix of order $n$.
@@ -440,7 +441,7 @@ Since $A$ is non- singular, $A^{-1}$ exists and $AA^{-1} = A^{-1}A = I_n$ . Taki
 > If $A$ is singular and $AB = AC$ or $BA = CA$ , then $B$ and $C$ need not be equal. For instance, consider the following matrices:
 >
 > $$
-> A = \left[ \begin{array}{cc} 1 & 1 \\ 2 & 2 \end{array} \right], \quad B = \left[ \begin{array}{cc} 1 & 2 \\ 3 & 4 \end{array} \right], \quad C = \left[ \begin{array}{cc} 2 & 1 \\ 4 & 3 \end{array} \right].
+A = \left[ \begin{array}{cc} 1 & 1 \\ 2 & 2 \end{array} \right], \quad B = \left[ \begin{array}{cc} 1 & 2 \\ 3 & 4 \end{array} \right], \quad C = \left[ \begin{array}{cc} 2 & 1 \\ 4 & 3 \end{array} \right].
 > $$
 >
 > We note that $|A| = 0$ and $AB = AC$ ; but $B \neq C$ .
