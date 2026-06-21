@@ -55,7 +55,10 @@ By the same logic, equation 2 has no real solutions since the graph of $f(x) = x
 This is because, when we square a real number it is impossible to get a negative real number. If equation 2 has solutions, then we must create an imaginary number as a square root of $-1$. This imaginary unit $\sqrt{-1}$ is denoted by $i$. The imaginary number $i$ tells us that $i^{2} = -1$. We can use this fact to find other powers of $i$.
 
 #### 2.1.1 Powers of imaginary unit $i$
-![](t2.1.png)
+| $i^0 = 1$, $i^1 = i$ | $i^2 = -1$ | $i^3 = i^2 i = -i$ | $i^4 = i^2 i^2 = 1$ |
+|---|---|---|---|
+| $(i)^{-1} = \frac{1}{i} = \frac{i}{i^2} = -i$ | $(i)^{-2} = -1$ | $(i)^{-3} = i$ | $(i)^{-4} = 1 = i^4$ |
+
 
 We note that, for any integer $n$, $i^{n}$ has only four possible values: they correspond to values of $n$ when divided by 4 leave the remainders 0, 1, 2, and 3. That is when the integer $n \leq -4$ or $n \geq 4$, using division algorithm, $n$ can be written as $n = 4q + k$, $0 \leq k < 4$, $k$ and $q$ are integers and we write
 
