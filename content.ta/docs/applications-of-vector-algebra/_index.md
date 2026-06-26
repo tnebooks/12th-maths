@@ -5,4 +5,3 @@ categories:
 weight: 6
 ---
 
-Applications of Vector Algebra tamil
