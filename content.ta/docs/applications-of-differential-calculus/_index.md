@@ -5,4 +5,3 @@ categories:
 weight: 7
 ---
 
-Applications of Differential Calculus tamil
