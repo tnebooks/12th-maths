@@ -374,23 +374,23 @@ Therefore, the fourth roots of unity are $1, i, -1, -i$.
 
 **Figure 2.47**
 
-### Note
+> **Note**
+>
+> (i) In this chapter the letter $\omega$ is used for $n^\text{th}$ roots of unity. Therefore the value of $\omega$ is depending on $n$ as shown in following table.
+>
+> | value of $n$ | 2    | 3    | 4    | 5    | ...    | $k$    |
+> |---|---|---|---|---|---|---|
+> | value of $\omega$ | $e^{\frac{2\pi}{2}}$ | $e^{\frac{2\pi}{3}}$ | $e^{\frac{2\pi}{4}}$ | $e^{\frac{2\pi}{5}}$ | ...    | $e^{\frac{2\pi}{k}}$ |
+> 
+> (ii) The complex number $z e^{i\theta}$ is a rotation of $z$ by $\theta$ radians in the counter clockwise direction about the origin.
 
-(i) In this chapter the letter $\omega$ is used for $n^\text{th}$ roots of unity. Therefore the value of $\omega$ is depending on $n$ as shown in following table.
 
-| value of $n$ | 2    | 3    | 4    | 5    | ...    | $k$    |
-|---|---|---|---|---|---|---|
-| value of $\omega$ | $e^{\frac{2\pi}{2}}$ | $e^{\frac{2\pi}{3}}$ | $e^{\frac{2\pi}{4}}$ | $e^{\frac{2\pi}{5}}$ | ...    | $e^{\frac{2\pi}{k}}$ |
-
-(ii) The complex number $z e^{i\theta}$ is a rotation of $z$ by $\theta$ radians in the counter clockwise direction about the origin.
-
-
-### Example 2.34
+**Example 2.34**
 
 Solve the equation $z^3 + 8i = 0$, where $z \in \mathbb{C}$.
 
 
-### Solution
+**Solution**
 
 Let
 
@@ -418,11 +418,11 @@ $$= 2 \left( -\cos \left( \frac{\pi}{6} \right) - i \sin \left( \frac{\pi}{6} \r
 
 The values of $z$ are $\sqrt{3} - i, 2i$, and $-\sqrt{3} - i$.
 
-### Example 2.35
+**Example 2.35**
 
 Find all cube roots of $\sqrt{3} + i$.
 
-### Solution
+**Solution**
 
 We have to find $(\sqrt{3} + i)^i$. Let $z = (\sqrt{3} + i)^i$. Then, $z^3 = \sqrt{3} + i = r(\cos \theta + i \sin \theta)$.
 
@@ -441,11 +441,11 @@ $$k = 1, \quad z = 2^{\frac{1}{3}} \left( \cos \frac{13\pi}{18} + i \sin \frac{1
 
 $$k = 2, \quad z = 2^{\frac{1}{3}} \left( \cos \frac{25\pi}{18} + i \sin \frac{25\pi}{18} \right) = 2^{\frac{1}{3}} \left( -\cos \frac{7\pi}{18} - i \sin \frac{7\pi}{18} \right).$$
 
-### Example 2.36
+**Example 2.36**
 
 Suppose $z_1, z_2, \text{ and } z_3$ are the vertices of an equilateral triangle inscribed in the circle $|z| = 2$. If $z_1 = 1 + i\sqrt{3}$, then find $z_2$ and $z_3$.
 
-### Solution
+**Solution**
 
 $|z| = 2$ represents the circle with centre $(0, 0)$ and radius 2.
 
