@@ -251,7 +251,7 @@ Since the last column contains only $F$ , $p \land \neg p$ is a contradiction.
 
 If a compound statement $S_1$ contains only $\neg$ , $\land$ , and $\lor$ and statement $S_2$ arises from $S_1$ by replacing $\land$ by $\lor$ , and, $\lor$ by $\land$ then $S_1$ is a tautology if and only if $S_2$ is a contradiction.
 
-**For example**
+**For Example**
 
 (i) The dual of $(p \lor q) \land (r \land s) \lor \neg F$ is $(p \land q) \lor (r \lor s) \land \neg T$ .
 
@@ -383,7 +383,7 @@ Using the equivalence property, show that $p \leftrightarrow q \equiv (p \land q
 
 **Solution**
 
-It can be obtained by using examples 12.17 and 12.18 that
+It can be obtained by using Examples 12.17 and 12.18 that
 
 $p \leftrightarrow q \equiv (\neg p \lor q) \land (\neg q \lor p)$ $\tag{1}$
 

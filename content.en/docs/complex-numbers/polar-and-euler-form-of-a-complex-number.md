@@ -351,7 +351,7 @@ If $ z_1 = r_1 (\cos \theta_1 + i \sin \theta_1) $ and $ z_2 = r_2 (\cos \theta_
 $$\frac{z_1}{z_2} = \frac{r_1}{r_2} \left[ \cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2) \right].$$
 
 
-### Proof:  
+**Proof**:  
 Using the polar form of $ z_1 $ and $ z_2 $, we have  
 $$\frac{z_1}{z_2} = \frac{r_1 (\cos \theta_1 + i \sin \theta_1)}{r_2 (\cos \theta_2 + i \sin \theta_2)}$$
 $$= \frac{r_1 (\cos \theta_1 + i \sin \theta_1)(\cos \theta_2 - i \sin \theta_2)}{r_2 (\cos \theta_2 + i \sin \theta_2)(\cos \theta_1 - i \sin \theta_1)}$$
@@ -359,17 +359,17 @@ $$= \frac{r_1 (\cos \theta_1 \cos \theta_2 + \sin \theta_1 \sin \theta_2) + i (\
 $$= \frac{r_1}{r_2} (\cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2)).$$
 
 
-### Note  
-$$\arg\left(\frac{z_1}{z_2}\right) = \theta_1 - \theta_2 = \arg(z_1) - \arg(z_2).$$
+> **Note**
+> $$\arg\left(\frac{z_1}{z_2}\right) = \theta_1 - \theta_2 = \arg(z_1) - \arg(z_2).$$
 
 
-### Example 2.25  
+**Example 2.25**
 Find the product  
 $$\frac{3}{2} \left( \cos \frac{\pi}{3} + i \sin \frac{\pi}{3} \right) \cdot 6 \left( \cos \frac{5\pi}{6} + i \sin \frac{5\pi}{6} \right)$$  
 in rectangular form.
 
 
-### Solution:  
+**Solution**:  
 The Product  
 $$\frac{3}{2} \left( \cos \frac{\pi}{3} + i \sin \frac{\pi}{3} \right) \cdot 6 \left( \cos \frac{5\pi}{6} + i \sin \frac{5\pi}{6} \right)$$
 $$= \left( \frac{3}{2} \right) (6) \left( \cos \left( \frac{\pi}{3} + \frac{5\pi}{6} \right) + i \sin \left( \frac{\pi}{3} + \frac{5\pi}{6} \right) \right)$$

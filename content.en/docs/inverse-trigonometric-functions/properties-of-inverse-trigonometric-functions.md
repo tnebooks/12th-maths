@@ -495,7 +495,7 @@ So, $-z = xy - \sqrt{1 - x^2} \sqrt{1 - y^2}$ , which gives $-xy - z = -\sqrt{1 
 
 Squaring on both sides and simplifying, we get $x^2 + y^2 + z^2 + 2xyz = 1$ .
 
-### Example 4.23
+**Example 4.23**
 
 If $a_1, a_2, a_3, \ldots, a_n$ is an arithmetic progression with common difference $d$, prove that
 
