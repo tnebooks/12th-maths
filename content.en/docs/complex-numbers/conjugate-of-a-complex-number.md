@@ -46,7 +46,7 @@ Let us verify some of the properties.
 ### Property
 For any two complex numbers $ z_1 $ and $ z_2 $, we have $ \overline{z_1 + z_2} = \overline{z_1} + \overline{z_2} $.
 
-### Proof
+**Proof**
 Let $ z_1 = x_1 + iy_1, \quad z_2 = x_2 + iy_2 $, and $ x_1, x_2, y_1, $ and $ y_2 \in \mathbb{R} $
 
 $$ \overline{z_1 + z_2} = (x_1 + iy_1) + (x_2 + iy_2) $$
@@ -66,7 +66,7 @@ $$z_1 + z_2 + z_3 + \cdots + z_n = z_1 + z_2 + z_3 + \cdots + z_n.$$
 $$z_1 z_2 = z_1 \overline{z_2} \quad \text{where } x_1, x_2, y_1, \text{ and } y_2 \in \mathbb{R}$$
 
 
-### Proof
+**Proof**
 
 Let  
 $$z_1 = x_1 + iy_1 \quad \text{and} \quad z_2 = x_2 + iy_2.$$
@@ -89,7 +89,7 @@ $$\overline{z_1 z_2} = \overline{z_1} \overline{z_2}.$$
 A complex number $z$ is purely imaginary if and only if $z = -\overline{z}$.
 
 
-### Proof
+**Proof**
 
 Let  
 $$z = x + iy.$$  
@@ -107,14 +107,14 @@ $$\Leftrightarrow z \text{ is purely imaginary.}$$
 
 Similarly, we can verify the other properties of conjugate of complex numbers.
 
-### Example 2.3
+**Example 2.3**
 
 Write  
 $$\frac{3 + 4i}{5 - 12i}$$
 in the $x + iy$ form, hence find its real and imaginary parts.
 
 
-### Solution
+**Solution**
 
 To find the real and imaginary parts of  
 $$\frac{3 + 4i}{5 - 12i},$$
@@ -200,10 +200,10 @@ $$
 = \frac{5}{26} - \frac{6}{13} i.
 $$
 
-### Example 2.7
+**Example 2.7**
 Find $ z^{-1} $, if $ z = (2 + 3i)(1 - i) $.
 
-#### Solution
+**Solution**
 We have  
 $$z = (2 + 3i)(1 - i) = (2 + 3) + (3 - 2)i = 5 + i$$
 
@@ -215,14 +215,14 @@ $$z^{-1} = \frac{(5 - i)}{(5 + i)(5 - i)} = \frac{5 - i}{5^2 + 1^2} = \frac{5}{2
 $$\Rightarrow z^{-1} = \frac{5}{26} - i \frac{1}{26}$$
 
 
-### Example 2.8
+**Example 2.8**
 Show that (i)  
 $$(2 + i\sqrt{3})^{10} + (2 - i\sqrt{3})^{10}$$  
 is real and (ii)  
 $$\left( \frac{19 + 9i}{5 - 3i} \right)^{15} - \left( \frac{8 + i}{1 + 2i} \right)^{15}$$  
 is purely imaginary.
 
-#### Solution
+**Solution**
 (i)  
 Let  
 $$z = (2 + i\sqrt{3})^{10} + (2 - i\sqrt{3})^{10}$$

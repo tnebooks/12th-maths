@@ -18,9 +18,9 @@ For instance
 (iii) $|12 - 5i| = \sqrt{12^2 + (-5)^2} = \sqrt{169} = 13$  
 
 
-### Note
-
-If $z = x + iy$, then $\overline{z} = x - iy$, then $z \overline{z} = (x + iy)(x - iy) = (x^2 - iy^2) = x^2 + y^2 = |z|^2$.
+> **Note**
+>
+> If $z = x + iy$, then $\overline{z} = x - iy$, then $z \overline{z} = (x + iy)(x - iy) = (x^2 - iy^2) = x^2 + y^2 = |z|^2$.
 
 
 ## 2.5.1 Properties of Modulus of a complex number
@@ -42,7 +42,7 @@ Let us prove some of the properties.
 For any two complex numbers $z_1$ and $z_2$, we have $|z_1 + z_2| \leq |z_1| + |z_2|$.
 
 
-### Proof
+**Proof**
 
 Using  
 $$|z_1 + z_2|^2 = (z_1 + z_2)(\overline{z_1} + \overline{z_2})$$  
@@ -96,7 +96,7 @@ $$|z_1| - |z_2| \leq |z_1 - z_2| \leq |z_1| + |z_2|.$$
 For any two complex numbers $z_1$ and $z_2$, we have $|z_1 z_2| = |z_1| |z_2|$.
 
 
-### Proof
+**Proof**
 
 We have
 
@@ -109,23 +109,23 @@ Therefore, $$|z_1 z_2| = |z_1| |z_2|.$$
 
 
 
-### Note
+> **Note**
+>
+> It can be generalized by means of mathematical induction to any finite number of terms:
+>
+> $$|z_1 z_2 z_3 \cdots z_n| = |z_1| |z_2| |z_3| \cdots |z_n|$$
+>
+> That is the modulus value of a product of complex numbers is equal to the product of the moduli of complex numbers.
+>
+> Similarly we can prove the other properties of modulus of a complex number.
 
-It can be generalized by means of mathematical induction to any finite number of terms:
 
-$$|z_1 z_2 z_3 \cdots z_n| = |z_1| |z_2| |z_3| \cdots |z_n|$$
-
-That is the modulus value of a product of complex numbers is equal to the product of the moduli of complex numbers.
-
-Similarly we can prove the other properties of modulus of a complex number.
-
-
-### Example 2.9
+**Example 2.9**
 
 If $ z_1 = 3 + 4i $, $ z_2 = 5 - 12i $, and $ z_3 = 6 + 8i $, find $|z_1|$, $|z_2|$, $|z_3|$, $|z_1 + z_2|$, $|z_2 - z_3|$, and $|z_1 + z_3|$.
 
 
-### Solution
+**Solution**
 
 Using the given values for $ z_1, z_2, $ and $ z_3 $, we get
 
@@ -146,7 +146,7 @@ Note that the triangle inequality is satisfied in all the cases.
 $$|z_1 + z_3| = |z_1| + |z_3| = 15 \quad \text{(why?)}$$
 
 
-### Example 2.10
+**Example 2.10**
 
 Find the following
 
@@ -158,7 +158,7 @@ Find the following
 
 
 
-### Solution
+**Solution**
 
 (i) $$ \frac{2 + i}{-1 + 2i} = \frac{|2 + i|}{|-1 + 2i|} = \frac{\sqrt{2^2 + 1^2}}{\sqrt{(-1)^2 + 2^2}} = 1. \quad \left( \cdots \left| \frac{z_1}{z_2} \right| = \left| \frac{z_1}{z_2} \right|, \quad z_2 \neq 0 \right) $$
 
@@ -168,10 +168,10 @@ Find the following
 
 $$= \frac{\sqrt{5}}{2} = \frac{5\sqrt{5}}{2}.$$
 
-### Example 2.11
+**Example 2.11**
 Which one of the points $i, -2+i$, and 3 is farthest from the origin?
 
-#### Solution
+**Solution**
 The distance between origin to $z = i, -2+i$, and 3 are
 
 $$|z| = |i| = 1$$
@@ -185,12 +185,12 @@ Since $1 < \sqrt{5} < 3$, the farthest point from the origin is 3.
 ![](fig_2.19.png)
 **Figure 2.19**
 
-### Example 2.12
+**Example 2.12**
 If $z_1, z_2$, and $z_3$ are complex numbers such that $|z_1| = |z_2| = |z_3| = |z_1 + z_2 + z_3| = 1$,
 
 find the value of $\frac{1}{z_1} + \frac{1}{z_2} + \frac{1}{z_3}$.
 
-#### Solution
+**Solution**
 Since, $|z_1| = |z_2| = |z_3| = 1$,
 
 $$|z_1|^2 = 1 \implies z_1 \overline{z_1} = 1, |z_2|^2 = 1 \implies z_2 \overline{z_2} = 1, \text{ and } |z_3|^2 = 1 \implies z_3 \overline{z_3} = 1$$
@@ -201,10 +201,10 @@ $$\left| \frac{1}{z_1} + \frac{1}{z_2} + \frac{1}{z_3} \right| = \left| \overlin
 
 ---
 
-### Example 2.13
+**Example 2.13*
 If $|z| = 2$ show that $3 \leq |z + 3 + 4i| \leq 7$
 
-#### Solution
+**Solution**
 $$|z + 3 + 4i| \leq |z| + |3 + 4i| = 2 + 5 = 7$$
 
 $$|z + 3 + 4i| \leq 7 \tag{1}$$
@@ -218,8 +218,8 @@ From (1) and (2), we get $3 \leq |z + 3 + 4i| \leq 7$.
 ![](fig_2.20.png)
 **Figure 2.20**
 
-### Note
-To find the lower bound and upper bound use $\|z_1| - |z_2|\| \leq |z_1 + z_2| \leq |z_1| + |z_2|$.
+> **Note**
+> To find the lower bound and upper bound use $\|z_1| - |z_2|\| \leq |z_1 + z_2| \leq |z_1| + |z_2|$.
 
 **Example 2.14**
 
@@ -299,7 +299,8 @@ $$\Rightarrow \frac{z_2 z_3 + z_1 z_3 + z_1 z_2}{|z_1 + z_2 + z_3|} = r.$$
 Thus,
 $$\frac{z_2 z_3 + z_1 z_3 + z_1 z_2}{|z_1 + z_2 + z_3|} = r.$$
 
-Example 2.16  
+**Example 2.16  **
+
 Show that the equation $ z^2 = \bar{z} $ has four solutions.
 
 Solution  

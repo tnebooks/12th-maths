@@ -5,4 +5,4 @@ categories:
 weight: 12
 ---
 
-Discrete Mathematics tamil
+
