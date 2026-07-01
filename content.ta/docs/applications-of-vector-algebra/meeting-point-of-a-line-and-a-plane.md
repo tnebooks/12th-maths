@@ -40,6 +40,8 @@ $$t_1 = \frac{p - \vec{a} \cdot \vec{n}}{\vec{b} \cdot \vec{n}}$$
 
 ... (3)
 
+![](36.png)
+
 சமன்பாடு (3)-ஐ (1)-ல் பிரதியிட, நாம் பெறுவது
 
 $$\vec{u} = \vec{a} + \left(\frac{p - \vec{a} \cdot \vec{n}}{\vec{b} \cdot \vec{n}}\right)\vec{b}, \quad \vec{b} \cdot \vec{n} \neq 0$$
