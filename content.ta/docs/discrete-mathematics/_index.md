@@ -1,5 +1,5 @@
 ---
-title: 'Discrete Mathematics'
+title: 'தனிநிலைக் கணிதம'
 categories:
     - discrete-mathematics
 weight: 12
