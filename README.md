@@ -1,10 +1,7 @@
 ## 12th Maths
 
-## Dev
-
 ```sh
-git clone https://github.com/gurukulams/design-system themes/design-system
-hugo server --disableFastRender
+git clone https://github.com/gurukulams/design-system ../design-system
 ```
 
 ## Qustion Loader
@@ -17,12 +14,16 @@ export PUBLIC_FOLDER="$PWD/public"
 npm run watch --prefix ../design-system
 ```
 
-in Windows `Cmd`
+in Windows     `Cmd`
 
 ```bash
 set QUESTIONS_FOLDER=%cd%\questions
 set PUBLIC_FOLDER=%cd%\public
-cd themes\design-system
+cd ..\design-system
 npm i
 npm run watch
+```
+
+```bash  hugo server
+hugo server  --themesDir ../ --disableFastRender
 ```

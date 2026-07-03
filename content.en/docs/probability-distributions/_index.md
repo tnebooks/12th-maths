@@ -3,6 +3,7 @@ title: "Probability Distributions"
 categories:
   - probability-distributions
 weight: 11
+summary: "This chapter introduces the concept of probability distributions, which describe how probabilities are assigned to different possible values of a random variable, and covers both discrete and continuous probability distributions. It discusses important discrete distributions such as binomial and Poisson distributions, along with their properties, mean, variance, and applications in real-world scenarios. The chapter also covers the continuous normal distribution, its standard form, the empirical rule, and the use of standard normal tables for finding probabilities, providing essential tools for statistical inference and decision-making."
 ---
 
 # Chapter 11: Probability Distributions
