@@ -1,6 +1,13 @@
 ---
 title: 'Applications of Matrices: Consistency of System of Linear Equations by Rank Method'
 weight: 5
+references:
+    videos:
+        - custom:
+            title: "Rouche-capelli Theorem"
+            desc: ""
+            url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/69236b00-53f0-11ef-9d71-278ae97dfe81.mp4"
+
 ---
 
 ## 1.5 Applications of Matrices: Consistency of System of Linear Equations by Rank Method

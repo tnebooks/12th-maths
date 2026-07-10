@@ -1,13 +1,80 @@
 ---
 title: 'Inverse of a Non- Singular Square Matrix'
 weight: 2
+references:
+   videos:
+      - custom:
+         title: "Adjoint Of A Square Matrix"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/12cce700-f97d-11ed-8ddb-899932d0ef8a.mp4"
+
+      - custom:
+         title: "Adjoint Of A Square Matrix"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/9321f420-1da5-11ef-9c97-cd45dc24dae4.mp4"
+
+      - custom:
+         title: "Theorem-1.1"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/42fe2030-26ed-11ef-b4b6-3dbc8978c86a.mp4"
+
+      - custom:
+         title: "Inverse Matrix Of A Square Matix"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/d5dfccc0-0c47-11ef-a9de-11e9ceb91a33.mp4"
+
+      - custom:
+         title: "Theorem-1.4"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/cbf73f00-f97d-11ed-8ddb-899932d0ef8a.mp4"
+
+      - custom:
+         title: "Theorem-1.4"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/4cbd2ea0-0c48-11ef-910d-a3628af0da89.mp4"
+
+      - custom:
+         title: "Left Cancellation Law"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/d7839c40-0c48-11ef-910d-a3628af0da89.mp4"
+
+      - custom:
+         title: "Applications Of Matrices To Geometry"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/5ca30c30-0c49-11ef-910d-a3628af0da89.mp4"
+
+      - custom:
+         title: "Applications Of Matrices To Geometry"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/27f0d770-b7ba-11ef-ba14-87f2a73df089.mp4"
+
+      - custom:
+         title: "Orthogonal Matrix"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/54489c60-0c4b-11ef-910d-a3628af0da89.mp4"
+
+      - custom:
+         title: "Cryptography"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/1cd7b930-05f9-11ef-8f49-15e4de544abe.mp4"
+
+      - custom:
+         title: "Cryptography"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/db79fc60-0c4b-11ef-910d-a3628af0da89.mp4"
+
+      - custom:
+         title: "Encryption And Decryption"
+         desc: ""
+         url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/2132b0c0-0c4d-11ef-910d-a3628af0da89.mp4"
 ---
 
 ## 1.2 Inverse of a Non- Singular Square Matrix
 
 We recall that a square matrix is called a non- singular matrix if its determinant is not equal to zero and a square matrix is called singular if its determinant is zero. We have already learnt about multiplication of a matrix by a scalar, addition of two matrices, and multiplication of two matrices. But a rule could not be formulated to perform division of a matrix by another matrix since a matrix is just an arrangement of numbers and has no numerical value. When we say that, a matrix $A$ is of order $n$ , we mean that $A$ is a square matrix having $n$ rows and $n$ columns.
 
-In the case of a real number $x\neq 0$ , there exists a real number $\frac{1}{x}$ , say $y$ , called the inverse (or reciprocal) of $x$ such that $xy = yx = 1$ . In the same line of thinking, when a matrix $A$ is given, we search for a matrix $B$ such that the products $AB$ and $BA$ can be found and $AB = BA = I$ , where $I$ is a unit matrix.
+In the case of a real number $x\neq 0$ , there exists a real number $\frac{1}{x}$ , say $y$ , called the inverse (or reciprocal) of $x$ such that $xy 
+= yx = 1$ . In the same line of thinking, when a matrix $A$ is given, we search for a matrix $B$ such that the products $AB$ and $BA$ can be found and $AB = BA = I$ , where $I$ is a unit matrix.
 
 In this section, we define the inverse of a non- singular square matrix and prove that a non- singular square matrix has a unique inverse. We will also study some of the properties of inverse matrix. For all these activities, we need a matrix called the adjoint of a square matrix.
 
