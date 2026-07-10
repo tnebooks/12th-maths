@@ -1,6 +1,12 @@
 ---
 title: 'Introduction'
 weight: 1
+references:
+    videos:
+        - custom:
+            title: "Introduction"
+            desc: ""
+            url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/5d718950-24bf-11ef-b2b7-8b0d22706ed5.mp4"
 ---
 
 ## 1.1 Introduction

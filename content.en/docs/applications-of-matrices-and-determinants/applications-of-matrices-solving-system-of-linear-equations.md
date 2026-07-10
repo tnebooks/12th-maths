@@ -1,6 +1,27 @@
 ---
 title: 'Applications of Matrices: Solving System of Linear Equations'
 weight: 4
+references:
+    videos:
+        - custom:
+            title: "System Of Linear Equations In Matrix Form"
+            desc: ""
+            url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/221e4550-acd7-11ef-be27-abf14b2aac8e.mp4"
+
+        - custom:
+            title: "Unique Solution"
+            desc: ""
+            url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/2edd41e0-61f8-11ee-a055-a177d4fb7df5.mp4"
+
+        - custom:
+            title: "Cramers Rule"
+            desc: ""
+            url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/03e665d7-45f0-431c-aede-ec663c02377c.mp4"
+
+        - custom:
+            title: "Method Of Back Substitution"
+            desc: ""
+            url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/f8298b80-3db2-11ef-859b-4d2d3d93a1f2.mp4"
 ---
 
 ## 1.4 Applications of Matrices: Solving System of Linear Equations

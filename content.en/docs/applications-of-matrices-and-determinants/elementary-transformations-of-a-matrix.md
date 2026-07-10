@@ -1,6 +1,22 @@
 ---
 title: 'Elementary Transformations of a Matrix'
 weight: 3
+references:
+    videos:
+        - custom:
+            title: "Row-echelon Form And Method To Reduce A Matrix To A Row-echelon Form"
+            desc: ""
+            url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/a5b98230-c7f0-11ed-b625-5509d2b9239d.mp4"
+
+        - custom:
+            title: "Zero Rowa And Non-zero Rows, Rand Of A Zero Matrix, Rank Of A Matrix"
+            desc: ""
+            url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/2ae3364c-e41c-4a57-ba4f-0c2dc2d80b0a.mp4"
+
+        - custom:
+            title: "Gauss-jordan Method"
+            desc: ""
+            url: "https://d1fiv8ydi7ukjo.cloudfront.net/manarkeni/video/abda32b2-df5d-4979-9a65-faf4c3243b1d.mp4"
 ---
 
 ## 1.3 Elementary Transformations of a Matrix
