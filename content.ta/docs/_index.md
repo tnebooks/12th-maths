@@ -1,8 +1,8 @@
 ---
-title: 'அறிவியல்'
+title: 'கணிதம்'
 categories:
-    - science
+    - maths
 weight: 1
 --- 
 
-அறிவியல்
+கணிதம்
