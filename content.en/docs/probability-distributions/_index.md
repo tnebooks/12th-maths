@@ -153,7 +153,7 @@ Let us denote white and red balls as $w_1, w_2, r_1, r_2,$ and $r_3$ .
 
 The sample space consists of ${}^5C_3 = 10$ different samples of size 3.
 
-That is $S = \{ w_1w_2r_1, w_1w_2r_2, w_1w_2r_3, w_1r_1r_2, w_1r_1r_3, w_2r_1r_2, w_2r_1r_3, w_2r_2r_3, w_2r_3r_3 \}$ .
+That is $S = \{ w_1w_2r_1, w_1w_2r_2, w_1w_2r_3, w_1r_1r_2, w_1r_1r_3, w_2r_1r_2, w_2r_1r_3, w_2r_2r_3, w_2r_3r_3 ,r_1r_2r_3\}$ .
 
 The random variable $X$ takes on the values 1, 2, and 3.
 
@@ -732,27 +732,29 @@ $$
 
 4. Suppose a discrete random variable can only take the values 0, 1, and 2. The probability mass function is defined by
 
-$$
-f(x) = \begin{cases}
-k & \text{for } x = 0 \\
-2k & \text{for } x = 1 \\
-3k & \text{for } x = 2
+\[
+f(x) =
+\begin{cases} 
+\frac{x^2 + 1}{k}, & \text{for } x = 0, 1, 2 \\
+0, & \text{otherwise}
 \end{cases}
-$$
+\]
 
 Find (i) the value of $k$ (ii) cumulative distribution function (iii) $P(X \geq 1)$
 
 5. The cumulative distribution function of a discrete random variable is given by
 
-$$
-F(x) = \begin{cases}
-0 & \text{for } x < 0 \\
-0.2 & \text{for } 0 \le x < 1 \\
-0.5 & \text{for } 1 \le x < 2 \\
-0.9 & \text{for } 2 \le x < 3 \\
-1 & \text{for } x \ge 3
+\[
+F(x) =
+\begin{cases} 
+0 & -\infty < x < -1 \\
+0.15 & -1 \leq x < 0 \\
+0.35 & 0 \leq x < 1 \\
+0.60 & 1 \leq x < 2 \\
+0.85 & 2 \leq x < 3 \\
+1 & 3 \leq x < \infty 
 \end{cases}
-$$
+\]
 
 Find (i) the probability mass function (ii) $P(X < 1)$ and (iii) $P(X \geq 2)$
 
@@ -766,15 +768,17 @@ Find (i) the value of $k$ (ii) $P(2 \leq X < 5)$ (iii) $P(3 < X)$
 
 7. The cumulative distribution function of a discrete random variable is given by
 
-$$
-F(x) = \begin{cases}
-0 & \text{for } x < 0 \\
-\frac{1}{4} & \text{for } 0 \le x < 1 \\
-\frac{1}{2} & \text{for } 1 \le x < 2 \\
-\frac{3}{4} & \text{for } 2 \le x < 3 \\
-1 & \text{for } x \ge 3
+\[
+F(x) =
+\begin{cases} 
+0 & \text{for } -\infty < x < 0 \\
+\frac{1}{2} & \text{for } 0 \leq x < 1 \\
+\frac{3}{5} & \text{for } 1 \leq x < 2 \\
+\frac{4}{5} & \text{for } 2 \leq x < 3 \\
+\frac{9}{10} & \text{for } 3 \leq x < 4 \\
+1 & \text{for } 4 \leq x < \infty
 \end{cases}
-$$
+\]
 
 Find (i) the probability mass function (ii) $P(X < 3)$ and (iii) $P(X \geq 2)$
 
@@ -1286,15 +1290,16 @@ $$
    then find (i) the distribution function $F(x)$ (ii) $P(-0.5 \leq X \leq 0.5)$
 
 6. If $X$ is the random variable with distribution function $F(x)$ given by,
-   $$
-   F(x) = \begin{cases}
-   0 & \text{for } x < 0 \\
-   \frac{x}{2} & \text{for } 0 \le x < 1 \\
-   \frac{2x - 1}{2} & \text{for } 1 \le x < 1.5 \\
-   1 & \text{for } x \ge 1.5
-   \end{cases}
-   $$
+\[
+F(x) =
+\begin{cases}  
+0, & -\infty < x < 0 \\
+\frac{1}{2}(x^2 + x), & 0 \leq x < 1 \\
+1, & 1 \leq x < \infty
+\end{cases}
+\]
    then find (i) the probability density function $f(x)$ (ii) $P(0.3 \leq X \leq 0.6)$
+
 
 ## 11.5 Mathematical Expectation
 
@@ -1704,6 +1709,8 @@ Find the expected life of this electronic equipment.
 $f(x) = \begin{cases} 16xe^{-4x} & \text{for } x > 0 \\ 0 & \text{for } x \leq 0 \end{cases}$
 
 find the mean and variance of $X$ .
+
+8.  A lottery with 600 tickets gives one prize of 200, four prizes of 100, and six prizes of 50.If the ticket costs is  2, find the expected profit amount of a ticket.  
 
 ### 11.6 Theoretical Distributions: Some Special Discrete Distributions
 
