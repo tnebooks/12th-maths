@@ -3,6 +3,7 @@ title: "Applications of Matrices and Determinants"
 categories:
     - applications-of-matrices-and-determinants
 weight: 1
+summary: "This chapter explains the basics of relations and functions. It covers different types of relations (reflexive, symmetric, and transitive) and functions (one-one and onto). It also teaches how to combine two functions, find the reverse (inverse) of a function, and understand simple binary operations."   
 ---
 
 # Chapter 1: Applications of Matrices and Determinants
