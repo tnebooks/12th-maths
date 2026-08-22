@@ -9,7 +9,7 @@ summary: "This chapter demonstrates the practical applications of definite integ
 # Chapter 9: Applications of Integration
 
 "Give me a place to stand and I will move the earth" - Archimedes
-
+![Archimedes of Syracuse](image.png)
 ## 9.1. Introduction
 
 ![Fig. 9.1](fig_9.1.png)
@@ -55,9 +55,8 @@ We list below some functions and their anti-derivatives (indefinite integrals):
 ![](tab_9.1_2.png)
 
 ### 9.2 Definite Integral as the Limit of a Sum
-
+![](image-1.png)
 #### 9.2.1 Riemann Integral
-
 Consider a real-valued, bounded function $f(x)$ defined on the closed and bounded interval $[a, b]$ , $a < b$ . The function $f(x)$ need not have the same sign on $[a, b]$ ; that is, $f(x)$ may have positive as well as negative values on $[a, b]$ . See Fig 9.2. Partition the interval $[a, b]$ into $n$ subintervals $[x_0, x_1]$ , $[x_1, x_2]$ , $\dots$ , $[x_{n-2}, x_{n-1}]$ , $[x_{n-1}, x_n]$ such that
  
 $a = x_0 < x_1 < x_2 < \dots < x_{n-1} < x_n = b$ .
@@ -348,7 +347,7 @@ $= 15 + 9 \left( 1 + 0 \right) \left( 2 + 0 \right) + 18 \left( 1 + 0 \right) = 
 
 ### 9.3 Fundamental Theorems of Integral Calculus and their Applications
 
-We observe in the above examples that evaluation of $\int_{a}^{b}f(x)dx$ as a limit of the sum is quite tedious, even if $f(x)$ is a very simple function. Both Newton and Leibnitz, more or less at the same time, devised an easy method for evaluating definite integrals. Their method is based upon two celebrated theorems known as First Fundamental Theorem and Second Fundamental Theorem of Integral Calculus. These theorems establish the connection between a function and its anti-derivative (if it exists). In fact, the two theorems provide a link between differential calculus and integral calculus. We state below the above important theorems without proofs.
+We observe in the above examples that evaluation of $\int_{a}^{b}f(x)dx$ as a limit of the sum is quite tedious, even if $f(x)$ is a very simple function. Both Newton and Leibnitz, more or less at the same time, devised an easy method for evaluating definite integrals. Their method is based upon two celebrated theorems known as **First Fundamental Theorem and Second Fundamental Theorem of Integral Calculus**. These theorems establish the connection between a function and its anti-derivative (if it exists). In fact, the two theorems provide a link between differential calculus and integral calculus. We state below the above important theorems without proofs.
 
 **Theorem 9.1 (First Fundamental Theorem of Integral Calculus)**
 
@@ -418,7 +417,7 @@ $= \frac{1}{5} \log \frac{14}{9} + \frac{7}{3\sqrt{5}} \tan^{-1} \frac{\sqrt{5}}
 
 **Example 9.7**
 
-Evaluate: $\int_{0}^{1} [2x] dx$ where $[-]$ is the greatest integer function.
+Evaluate: $\int_{0}^{1} [2x] dx$ where $[.]$ is the greatest integer function.
 
 **Solution**
 
