@@ -8,11 +8,11 @@ summary: "This chapter introduces ordinary differential equations (ODEs), which 
 
 # Chapter 10: Ordinary Differential Equations
 
-"Mathematics is the most beautiful and most powerful creation of the human spirit"
+>"Mathematics is the most beautiful and most powerful creation of the human spirit"
+-- Stefan Banach
 
-- Stefan Banach
-
-## 10.1 Introduction Motivation and Early Developments
+## 10.1 Introduction
+### Motivation and Early Developments
 
 Just we look at some real life situations where
 
@@ -60,21 +60,12 @@ The subject of differential equations was invented along with calculus by Newton
 
 In this chapter, we introduce and discuss the first order ordinary differential equations and some methods to find their solutions.
 
-## Learning Objectives
-
-Upon completion of this chapter, students will be able to
-
-- classify differential equations
-- construct differential equations
-- find the order and degree of the differential equations
-- solve differential equation using the methods of variables separable, substitution, integrating factor
-- apply differential equation in real life problems
 
 ## 10.2 Differential Equation, Order, and Degree
 
 > **Definition 10.1**
 >
-> A differential equation is any equation which contains at least one derivative of an unknown function, either ordinary derivative or partial derivative.
+> A **differential equation** is any equation which contains at least one derivative of an unknown function, either ordinary derivative or partial derivative.
 
 For instance, let $y = f(x)$ where $y$ is a dependent variable ( $f$ is an unknown function) and $x$ is an independent variable.
 
@@ -86,13 +77,13 @@ For instance, let $y = f(x)$ where $y$ is a dependent variable ( $f$ is an unkno
 
 (4) The equation $\frac{d^2y}{dx^2} + \frac{dy}{dx} + y = \sin x$ is a differential equation.
 
-(5) The equation $e^{\frac{dy}{dx}} = \log x, x > 0$ is a differential equation.
+(5) The equation $e^{\frac{dy}{dx}} = \ln x, x > 0$ is a differential equation.
 
 (6) The equation $\tan^{-1}\left(\frac{d^2y}{dx^2} + y^2 + 2x\right) = \frac{dy}{dx}$ is a differential equation.
 
 > **Definition 10.2 (Order of a differential equation)**
 
-> The order of a differential equation is the highest order derivative present in the differential equation.
+> The **order** of a differential equation is the highest order derivative present in the differential equation.
 
 Thus, if the highest order derivative of the unknown function $y$ in the equation is $k^{\mathrm{th}}$ derivative, then the order of the differential equation is $k$. Clearly $k$ must be a positive integer.
 
@@ -100,16 +91,16 @@ For example, $\left(\frac{d^3y}{dx^3}\right)^{\frac{2}{3}} - 3\frac{d^2y}{dx^2} 
 
 > **Definition 10.3 (Degree of a differential equation)**
 >
-> If a differential equation is expressible in a polynomial form, then the integral power of the highest order derivative appears is called the degree of the differential equation.
+> If a differential equation is expressible in a polynomial form, then the integral power of the highest order derivative appears is called the **degree** of the differential equation.
 
-In other words, the degree of a differential equation is the power of the highest order derivative involved in the differential equation when the differential equation (after expressing in polynomial form) satisfies the following conditions :
+In other words, the **degree** of a differential equation is the power of the highest order derivative involved in the differential equation when the differential equation (after expressing in polynomial form) satisfies the following conditions :
 
 (i) All of the derivatives in the equation are free from fractional powers, if any.  
 (ii) Highest order derivative should not be an argument of a transcendental function, trigonometric or exponential, etc. The coefficient of any term containing the highest order derivative should just be a function of $x,y$, or some lower order derivative but not as transcendental, trigonometric, exponential, logarithmic function of derivatives.
 
 If one or more of the aforementioned conditions are not satisfied by the differential equation, it should be first reduced to the polynomial form in which it satisfies all of the above conditions.
 
-If a differential equation is not expressible to polynomial equation form having the highest order derivative as the leading term then that the degree of the differential equation is not defined.
+>If a differential equation is not expressible to polynomial equation form having the highest order derivative as the leading term then that the degree of the differential equation is not defined.
 
 The determination of the degree of a given differential equation can be tricky if you are not well versed with the conditions under which the degree of the differential equation is defined. So go through the given solved examples carefully and master the technique of calculating the degree of the given differential equation just by sheer inspection!
 
@@ -181,26 +172,35 @@ In this equation, the highest order derivative is $\frac{d^2 y}{dx^2}$ whose pow
 
 1. For each of the following differential equations, determine its order, degree (if exists)
 
-(i) $\frac{dy}{dx} + xy = \cot x$  
-(ii) $\left(\frac{d^{2}y}{dx^{2}}\right)^{2} + \left(\frac{dy}{dx}\right)^{2} = x\sin \left(\frac{d^{2}y}{dx^{2}}\right)$  
-(iii) $\left(\frac{d^{2}y}{dx^{2}}\right)^{2} + \left(\frac{dy}{dx}\right)^{2} = x\sin \left(\frac{d^{2}y}{dx^{2}}\right)$  
-(iv) $\frac{dy}{dx} - 4\frac{dy}{dx} - 7x = 0$  
-(v) $y\left(\frac{dy}{dx}\right) = \frac{x}{\left(\frac{dy}{dx}\right)^{3}}$  
-(vi) $x^{2}\frac{d^{2}y}{dx^{2}} + \left[1 + \left(\frac{dy}{dx}\right)^{2}\right]^{\frac{1}{2}} = 0$  
-(vii) $\left(\frac{d^{2}y}{dx^{2}}\right)^{3} = \sqrt{1 + \left(\frac{dy}{dx}\right)^{3}}$  
-(viii) $\frac{d^{2}y}{dx^{2}} = xy + \cos \left(\frac{dy}{dx}\right)$  
-(ix) $\frac{d^{2}y}{dx^{2}} + 5\frac{dy}{dx} + \int y dx = x^{3}$  
-(x) $x = e^{y\left(\frac{dy}{dx}\right)}$
+(i) $\frac{dy}{dx} + xy = \cot x$
+
+(ii) $\left(\frac{d^3y}{dx^3}\right)^{\frac{2}{3}} - 3\frac{d^2y}{dx^2} + 5\frac{dy}{dx} + 4 = 0$
+
+(iii) $\left(\frac{d^2y}{dx^2}\right)^2 + \left(\frac{dy}{dx}\right)^2 = x\sin\left(\frac{d^2y}{dx^2}\right)$
+
+(iv) $\sqrt{\frac{dy}{dx}} - 4\frac{dy}{dx} - 7x = 0$
+
+(v) $y\left(\frac{dy}{dx}\right) = \frac{x}{\left(\frac{dy}{dx}\right) + \left(\frac{dy}{dx}\right)^3}$
+
+(vi) $x^2 \frac{d^2y}{dx^2} + \left[1 + \left(\frac{dy}{dx}\right)^2\right]^{\frac{1}{2}} = 0$
+
+(vii) $\left(\frac{d^2y}{dx^2}\right)^3 = \sqrt{1 + \left(\frac{dy}{dx}\right)}$
+
+(viii) $\frac{d^2y}{dx^2} = xy + \cos\left(\frac{dy}{dx}\right)$
+
+(ix) $\frac{d^2y}{dx^2} + 5\frac{dy}{dx} + \int y \, dx = x^3$
+
+(x) $x = e^{xy\left(\frac{dy}{dx}\right)}$
 
 ## 10.3 Classification of Differential Equations
 
 > **Definition 10.4: (Ordinary Differential Equation)**
 >
-> If a differential equation contains only ordinary derivatives of one or more functions with respect to a single independent variable, it is said to be an Ordinary Differential Equation (ODE).
+> If a differential equation contains only ordinary derivatives of one or more functions with respect to a single independent variable, it is said to be an **Ordinary Differential Equation (ODE)**.
 
 > **Definition 10.5: (Partial Differential Equation)**
 >
-> An equation involving only partial derivatives of one or more functions of two or more independent variables is called a Partial Differential Equation (PDE).
+> An equation involving only partial derivatives of one or more functions of two or more independent variables is called a **Partial Differential Equation (PDE)**.
 
 For instance, let $y$ denote the unknown function and $x$ be independent variable. Then
 
@@ -214,11 +214,11 @@ For instance, $\frac{\partial u}{\partial y} = -\frac{\partial u}{\partial x},\q
 
 In this chapter, we discuss ordinary differential equations only.
 
-Ordinary differential equations are classified into two different categories namely linear ordinary differential equations and non linear ordinary differential equations.
+Ordinary differential equations are classified into two different categories namely **linear** ordinary differential equations and **non linear** ordinary differential equations.
 
 > **Definition 10.6**
 >
-> A general linear ordinary differential equation of order $n$ is any differential equation that can be written in the following form.
+> A **general linear ordinary differential equation of order $n$** is any differential equation that can be written in the following form.
 >
 > $ a_{n}(x)y^{(n)} + a_{n-1}(x)y^{(n-1)} + \dots + a_{1}(x)y' + a_{0}(x)y = g(x) \quad (1) $
 
@@ -230,12 +230,13 @@ where the coefficients $a_{n}(x) \neq 0, a_{0}(x), a_{1}(x), \dots, a_{n-1}(x)$ 
 >
 > (2) No transcendental functions - (trigonometric or logarithmic etc) of $y$ or any of its derivatives occur in differential equation.
 >
-> (3) Also note that neither the function nor its derivatives are "inside" another function, for instance, $\sqrt{y^{r}}$ or $e^{y^{r}}$.
+> (3) Also note that neither the function nor its derivatives are "inside" another function, for instance, $\sqrt{y^{'}}$ or $e^{y^{'}}$.
 >
 > (4) The coefficients $a_{0}(x), a_{1}(x), \dots, a_{n-1}(x)$ and $g(x)$ can be zero or non-zero functions, or constant or non-constant functions, linear or non-linear functions. Only the function, $y(x)$, and its derivatives are used in determining whether a differential equation is linear.
 
 > **Definition**
-> A non linear ordinary differential equation is simply one that is not linear.
+>
+> A **non linear ordinary differential equation** is simply one that is not linear.
 
 If the coefficients of $y, y', y'', \ldots, y^{(n)}$ contain the dependent variable $y$ or its derivatives or if powers of $y, y', y'', \ldots, y^{(n)}$, such as $(y')^{2}$, appear in the equation, then the differential equation is non linear. Also, non linear functions of the dependent variable or its derivatives, such as $\sin y$ or $e^{y'}$ cannot appear in a linear equation.
 
@@ -255,13 +256,13 @@ For instance,
 
 > **Definition 10.8**
 >
-> If $g(x) = 0$ in (1), then the above equation is said to be homogeneous, otherwise it is called non-homogeneous.
+> If $g(x) = 0$ in (1), then the above equation is said to be **homogeneous**, otherwise it is called **non-homogeneous**.
 
-> Remark
+> **Remark**
 >
 > If $y_i(x), i = 1,2$ are any two solutions of homogeneous equation
 >
-> $ A_n(x)y^{(n)}(x) + a_{n-1}(x)y^{(n-1)}(x) + \dots + a_1(x)y'(x) + a_0(x)y(x) = 0 \quad (2) $
+> $ a_n(x)y^{(n)}(x) + a_{n-1}(x)y^{(n-1)}(x) + \dots + a_1(x)y'(x) + a_0(x)y(x) = 0 \quad (2) $
 >
 > $ a_n(x)y_i^{(n)}(x) + a_{n-1}(x)y_i^{(n-1)}(x) + \dots + a_1(x)y_i'(x) + a_0(x)y_i(x) = 0, \quad i = 1,2. $
 >
@@ -271,7 +272,7 @@ For instance,
 
 ## 10.4 Formation of Differential Equations
 
-### 10.4.1 Formation of Differential Equations from Physical Situations
+#### 10.4.1 Formation of Differential Equations from Physical Situations
 
 Now, we provide some models to describe how the differential equations arise as models of real life problems.
 
@@ -292,7 +293,7 @@ The population will increase whenever the offspring increase. For instance, let 
 The rate at which a disease is spread (i.e., the rate of increase of the number $N$ of people infected) in a fixed population $L$ is proportional to the product of the number of people infected and the number of people not yet infected:
 
 $$
-\frac{dN}{dL} = kN(L - N), \quad k > 0.
+\frac{dN}{dt} = kN(L - N), \quad k > 0.
 $$
 
 **EXERCISE 10.2**
@@ -302,7 +303,7 @@ $$
 (i) Radium decays at a rate proportional to the amount $Q$ present.  
 (ii) The population $P$ of a city increases at a rate proportional to the product of population and to the difference between 5,00,000 and the population.  
 (iii) For a certain substance, the rate of change of vapor pressure $P$ with respect to temperature $T$ is proportional to the vapor pressure and inversely proportional to the square of the temperature.  
-(iv) A saving amount pays $8\%$ interest per year, compounded continuously. In addition, the income from another investment is credited to the amount continuously at the rate of $Â¥400$ per year.
+(iv) A saving amount pays $8\%$ interest per year, compounded continuously. In addition, the income from another investment is credited to the amount continuously at the rate of $₹400$ per year.
 
 2. Assume that a spherical rain drop evaporates at a rate proportional to its surface area. Form a differential equation involving the rate of change of the radius of the rain drop.
 
@@ -571,7 +572,7 @@ Therefore, $y = a\cos (\log x) + b\sin (\log x)$ is a solution of the given diff
 (i) $y = 2x^{2}$ ; $xy^{\prime} = 2y$  
 (ii) $y = ae^{x} + be^{-x}$ ; $y^{\prime \prime} - y = 0$
 
-2. Find value of $m$ so that the function $y = e^{mx}$ is a solution of the given differential equation.
+2. Find value of $m$ so that the function $y = e^{ms}$ is a solution of the given differential equation.
 
 (i) $y^{\prime} + 2y = 0$  
 (ii) $y^{\prime \prime} - 5y^{\prime} + 6y = 0$
@@ -582,7 +583,7 @@ Therefore, $y = a\cos (\log x) + b\sin (\log x)$ is a solution of the given diff
 
 5. Show that $y = ax + \frac{b}{x}, x \neq 0$ is a solution of the differential equation $x^{2}y^{\prime \prime} + xy^{\prime} - y = 0$.
 
-6. Show that $y = ae^{-3x} + b$, where $a$ and $b$ are arbitrary constants, is a solution of the differential equation.
+6. Show that $y = ae^{-3x} + b$, where $a$ and $b$ are arbitrary constants, is a solution of the differential equation $\frac{d^2 y}{dx^2} + 3\frac{dy}{dx} = 0$.
 
 7. Show that the differential equation representing the family of curves $y^{2} = 2a\left(x + a^{\frac{2}{3}}\right)$, where $a$ is a positive parameter, is $\left(y^{2} - 2xy\frac{dy}{dx}\right)^{3} = 8\left(y\frac{dy}{dx}\right)^{5}$.
 
@@ -777,9 +778,25 @@ $$
 
 4. Solve the following differential equations:
 
-(i) $\frac{dy}{dx} = \sqrt{\frac{1 - y^2}{1 - x^2}}$  
-(ii) $\sin \frac{dy}{dx} = a$, $y(0) = 1$
+(i) $\frac{dy}{dx} = \sqrt{\frac{1 - y^2}{1 - x^2}}$
 
+(ii) $y \, dx + (1 + x^2)\tan^{-1}x \, dy = 0$
+
+(iii) $\sin \frac{dy}{dx} = a, \quad y(0) = 1$
+
+(iv) $\frac{dy}{dx} = e^{x+y} + x^3 e^y$
+
+(v) $\left(e^y + 1\right)\cos x \, dx + e^y \sin x \, dy = 0$
+
+(vi) $(y \, dx - x \, dy)\cot\left(\frac{x}{y}\right) = n y^2 \, dx$
+
+(vii) $\frac{dy}{dx} - x\sqrt{25 - x^2} = 0$
+
+(viii) $x\cos y \, dy = e^x (x\log x + 1) \, dx$
+
+(ix) $\tan y \frac{dy}{dx} = \cos(x + y) + \cos(x - y)$
+
+(x) $\frac{dy}{dx} = \tan^2(x + y)$
 ### 10.6.3 Homogeneous Form or Homogeneous Differential Equation
 
 > **Definition 10.12: (Homogeneous Function of degree $n$)**
@@ -952,11 +969,11 @@ Solve the following differential equations:
 
 1. $[x + y\cos(\frac{y}{x})]dx = x\cos(\frac{y}{x})dy$  
 2. $(x^3 + y^3)dy - x^2y dx = 0$  
-3. $ye^y dx = (xe^y + y)dy$  
+3. $y e^{\frac{x}{y}} \, dx = \left( x e^{\frac{x}{y}} + y \right) dy$
 4. $2xy dx + (x^2 + 2y^2)dy = 0$  
 5. $(y^2 - 2xy)dx = (x^2 - 2xy)dy$  
 6. $x\frac{dy}{dx} = y - x\cos^2\left(\frac{y}{x}\right)$  
-7. $(1 + 3e^{x/y})dy + 3e^{x/y}\left(1 - \frac{y}{x}\right)dx = 0$, given that $y = 0$ when $x = 1$  
+7. $\left( 1 + 3e^{\frac{y}{x}} \right) dy + 3e^{\frac{y}{x}} \left( 1 - \frac{y}{x} \right) dx = 0, \text{ given that } y = 0 \text{ when } x = 1$  
 8. $(x^2 + y^2)dy = xy dx$. It is given that $y(1) = 1$ and $y(x_0) = e$. Find the value of $x_0$.
 
 ## 10.7 First Order Linear Differential Equations
@@ -1157,7 +1174,7 @@ Solve the following Linear differential equations:
 4. $(x^2 + 1) \frac{dy}{dx} + 2xy = \sqrt{x^2 + 4}$  
 5. $(2x - 10y^3) dy + y dx = 0$  
 6. $x \sin x \frac{dy}{dx} + (x \cos x + \sin x) y = \sin x$  
-7. $(y - e^{\sin^{-1}x}) \frac{dy}{dx} + \sqrt{1 - x^2} = 0$  
+7. $ \left( y - e^{\sin^{-1}x} \right) \frac{dx}{dy} + \sqrt{1 - x^2} = 0 $
 8. $\frac{dy}{dx} + \frac{y}{(1 - x) \sqrt{x}} = 1 - \sqrt{x}$  
 9. $(1 + x + xy^2) \frac{dy}{dx} + (y + y^3) = 0$  
 10. $\frac{dy}{dx} + \frac{y}{x \log x} = \frac{\sin 2x}{\log x}$  
@@ -1219,11 +1236,11 @@ It is assumed that the rate $\frac{dA}{dt}$ at which the nuclei of a substance d
 
 Thus, the required differential equation is $\frac{dA}{dt} \propto A$ or $\frac{dA}{dt} = kA$ (2), where $k$ is the constant of proportionality. Here $k < 0$, since decay occurs.
 
-**Remarks**
+>**Remarks**
+>
+>From equations (1) and (2), we see that the differential equations are the same, but the difference is only in the interpretations of the symbols and the constants of proportionality. For growth as we expect in (1), $k > 0$ and in the case of (2) for decay, $k < 0$.
 
-From equations (1) and (2), we see that the differential equations are the same, but the difference is only in the interpretations of the symbols and the constants of proportionality. For growth as we expect in (1), $k > 0$ and in the case of (2) for decay, $k < 0$.
-
-A single differential equation can serve as a mathematical model for many different phenomena.
+>A single differential equation can serve as a mathematical model for many different phenomena.
 
 **Example 10.28**
 
@@ -1243,11 +1260,15 @@ Also, $A = 150$ when $t = 2$ and therefore, $k = \frac{1}{2}\log\left(\frac{4}{3
 
 Hence, $A(t) = 200e^{-\frac{t}{2}\log\left(\frac{4}{3}\right)}$ is the mass of isotope remaining after $t$ years.
 
+The half-life $t_h$ is the time corresponding to $A = 100\text{mg}$.
+
+Thus, $t_h = \frac{2\log\left(\frac{1}{2}\right)}{\log\left(\frac{3}{4}\right)}$.
+
 ### 10.8.3 Newton's Law of cooling/warming
 
-Consider pouring a $80^{\circ}C$ cup of coffee and kept it on the table in a $30^{\circ}C$ room. What happens to the temperature of the coffee? We observe that the cup of coffee will cool off until it reaches the room temperature.
+Consider pouring a $150^{\circ} C$ cup of coffee and kept it on the table in a $80^{\circ}C$ room. What happens to the temperature of the coffee? We observe that the cup of coffee will cool off until it reaches the room temperature.
 
-Now consider taking a $15^{\circ}C$ glass of cold water from the refrigerator and kept it on the table in a $30^{\circ}C$ room. What happens to the temperature of the cold water? Similarly, we can observe the water will warm up until it reaches room temperature.
+Now consider taking a $35^{\circ}C$ glass of cold water from the refrigerator and kept it on the table in a $80^{\circ}C$ room. What happens to the temperature of the cold water? Similarly, we can observe the water will warm up until it reaches room temperature.
 
 According to Newton's law of cooling or warming, the rate at which the temperature of a body changes is proportional to the difference between the temperature of the body and the temperature of the surrounding medium the so-called ambient temperature. If $T(t)$ represents the temperature of a body at time $t$, $T_m$ the temperature of the surrounding medium, and $\frac{dT}{dt}$ the rate at which the temperature of the body changes, then Newton's law of cooling (or warming) is $\frac{dT}{dt} \propto T - T_m$ or $\frac{dT}{dt} = k(T - T_m)$, where $k$ is constant of proportionality. In either case, cooling or warming, if $T_m$ is constant, it stands to reason that $k < 0$.
 
@@ -1259,27 +1280,23 @@ $[\log (2.43) = 0.88789; \log (0.5) = -0.69315]$
 
 **Solution**
 
-Let $T$ be the temperature of the body at any time $t$ and with time 0 taken to be $8$ p.m.
+Let $T$ be the temperature of the body at any time $t$ and with time $0$ taken to be $8\text{ p.m.}$
 
-By Newton's law of cooling, $\frac{dT}{dt} = k(T - 50)$ or $\frac{dT}{T - 50} = k dt$.
+By Newton's law of cooling, $\frac{dT}{dt} = k(T - 50)$ or $\frac{dT}{T - 50} = k\,dt$.
 
-Integrating on both sides, we get $\log|50 - T| = kt + \log C$ or $50 - T = Ce^{kt}$.
+Integrating on both sides, we get $\log |50 - T| = kt + \log C \quad \text{or} \quad 50 - T = C e^{kt}$.
 
-When $t = 0$, $T = 70$, and so $C = -20$.
+When $t = 0$, $T = 70$, and so $C = -20$
 
-When $t = 2$, $T = 60$, we have $-10 = -20e^{k \cdot 2}$.
+When $t = 2$, $T = 60$, we have $-10 = -20e^{k2}$.
 
-Thus, $k = \frac{1}{2}\log\left(\frac{1}{2}\right)$.
+Thus, $k = \frac{1}{2} \log\left(\frac{1}{2}\right)$.
 
-Now, to find the time of death, let $t_0$ be the time when the body temperature was $98.6^{\circ}F$ (normal body temperature). Then $50 - 98.6 = -20 e^{k t_0}$.
+Hence, the solution is $50 - T = -20 e^{\frac{t}{2}\log\left(\frac{1}{2}\right)} \quad \text{or} \quad T = 50 + 20 \left(\frac{1}{2}\right)^{\frac{t}{2}}$
 
-$-48.6 = -20 e^{k t_0} \Rightarrow e^{k t_0} = \frac{48.6}{20} = 2.43$
+Now, we would like to find the value of $t$, for which $T(t) = 98.6$, and $t = 2\left(\frac{\log\left(\frac{48.6}{20}\right)}{\log\left(\frac{1}{2}\right)}\right) \approx -2.56$
 
-$k t_0 = \log(2.43) = 0.88789$
-
-$t_0 = \frac{0.88789}{k} = \frac{0.88789}{\frac{1}{2}\log(0.5)} = \frac{0.88789}{\frac{1}{2}(-0.69315)} = \frac{0.88789}{-0.346575} \approx -2.56 \text{ hours}$
-
-Thus, the murder occurred approximately $2.56$ hours before $8$ p.m., which is around $5:26$ p.m.
+It appears that the person was murdered at about $5.30\text{ p.m.}$
 
 ### 10.8.4 Mixture problems
 
@@ -1328,7 +1345,7 @@ $x = 5000 - 4900e^{-0.01t}$
 
 4. The engine of a motor boat moving at $10$ m/s is shut off. Given that the retardation at any subsequent time (after shutting off the engine) equals the velocity at that time. Find the velocity after 2 seconds of switching off the engine.
 
-5. Suppose a person deposits â‚¹$10,000$ in a bank account at the rate of $5\%$ per annum compounded continuously. How much money will be in his bank account 18 months later?
+5. Suppose a person deposits $₹10,000$ in a bank account at the rate of $5\%$ per annum compounded continuously. How much money will be in his bank account 18 months later?
 
 6. Assume that the rate at which radioactive nuclei decay is proportional to the number of such nuclei that are present in a given sample. In a certain sample $10\%$ of the original number of radioactive nuclei have undergone disintegration in a period of 100 years. What percentage of the original radioactive nuclei will remain after 1000 years?
 
@@ -1336,6 +1353,8 @@ $x = 5000 - 4900e^{-0.01t}$
 
 (i) The temperature of water after 20 minutes  
 (ii) The time when the temperature is $40^{\circ}C$
+
+\[\left[ \log_e \frac{11}{15} = -0.3101; \ \log_e 5 = 1.6094 \right]\]
 
 8. At 10.00 A.M. a woman took a cup of hot instant coffee from her microwave oven and placed it on a nearby Kitchen counter to cool. At this instant the temperature of the coffee was $180^{\circ}F$, and 10 minutes later it was $160^{\circ}F$. Assume that constant temperature of the kitchen was $70^{\circ}F$.
 
